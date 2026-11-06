@@ -1,0 +1,12 @@
+{
+ "targets": [{"name": "3evg_apo", "target_path": "/home/bgeiss/bc2-visualizer-runs/structures/3evg_apo.pdb", "chains": "A"}],
+ "modality": "binder",
+ "max_trajectories": 40,
+ "number_of_final_designs": 3,
+ "campaign_seed": 1,
+ "project_folder": "results/3evg_apo",
+ "save_design_frames": true,
+ "save_design_animations": true,
+ "save_loss_plots": true,
+ "save_design_trajectory": true
+}

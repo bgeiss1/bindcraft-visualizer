@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>What the scores mean · BindCraft2 Visualizer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800&family=Public+Sans:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main class="page">
+  <section class="intro">
+    <h1 data-t="scoring.title"></h1>
+    <p data-t="scoring.intro"></p>
+  </section>
+  <section class="card">
+    <h2>pLDDT</h2>
+    <p data-t="scoring.plddt"></p>
+    <p data-t="scoring.unbound"></p>
+    <div id="plddt"></div>
+  </section>
+  <section class="card">
+    <h2>The error matrix</h2>
+    <p data-t="scoring.pae"></p>
+    <p data-t="scoring.ipae"></p>
+    <p data-t="scoring.ipdae"></p>
+    <div id="pae"></div>
+  </section>
+  <section class="card">
+    <h2>The filters</h2>
+    <p data-t="scoring.filters"></p>
+    <div id="gates"></div>
+    <div id="refolded"></div>
+  </section>
+  <section class="card">
+    <p class="note warn" data-t="scoring.caveat"></p>
+  </section>
+</main>
+<script type="module" src="js/pages/scoring.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Run the command · BindCraft2 Visualizer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800&family=Public+Sans:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main class="page">
+  <section class="intro">
+    <h1 data-t="run.title"></h1>
+    <p data-t="run.intro"></p>
+  </section>
+  <div class="cmd">
+    <span class="prompt" data-t="run.prompt"></span>
+    <input id="cmd" spellcheck="false" autocomplete="off" aria-label="The bindcraft command">
+    <button class="ghost" id="go" data-t="common.run"></button>
+    <button class="ghost" id="reset" data-t="common.reset"></button>
+  </div>
+  <section class="card" id="result"></section>
+  <section class="card">
+    <h2>Variants we recorded</h2>
+    <div id="variants"></div>
+  </section>
+  <section class="card">
+    <h2>The other subcommands</h2>
+    <p data-t="run.subcommands"></p>
+    <p class="note" data-t="run.resume"></p>
+  </section>
+</main>
+<script type="module" src="js/pages/run.js"></script>
+</body>
+</html>

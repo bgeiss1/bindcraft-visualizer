@@ -1,0 +1,11 @@
+{
+  "name": "bindcraft-visualizer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A teaching site for BindCraft2 binder design (MIP 662). Replays real campaigns.",
+  "type": "module",
+  "scripts": {
+    "serve": "node serve.mjs",
+    "test": "node tests/run.mjs"
+  }
+}

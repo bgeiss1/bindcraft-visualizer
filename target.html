@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Pick the target and the epitope · BindCraft2 Visualizer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800&family=Public+Sans:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main class="page">
+  <section class="intro">
+    <h1 data-t="target.title"></h1>
+    <p data-t="target.intro"></p>
+  </section>
+  <section class="card">
+    <label class="field">Target
+      <select id="target"></select>
+    </label>
+    <p id="target-note" class="muted"></p>
+  </section>
+  <div class="work">
+    <div class="viewer-wrap">
+      <div class="view-tools" id="view-tools"></div>
+      <div class="viewer" id="viewer"></div>
+      <div class="legend" id="legend"></div>
+    </div>
+    <aside class="panel" id="panel"></aside>
+  </div>
+  <section class="card">
+    <h2>Hotspots</h2>
+    <p data-t="target.unguided"></p>
+    <p class="note" data-t="target.hotspotRule"></p>
+    <p data-t="target.coldspots"></p>
+    <p class="note warn" data-t="target.prepare"></p>
+    <div id="hotspot-build"></div>
+  </section>
+</main>
+<script type="module" src="js/pages/target.js"></script>
+</body>
+</html>

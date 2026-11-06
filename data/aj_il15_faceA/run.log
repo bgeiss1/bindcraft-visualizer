@@ -1,0 +1,1040 @@
+compiled graphs cached in /home/bgeiss/bindcraft2/results/aj_il15_faceA/compile_cache/NVIDIA_RTX_PRO_6000_Blackwell_Max_Q_Workstation_Edition
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+campaign preflight: design model_1_multimer_v3,model_2_multimer_v3,model_3_multimer_v3,model_4_multimer_v3,model_5_multimer_v3 | validation model_1_ptm,model_2_ptm | redesign negative/v_48_020 | targets AJ_IL15 | output /home/bgeiss/bindcraft2/results/aj_il15_faceA
+campaign metadata: BindCraft 2 v1.0.4 | settings /home/bgeiss/bindcraft2/campaigns/aj_il15_faceA.json | written /home/bgeiss/bindcraft2/results/aj_il15_faceA/campaign_metadata.json
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+campaign fan-out: 7 design workers on GPUs 0,0,0,0,0,0,0
+worker=0 gpu=0 draws 17 binder lengths from 80 to 96, folded at 224 padded residues at 10.6 GB
+worker=1 gpu=0 draws 14 binder lengths from 97 to 110, folded at 256 padded residues at 11.8 GB
+worker=2 gpu=0 draws 17 binder lengths from 80 to 96, folded at 224 padded residues at 10.6 GB
+worker=3 gpu=0 draws 14 binder lengths from 97 to 110, folded at 256 padded residues at 11.8 GB
+worker=4 gpu=0 draws 17 binder lengths from 80 to 96, folded at 224 padded residues at 10.6 GB
+worker=5 gpu=0 draws 14 binder lengths from 97 to 110, folded at 256 padded residues at 11.8 GB
+worker=6 gpu=0 draws 17 binder lengths from 80 to 96, folded at 224 padded residues at 10.6 GB
+worker=0 gpu=0 log=/home/bgeiss/bindcraft2/results/aj_il15_faceA/workers/326853_worker_00_gpu_0.log
+worker=1 gpu=0 log=/home/bgeiss/bindcraft2/results/aj_il15_faceA/workers/326853_worker_01_gpu_0.log
+worker=2 gpu=0 log=/home/bgeiss/bindcraft2/results/aj_il15_faceA/workers/326853_worker_02_gpu_0.log
+worker=3 gpu=0 log=/home/bgeiss/bindcraft2/results/aj_il15_faceA/workers/326853_worker_03_gpu_0.log
+worker=4 gpu=0 log=/home/bgeiss/bindcraft2/results/aj_il15_faceA/workers/326853_worker_04_gpu_0.log
+worker=5 gpu=0 log=/home/bgeiss/bindcraft2/results/aj_il15_faceA/workers/326853_worker_05_gpu_0.log
+worker=6 gpu=0 log=/home/bgeiss/bindcraft2/results/aj_il15_faceA/workers/326853_worker_06_gpu_0.log
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+BindCraft 2 v1.0.4
+campaign aj_il15_faceA
+binder length 80 to 110, drawn per trajectory
+target AJ_IL15 (target) | 117 residues | hotspots A43,A58,A62,A63,A65,A66,A88,A104,A106 | coldspots A21,A24,A25,A27,A28,A122,A125,A128
+losses binder_contacts=1.0 binder_helicity=-0.3 binder_pae=0.4 coldspot_repel=1.0 compactness=0.5 interface_contacts=1.0 interface_pae=0.1 iptm_loss=0.05 plddt_loss=0.1
+filters Backbone_Clashes <= 0, Binder_Disulfides <= 0, Binder_RMSD <= 3.5, Coldspot_Contact_Fraction <= 0.05, Hotspot_Contact_Fraction >= 0.5, Interface_Residues >= 7, Unbound_Binder_pLDDT >= 0.85, i_pAE <= 0.35, i_pTM >= 0.8, pTM >= 0.55
+results /home/bgeiss/bindcraft2/results/aj_il15_faceA | 3_Ranked/!_Ranked.csv rewritten as each design is accepted | summary.csv written when the campaign ends
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 1 | aj_il15_faceA_denovo_l97_4f44381073006a67 | accepted 0/10 | worker 3 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.73    pLDDT=0.61  
+  passed refine design stage  i_pTM=0.78    pLDDT=0.71  
+  passed anneal design stage  i_pTM=0.77    pLDDT=0.77  
+  passed harden design stage  i_pTM=0.76    pLDDT=0.72  
+  passed mutate design stage  i_pTM=0.77    pLDDT=0.74  
+  trajectory rejected  i_pTM=0.77    pLDDT=0.74   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 2 | aj_il15_faceA_denovo_l106_5f9b8b91ca584f08 | accepted 0/10 | worker 5 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.77    pLDDT=0.61  
+  passed refine design stage  i_pTM=0.72    pLDDT=0.79  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.88  
+  passed harden design stage  i_pTM=0.77    pLDDT=0.86  
+  passed mutate design stage  i_pTM=0.8     pLDDT=0.86  
+  trajectory rejected  i_pTM=0.8     pLDDT=0.86   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 3 | aj_il15_faceA_denovo_l95_b3c1bd630aa518d0 | accepted 0/10 | worker 4 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.82    pLDDT=0.89  
+  passed refine design stage  i_pTM=0.78    pLDDT=0.85  
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.74    pLDDT=0.86  
+  passed mutate design stage  i_pTM=0.79    pLDDT=0.88  
+  trajectory rejected  i_pTM=0.79    pLDDT=0.88   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 4 | aj_il15_faceA_denovo_l91_b1adf349fa882153 | accepted 0/10 | worker 6 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.8     pLDDT=0.92  
+  passed refine design stage  i_pTM=0.79    pLDDT=0.9   
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.79    pLDDT=0.89  
+  passed mutate design stage  i_pTM=0.75    pLDDT=0.81  
+  trajectory rejected  i_pTM=0.75    pLDDT=0.81   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 5 | aj_il15_faceA_denovo_l87_8332dbab77d2620f | accepted 0/10 | worker 2 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.8     pLDDT=0.83  
+  passed refine design stage  i_pTM=0.8     pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.9   
+  passed harden design stage  i_pTM=0.83    pLDDT=0.89  
+  passed mutate design stage  i_pTM=0.84    pLDDT=0.9   
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 16 of 87 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=3.7     Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=18   Off_Epitope_Contact_Fraction=0.05    Target_pLDDT=0.87    i_pAE=0.43    i_pTM=0.68    pLDDT=0.6     pTM=0.75    Unbound_Binder_pLDDT=0.61    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Binder_RMSD]
+   2/10  rejected  Binder_RMSD=0.4     Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=17   Off_Epitope_Contact_Fraction=0.05    Target_pLDDT=0.88    i_pAE=0.26    i_pTM=0.8     pLDDT=0.8     pTM=0.84    Unbound_Binder_pLDDT=0.78    failed [i_pTM, Unbound_Binder_pLDDT]
+   3/10  rejected  Binder_RMSD=11.0    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.67    Interface_Residues=9    Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.86    i_pAE=0.74    i_pTM=0.2     pLDDT=0.68    pTM=0.6     failed [i_pTM, pLDDT, i_pAE, Binder_RMSD]
+   4/10  ACCEPTED  Binder_RMSD=0.83    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=16   Off_Epitope_Contact_Fraction=0.04    Target_pLDDT=0.89    i_pAE=0.18    i_pTM=0.83    pLDDT=0.9     pTM=0.87  
+   5/10  ACCEPTED  Binder_RMSD=0.34    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=15   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.89    i_pAE=0.18    i_pTM=0.83    pLDDT=0.91    pTM=0.87  
+   6/10  ACCEPTED  Binder_RMSD=0.38    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=17   Off_Epitope_Contact_Fraction=0.04    Target_pLDDT=0.89    i_pAE=0.2     i_pTM=0.81    pLDDT=0.87    pTM=0.87  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 5 (0.43)
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 6 | aj_il15_faceA_denovo_l99_4c314b71483e6a1d | accepted 0/10 | worker 1 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.65    pLDDT=0.81  
+  passed refine design stage  i_pTM=0.66    pLDDT=0.84  
+  passed anneal design stage  i_pTM=0.79    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.77    pLDDT=0.86  
+  passed mutate design stage  i_pTM=0.77    pLDDT=0.85  
+  trajectory rejected  i_pTM=0.77    pLDDT=0.85   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 7 | aj_il15_faceA_denovo_l80_10107068f8e196b7 | accepted 0/10 | worker 0 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  rejected at screen design stage  i_pTM=0.78    pLDDT=0.52   due to [pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 8 | aj_il15_faceA_denovo_l88_b49d83efd8a43d24 | accepted 0/10 | worker 0 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.8     pLDDT=0.91  
+  passed refine design stage  i_pTM=0.81    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.79    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.8     pLDDT=0.95  
+  rejected at mutate design stage  i_pTM=0.09    pLDDT=0.59   due to [i_pTM, pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 9 | aj_il15_faceA_denovo_l92_55c5bade93e8f5e3 | accepted 0/10 | worker 4 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.79    pLDDT=0.86  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.89  
+  passed anneal design stage  i_pTM=0.77    pLDDT=0.89  
+  rejected at harden design stage  i_pTM=0.24    pLDDT=0.53   due to [i_pTM, pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 10 | aj_il15_faceA_denovo_l83_dd5392c1078c74b3 | accepted 0/10 | worker 6 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.74    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.77    pLDDT=0.88  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.81    pLDDT=0.89  
+  passed mutate design stage  i_pTM=0.79    pLDDT=0.89  
+  trajectory rejected  i_pTM=0.79    pLDDT=0.89   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 11 | aj_il15_faceA_denovo_l109_9434ab439250d700 | accepted 0/10 | worker 3 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.83    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.81    pLDDT=0.81  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.87  
+  passed harden design stage  i_pTM=0.74    pLDDT=0.83  
+  passed mutate design stage  i_pTM=0.7     pLDDT=0.84  
+  trajectory rejected  i_pTM=0.7     pLDDT=0.84   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 12 | aj_il15_faceA_denovo_l104_1576399a45393edd | accepted 0/10 | worker 1 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.84    pLDDT=0.89  
+  passed refine design stage  i_pTM=0.84    pLDDT=0.9   
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.83    pLDDT=0.9   
+  passed mutate design stage  i_pTM=0.84    pLDDT=0.88  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 21 of 104 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.25    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=19   Off_Epitope_Contact_Fraction=0.05    Target_pLDDT=0.87    i_pAE=0.25    i_pTM=0.76    pLDDT=0.88    pTM=0.83    failed [i_pTM]
+   2/10  ACCEPTED  Binder_RMSD=0.41    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=19   Off_Epitope_Contact_Fraction=0.05    Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.82    pLDDT=0.92    pTM=0.86  
+   3/10  rejected  Binder_RMSD=0.32    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=19   Off_Epitope_Contact_Fraction=0.05    Target_pLDDT=0.88    i_pAE=0.23    i_pTM=0.77    pLDDT=0.89    pTM=0.84    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=0.28    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=21   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.25    i_pTM=0.75    pLDDT=0.88    pTM=0.83    failed [i_pTM]
+   5/10  ACCEPTED  Binder_RMSD=0.23    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=20   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.89    i_pAE=0.19    i_pTM=0.82    pLDDT=0.91    pTM=0.86  
+   6/10  ACCEPTED  Binder_RMSD=0.43    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=22   Off_Epitope_Contact_Fraction=0.05    Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.81    pLDDT=0.91    pTM=0.86  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 5 (0.32)
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 13 | aj_il15_faceA_denovo_l104_fc8ca46d10ff09f1 | accepted 0/10 | worker 5 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.67    pLDDT=0.81  
+  passed refine design stage  i_pTM=0.78    pLDDT=0.81  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.8     pLDDT=0.9   
+  passed mutate design stage  i_pTM=0.79    pLDDT=0.88  
+  trajectory rejected  i_pTM=0.79    pLDDT=0.88   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 14 | aj_il15_faceA_denovo_l87_6ac4ebecc924b176 | accepted 0/10 | worker 0 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.82    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.84    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.86    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.85    pLDDT=0.93  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 23 of 87 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.69    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=26   Off_Epitope_Contact_Fraction=0.08    Target_pLDDT=0.89    i_pAE=0.17    i_pTM=0.85    pLDDT=0.93    pTM=0.88  
+   2/10  ACCEPTED  Binder_RMSD=0.55    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=24   Off_Epitope_Contact_Fraction=0.04    Target_pLDDT=0.88    i_pAE=0.17    i_pTM=0.85    pLDDT=0.93    pTM=0.87  
+   3/10  ACCEPTED  Binder_RMSD=0.39    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=25   Off_Epitope_Contact_Fraction=0.04    Target_pLDDT=0.89    i_pAE=0.15    i_pTM=0.86    pLDDT=0.95    pTM=0.88  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 3 (0.38)
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 15 | aj_il15_faceA_denovo_l92_bbfd5415d758b06d | accepted 1/10 | worker 2 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.83    pLDDT=0.87  
+  passed refine design stage  i_pTM=0.85    pLDDT=0.89  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.91  
+  rejected at harden design stage  i_pTM=0.41    pLDDT=0.67   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 16 | aj_il15_faceA_denovo_l80_b13cb4a6ae374a68 | accepted 1/10 | worker 4 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.7     pLDDT=0.72  
+  passed refine design stage  i_pTM=0.71    pLDDT=0.68  
+  passed anneal design stage  i_pTM=0.72    pLDDT=0.76  
+  passed harden design stage  i_pTM=0.69    pLDDT=0.7   
+  passed mutate design stage  i_pTM=0.73    pLDDT=0.67  
+  trajectory rejected  i_pTM=0.73    pLDDT=0.67   due to [i_pTM, pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 17 | aj_il15_faceA_denovo_l80_7a8c2c3126b9412f | accepted 1/10 | worker 6 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.85    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.8     pLDDT=0.86  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.87    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.84    pLDDT=0.91  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 20 of 80 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.33    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=20   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.78    pLDDT=0.91    pTM=0.85    failed [i_pTM]
+   2/10  rejected  Binder_RMSD=0.18    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.44    Interface_Residues=8    Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.59    i_pTM=0.3     pLDDT=0.89    pTM=0.64    failed [i_pTM, i_pAE, Hotspot_Contact_Fraction]
+   3/10  rejected  Binder_RMSD=4.0     Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.44    Interface_Residues=8    Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.6     i_pTM=0.29    pLDDT=0.89    pTM=0.64    Unbound_Binder_pLDDT=0.84    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE, Hotspot_Contact_Fraction, Binder_RMSD]
+   4/10  ACCEPTED  Binder_RMSD=0.36    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=19   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.89    i_pAE=0.18    i_pTM=0.82    pLDDT=0.92    pTM=0.87  
+   5/10  rejected  Binder_RMSD=0.3     Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=16   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.89    i_pAE=0.19    i_pTM=0.79    pLDDT=0.91    pTM=0.85    failed [i_pTM]
+   6/10  rejected  Binder_RMSD=0.48    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=18   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.89    i_pAE=0.2     i_pTM=0.8     pLDDT=0.89    pTM=0.85    failed [i_pTM]
+   7/10  rejected  Binder_RMSD=0.23    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.44    Interface_Residues=4    Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.86    i_pAE=0.66    i_pTM=0.23    pLDDT=0.85    pTM=0.62    failed [i_pTM, i_pAE, Interface_Residues, Hotspot_Contact_Fraction]
+   8/10  rejected  Binder_RMSD=5.5     Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=17   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.23    i_pTM=0.74    pLDDT=0.91    pTM=0.83    Unbound_Binder_pLDDT=0.75    failed [i_pTM, Unbound_Binder_pLDDT, Binder_RMSD]
+   9/10  rejected  Binder_RMSD=0.17    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.44    Interface_Residues=8    Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.66    i_pTM=0.23    pLDDT=0.89    pTM=0.61    failed [i_pTM, i_pAE, Hotspot_Contact_Fraction]
+  10/10  rejected  Binder_RMSD=0.34    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=17   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.89    i_pAE=0.42    i_pTM=0.51    pLDDT=0.88    pTM=0.74    failed [i_pTM, i_pAE]
+  1 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 4 (0.31)
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 18 | aj_il15_faceA_denovo_l101_593878ca0d03ef26 | accepted 1/10 | worker 3 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.74    pLDDT=0.87  
+  passed refine design stage  i_pTM=0.73    pLDDT=0.88  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.82    pLDDT=0.92  
+  passed mutate design stage  i_pTM=0.71    pLDDT=0.81  
+  trajectory rejected  i_pTM=0.71    pLDDT=0.81   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 19 | aj_il15_faceA_denovo_l103_f6ad437dba82d32e | accepted 1/10 | worker 5 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.83    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.8     pLDDT=0.88  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.84    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.83    pLDDT=0.94  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 19 of 103 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.47    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=14   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.24    i_pTM=0.73    pLDDT=0.91    pTM=0.82    failed [i_pTM]
+   2/10  rejected  Binder_RMSD=0.15    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.67    Interface_Residues=15   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.22    i_pTM=0.77    pLDDT=0.93    pTM=0.83    failed [i_pTM]
+   3/10  rejected  Binder_RMSD=0.22    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.67    Interface_Residues=14   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.77    pLDDT=0.93    pTM=0.84    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=15.0    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.78    Interface_Residues=7    Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.86    i_pAE=0.76    i_pTM=0.2     pLDDT=0.72    pTM=0.56    Unbound_Binder_pLDDT=0.66    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE, Binder_RMSD]
+   5/10  rejected  Binder_RMSD=0.37    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=16   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.76    pLDDT=0.91    pTM=0.83    failed [i_pTM]
+   6/10  rejected  Binder_RMSD=0.33    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=15   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.79    pLDDT=0.93    pTM=0.84    failed [i_pTM]
+   7/10  rejected  Binder_RMSD=0.24    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.67    Interface_Residues=14   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.78    pLDDT=0.93    pTM=0.84    failed [i_pTM]
+   8/10  rejected  Binder_RMSD=0.24    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.67    Interface_Residues=15   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.74    pLDDT=0.92    pTM=0.82    failed [i_pTM]
+   9/10  rejected  Binder_RMSD=11.6    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=15   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.75    pLDDT=0.92    pTM=0.83    failed [i_pTM, Binder_RMSD]
+  10/10  rejected  Binder_RMSD=0.32    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=11   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.86    i_pAE=0.37    i_pTM=0.57    pLDDT=0.9     pTM=0.74    failed [i_pTM, i_pAE]
+  0 of 10 redesigns passed
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 20 | aj_il15_faceA_denovo_l90_f83dfa4230d48892 | accepted 1/10 | worker 2 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.58    pLDDT=0.83  
+  passed refine design stage  i_pTM=0.63    pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.73    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.7     pLDDT=0.9   
+  passed mutate design stage  i_pTM=0.58    pLDDT=0.77  
+  trajectory rejected  i_pTM=0.58    pLDDT=0.77   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 21 | aj_il15_faceA_denovo_l86_ad04b415774afbf5 | accepted 2/10 | worker 0 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.77    pLDDT=0.86  
+  passed refine design stage  i_pTM=0.6     pLDDT=0.75  
+  passed anneal design stage  i_pTM=0.79    pLDDT=0.89  
+  passed harden design stage  i_pTM=0.8     pLDDT=0.89  
+  passed mutate design stage  i_pTM=0.74    pLDDT=0.83  
+  trajectory rejected  i_pTM=0.74    pLDDT=0.83   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 22 | aj_il15_faceA_denovo_l109_e84de11cba1bfbed | accepted 3/10 | worker 1 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.57    pLDDT=0.68  
+  passed refine design stage  i_pTM=0.64    pLDDT=0.73  
+  passed anneal design stage  i_pTM=0.73    pLDDT=0.83  
+  passed harden design stage  i_pTM=0.71    pLDDT=0.83  
+  passed mutate design stage  i_pTM=0.72    pLDDT=0.83  
+  trajectory rejected  i_pTM=0.72    pLDDT=0.83   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 23 | aj_il15_faceA_denovo_l94_7f66e1c1fac4f389 | accepted 3/10 | worker 4 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.77    pLDDT=0.65  
+  passed refine design stage  i_pTM=0.78    pLDDT=0.71  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.71  
+  passed harden design stage  i_pTM=0.79    pLDDT=0.67  
+  passed mutate design stage  i_pTM=0.79    pLDDT=0.66  
+  trajectory rejected  i_pTM=0.79    pLDDT=0.66   due to [i_pTM, pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 24 | aj_il15_faceA_denovo_l87_7effac8e9370ca6c | accepted 4/10 | worker 6 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.61    pLDDT=0.8   
+  passed refine design stage  i_pTM=0.79    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.77    pLDDT=0.84  
+  passed mutate design stage  i_pTM=0.78    pLDDT=0.87  
+  trajectory rejected  i_pTM=0.78    pLDDT=0.87   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 25 | aj_il15_faceA_denovo_l85_ac73399b1e8f8034 | accepted 4/10 | worker 2 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.8     pLDDT=0.9   
+  passed refine design stage  i_pTM=0.84    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.86    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.78    pLDDT=0.89  
+  trajectory rejected  i_pTM=0.78    pLDDT=0.89   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 26 | aj_il15_faceA_denovo_l104_8c816678346a3079 | accepted 4/10 | worker 3 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.79    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.78    pLDDT=0.86  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.89  
+  passed harden design stage  i_pTM=0.6     pLDDT=0.84  
+  passed mutate design stage  i_pTM=0.65    pLDDT=0.85  
+  trajectory rejected  i_pTM=0.65    pLDDT=0.85   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 27 | aj_il15_faceA_denovo_l86_1ed1cae09d136e2c | accepted 4/10 | worker 0 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.82    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.81    pLDDT=0.88  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.84    pLDDT=0.91  
+  rejected at mutate design stage  i_pTM=0.4     pLDDT=0.69   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 28 | aj_il15_faceA_denovo_l95_5fd7ae67829090ac | accepted 4/10 | worker 4 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  rejected at screen design stage  i_pTM=0.75    pLDDT=0.55   due to [pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 29 | aj_il15_faceA_denovo_l97_4c058915d24617e9 | accepted 4/10 | worker 5 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.82    pLDDT=0.89  
+  passed refine design stage  i_pTM=0.79    pLDDT=0.86  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.89  
+  passed harden design stage  i_pTM=0.82    pLDDT=0.88  
+  rejected at mutate design stage  i_pTM=0.11    pLDDT=0.41   due to [i_pTM, pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 30 | aj_il15_faceA_denovo_l101_f7e91ce2afea5088 | accepted 4/10 | worker 1 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.78    pLDDT=0.81  
+  passed refine design stage  i_pTM=0.78    pLDDT=0.85  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.89  
+  passed harden design stage  i_pTM=0.81    pLDDT=0.87  
+  passed mutate design stage  i_pTM=0.76    pLDDT=0.83  
+  trajectory rejected  i_pTM=0.76    pLDDT=0.83   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 31 | aj_il15_faceA_denovo_l86_bc8c489a09339c47 | accepted 4/10 | worker 4 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.63    pLDDT=0.72  
+  passed refine design stage  i_pTM=0.77    pLDDT=0.83  
+  passed anneal design stage  i_pTM=0.79    pLDDT=0.88  
+  passed harden design stage  i_pTM=0.83    pLDDT=0.89  
+  passed mutate design stage  i_pTM=0.81    pLDDT=0.89  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 20 of 86 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.42    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=20   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.8     pLDDT=0.92    pTM=0.85  
+   2/10  rejected  Binder_RMSD=0.35    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.78    Interface_Residues=20   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.8     pLDDT=0.91    pTM=0.85    failed [i_pTM]
+   3/10  rejected  Binder_RMSD=0.41    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.78    Interface_Residues=17   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.25    i_pTM=0.76    pLDDT=0.89    pTM=0.83    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=0.41    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=19   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.8     pLDDT=0.91    pTM=0.85    failed [i_pTM]
+   5/10  rejected  Binder_RMSD=0.32    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.78    Interface_Residues=19   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.78    pLDDT=0.91    pTM=0.84    failed [i_pTM]
+   6/10  rejected  Binder_RMSD=0.33    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.78    Interface_Residues=20   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.22    i_pTM=0.79    pLDDT=0.91    pTM=0.85    failed [i_pTM]
+   7/10  rejected  Binder_RMSD=0.38    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=20   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.78    pLDDT=0.91    pTM=0.84    failed [i_pTM]
+   8/10  rejected  Binder_RMSD=0.48    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=19   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.22    i_pTM=0.79    pLDDT=0.89    pTM=0.85    failed [i_pTM]
+   9/10  ACCEPTED  Binder_RMSD=0.37    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=20   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.89    i_pAE=0.21    i_pTM=0.81    pLDDT=0.91    pTM=0.86  
+  10/10  rejected  Binder_RMSD=0.32    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.78    Interface_Residues=19   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.22    i_pTM=0.79    pLDDT=0.91    pTM=0.84    failed [i_pTM]
+  2 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 9 (0.3)
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 32 | aj_il15_faceA_denovo_l88_c2ed2dd9d8c023fb | accepted 4/10 | worker 6 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.81    pLDDT=0.89  
+  passed refine design stage  i_pTM=0.84    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.75    pLDDT=0.84  
+  rejected at mutate design stage  i_pTM=0.14    pLDDT=0.35   due to [i_pTM, pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 33 | aj_il15_faceA_denovo_l92_18bdc23a3b3cfa22 | accepted 4/10 | worker 2 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.79    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.78    pLDDT=0.9   
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.81    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.78    pLDDT=0.92  
+  trajectory rejected  i_pTM=0.78    pLDDT=0.92   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 34 | aj_il15_faceA_denovo_l95_0187894bddfa94d3 | accepted 4/10 | worker 0 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.78    pLDDT=0.83  
+  passed refine design stage  i_pTM=0.76    pLDDT=0.84  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.89  
+  passed harden design stage  i_pTM=0.8     pLDDT=0.86  
+  passed mutate design stage  i_pTM=0.62    pLDDT=0.77  
+  trajectory rejected  i_pTM=0.62    pLDDT=0.77   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 35 | aj_il15_faceA_denovo_l110_6820e42808157d03 | accepted 4/10 | worker 3 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.84    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.84    pLDDT=0.9   
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.87    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.87    pLDDT=0.92  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 20 of 110 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.32    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=18   Off_Epitope_Contact_Fraction=0.06    Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.8     pLDDT=0.92    pTM=0.85    failed [i_pTM]
+   2/10  rejected  Binder_RMSD=0.33    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=18   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.79    pLDDT=0.92    pTM=0.84    failed [i_pTM]
+   3/10  rejected  Binder_RMSD=0.41    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=18   Off_Epitope_Contact_Fraction=0.06    Target_pLDDT=0.87    i_pAE=0.22    i_pTM=0.8     pLDDT=0.93    pTM=0.85    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=0.39    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=18   Off_Epitope_Contact_Fraction=0.06    Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.8     pLDDT=0.93    pTM=0.85    failed [i_pTM]
+   5/10  rejected  Binder_RMSD=0.3     Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=17   Off_Epitope_Contact_Fraction=0.06    Target_pLDDT=0.87    i_pAE=0.24    i_pTM=0.78    pLDDT=0.92    pTM=0.84    failed [i_pTM]
+   6/10  ACCEPTED  Binder_RMSD=0.33    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=16   Off_Epitope_Contact_Fraction=0.06    Target_pLDDT=0.87    i_pAE=0.2     i_pTM=0.82    pLDDT=0.93    pTM=0.86  
+   7/10  rejected  Binder_RMSD=0.19    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.0     Interface_Residues=0    Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.82    i_pTM=0.13    pLDDT=0.89    pTM=0.52    failed [i_pTM, pTM, i_pAE, Interface_Residues, Hotspot_Contact_Fraction]
+   8/10  rejected  Binder_RMSD=0.35    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=19   Off_Epitope_Contact_Fraction=0.06    Target_pLDDT=0.87    i_pAE=0.22    i_pTM=0.8     pLDDT=0.92    pTM=0.85    failed [i_pTM]
+   9/10  ACCEPTED  Binder_RMSD=0.27    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=18   Off_Epitope_Contact_Fraction=0.06    Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.81    pLDDT=0.93    pTM=0.86  
+  10/10  ACCEPTED  Binder_RMSD=0.38    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=19   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.82    pLDDT=0.93    pTM=0.86  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 10 (0.37)
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 36 | aj_il15_faceA_denovo_l110_d8649119be88c934 | accepted 4/10 | worker 5 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.78    pLDDT=0.8   
+  passed refine design stage  i_pTM=0.8     pLDDT=0.72  
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.7   
+  rejected at harden design stage  i_pTM=0.83    pLDDT=0.62   due to [pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 37 | aj_il15_faceA_denovo_l109_7ab9a84f7438cd1b | accepted 4/10 | worker 1 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.69    pLDDT=0.77  
+  passed refine design stage  i_pTM=0.74    pLDDT=0.8   
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.86  
+  passed harden design stage  i_pTM=0.83    pLDDT=0.86  
+  passed mutate design stage  i_pTM=0.81    pLDDT=0.84  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 17 of 109 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.53    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=16   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.89    i_pAE=0.19    i_pTM=0.82    pLDDT=0.93    pTM=0.87  
+   2/10  ACCEPTED  Binder_RMSD=0.22    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=17   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.89    i_pAE=0.19    i_pTM=0.83    pLDDT=0.94    pTM=0.87  
+   3/10  ACCEPTED  Binder_RMSD=0.4     Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=15   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.89    i_pAE=0.2     i_pTM=0.81    pLDDT=0.92    pTM=0.86  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 2 (0.42)
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 38 | aj_il15_faceA_denovo_l86_b273b6462e4e1362 | accepted 4/10 | worker 6 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.77    pLDDT=0.86  
+  passed refine design stage  i_pTM=0.78    pLDDT=0.85  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.79    pLDDT=0.9   
+  passed mutate design stage  i_pTM=0.76    pLDDT=0.91  
+  trajectory rejected  i_pTM=0.76    pLDDT=0.91   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 39 | aj_il15_faceA_denovo_l91_0f42706f790cf872 | accepted 5/10 | worker 4 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.78    pLDDT=0.89  
+  passed refine design stage  i_pTM=0.81    pLDDT=0.9   
+  passed anneal design stage  i_pTM=0.8     pLDDT=0.91  
+  passed harden design stage  i_pTM=0.79    pLDDT=0.9   
+  passed mutate design stage  i_pTM=0.75    pLDDT=0.86  
+  trajectory rejected  i_pTM=0.75    pLDDT=0.86   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 40 | aj_il15_faceA_denovo_l95_85209b46a289e81c | accepted 5/10 | worker 2 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.76    pLDDT=0.88  
+  passed refine design stage  i_pTM=0.74    pLDDT=0.88  
+  passed anneal design stage  i_pTM=0.78    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.74    pLDDT=0.91  
+  passed mutate design stage  i_pTM=0.7     pLDDT=0.89  
+  trajectory rejected  i_pTM=0.7     pLDDT=0.89   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 41 | aj_il15_faceA_denovo_l85_53924e8e14cd66c8 | accepted 5/10 | worker 0 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.69    pLDDT=0.78  
+  passed refine design stage  i_pTM=0.67    pLDDT=0.76  
+  passed anneal design stage  i_pTM=0.7     pLDDT=0.79  
+  passed harden design stage  i_pTM=0.69    pLDDT=0.78  
+  passed mutate design stage  i_pTM=0.72    pLDDT=0.79  
+  trajectory rejected  i_pTM=0.72    pLDDT=0.79   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 42 | aj_il15_faceA_denovo_l100_b93d2f1cd835585f | accepted 5/10 | worker 5 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.78    pLDDT=0.87  
+  passed refine design stage  i_pTM=0.81    pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.8     pLDDT=0.9   
+  passed harden design stage  i_pTM=0.82    pLDDT=0.9   
+  passed mutate design stage  i_pTM=0.82    pLDDT=0.89  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 22 of 100 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.46    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=18   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.82    pLDDT=0.9     pTM=0.86  
+   2/10  ACCEPTED  Binder_RMSD=0.35    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=17   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.81    pLDDT=0.9     pTM=0.86  
+   3/10  ACCEPTED  Binder_RMSD=0.42    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=18   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.82    pLDDT=0.9     pTM=0.86  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 2 (0.27)
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 43 | aj_il15_faceA_denovo_l91_eb2fd35f40e221a2 | accepted 5/10 | worker 6 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.8     pLDDT=0.9   
+  passed refine design stage  i_pTM=0.76    pLDDT=0.83  
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.9   
+  passed harden design stage  i_pTM=0.84    pLDDT=0.9   
+  passed mutate design stage  i_pTM=0.8     pLDDT=0.85  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 20 of 91 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.52    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=16   Off_Epitope_Contact_Fraction=0.05    Target_pLDDT=0.88    i_pAE=0.22    i_pTM=0.79    pLDDT=0.84    pTM=0.85    Unbound_Binder_pLDDT=0.83    failed [i_pTM, Unbound_Binder_pLDDT]
+   2/10  rejected  Binder_RMSD=0.6     Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=16   Off_Epitope_Contact_Fraction=0.05    Target_pLDDT=0.88    i_pAE=0.22    i_pTM=0.8     pLDDT=0.85    pTM=0.86    Unbound_Binder_pLDDT=0.82    failed [Unbound_Binder_pLDDT]
+   3/10  rejected  Binder_RMSD=0.96    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=18   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.22    i_pTM=0.8     pLDDT=0.86    pTM=0.85    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=0.56    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=19   Off_Epitope_Contact_Fraction=0.05    Target_pLDDT=0.88    i_pAE=0.22    i_pTM=0.79    pLDDT=0.85    pTM=0.85    failed [i_pTM]
+   5/10  rejected  Binder_RMSD=0.76    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=18   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.23    i_pTM=0.79    pLDDT=0.83    pTM=0.85    Unbound_Binder_pLDDT=0.81    failed [i_pTM, Unbound_Binder_pLDDT]
+   6/10  rejected  Binder_RMSD=0.54    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=17   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.25    i_pTM=0.77    pLDDT=0.8     pTM=0.84    Unbound_Binder_pLDDT=0.81    failed [i_pTM, Unbound_Binder_pLDDT]
+   7/10  rejected  Binder_RMSD=0.61    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=18   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.22    i_pTM=0.78    pLDDT=0.87    pTM=0.84    Unbound_Binder_pLDDT=0.84    failed [i_pTM, Unbound_Binder_pLDDT]
+   8/10  rejected  Binder_RMSD=2.2     Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=15   Off_Epitope_Contact_Fraction=0.05    Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.81    pLDDT=0.87    pTM=0.86    Unbound_Binder_pLDDT=0.84    failed [Unbound_Binder_pLDDT]
+   9/10  rejected  Binder_RMSD=1.5     Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=16   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.31    i_pTM=0.74    pLDDT=0.72    pTM=0.8     Unbound_Binder_pLDDT=0.75    failed [i_pTM, Unbound_Binder_pLDDT]
+  10/10  rejected  Binder_RMSD=3.2     Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=15   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.81    pLDDT=0.9     pTM=0.86    Unbound_Binder_pLDDT=0.63    failed [Unbound_Binder_pLDDT]
+  0 of 10 redesigns passed
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 44 | aj_il15_faceA_denovo_l104_aaac88f17e5aa071 | accepted 6/10 | worker 3 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.8     pLDDT=0.83  
+  passed refine design stage  i_pTM=0.75    pLDDT=0.81  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.9   
+  rejected at harden design stage  i_pTM=0.82    pLDDT=0.65   due to [pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 45 | aj_il15_faceA_denovo_l85_df8333b0fafb4b32 | accepted 6/10 | worker 4 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.78    pLDDT=0.86  
+  passed refine design stage  i_pTM=0.77    pLDDT=0.82  
+  passed anneal design stage  i_pTM=0.79    pLDDT=0.84  
+  passed harden design stage  i_pTM=0.76    pLDDT=0.67  
+  rejected at mutate design stage  i_pTM=0.19    pLDDT=0.44   due to [i_pTM, pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 46 | aj_il15_faceA_denovo_l100_3bb0c649eee75dec | accepted 7/10 | worker 1 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.78    pLDDT=0.88  
+  rejected at refine design stage  i_pTM=0.21    pLDDT=0.56   due to [pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 47 | aj_il15_faceA_denovo_l83_06a0128b05afebd4 | accepted 7/10 | worker 2 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.68    pLDDT=0.77  
+  passed refine design stage  i_pTM=0.58    pLDDT=0.69  
+  passed anneal design stage  i_pTM=0.65    pLDDT=0.76  
+  passed harden design stage  i_pTM=0.64    pLDDT=0.73  
+  rejected at mutate design stage  i_pTM=0.32    pLDDT=0.57   due to [i_pTM, pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 48 | aj_il15_faceA_denovo_l94_bbd6cde312a6f1af | accepted 7/10 | worker 0 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.82    pLDDT=0.89  
+  passed refine design stage  i_pTM=0.77    pLDDT=0.88  
+  passed anneal design stage  i_pTM=0.8     pLDDT=0.89  
+  passed harden design stage  i_pTM=0.79    pLDDT=0.88  
+  passed mutate design stage  i_pTM=0.79    pLDDT=0.86  
+  trajectory rejected  i_pTM=0.79    pLDDT=0.86   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 49 | aj_il15_faceA_denovo_l104_670842e71a997d8b | accepted 7/10 | worker 1 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  rejected at screen design stage  i_pTM=0.81    pLDDT=0.58   due to [pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 50 | aj_il15_faceA_denovo_l95_0398e9d9e2fffca6 | accepted 7/10 | worker 6 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.76    pLDDT=0.76  
+  passed refine design stage  i_pTM=0.79    pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.82    pLDDT=0.9   
+  passed mutate design stage  i_pTM=0.84    pLDDT=0.91  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 21 of 95 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.49    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=20   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.79    pLDDT=0.92    pTM=0.85    failed [i_pTM]
+   2/10  rejected  Binder_RMSD=0.79    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=16   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.86    i_pAE=0.27    i_pTM=0.7     pLDDT=0.89    pTM=0.8     failed [i_pTM]
+   3/10  rejected  Binder_RMSD=0.55    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=19   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.86    i_pAE=0.25    i_pTM=0.73    pLDDT=0.9     pTM=0.82    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=0.56    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=16   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.86    i_pAE=0.31    i_pTM=0.65    pLDDT=0.9     pTM=0.78    failed [i_pTM]
+   5/10  rejected  Binder_RMSD=0.38    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=21   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.8     pLDDT=0.92    pTM=0.85    failed [i_pTM]
+   6/10  rejected  Binder_RMSD=0.48    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=17   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.76    pLDDT=0.92    pTM=0.83    failed [i_pTM]
+   7/10  rejected  Binder_RMSD=0.46    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=17   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.86    i_pAE=0.24    i_pTM=0.75    pLDDT=0.91    pTM=0.83    failed [i_pTM]
+   8/10  rejected  Binder_RMSD=0.72    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=21   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.22    i_pTM=0.76    pLDDT=0.89    pTM=0.83    failed [i_pTM]
+   9/10  rejected  Binder_RMSD=0.34    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=19   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.79    pLDDT=0.92    pTM=0.85    failed [i_pTM]
+  10/10  rejected  Binder_RMSD=0.89    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=19   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.85    i_pAE=0.32    i_pTM=0.64    pLDDT=0.89    pTM=0.78    failed [i_pTM]
+  0 of 10 redesigns passed
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 51 | aj_il15_faceA_denovo_l108_d54f36dd0f742d40 | accepted 8/10 | worker 5 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  rejected at screen design stage  i_pTM=0.78    pLDDT=0.53   due to [pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 52 | aj_il15_faceA_denovo_l104_7511cc6fb70f85e1 | accepted 8/10 | worker 3 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.77    pLDDT=0.89  
+  passed refine design stage  i_pTM=0.77    pLDDT=0.89  
+  passed anneal design stage  i_pTM=0.79    pLDDT=0.9   
+  passed harden design stage  i_pTM=0.81    pLDDT=0.89  
+  passed mutate design stage  i_pTM=0.8     pLDDT=0.89  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 14 of 104 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.22    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=13   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.24    i_pTM=0.73    pLDDT=0.91    pTM=0.82    failed [i_pTM]
+   2/10  rejected  Binder_RMSD=0.22    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=13   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.73    pLDDT=0.9     pTM=0.82    failed [i_pTM]
+   3/10  rejected  Binder_RMSD=0.3     Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.78    Interface_Residues=10   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.86    i_pAE=0.47    i_pTM=0.42    pLDDT=0.89    pTM=0.67    failed [i_pTM, i_pAE]
+   4/10  rejected  Binder_RMSD=0.45    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=16   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.25    i_pTM=0.72    pLDDT=0.89    pTM=0.81    failed [i_pTM]
+   5/10  rejected  Binder_RMSD=0.32    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=13   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.26    i_pTM=0.71    pLDDT=0.91    pTM=0.81    failed [i_pTM]
+   6/10  rejected  Binder_RMSD=3.0     Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.67    Interface_Residues=11   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.41    i_pTM=0.51    pLDDT=0.85    pTM=0.71    failed [i_pTM, i_pAE]
+   7/10  rejected  Binder_RMSD=0.43    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.67    Interface_Residues=11   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.86    i_pAE=0.51    i_pTM=0.41    pLDDT=0.84    pTM=0.67    failed [i_pTM, i_pAE]
+   8/10  rejected  Binder_RMSD=0.22    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.78    Interface_Residues=10   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.86    i_pAE=0.43    i_pTM=0.48    pLDDT=0.87    pTM=0.7     failed [i_pTM, i_pAE]
+   9/10  rejected  Binder_RMSD=0.51    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.78    Interface_Residues=9    Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.86    i_pAE=0.49    i_pTM=0.41    pLDDT=0.87    pTM=0.67    failed [i_pTM, i_pAE]
+  10/10  rejected  Binder_RMSD=0.18    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=14   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.76    pLDDT=0.89    pTM=0.83    failed [i_pTM]
+  0 of 10 redesigns passed
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 53 | aj_il15_faceA_denovo_l94_57074cc15f4611f8 | accepted 8/10 | worker 4 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.74    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.75    pLDDT=0.88  
+  passed anneal design stage  i_pTM=0.76    pLDDT=0.89  
+  passed harden design stage  i_pTM=0.76    pLDDT=0.88  
+  passed mutate design stage  i_pTM=0.74    pLDDT=0.87  
+  trajectory rejected  i_pTM=0.74    pLDDT=0.87   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 54 | aj_il15_faceA_denovo_l93_5bdf84460ca98998 | accepted 8/10 | worker 2 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.69    pLDDT=0.84  
+  passed refine design stage  i_pTM=0.71    pLDDT=0.85  
+  passed anneal design stage  i_pTM=0.77    pLDDT=0.88  
+  passed harden design stage  i_pTM=0.73    pLDDT=0.87  
+  passed mutate design stage  i_pTM=0.77    pLDDT=0.82  
+  trajectory rejected  i_pTM=0.77    pLDDT=0.82   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 55 | aj_il15_faceA_denovo_l101_7aff945615e03041 | accepted 8/10 | worker 1 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.33    pLDDT=0.75  
+  passed refine design stage  i_pTM=0.59    pLDDT=0.82  
+  passed anneal design stage  i_pTM=0.63    pLDDT=0.88  
+  passed harden design stage  i_pTM=0.57    pLDDT=0.84  
+  passed mutate design stage  i_pTM=0.63    pLDDT=0.85  
+  trajectory rejected  i_pTM=0.63    pLDDT=0.85   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 56 | aj_il15_faceA_denovo_l81_09cdffd48361f3db | accepted 8/10 | worker 0 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.85    pLDDT=0.66  
+  rejected at refine design stage  i_pTM=0.8     pLDDT=0.56   due to [pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 57 | aj_il15_faceA_denovo_l101_44e3b35731beeea3 | accepted 8/10 | worker 5 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.8     pLDDT=0.92  
+  passed refine design stage  i_pTM=0.81    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.78    pLDDT=0.78  
+  passed mutate design stage  i_pTM=0.79    pLDDT=0.79  
+  trajectory rejected  i_pTM=0.79    pLDDT=0.79   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 58 | aj_il15_faceA_denovo_l81_1242dced21af6a87 | accepted 8/10 | worker 0 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.77    pLDDT=0.87  
+  passed refine design stage  i_pTM=0.76    pLDDT=0.83  
+  passed anneal design stage  i_pTM=0.8     pLDDT=0.85  
+  passed harden design stage  i_pTM=0.76    pLDDT=0.85  
+  passed mutate design stage  i_pTM=0.8     pLDDT=0.85  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 14 of 81 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.97    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=16   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.89    i_pAE=0.19    i_pTM=0.83    pLDDT=0.9     pTM=0.86  
+   2/10  ACCEPTED  Binder_RMSD=2.3     Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=15   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.89    i_pAE=0.19    i_pTM=0.83    pLDDT=0.91    pTM=0.86  
+   3/10  ACCEPTED  Binder_RMSD=0.99    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=13   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.89    i_pAE=0.2     i_pTM=0.82    pLDDT=0.9     pTM=0.86  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 2 (0.43)
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 59 | aj_il15_faceA_denovo_l95_63e1cb18581a140c | accepted 8/10 | worker 6 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  rejected at screen design stage  i_pTM=0.62    pLDDT=0.39   due to [pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 60 | aj_il15_faceA_denovo_l92_6d302001d6dadbc0 | accepted 8/10 | worker 4 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.77    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.7     pLDDT=0.84  
+  passed anneal design stage  i_pTM=0.79    pLDDT=0.9   
+  passed harden design stage  i_pTM=0.74    pLDDT=0.88  
+  passed mutate design stage  i_pTM=0.69    pLDDT=0.84  
+  trajectory rejected  i_pTM=0.69    pLDDT=0.84   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 61 | aj_il15_faceA_denovo_l94_f4b63bf6fe084ff3 | accepted 8/10 | worker 2 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.65    pLDDT=0.87  
+  passed refine design stage  i_pTM=0.8     pLDDT=0.88  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.77    pLDDT=0.9   
+  rejected at mutate design stage  i_pTM=0.36    pLDDT=0.55   due to [i_pTM, pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 62 | aj_il15_faceA_denovo_l109_9bfa3dc46a1ca023 | accepted 8/10 | worker 1 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.68    pLDDT=0.86  
+  passed refine design stage  i_pTM=0.69    pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.73    pLDDT=0.89  
+  passed harden design stage  i_pTM=0.69    pLDDT=0.81  
+  rejected at mutate design stage  i_pTM=0.39    pLDDT=0.77   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 63 | aj_il15_faceA_denovo_l90_3b82cdb5dcdcea0e | accepted 8/10 | worker 6 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.77    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.79    pLDDT=0.84  
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.9   
+  rejected at harden design stage  i_pTM=0.65    pLDDT=0.59   due to [pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 64 | aj_il15_faceA_denovo_l101_fb8e13fccff064f1 | accepted 8/10 | worker 3 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.73    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.8     pLDDT=0.88  
+  passed anneal design stage  i_pTM=0.78    pLDDT=0.87  
+  rejected at harden design stage  i_pTM=0.26    pLDDT=0.66   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 65 | aj_il15_faceA_denovo_l101_feaa525e50c2dd88 | accepted 8/10 | worker 5 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.82    pLDDT=0.88  
+  passed refine design stage  i_pTM=0.8     pLDDT=0.89  
+  passed anneal design stage  i_pTM=0.8     pLDDT=0.93  
+  passed harden design stage  i_pTM=0.81    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.71    pLDDT=0.89  
+  trajectory rejected  i_pTM=0.71    pLDDT=0.89   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 66 | aj_il15_faceA_denovo_l87_1c4d82b7b013d2ea | accepted 9/10 | worker 0 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.75    pLDDT=0.88  
+  passed refine design stage  i_pTM=0.77    pLDDT=0.85  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.88  
+  passed harden design stage  i_pTM=0.8     pLDDT=0.76  
+  passed mutate design stage  i_pTM=0.6     pLDDT=0.71  
+  trajectory rejected  i_pTM=0.6     pLDDT=0.71   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 67 | aj_il15_faceA_denovo_l94_235f14d7ded68f8e | accepted 9/10 | worker 4 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.81    pLDDT=0.89  
+  passed refine design stage  i_pTM=0.8     pLDDT=0.89  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.9   
+  passed harden design stage  i_pTM=0.81    pLDDT=0.9   
+  passed mutate design stage  i_pTM=0.79    pLDDT=0.88  
+  trajectory rejected  i_pTM=0.79    pLDDT=0.88   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 68 | aj_il15_faceA_denovo_l82_0cf13fac5503940a | accepted 9/10 | worker 2 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.77    pLDDT=0.63  
+  passed refine design stage  i_pTM=0.75    pLDDT=0.62  
+  rejected at anneal design stage  i_pTM=0.85    pLDDT=0.62   due to [pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 69 | aj_il15_faceA_denovo_l81_ed83c39a42305084 | accepted 9/10 | worker 6 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.76    pLDDT=0.81  
+  passed refine design stage  i_pTM=0.73    pLDDT=0.77  
+  passed anneal design stage  i_pTM=0.78    pLDDT=0.86  
+  passed harden design stage  i_pTM=0.77    pLDDT=0.83  
+  passed mutate design stage  i_pTM=0.77    pLDDT=0.83  
+  trajectory rejected  i_pTM=0.77    pLDDT=0.83   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 70 | aj_il15_faceA_denovo_l110_abc5f3041dafd291 | accepted 9/10 | worker 3 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.81    pLDDT=0.84  
+  passed refine design stage  i_pTM=0.83    pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.82    pLDDT=0.88  
+  rejected at mutate design stage  i_pTM=0.77    pLDDT=0.59   due to [pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 71 | aj_il15_faceA_denovo_l108_372af4d651cb924c | accepted 9/10 | worker 1 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.73    pLDDT=0.84  
+  passed refine design stage  i_pTM=0.73    pLDDT=0.77  
+  passed anneal design stage  i_pTM=0.77    pLDDT=0.89  
+  passed harden design stage  i_pTM=0.76    pLDDT=0.82  
+  passed mutate design stage  i_pTM=0.73    pLDDT=0.81  
+  trajectory rejected  i_pTM=0.73    pLDDT=0.81   due to [i_pTM]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 72 | aj_il15_faceA_denovo_l106_4ec4bc4548eec474 | accepted 9/10 | worker 5 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  rejected at screen design stage  i_pTM=0.16    pLDDT=0.54   due to [pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 73 | aj_il15_faceA_denovo_l89_67a8c788ea1f075b | accepted 9/10 | worker 0 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.82    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.87    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.88    pLDDT=0.95  
+  passed harden design stage  i_pTM=0.88    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.86    pLDDT=0.94  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 16 of 89 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=2.2     Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.78    Interface_Residues=14   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.2     i_pTM=0.8     pLDDT=0.92    pTM=0.84    failed [i_pTM]
+   2/10  rejected  Binder_RMSD=0.49    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.67    Interface_Residues=14   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.22    i_pTM=0.78    pLDDT=0.91    pTM=0.83    failed [i_pTM]
+   3/10  rejected  Binder_RMSD=0.17    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.78    Interface_Residues=13   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.86    i_pAE=0.3     i_pTM=0.7     pLDDT=0.9     pTM=0.8     failed [i_pTM]
+   4/10  rejected  Binder_RMSD=0.32    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.67    Interface_Residues=11   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.86    i_pAE=0.48    i_pTM=0.46    pLDDT=0.89    pTM=0.7     failed [i_pTM, i_pAE]
+   5/10  rejected  Binder_RMSD=0.33    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.78    Interface_Residues=14   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.21    i_pTM=0.78    pLDDT=0.92    pTM=0.84    failed [i_pTM]
+   6/10  ACCEPTED  Binder_RMSD=0.28    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.78    Interface_Residues=13   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.82    pLDDT=0.93    pTM=0.86  
+   7/10  ACCEPTED  Binder_RMSD=0.4     Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=17   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.81    pLDDT=0.93    pTM=0.85  
+   8/10  ACCEPTED  Binder_RMSD=0.26    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.78    Interface_Residues=16   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.81    pLDDT=0.91    pTM=0.85  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 6 (0.35)
+=== trajectory 74 | aj_il15_faceA_denovo_l88_e9e041cbe2245850 | accepted 9/10 | worker 4 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.85    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.84    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.9     pLDDT=0.95  
+  passed harden design stage  i_pTM=0.87    pLDDT=0.92  
+  passed mutate design stage  i_pTM=0.89    pLDDT=0.95  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 19 of 88 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.26    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=20   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.9     i_pAE=0.15    i_pTM=0.88    pLDDT=0.95    pTM=0.89  
+   2/10  ACCEPTED  Binder_RMSD=0.22    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=17   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.9     i_pAE=0.15    i_pTM=0.87    pLDDT=0.95    pTM=0.88  
+   3/10  ACCEPTED  Binder_RMSD=0.21    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=17   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.89    i_pAE=0.15    i_pTM=0.86    pLDDT=0.95    pTM=0.88  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 1 (0.43)
+=== trajectory 75 | aj_il15_faceA_denovo_l89_7d39bc0fb100733b | accepted 9/10 | worker 2 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.81    pLDDT=0.89  
+  passed refine design stage  i_pTM=0.83    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.82    pLDDT=0.91  
+  passed mutate design stage  i_pTM=0.83    pLDDT=0.92  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 22 of 89 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.63    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=20   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.89    i_pAE=0.17    i_pTM=0.84    pLDDT=0.94    pTM=0.87  
+   2/10  ACCEPTED  Binder_RMSD=0.64    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=21   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.81    pLDDT=0.93    pTM=0.86  
+   3/10  rejected  Binder_RMSD=2.4     Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.67    Interface_Residues=9    Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.86    i_pAE=0.58    i_pTM=0.34    pLDDT=0.82    pTM=0.65    failed [i_pTM, i_pAE]
+   4/10  ACCEPTED  Binder_RMSD=1.8     Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=20   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.89    i_pAE=0.18    i_pTM=0.82    pLDDT=0.93    pTM=0.87  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 1 (0.41)
+=== trajectory 76 | aj_il15_faceA_denovo_l102_3a84df8649256e79 | accepted 9/10 | worker 5 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.83    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.84    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.86    pLDDT=0.91  
+  passed mutate design stage  i_pTM=0.86    pLDDT=0.91  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 20 of 102 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=2.5     Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=20   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.83    pLDDT=0.92    pTM=0.87  
+   2/10  rejected  Binder_RMSD=0.14    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.11    Interface_Residues=3    Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.87    i_pAE=0.81    i_pTM=0.12    pLDDT=0.93    pTM=0.52    failed [i_pTM, pTM, i_pAE, Interface_Residues, Hotspot_Contact_Fraction]
+   3/10  ACCEPTED  Binder_RMSD=2.5     Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=20   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.89    i_pAE=0.19    i_pTM=0.83    pLDDT=0.93    pTM=0.87  
+   4/10  ACCEPTED  Binder_RMSD=0.17    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=21   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.82    pLDDT=0.93    pTM=0.86  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 1 (0.42)
+=== trajectory 77 | aj_il15_faceA_denovo_l95_cc0ddc346a309edc | accepted 9/10 | worker 6 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  rejected at screen design stage  i_pTM=0.5     pLDDT=0.59   due to [pLDDT]
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+
+=== trajectory 78 | aj_il15_faceA_denovo_l97_2bed084ed9bac850 | accepted 9/10 | worker 3 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.77    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.75    pLDDT=0.9   
+  passed anneal design stage  i_pTM=0.76    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.82    pLDDT=0.87  
+  rejected at mutate design stage  i_pTM=0.65    pLDDT=0.53   due to [pLDDT]
+=== trajectory 79 | aj_il15_faceA_denovo_l90_bbbf611ac6930c7b | accepted 9/10 | worker 6 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.77    pLDDT=0.89  
+  passed refine design stage  i_pTM=0.73    pLDDT=0.84  
+  passed anneal design stage  i_pTM=0.77    pLDDT=0.89  
+  passed harden design stage  i_pTM=0.77    pLDDT=0.87  
+  passed mutate design stage  i_pTM=0.74    pLDDT=0.83  
+  trajectory rejected  i_pTM=0.74    pLDDT=0.83   due to [i_pTM]
+=== trajectory 80 | aj_il15_faceA_denovo_l97_6f91448c11ee802b | accepted 9/10 | worker 1 ===
+target=AJ_IL15 coldspots=A21,A24,A25,A27,A28,A122,A125,A128 residues=8 hotspots=A43,A58,A62,A63,A65,A66,A88,A104,A106
+  passed screen design stage  i_pTM=0.77    pLDDT=0.89  
+  passed refine design stage  i_pTM=0.85    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.86    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.83    pLDDT=0.92  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 18 of 97 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.22    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=16   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.89    i_pAE=0.17    i_pTM=0.84    pLDDT=0.95    pTM=0.88  
+   2/10  ACCEPTED  Binder_RMSD=0.22    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=1.0     Interface_Residues=18   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.89    i_pAE=0.17    i_pTM=0.84    pLDDT=0.95    pTM=0.87  
+   3/10  ACCEPTED  Binder_RMSD=0.23    Coldspot_Contact_Fraction=0.0     Hotspot_Contact_Fraction=0.89    Interface_Residues=15   Off_Epitope_Contact_Fraction=0.0     Target_pLDDT=0.89    i_pAE=0.18    i_pTM=0.83    pLDDT=0.94    pTM=0.87  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 1 (0.36)
+
+campaign done: 14 accepted design(s) after 80 trajectories, ranked by i_pDAE

@@ -1,0 +1,38 @@
+{
+ "3evg_apo": {
+  "name": "3EVG, cofactor stripped",
+  "pdb": "3EVG",
+  "file": "data/3evg_apo/target.pdb",
+  "chains": "A",
+  "hotspots": "",
+  "note": "target.3evg_apo.note",
+  "ready": true
+ },
+ "3evg_holo": {
+  "name": "3EVG, with SAH bound",
+  "pdb": "3EVG",
+  "file": "data/3evg_holo/target.pdb",
+  "chains": "A",
+  "hotspots": "",
+  "note": "target.3evg_holo.note",
+  "ready": false
+ },
+ "ajil15": {
+  "name": "Artibeus jamaicensis IL-15",
+  "file": "data/ajil15/target.pdb",
+  "chains": "A",
+  "hotspots": "",
+  "predicted": true,
+  "note": "target.ajil15.note",
+  "ready": false
+ },
+ "hpdl1": {
+  "name": "Human PD-L1",
+  "pdb": "hPDL1",
+  "file": "data/hpdl1/target.pdb",
+  "chains": "A",
+  "hotspots": "54,56,66,115",
+  "note": "target.hpdl1.note",
+  "ready": false
+ }
+}

@@ -1,0 +1,461 @@
+compiled graphs cached in /home/bgeiss/bc2-visualizer-runs/results/3evg_apo/compile_cache/NVIDIA_RTX_PRO_6000_Blackwell_Max_Q_Workstation_Edition
+campaign preflight: design model_1_multimer_v3,model_2_multimer_v3,model_3_multimer_v3,model_4_multimer_v3,model_5_multimer_v3 | validation model_1_ptm,model_2_ptm | redesign negative/v_48_020 | targets 3evg_apo | output results/3evg_apo
+campaign metadata: BindCraft 2 v1.0.4 | settings /home/bgeiss/bc2-visualizer-runs/settings/3evg_apo.json | written results/3evg_apo/campaign_metadata.json
+campaign fan-out: 3 design workers on GPUs 0,0,0
+worker=0 gpu=0 draws 37 binder lengths from 60 to 160, folded at 448 padded residues at 22.1 GB
+worker=1 gpu=0 draws 52 binder lengths from 65 to 180, folded at 480 padded residues at 24.3 GB
+worker=2 gpu=0 draws 32 binder lengths from 97 to 128, folded at 416 padded residues at 20.0 GB
+worker=0 gpu=0 log=results/3evg_apo/workers/3935952_worker_00_gpu_0.log
+worker=1 gpu=0 log=results/3evg_apo/workers/3935952_worker_01_gpu_0.log
+worker=2 gpu=0 log=results/3evg_apo/workers/3935952_worker_02_gpu_0.log
+
+BindCraft 2 v1.0.4
+campaign 3evg_apo
+binder length 60 to 180, drawn per trajectory
+target 3evg_apo (target) | 257 residues
+losses binder_contacts=1.0 binder_helicity=-0.3 binder_pae=0.4 compactness=0.5 interface_contacts=1.0 interface_pae=0.1 iptm_loss=0.05 plddt_loss=0.1
+filters Backbone_Clashes <= 0, Binder_RMSD <= 3.5, Interface_Residues >= 7, Unbound_Binder_pLDDT >= 0.7, i_pAE <= 0.35, i_pTM >= 0.7, pTM >= 0.55
+results results/3evg_apo | 3_Ranked/!_Ranked.csv rewritten as each design is accepted | summary.csv written when the campaign ends
+
+
+=== trajectory 1 | design_l162_251085f67371deca | accepted 0/3 | worker 1 ===
+  passed screen design stage  i_pTM=0.88    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.84    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.88    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.88    pLDDT=0.94  
+  rejected at mutate design stage  i_pTM=0.12    pLDDT=0.36   due to [i_pTM, pLDDT]
+
+=== trajectory 2 | design_l124_3c711a483828b54c | accepted 0/3 | worker 2 ===
+  passed screen design stage  i_pTM=0.62    pLDDT=0.69  
+  rejected at refine design stage  i_pTM=0.73    pLDDT=0.58   due to [pLDDT]
+
+=== trajectory 3 | design_l129_23659b33e500e4b7 | accepted 0/3 | worker 0 ===
+  passed screen design stage  i_pTM=0.75    pLDDT=0.83  
+  passed refine design stage  i_pTM=0.74    pLDDT=0.83  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.87  
+  passed harden design stage  i_pTM=0.8     pLDDT=0.84  
+  rejected at mutate design stage  i_pTM=0.12    pLDDT=0.64   due to [i_pTM]
+
+=== trajectory 4 | design_l99_212c73414c6ea937 | accepted 0/3 | worker 2 ===
+  passed screen design stage  i_pTM=0.55    pLDDT=0.66  
+  passed refine design stage  i_pTM=0.49    pLDDT=0.78  
+  passed anneal design stage  i_pTM=0.66    pLDDT=0.85  
+  passed harden design stage  i_pTM=0.74    pLDDT=0.85  
+  passed mutate design stage  i_pTM=0.52    pLDDT=0.79  
+  trajectory rejected  i_pTM=0.52    pLDDT=0.79   due to [i_pTM]
+
+=== trajectory 5 | design_l141_36df4016e1b2b6ff | accepted 0/3 | worker 0 ===
+  passed screen design stage  i_pTM=0.41    pLDDT=0.63  
+  passed refine design stage  i_pTM=0.67    pLDDT=0.65  
+  rejected at anneal design stage  i_pTM=0.79    pLDDT=0.6    due to [pLDDT]
+
+=== trajectory 6 | design_l65_b92b439824b6ebc8 | accepted 0/3 | worker 1 ===
+  passed screen design stage  i_pTM=0.84    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.84    pLDDT=0.85  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.87  
+  passed harden design stage  i_pTM=0.85    pLDDT=0.87  
+  passed mutate design stage  i_pTM=0.72    pLDDT=0.72  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 13 of 65 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.65    Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.88    i_pTM=0.12    pLDDT=0.8     pTM=0.77    failed [i_pTM, i_pAE, Interface_Residues]
+   2/10  rejected  Binder_RMSD=0.82    Interface_Residues=0    Target_pLDDT=0.97    i_pAE=0.82    i_pTM=0.18    pLDDT=0.78    pTM=0.78    failed [i_pTM, i_pAE, Interface_Residues]
+   3/10  rejected  Binder_RMSD=0.85    Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.83    i_pTM=0.17    pLDDT=0.78    pTM=0.78    failed [i_pTM, i_pAE, Interface_Residues]
+   4/10  rejected  Binder_RMSD=1.5     Interface_Residues=5    Target_pLDDT=0.96    i_pAE=0.68    i_pTM=0.34    pLDDT=0.68    pTM=0.8     failed [i_pTM, pLDDT, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=1.2     Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.89    i_pTM=0.12    pLDDT=0.81    pTM=0.77    failed [i_pTM, i_pAE, Interface_Residues]
+   6/10  rejected  Binder_RMSD=1.8     Interface_Residues=2    Target_pLDDT=0.97    i_pAE=0.8     i_pTM=0.2     pLDDT=0.76    pTM=0.78    failed [i_pTM, i_pAE, Interface_Residues]
+   7/10  rejected  Binder_RMSD=1.1     Interface_Residues=0    Target_pLDDT=0.97    i_pAE=0.89    i_pTM=0.12    pLDDT=0.79    pTM=0.77    failed [i_pTM, i_pAE, Interface_Residues]
+   8/10  rejected  Binder_RMSD=1.4     Interface_Residues=2    Target_pLDDT=0.97    i_pAE=0.81    i_pTM=0.19    pLDDT=0.76    pTM=0.78    failed [i_pTM, i_pAE, Interface_Residues]
+   9/10  rejected  Binder_RMSD=0.89    Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.88    i_pTM=0.13    pLDDT=0.78    pTM=0.77    failed [i_pTM, i_pAE, Interface_Residues]
+  10/10  rejected  Binder_RMSD=8.9     Interface_Residues=3    Target_pLDDT=0.97    i_pAE=0.91    i_pTM=0.12    pLDDT=0.66    pTM=0.76    failed [i_pTM, pLDDT, i_pAE, Interface_Residues, Binder_RMSD]
+  0 of 10 redesigns passed
+
+=== trajectory 7 | design_l120_ed0dd1ec0f727160 | accepted 0/3 | worker 2 ===
+  passed screen design stage  i_pTM=0.92    pLDDT=0.94  
+  passed refine design stage  i_pTM=0.92    pLDDT=0.95  
+  passed anneal design stage  i_pTM=0.93    pLDDT=0.96  
+  passed harden design stage  i_pTM=0.92    pLDDT=0.95  
+  passed mutate design stage  i_pTM=0.92    pLDDT=0.95  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 28 of 120 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.16    Interface_Residues=0    Target_pLDDT=0.97    i_pAE=0.86    i_pTM=0.15    pLDDT=0.92    pTM=0.68    failed [i_pTM, i_pAE, Interface_Residues]
+   2/10  rejected  Binder_RMSD=0.42    Interface_Residues=3    Target_pLDDT=0.97    i_pAE=0.84    i_pTM=0.16    pLDDT=0.91    pTM=0.68    failed [i_pTM, i_pAE, Interface_Residues]
+   3/10  rejected  Binder_RMSD=1.8     Interface_Residues=2    Target_pLDDT=0.97    i_pAE=0.87    i_pTM=0.16    pLDDT=0.75    pTM=0.69    failed [i_pTM, i_pAE, Interface_Residues]
+   4/10  rejected  Binder_RMSD=0.19    Interface_Residues=2    Target_pLDDT=0.97    i_pAE=0.86    i_pTM=0.15    pLDDT=0.91    pTM=0.68    failed [i_pTM, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=0.28    Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.86    i_pTM=0.16    pLDDT=0.85    pTM=0.69    failed [i_pTM, i_pAE, Interface_Residues]
+   6/10  rejected  Binder_RMSD=2.2     Interface_Residues=2    Target_pLDDT=0.97    i_pAE=0.88    i_pTM=0.14    pLDDT=0.75    pTM=0.68    failed [i_pTM, i_pAE, Interface_Residues]
+   7/10  rejected  Binder_RMSD=0.31    Interface_Residues=4    Target_pLDDT=0.97    i_pAE=0.82    i_pTM=0.19    pLDDT=0.87    pTM=0.69    failed [i_pTM, i_pAE, Interface_Residues]
+   8/10  rejected  Binder_RMSD=0.18    Interface_Residues=4    Target_pLDDT=0.97    i_pAE=0.85    i_pTM=0.16    pLDDT=0.92    pTM=0.69    failed [i_pTM, i_pAE, Interface_Residues]
+   9/10  rejected  Binder_RMSD=0.14    Interface_Residues=2    Target_pLDDT=0.97    i_pAE=0.85    i_pTM=0.17    pLDDT=0.9     pTM=0.69    failed [i_pTM, i_pAE, Interface_Residues]
+  10/10  rejected  Binder_RMSD=4.4     Interface_Residues=3    Target_pLDDT=0.97    i_pAE=0.86    i_pTM=0.16    pLDDT=0.87    pTM=0.69    failed [i_pTM, i_pAE, Interface_Residues, Binder_RMSD]
+  0 of 10 redesigns passed
+
+=== trajectory 8 | design_l151_0299d909fd48703a | accepted 0/3 | worker 0 ===
+  passed screen design stage  i_pTM=0.64    pLDDT=0.72  
+  passed refine design stage  i_pTM=0.75    pLDDT=0.81  
+  passed anneal design stage  i_pTM=0.8     pLDDT=0.85  
+  passed harden design stage  i_pTM=0.75    pLDDT=0.81  
+  rejected at mutate design stage  i_pTM=0.59    pLDDT=0.44   due to [pLDDT]
+
+=== trajectory 9 | design_l93_c6557cd521b21cf2 | accepted 0/3 | worker 1 ===
+  passed screen design stage  i_pTM=0.86    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.9     pLDDT=0.94  
+  passed anneal design stage  i_pTM=0.9     pLDDT=0.94  
+  passed harden design stage  i_pTM=0.88    pLDDT=0.92  
+  rejected at mutate design stage  i_pTM=0.12    pLDDT=0.4    due to [i_pTM, pLDDT]
+
+=== trajectory 10 | design_l123_ebc5743041a4f84e | accepted 0/3 | worker 2 ===
+  passed screen design stage  i_pTM=0.85    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.86    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.9   
+  rejected at harden design stage  i_pTM=0.2     pLDDT=0.49   due to [i_pTM, pLDDT]
+
+=== trajectory 11 | design_l137_6d73643983decf4c | accepted 0/3 | worker 0 ===
+  passed screen design stage  i_pTM=0.46    pLDDT=0.78  
+  passed refine design stage  i_pTM=0.61    pLDDT=0.85  
+  passed anneal design stage  i_pTM=0.69    pLDDT=0.86  
+  rejected at harden design stage  i_pTM=0.35    pLDDT=0.64   due to [i_pTM, pLDDT]
+
+=== trajectory 12 | design_l76_d1af408bfbf2598e | accepted 0/3 | worker 1 ===
+  passed screen design stage  i_pTM=0.71    pLDDT=0.71  
+  passed refine design stage  i_pTM=0.69    pLDDT=0.69  
+  passed anneal design stage  i_pTM=0.77    pLDDT=0.81  
+  passed harden design stage  i_pTM=0.83    pLDDT=0.79  
+  passed mutate design stage  i_pTM=0.76    pLDDT=0.71  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 18 of 76 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=2.3     Interface_Residues=0    Target_pLDDT=0.97    i_pAE=0.9     i_pTM=0.13    pLDDT=0.59    pTM=0.75    Unbound_Binder_pLDDT=0.67    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Interface_Residues]
+   2/10  rejected  Binder_RMSD=8.8     Interface_Residues=0    Target_pLDDT=0.97    i_pAE=0.91    i_pTM=0.12    pLDDT=0.51    pTM=0.75    Unbound_Binder_pLDDT=0.62    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Interface_Residues, Binder_RMSD]
+   3/10  rejected  Binder_RMSD=8.6     Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.91    i_pTM=0.13    pLDDT=0.5     pTM=0.75    Unbound_Binder_pLDDT=0.58    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Interface_Residues, Binder_RMSD]
+   4/10  rejected  Binder_RMSD=1.4     Interface_Residues=2    Target_pLDDT=0.97    i_pAE=0.91    i_pTM=0.13    pLDDT=0.56    pTM=0.75    failed [i_pTM, pLDDT, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=3.6     Interface_Residues=2    Target_pLDDT=0.97    i_pAE=0.91    i_pTM=0.12    pLDDT=0.58    pTM=0.75    Unbound_Binder_pLDDT=0.65    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Interface_Residues, Binder_RMSD]
+   6/10  rejected  Binder_RMSD=8.2     Interface_Residues=0    Target_pLDDT=0.97    i_pAE=0.91    i_pTM=0.12    pLDDT=0.54    pTM=0.75    Unbound_Binder_pLDDT=0.68    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Interface_Residues, Binder_RMSD]
+   7/10  rejected  Binder_RMSD=4.5     Interface_Residues=2    Target_pLDDT=0.97    i_pAE=0.91    i_pTM=0.12    pLDDT=0.5     pTM=0.75    Unbound_Binder_pLDDT=0.66    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Interface_Residues, Binder_RMSD]
+   8/10  rejected  Binder_RMSD=5.2     Interface_Residues=0    Target_pLDDT=0.97    i_pAE=0.91    i_pTM=0.12    pLDDT=0.64    pTM=0.74    failed [i_pTM, pLDDT, i_pAE, Interface_Residues, Binder_RMSD]
+   9/10  rejected  Binder_RMSD=9.3     Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.92    i_pTM=0.11    pLDDT=0.53    pTM=0.74    Unbound_Binder_pLDDT=0.53    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Interface_Residues, Binder_RMSD]
+  10/10  rejected  Binder_RMSD=7.0     Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.91    i_pTM=0.13    pLDDT=0.57    pTM=0.75    Unbound_Binder_pLDDT=0.69    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Interface_Residues, Binder_RMSD]
+  0 of 10 redesigns passed
+
+=== trajectory 13 | design_l124_cc0ddc235b6748f3 | accepted 0/3 | worker 2 ===
+  passed screen design stage  i_pTM=0.81    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.76    pLDDT=0.83  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.89  
+  passed harden design stage  i_pTM=0.86    pLDDT=0.87  
+  passed mutate design stage  i_pTM=0.63    pLDDT=0.78  
+  trajectory rejected  i_pTM=0.63    pLDDT=0.78   due to [i_pTM]
+
+=== trajectory 14 | design_l82_c669906476619dc8 | accepted 0/3 | worker 1 ===
+  passed screen design stage  i_pTM=0.31    pLDDT=0.83  
+  passed refine design stage  i_pTM=0.81    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.75    pLDDT=0.9   
+  passed mutate design stage  i_pTM=0.77    pLDDT=0.91  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 17 of 82 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.23    Interface_Residues=2    Target_pLDDT=0.97    i_pAE=0.82    i_pTM=0.17    pLDDT=0.93    pTM=0.75    failed [i_pTM, i_pAE, Interface_Residues]
+   2/10  rejected  Binder_RMSD=0.41    Interface_Residues=16   Target_pLDDT=0.96    i_pAE=0.39    i_pTM=0.62    pLDDT=0.88    pTM=0.85    failed [i_pTM, i_pAE]
+   3/10  rejected  Binder_RMSD=0.34    Interface_Residues=10   Target_pLDDT=0.97    i_pAE=0.57    i_pTM=0.44    pLDDT=0.89    pTM=0.81    failed [i_pTM, i_pAE]
+   4/10  rejected  Binder_RMSD=0.23    Interface_Residues=3    Target_pLDDT=0.97    i_pAE=0.76    i_pTM=0.23    pLDDT=0.93    pTM=0.76    failed [i_pTM, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=0.24    Interface_Residues=15   Target_pLDDT=0.96    i_pAE=0.37    i_pTM=0.65    pLDDT=0.89    pTM=0.86    failed [i_pTM, i_pAE]
+   6/10  rejected  Binder_RMSD=0.2     Interface_Residues=6    Target_pLDDT=0.97    i_pAE=0.64    i_pTM=0.33    pLDDT=0.92    pTM=0.78    failed [i_pTM, i_pAE, Interface_Residues]
+   7/10  rejected  Binder_RMSD=0.23    Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.81    i_pTM=0.18    pLDDT=0.93    pTM=0.75    failed [i_pTM, i_pAE, Interface_Residues]
+   8/10  rejected  Binder_RMSD=0.27    Interface_Residues=12   Target_pLDDT=0.97    i_pAE=0.57    i_pTM=0.42    pLDDT=0.89    pTM=0.81    failed [i_pTM, i_pAE]
+   9/10  rejected  Binder_RMSD=0.27    Interface_Residues=16   Target_pLDDT=0.97    i_pAE=0.57    i_pTM=0.45    pLDDT=0.93    pTM=0.82    failed [i_pTM, i_pAE]
+  10/10  rejected  Binder_RMSD=0.26    Interface_Residues=12   Target_pLDDT=0.96    i_pAE=0.47    i_pTM=0.53    pLDDT=0.9     pTM=0.83    failed [i_pTM, i_pAE]
+  0 of 10 redesigns passed
+
+=== trajectory 15 | design_l151_dfbcea64bbc2e3f2 | accepted 0/3 | worker 0 ===
+  passed screen design stage  i_pTM=0.51    pLDDT=0.79  
+  rejected at refine design stage  i_pTM=0.17    pLDDT=0.55   due to [pLDDT]
+
+=== trajectory 16 | design_l127_5cb4fee1039afbdb | accepted 0/3 | worker 2 ===
+  passed screen design stage  i_pTM=0.73    pLDDT=0.82  
+  passed refine design stage  i_pTM=0.52    pLDDT=0.61  
+  passed anneal design stage  i_pTM=0.65    pLDDT=0.77  
+  rejected at harden design stage  i_pTM=0.57    pLDDT=0.63   due to [pLDDT]
+
+=== trajectory 17 | design_l158_e26c888639c05080 | accepted 0/3 | worker 0 ===
+  passed screen design stage  i_pTM=0.73    pLDDT=0.8   
+  passed refine design stage  i_pTM=0.78    pLDDT=0.84  
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.9   
+  rejected at harden design stage  i_pTM=0.21    pLDDT=0.46   due to [i_pTM, pLDDT]
+
+=== trajectory 18 | design_l73_5b2e9579a58ea87c | accepted 0/3 | worker 1 ===
+  passed screen design stage  i_pTM=0.68    pLDDT=0.76  
+  passed refine design stage  i_pTM=0.72    pLDDT=0.78  
+  passed anneal design stage  i_pTM=0.8     pLDDT=0.88  
+  passed harden design stage  i_pTM=0.73    pLDDT=0.83  
+  passed mutate design stage  i_pTM=0.8     pLDDT=0.85  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 15 of 73 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.46    Interface_Residues=10   Target_pLDDT=0.96    i_pAE=0.64    i_pTM=0.35    pLDDT=0.84    pTM=0.8     failed [i_pTM, i_pAE]
+   2/10  rejected  Binder_RMSD=2.1     Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.87    i_pTM=0.14    pLDDT=0.88    pTM=0.75    failed [i_pTM, i_pAE, Interface_Residues]
+   3/10  rejected  Binder_RMSD=0.2     Interface_Residues=0    Target_pLDDT=0.97    i_pAE=0.88    i_pTM=0.13    pLDDT=0.9     pTM=0.75    failed [i_pTM, i_pAE, Interface_Residues]
+   4/10  rejected  Binder_RMSD=0.25    Interface_Residues=5    Target_pLDDT=0.97    i_pAE=0.76    i_pTM=0.23    pLDDT=0.88    pTM=0.78    failed [i_pTM, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=0.26    Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.85    i_pTM=0.15    pLDDT=0.89    pTM=0.76    failed [i_pTM, i_pAE, Interface_Residues]
+   6/10  rejected  Binder_RMSD=0.67    Interface_Residues=0    Target_pLDDT=0.97    i_pAE=0.84    i_pTM=0.17    pLDDT=0.82    pTM=0.76    failed [i_pTM, i_pAE, Interface_Residues]
+   7/10  rejected  Binder_RMSD=0.54    Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.85    i_pTM=0.15    pLDDT=0.88    pTM=0.76    failed [i_pTM, i_pAE, Interface_Residues]
+   8/10  rejected  Binder_RMSD=0.52    Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.8     i_pTM=0.21    pLDDT=0.89    pTM=0.77    failed [i_pTM, i_pAE, Interface_Residues]
+   9/10  rejected  Binder_RMSD=0.55    Interface_Residues=0    Target_pLDDT=0.97    i_pAE=0.89    i_pTM=0.12    pLDDT=0.89    pTM=0.75    failed [i_pTM, i_pAE, Interface_Residues]
+  10/10  rejected  Binder_RMSD=0.66    Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.81    i_pTM=0.19    pLDDT=0.86    pTM=0.77    failed [i_pTM, i_pAE, Interface_Residues]
+  0 of 10 redesigns passed
+
+=== trajectory 19 | design_l109_92154fc1d0bfe51f | accepted 0/3 | worker 2 ===
+  passed screen design stage  i_pTM=0.77    pLDDT=0.63  
+  passed refine design stage  i_pTM=0.77    pLDDT=0.62  
+  passed anneal design stage  i_pTM=0.58    pLDDT=0.68  
+  passed harden design stage  i_pTM=0.55    pLDDT=0.83  
+  rejected at mutate design stage  i_pTM=0.27    pLDDT=0.77   due to [i_pTM]
+
+=== trajectory 20 | design_l65_df2db4e358b96623 | accepted 0/3 | worker 1 ===
+  rejected at screen design stage  i_pTM=0.19    pLDDT=0.51   due to [pLDDT]
+
+=== trajectory 21 | design_l143_a41fb87f96fc8a19 | accepted 0/3 | worker 0 ===
+  passed screen design stage  i_pTM=0.82    pLDDT=0.82  
+  passed refine design stage  i_pTM=0.84    pLDDT=0.82  
+  passed anneal design stage  i_pTM=0.87    pLDDT=0.89  
+  passed harden design stage  i_pTM=0.87    pLDDT=0.85  
+  passed mutate design stage  i_pTM=0.87    pLDDT=0.87  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 29 of 143 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.44    Interface_Residues=11   Target_pLDDT=0.96    i_pAE=0.71    i_pTM=0.29    pLDDT=0.87    pTM=0.7     failed [i_pTM, i_pAE]
+   2/10  rejected  Binder_RMSD=0.2     Interface_Residues=0    Target_pLDDT=0.96    i_pAE=0.88    i_pTM=0.14    pLDDT=0.86    pTM=0.65    failed [i_pTM, i_pAE, Interface_Residues]
+   3/10  rejected  Binder_RMSD=0.23    Interface_Residues=3    Target_pLDDT=0.96    i_pAE=0.86    i_pTM=0.16    pLDDT=0.86    pTM=0.65    failed [i_pTM, i_pAE, Interface_Residues]
+   4/10  rejected  Binder_RMSD=0.24    Interface_Residues=4    Target_pLDDT=0.96    i_pAE=0.86    i_pTM=0.16    pLDDT=0.84    pTM=0.65    failed [i_pTM, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=0.17    Interface_Residues=2    Target_pLDDT=0.96    i_pAE=0.86    i_pTM=0.16    pLDDT=0.88    pTM=0.65    failed [i_pTM, i_pAE, Interface_Residues]
+   6/10  rejected  Binder_RMSD=0.41    Interface_Residues=5    Target_pLDDT=0.96    i_pAE=0.85    i_pTM=0.16    pLDDT=0.89    pTM=0.66    failed [i_pTM, i_pAE, Interface_Residues]
+   7/10  rejected  Binder_RMSD=0.3     Interface_Residues=4    Target_pLDDT=0.96    i_pAE=0.77    i_pTM=0.23    pLDDT=0.84    pTM=0.68    failed [i_pTM, i_pAE, Interface_Residues]
+   8/10  rejected  Binder_RMSD=0.28    Interface_Residues=2    Target_pLDDT=0.96    i_pAE=0.86    i_pTM=0.16    pLDDT=0.86    pTM=0.66    failed [i_pTM, i_pAE, Interface_Residues]
+   9/10  rejected  Binder_RMSD=0.67    Interface_Residues=4    Target_pLDDT=0.96    i_pAE=0.86    i_pTM=0.15    pLDDT=0.87    pTM=0.65    failed [i_pTM, i_pAE, Interface_Residues]
+  10/10  rejected  Binder_RMSD=0.29    Interface_Residues=0    Target_pLDDT=0.96    i_pAE=0.85    i_pTM=0.17    pLDDT=0.88    pTM=0.66    failed [i_pTM, i_pAE, Interface_Residues]
+  0 of 10 redesigns passed
+
+=== trajectory 22 | design_l176_f9db2adaf8680e1a | accepted 0/3 | worker 1 ===
+  passed screen design stage  i_pTM=0.68    pLDDT=0.63  
+  rejected at refine design stage  i_pTM=0.71    pLDDT=0.59   due to [pLDDT]
+
+=== trajectory 23 | design_l115_25d87552c31b3e2a | accepted 0/3 | worker 2 ===
+  passed screen design stage  i_pTM=0.8     pLDDT=0.84  
+  passed refine design stage  i_pTM=0.85    pLDDT=0.89  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.85    pLDDT=0.92  
+  passed mutate design stage  i_pTM=0.86    pLDDT=0.91  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 26 of 115 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=12.6    Interface_Residues=4    Target_pLDDT=0.96    i_pAE=0.86    i_pTM=0.15    pLDDT=0.73    pTM=0.69    failed [i_pTM, i_pAE, Interface_Residues, Binder_RMSD]
+   2/10  rejected  Binder_RMSD=0.22    Interface_Residues=7    Target_pLDDT=0.96    i_pAE=0.8     i_pTM=0.18    pLDDT=0.85    pTM=0.7     failed [i_pTM, i_pAE]
+   3/10  rejected  Binder_RMSD=0.38    Interface_Residues=9    Target_pLDDT=0.96    i_pAE=0.76    i_pTM=0.22    pLDDT=0.83    pTM=0.71    failed [i_pTM, i_pAE]
+   4/10  rejected  Binder_RMSD=0.2     Interface_Residues=5    Target_pLDDT=0.96    i_pAE=0.87    i_pTM=0.14    pLDDT=0.87    pTM=0.69    failed [i_pTM, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=0.35    Interface_Residues=8    Target_pLDDT=0.96    i_pAE=0.79    i_pTM=0.19    pLDDT=0.86    pTM=0.7     failed [i_pTM, i_pAE]
+   6/10  rejected  Binder_RMSD=0.9     Interface_Residues=6    Target_pLDDT=0.96    i_pAE=0.84    i_pTM=0.15    pLDDT=0.84    pTM=0.69    failed [i_pTM, i_pAE, Interface_Residues]
+   7/10  rejected  Binder_RMSD=0.88    Interface_Residues=5    Target_pLDDT=0.97    i_pAE=0.86    i_pTM=0.15    pLDDT=0.82    pTM=0.69    failed [i_pTM, i_pAE, Interface_Residues]
+   8/10  rejected  Binder_RMSD=0.49    Interface_Residues=3    Target_pLDDT=0.97    i_pAE=0.89    i_pTM=0.13    pLDDT=0.86    pTM=0.68    failed [i_pTM, i_pAE, Interface_Residues]
+   9/10  rejected  Binder_RMSD=0.33    Interface_Residues=7    Target_pLDDT=0.96    i_pAE=0.8     i_pTM=0.18    pLDDT=0.83    pTM=0.7     failed [i_pTM, i_pAE]
+  10/10  rejected  Binder_RMSD=0.86    Interface_Residues=9    Target_pLDDT=0.96    i_pAE=0.82    i_pTM=0.17    pLDDT=0.67    pTM=0.69    failed [i_pTM, pLDDT, i_pAE]
+  0 of 10 redesigns passed
+
+=== trajectory 24 | design_l89_26c29acae62a38b8 | accepted 0/3 | worker 1 ===
+  passed screen design stage  i_pTM=0.57    pLDDT=0.81  
+  passed refine design stage  i_pTM=0.43    pLDDT=0.78  
+  passed anneal design stage  i_pTM=0.69    pLDDT=0.8   
+  rejected at harden design stage  i_pTM=0.17    pLDDT=0.37   due to [i_pTM, pLDDT]
+
+=== trajectory 25 | design_l145_b66a6a3e4a0e2869 | accepted 0/3 | worker 0 ===
+  passed screen design stage  i_pTM=0.47    pLDDT=0.7   
+  passed refine design stage  i_pTM=0.25    pLDDT=0.71  
+  rejected at anneal design stage  i_pTM=0.28    pLDDT=0.8    due to [i_pTM]
+
+=== trajectory 26 | design_l121_45f8eb91fb18e2fc | accepted 0/3 | worker 2 ===
+  passed screen design stage  i_pTM=0.74    pLDDT=0.82  
+  passed refine design stage  i_pTM=0.79    pLDDT=0.8   
+  passed anneal design stage  i_pTM=0.8     pLDDT=0.84  
+  passed harden design stage  i_pTM=0.76    pLDDT=0.81  
+  passed mutate design stage  i_pTM=0.79    pLDDT=0.79  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 16 of 121 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.29    Interface_Residues=15   Target_pLDDT=0.97    i_pAE=0.36    i_pTM=0.68    pLDDT=0.89    pTM=0.84    failed [i_pTM, i_pAE]
+   2/10  ACCEPTED  Binder_RMSD=0.36    Interface_Residues=14   Target_pLDDT=0.97    i_pAE=0.22    i_pTM=0.84    pLDDT=0.92    pTM=0.89  
+   3/10  rejected  Binder_RMSD=0.5     Interface_Residues=5    Target_pLDDT=0.97    i_pAE=0.81    i_pTM=0.2     pLDDT=0.88    pTM=0.69    failed [i_pTM, i_pAE, Interface_Residues]
+   4/10  rejected  Binder_RMSD=0.22    Interface_Residues=2    Target_pLDDT=0.97    i_pAE=0.82    i_pTM=0.19    pLDDT=0.86    pTM=0.69    failed [i_pTM, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=0.2     Interface_Residues=13   Target_pLDDT=0.96    i_pAE=0.43    i_pTM=0.64    pLDDT=0.85    pTM=0.82    failed [i_pTM, i_pAE]
+   6/10  ACCEPTED  Binder_RMSD=0.7     Interface_Residues=16   Target_pLDDT=0.97    i_pAE=0.19    i_pTM=0.86    pLDDT=0.91    pTM=0.9   
+   7/10  rejected  Binder_RMSD=0.24    Interface_Residues=3    Target_pLDDT=0.96    i_pAE=0.84    i_pTM=0.17    pLDDT=0.88    pTM=0.69    failed [i_pTM, i_pAE, Interface_Residues]
+   8/10  rejected  Binder_RMSD=1.2     Interface_Residues=15   Target_pLDDT=0.97    i_pAE=0.55    i_pTM=0.47    pLDDT=0.89    pTM=0.77    failed [i_pTM, i_pAE]
+   9/10  rejected  Binder_RMSD=0.39    Interface_Residues=16   Target_pLDDT=0.97    i_pAE=0.58    i_pTM=0.45    pLDDT=0.89    pTM=0.77    failed [i_pTM, i_pAE]
+  10/10  rejected  Binder_RMSD=0.83    Interface_Residues=3    Target_pLDDT=0.96    i_pAE=0.85    i_pTM=0.18    pLDDT=0.83    pTM=0.69    failed [i_pTM, i_pAE, Interface_Residues]
+  2 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 6 (0.34)
+
+=== trajectory 27 | design_l70_ac7c2680b86eb8e5 | accepted 0/3 | worker 1 ===
+  passed screen design stage  i_pTM=0.78    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.76    pLDDT=0.88  
+  passed anneal design stage  i_pTM=0.87    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.88    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.88    pLDDT=0.94  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 15 of 70 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.22    Interface_Residues=0    Target_pLDDT=0.97    i_pAE=0.87    i_pTM=0.14    pLDDT=0.85    pTM=0.76    failed [i_pTM, i_pAE, Interface_Residues]
+   2/10  rejected  Binder_RMSD=0.23    Interface_Residues=2    Target_pLDDT=0.97    i_pAE=0.84    i_pTM=0.17    pLDDT=0.86    pTM=0.77    failed [i_pTM, i_pAE, Interface_Residues]
+   3/10  rejected  Binder_RMSD=0.25    Interface_Residues=2    Target_pLDDT=0.97    i_pAE=0.87    i_pTM=0.14    pLDDT=0.89    pTM=0.76    failed [i_pTM, i_pAE, Interface_Residues]
+   4/10  rejected  Binder_RMSD=0.3     Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.86    i_pTM=0.16    pLDDT=0.88    pTM=0.76    failed [i_pTM, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=0.19    Interface_Residues=2    Target_pLDDT=0.97    i_pAE=0.87    i_pTM=0.15    pLDDT=0.86    pTM=0.76    failed [i_pTM, i_pAE, Interface_Residues]
+   6/10  rejected  Binder_RMSD=0.21    Interface_Residues=0    Target_pLDDT=0.97    i_pAE=0.86    i_pTM=0.15    pLDDT=0.9     pTM=0.76    failed [i_pTM, i_pAE, Interface_Residues]
+   7/10  rejected  Binder_RMSD=0.36    Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.87    i_pTM=0.14    pLDDT=0.83    pTM=0.76    failed [i_pTM, i_pAE, Interface_Residues]
+   8/10  rejected  Binder_RMSD=5.5     Interface_Residues=0    Target_pLDDT=0.97    i_pAE=0.9     i_pTM=0.11    pLDDT=0.83    pTM=0.76    failed [i_pTM, i_pAE, Interface_Residues, Binder_RMSD]
+   9/10  rejected  Binder_RMSD=0.18    Interface_Residues=2    Target_pLDDT=0.97    i_pAE=0.86    i_pTM=0.15    pLDDT=0.88    pTM=0.76    failed [i_pTM, i_pAE, Interface_Residues]
+  10/10  rejected  Binder_RMSD=0.32    Interface_Residues=0    Target_pLDDT=0.97    i_pAE=0.87    i_pTM=0.14    pLDDT=0.91    pTM=0.76    failed [i_pTM, i_pAE, Interface_Residues]
+  0 of 10 redesigns passed
+
+=== trajectory 28 | design_l94_4b5fef7df5fb199a | accepted 0/3 | worker 1 ===
+  passed screen design stage  i_pTM=0.83    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.85    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.74    pLDDT=0.86  
+  passed mutate design stage  i_pTM=0.76    pLDDT=0.87  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 17 of 94 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.22    Interface_Residues=4    Target_pLDDT=0.96    i_pAE=0.69    i_pTM=0.32    pLDDT=0.89    pTM=0.76    failed [i_pTM, i_pAE, Interface_Residues]
+   2/10  rejected  Binder_RMSD=0.3     Interface_Residues=14   Target_pLDDT=0.96    i_pAE=0.59    i_pTM=0.43    pLDDT=0.88    pTM=0.79    failed [i_pTM, i_pAE]
+   3/10  rejected  Binder_RMSD=0.28    Interface_Residues=6    Target_pLDDT=0.96    i_pAE=0.7     i_pTM=0.31    pLDDT=0.89    pTM=0.76    failed [i_pTM, i_pAE, Interface_Residues]
+   4/10  rejected  Binder_RMSD=0.25    Interface_Residues=3    Target_pLDDT=0.97    i_pAE=0.78    i_pTM=0.22    pLDDT=0.88    pTM=0.74    failed [i_pTM, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=0.34    Interface_Residues=14   Target_pLDDT=0.96    i_pAE=0.37    i_pTM=0.69    pLDDT=0.87    pTM=0.85    failed [i_pTM, i_pAE]
+   6/10  rejected  Binder_RMSD=0.23    Interface_Residues=4    Target_pLDDT=0.97    i_pAE=0.71    i_pTM=0.28    pLDDT=0.9     pTM=0.75    failed [i_pTM, i_pAE, Interface_Residues]
+   7/10  rejected  Binder_RMSD=0.17    Interface_Residues=0    Target_pLDDT=0.97    i_pAE=0.82    i_pTM=0.19    pLDDT=0.91    pTM=0.73    failed [i_pTM, i_pAE, Interface_Residues]
+   8/10  rejected  Binder_RMSD=0.13    Interface_Residues=0    Target_pLDDT=0.97    i_pAE=0.83    i_pTM=0.17    pLDDT=0.92    pTM=0.73    failed [i_pTM, i_pAE, Interface_Residues]
+   9/10  rejected  Binder_RMSD=0.18    Interface_Residues=0    Target_pLDDT=0.97    i_pAE=0.8     i_pTM=0.19    pLDDT=0.91    pTM=0.73    failed [i_pTM, i_pAE, Interface_Residues]
+  10/10  rejected  Binder_RMSD=8.2     Interface_Residues=13   Target_pLDDT=0.96    i_pAE=0.39    i_pTM=0.68    pLDDT=0.85    pTM=0.84    Unbound_Binder_pLDDT=0.54    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE, Binder_RMSD]
+  0 of 10 redesigns passed
+
+=== trajectory 29 | design_l143_14e4c38a82cdb23f | accepted 0/3 | worker 0 ===
+  passed screen design stage  i_pTM=0.72    pLDDT=0.74  
+  passed refine design stage  i_pTM=0.78    pLDDT=0.83  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.86  
+  passed harden design stage  i_pTM=0.72    pLDDT=0.81  
+  passed mutate design stage  i_pTM=0.76    pLDDT=0.82  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 29 of 143 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.49    Interface_Residues=3    Target_pLDDT=0.95    i_pAE=0.84    i_pTM=0.18    pLDDT=0.75    pTM=0.67    failed [i_pTM, i_pAE, Interface_Residues]
+   2/10  rejected  Binder_RMSD=0.38    Interface_Residues=9    Target_pLDDT=0.95    i_pAE=0.86    i_pTM=0.14    pLDDT=0.78    pTM=0.65    failed [i_pTM, i_pAE]
+   3/10  rejected  Binder_RMSD=0.62    Interface_Residues=10   Target_pLDDT=0.95    i_pAE=0.88    i_pTM=0.14    pLDDT=0.71    pTM=0.65    failed [i_pTM, i_pAE]
+   4/10  rejected  Binder_RMSD=0.62    Interface_Residues=2    Target_pLDDT=0.96    i_pAE=0.86    i_pTM=0.16    pLDDT=0.73    pTM=0.66    failed [i_pTM, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=0.58    Interface_Residues=7    Target_pLDDT=0.95    i_pAE=0.87    i_pTM=0.14    pLDDT=0.76    pTM=0.65    failed [i_pTM, i_pAE]
+   6/10  rejected  Binder_RMSD=0.45    Interface_Residues=3    Target_pLDDT=0.96    i_pAE=0.87    i_pTM=0.16    pLDDT=0.74    pTM=0.66    failed [i_pTM, i_pAE, Interface_Residues]
+   7/10  rejected  Binder_RMSD=0.89    Interface_Residues=4    Target_pLDDT=0.96    i_pAE=0.86    i_pTM=0.16    pLDDT=0.79    pTM=0.66    failed [i_pTM, i_pAE, Interface_Residues]
+   8/10  rejected  Binder_RMSD=1.0     Interface_Residues=5    Target_pLDDT=0.95    i_pAE=0.89    i_pTM=0.14    pLDDT=0.67    pTM=0.65    failed [i_pTM, pLDDT, i_pAE, Interface_Residues]
+   9/10  rejected  Binder_RMSD=3.0     Interface_Residues=3    Target_pLDDT=0.95    i_pAE=0.87    i_pTM=0.16    pLDDT=0.63    pTM=0.66    failed [i_pTM, pLDDT, i_pAE, Interface_Residues]
+  10/10  rejected  Binder_RMSD=0.54    Interface_Residues=3    Target_pLDDT=0.96    i_pAE=0.85    i_pTM=0.18    pLDDT=0.73    pTM=0.66    failed [i_pTM, i_pAE, Interface_Residues]
+  0 of 10 redesigns passed
+
+=== trajectory 30 | design_l122_79f9bdd42b1618b4 | accepted 1/3 | worker 2 ===
+  passed screen design stage  i_pTM=0.72    pLDDT=0.86  
+  passed refine design stage  i_pTM=0.72    pLDDT=0.88  
+  passed anneal design stage  i_pTM=0.8     pLDDT=0.9   
+  passed harden design stage  i_pTM=0.71    pLDDT=0.86  
+  passed mutate design stage  i_pTM=0.71    pLDDT=0.84  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 17 of 122 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=1.2     Interface_Residues=6    Target_pLDDT=0.96    i_pAE=0.88    i_pTM=0.14    pLDDT=0.68    pTM=0.68    failed [i_pTM, pLDDT, i_pAE, Interface_Residues]
+   2/10  rejected  Binder_RMSD=0.46    Interface_Residues=4    Target_pLDDT=0.96    i_pAE=0.87    i_pTM=0.15    pLDDT=0.83    pTM=0.68    failed [i_pTM, i_pAE, Interface_Residues]
+   3/10  rejected  Binder_RMSD=0.28    Interface_Residues=1    Target_pLDDT=0.96    i_pAE=0.88    i_pTM=0.14    pLDDT=0.84    pTM=0.68    failed [i_pTM, i_pAE, Interface_Residues]
+   4/10  rejected  Binder_RMSD=0.44    Interface_Residues=5    Target_pLDDT=0.96    i_pAE=0.88    i_pTM=0.14    pLDDT=0.87    pTM=0.68    failed [i_pTM, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=1.4     Interface_Residues=6    Target_pLDDT=0.96    i_pAE=0.88    i_pTM=0.14    pLDDT=0.75    pTM=0.68    failed [i_pTM, i_pAE, Interface_Residues]
+   6/10  rejected  Binder_RMSD=0.29    Interface_Residues=7    Target_pLDDT=0.96    i_pAE=0.87    i_pTM=0.14    pLDDT=0.87    pTM=0.68    failed [i_pTM, i_pAE]
+   7/10  rejected  Binder_RMSD=2.6     Interface_Residues=5    Target_pLDDT=0.96    i_pAE=0.88    i_pTM=0.14    pLDDT=0.68    pTM=0.68    failed [i_pTM, pLDDT, i_pAE, Interface_Residues]
+   8/10  rejected  Binder_RMSD=0.48    Interface_Residues=3    Target_pLDDT=0.96    i_pAE=0.87    i_pTM=0.14    pLDDT=0.87    pTM=0.68    failed [i_pTM, i_pAE, Interface_Residues]
+   9/10  rejected  Binder_RMSD=0.4     Interface_Residues=5    Target_pLDDT=0.96    i_pAE=0.86    i_pTM=0.16    pLDDT=0.84    pTM=0.69    failed [i_pTM, i_pAE, Interface_Residues]
+  10/10  rejected  Binder_RMSD=0.6     Interface_Residues=9    Target_pLDDT=0.96    i_pAE=0.86    i_pTM=0.15    pLDDT=0.87    pTM=0.68    failed [i_pTM, i_pAE]
+  0 of 10 redesigns passed
+
+=== trajectory 31 | design_l82_36eadccd15cd33ec | accepted 1/3 | worker 1 ===
+  passed screen design stage  i_pTM=0.26    pLDDT=0.65  
+  passed refine design stage  i_pTM=0.33    pLDDT=0.74  
+  passed anneal design stage  i_pTM=0.72    pLDDT=0.78  
+  rejected at harden design stage  i_pTM=0.25    pLDDT=0.41   due to [i_pTM, pLDDT]
+
+=== trajectory 32 | design_l120_53b35fe68080e6f9 | accepted 1/3 | worker 2 ===
+  passed screen design stage  i_pTM=0.83    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.88  
+  passed anneal design stage  i_pTM=0.8     pLDDT=0.87  
+  rejected at harden design stage  i_pTM=0.33    pLDDT=0.65   due to [i_pTM, pLDDT]
+
+=== trajectory 33 | design_l62_3008a38f77fc9a2c | accepted 1/3 | worker 0 ===
+  passed screen design stage  i_pTM=0.86    pLDDT=0.88  
+  passed refine design stage  i_pTM=0.53    pLDDT=0.78  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.89  
+  passed harden design stage  i_pTM=0.87    pLDDT=0.89  
+  rejected at mutate design stage  i_pTM=0.19    pLDDT=0.51   due to [i_pTM, pLDDT]
+
+=== trajectory 34 | design_l91_2ed204e41f5392cf | accepted 1/3 | worker 1 ===
+  passed screen design stage  i_pTM=0.84    pLDDT=0.87  
+  passed refine design stage  i_pTM=0.83    pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.87    pLDDT=0.9   
+  passed harden design stage  i_pTM=0.87    pLDDT=0.87  
+  passed mutate design stage  i_pTM=0.79    pLDDT=0.85  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 14 of 91 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=2.6     Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.89    i_pTM=0.15    pLDDT=0.59    pTM=0.72    failed [i_pTM, pLDDT, i_pAE, Interface_Residues]
+   2/10  rejected  Binder_RMSD=1.1     Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.91    i_pTM=0.14    pLDDT=0.54    pTM=0.72    Unbound_Binder_pLDDT=0.6     failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Interface_Residues]
+   3/10  rejected  Binder_RMSD=7.3     Interface_Residues=0    Target_pLDDT=0.97    i_pAE=0.89    i_pTM=0.15    pLDDT=0.56    pTM=0.72    Unbound_Binder_pLDDT=0.64    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Interface_Residues, Binder_RMSD]
+   4/10  rejected  Binder_RMSD=1.3     Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.9     i_pTM=0.14    pLDDT=0.5     pTM=0.72    Unbound_Binder_pLDDT=0.55    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=1.3     Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.91    i_pTM=0.13    pLDDT=0.54    pTM=0.72    failed [i_pTM, pLDDT, i_pAE, Interface_Residues]
+   6/10  rejected  Binder_RMSD=0.41    Interface_Residues=0    Target_pLDDT=0.97    i_pAE=0.9     i_pTM=0.12    pLDDT=0.83    pTM=0.72    failed [i_pTM, i_pAE, Interface_Residues]
+   7/10  rejected  Binder_RMSD=0.9     Interface_Residues=10   Target_pLDDT=0.96    i_pAE=0.67    i_pTM=0.36    pLDDT=0.75    pTM=0.78    failed [i_pTM, i_pAE]
+   8/10  rejected  Binder_RMSD=0.98    Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.9     i_pTM=0.14    pLDDT=0.74    pTM=0.72    failed [i_pTM, i_pAE, Interface_Residues]
+   9/10  rejected  Binder_RMSD=4.0     Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.88    i_pTM=0.16    pLDDT=0.54    pTM=0.73    Unbound_Binder_pLDDT=0.55    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Interface_Residues, Binder_RMSD]
+  10/10  rejected  Binder_RMSD=13.0    Interface_Residues=1    Target_pLDDT=0.97    i_pAE=0.9     i_pTM=0.14    pLDDT=0.53    pTM=0.72    failed [i_pTM, pLDDT, i_pAE, Interface_Residues, Binder_RMSD]
+  0 of 10 redesigns passed
+
+=== trajectory 35 | design_l147_038eec243b41a9df | accepted 1/3 | worker 0 ===
+  passed screen design stage  i_pTM=0.58    pLDDT=0.8   
+  passed refine design stage  i_pTM=0.57    pLDDT=0.82  
+  passed anneal design stage  i_pTM=0.71    pLDDT=0.87  
+  passed harden design stage  i_pTM=0.74    pLDDT=0.83  
+  rejected at mutate design stage  i_pTM=0.4     pLDDT=0.78   due to [i_pTM]
+
+=== trajectory 36 | design_l105_71101b7858c70f2c | accepted 1/3 | worker 2 ===
+  passed screen design stage  i_pTM=0.53    pLDDT=0.8   
+  passed refine design stage  i_pTM=0.25    pLDDT=0.71  
+  passed anneal design stage  i_pTM=0.68    pLDDT=0.84  
+  rejected at harden design stage  i_pTM=0.39    pLDDT=0.74   due to [i_pTM]
+
+=== trajectory 37 | design_l83_906815a1bc12fd0c | accepted 1/3 | worker 1 ===
+  passed screen design stage  i_pTM=0.9     pLDDT=0.92  
+  passed refine design stage  i_pTM=0.89    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.9     pLDDT=0.95  
+  passed harden design stage  i_pTM=0.88    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.65    pLDDT=0.84  
+  trajectory rejected  i_pTM=0.65    pLDDT=0.84   due to [i_pTM]
+
+=== trajectory 38 | design_l109_6b27daeabc08824c | accepted 1/3 | worker 2 ===
+  passed screen design stage  i_pTM=0.64    pLDDT=0.66  
+  passed refine design stage  i_pTM=0.39    pLDDT=0.73  
+  passed anneal design stage  i_pTM=0.73    pLDDT=0.7   
+  rejected at harden design stage  i_pTM=0.2     pLDDT=0.71   due to [i_pTM]
+=== trajectory 39 | design_l137_190d7e88e9491573 | accepted 1/3 | worker 0 ===
+  passed screen design stage  i_pTM=0.8     pLDDT=0.62  
+  passed refine design stage  i_pTM=0.79    pLDDT=0.62  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.66  
+  rejected at harden design stage  i_pTM=0.09    pLDDT=0.52   due to [i_pTM, pLDDT]
+=== trajectory 40 | design_l171_3a013347b65cd05b | accepted 1/3 | worker 1 ===
+  passed screen design stage  i_pTM=0.63    pLDDT=0.71  
+  passed refine design stage  i_pTM=0.72    pLDDT=0.74  
+  passed anneal design stage  i_pTM=0.74    pLDDT=0.78  
+  passed harden design stage  i_pTM=0.6     pLDDT=0.75  
+  passed mutate design stage  i_pTM=0.62    pLDDT=0.65  
+  trajectory rejected  i_pTM=0.62    pLDDT=0.65   due to [i_pTM, pLDDT]
+
+campaign stopped at max_trajectories=40: 1/3 accepted in 40 trajectories, so 3 needs roughly 120 at this rate
+
+campaign done: 1 accepted design(s) after 40 trajectories, ranked by i_pDAE
+FINISHED

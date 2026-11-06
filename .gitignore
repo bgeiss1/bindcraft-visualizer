@@ -1,0 +1,6 @@
+data/backups/
+site-data/
+node_modules/
+.DS_Store
+_site/
+*.tgz

@@ -1,0 +1,358 @@
+{
+ "name": "aj_il15",
+ "settings": {
+  "aa_bias": {
+   "C": 0
+  },
+  "archive_trajectories": false,
+  "attention_backend": "auto",
+  "auto_multi_gpu": true,
+  "autotune": true,
+  "betasheet_reopt_extra_anneal_steps": 0,
+  "betasheet_reopt_extra_refine_steps": 0,
+  "betasheet_reopt_trigger": 0.15,
+  "binder_lengths": [
+   80,
+   130
+  ],
+  "campaign_name": "aj_il15",
+  "confidence_floor": 0.7,
+  "design_dropout": true,
+  "design_recycles": 1,
+  "desperation": true,
+  "enough_passing_sequences": 3,
+  "filters": {
+   "All_Atom_Clashes": {
+    "higher": false,
+    "mandatory": false,
+    "threshold": "Infinity"
+   },
+   "Backbone_Clashes": {
+    "higher": false,
+    "threshold": 0
+   },
+   "Binder_BetaSheet_Fraction": {
+    "higher": false,
+    "mandatory": false,
+    "threshold": "Infinity"
+   },
+   "Binder_Cysteines": {
+    "higher": false,
+    "mandatory": false,
+    "threshold": "Infinity"
+   },
+   "Binder_Disulfides": {
+    "higher": false,
+    "threshold": 0
+   },
+   "Binder_Extinction": {
+    "higher": false,
+    "mandatory": false,
+    "threshold": "Infinity"
+   },
+   "Binder_Free_Cysteines": {
+    "higher": false,
+    "mandatory": false,
+    "threshold": "Infinity"
+   },
+   "Binder_Helix_Fraction": {
+    "higher": false,
+    "mandatory": false,
+    "threshold": "Infinity"
+   },
+   "Binder_Loop_Fraction": {
+    "higher": false,
+    "mandatory": false,
+    "threshold": "Infinity"
+   },
+   "Binder_Mass_kDa": {
+    "higher": false,
+    "mandatory": false,
+    "threshold": "Infinity"
+   },
+   "Binder_Net_Charge": {
+    "higher": false,
+    "mandatory": false,
+    "threshold": "Infinity"
+   },
+   "Binder_RMSD": {
+    "higher": false,
+    "threshold": 3.5
+   },
+   "Binder_pI": {
+    "higher": false,
+    "mandatory": false,
+    "threshold": "Infinity"
+   },
+   "Interface_BetaSheet_Fraction": {
+    "higher": false,
+    "mandatory": false,
+    "threshold": "Infinity"
+   },
+   "Interface_BuriedArea": {
+    "higher": true,
+    "mandatory": false,
+    "threshold": 0.0
+   },
+   "Interface_BuriedArea_Fraction": {
+    "higher": true,
+    "mandatory": false,
+    "threshold": 0.0
+   },
+   "Interface_Helix_Fraction": {
+    "higher": false,
+    "mandatory": false,
+    "threshold": "Infinity"
+   },
+   "Interface_Hydrophobicity": {
+    "higher": false,
+    "mandatory": false,
+    "threshold": "Infinity"
+   },
+   "Interface_Loop_Fraction": {
+    "higher": false,
+    "mandatory": false,
+    "threshold": "Infinity"
+   },
+   "Interface_Residues": {
+    "higher": true,
+    "threshold": 7
+   },
+   "Receptor_Chains_Contacted": {
+    "higher": true,
+    "mandatory": false,
+    "threshold": 0.0
+   },
+   "SS_pLDDT": {
+    "higher": true,
+    "mandatory": false,
+    "threshold": 0.0
+   },
+   "Surface_Hydrophobicity": {
+    "higher": false,
+    "mandatory": false,
+    "threshold": "Infinity"
+   },
+   "Target_RMSD": {
+    "higher": false,
+    "mandatory": false,
+    "threshold": "Infinity"
+   },
+   "Target_pLDDT": {
+    "higher": true,
+    "mandatory": false,
+    "threshold": 0.0
+   },
+   "Unbound_Binder_pLDDT": {
+    "higher": true,
+    "threshold": 0.85
+   },
+   "i_pAE": {
+    "higher": false,
+    "threshold": 0.35
+   },
+   "i_pTM": {
+    "higher": true,
+    "threshold": 0.8
+   },
+   "pTM": {
+    "higher": true,
+    "threshold": 0.55
+   }
+  },
+  "forced_targeting": false,
+  "hard_target": false,
+  "hash_design_names": true,
+  "kept_sequences": 1,
+  "large_complex_initialization": false,
+  "losses": {
+   "binder_contacts": {
+    "params": {
+     "chain": "binder",
+     "prediction_state": "complex"
+    }
+   },
+   "binder_helicity": {
+    "params": {
+     "chain": "binder",
+     "prediction_state": "complex"
+    }
+   },
+   "binder_pae": {
+    "params": {
+     "chain": "binder",
+     "prediction_state": "complex"
+    }
+   },
+   "compactness": {
+    "params": {
+     "chain": "binder",
+     "prediction_state": "complex"
+    }
+   },
+   "interface_contacts": {
+    "params": {
+     "contacts_per_residue": 2,
+     "cutoff": 20.0
+    }
+   },
+   "plddt_loss": {
+    "params": {
+     "chain": "binder",
+     "prediction_state": "complex"
+    }
+   }
+  },
+  "min_iptm_anneal": 0.5,
+  "min_iptm_final": 0.8,
+  "min_iptm_harden": 0.5,
+  "min_iptm_mutate": 0.5,
+  "min_monomer_plddt_final": 0.85,
+  "min_plddt_anneal": 0.65,
+  "min_plddt_final": 0.7,
+  "min_plddt_harden": 0.65,
+  "min_plddt_mutate": 0.6,
+  "min_plddt_refine": 0.6,
+  "min_plddt_screen": 0.6,
+  "modality": "binder",
+  "mpnn_model": "v_48_020",
+  "mpnn_variant": "negative",
+  "number_of_final_designs": 10,
+  "project_folder": "/home/bgeiss/bindcraft2/results/aj_il15",
+  "redesign_interface": false,
+  "relax_accepted_designs": false,
+  "resume": true,
+  "save_binder_monomers": true,
+  "save_design_animations": false,
+  "save_design_frames": false,
+  "save_design_sequences": false,
+  "save_failed_refolds": true,
+  "save_failed_trajectories": true,
+  "save_loss_plots": false,
+  "sequence_candidates": 10,
+  "subbatch_size": "auto",
+  "target_flexibility": 0.0,
+  "targets": [
+   {
+    "chains": "A",
+    "name": "AJ_IL15",
+    "target_path": "/home/bgeiss/bindcraft2/targets/aj_IL15_target.pdb"
+   }
+  ],
+  "trajectory_only": false,
+  "use_cueq": false,
+  "use_remat": true,
+  "validation_crop_flank": 5,
+  "validation_recycles": 3,
+  "weights_binder_contacts": 1.0,
+  "weights_binder_helicity": -0.3,
+  "weights_binder_pae": 0.4,
+  "weights_compactness": 0.5,
+  "weights_interface_contacts": 1.0,
+  "weights_interface_pae": 0.1,
+  "weights_iptm_loss": 0.05,
+  "weights_plddt_loss": 0.1
+ },
+ "funnel": {
+  "stages": [
+   {
+    "key": "screen",
+    "label": "screen",
+    "entered": 43,
+    "dropped": 2
+   },
+   {
+    "key": "refine",
+    "label": "refine",
+    "entered": 41,
+    "dropped": 0
+   },
+   {
+    "key": "anneal",
+    "label": "anneal",
+    "entered": 41,
+    "dropped": 3
+   },
+   {
+    "key": "harden",
+    "label": "harden",
+    "entered": 38,
+    "dropped": 5
+   },
+   {
+    "key": "mutate",
+    "label": "mutate",
+    "entered": 33,
+    "dropped": 6
+   },
+   {
+    "key": "final",
+    "label": "final",
+    "entered": 27,
+    "dropped": 5
+   }
+  ],
+  "attempts": 43,
+  "survived": 22,
+  "candidates": 175,
+  "accepted": 15
+ },
+ "attempts_exported": [
+  {
+   "design": "aj_il15_denovo_l126_272e3bbd531b0f5c",
+   "stage_ended": "",
+   "frames": [],
+   "has_losses": true,
+   "has_plot": false
+  },
+  {
+   "design": "aj_il15_denovo_l90_0055a829701b2aa1",
+   "stage_ended": "screen",
+   "frames": [],
+   "has_losses": true,
+   "has_plot": false
+  },
+  {
+   "design": "aj_il15_denovo_l90_4143a0bfb32dc1bb",
+   "stage_ended": "anneal",
+   "frames": [],
+   "has_losses": true,
+   "has_plot": false
+  },
+  {
+   "design": "aj_il15_denovo_l80_7a6c3acb92cebe9d",
+   "stage_ended": "harden",
+   "frames": [],
+   "has_losses": true,
+   "has_plot": false
+  }
+ ],
+ "missing": [
+  "1_Trajectories/aj_il15_denovo_l126_272e3bbd531b0f5c/ per-stage .cif files (set save_design_frames and save_design_trajectory true)",
+  "1_Trajectories/aj_il15_denovo_l90_0055a829701b2aa1/ per-stage .cif files (set save_design_frames and save_design_trajectory true)",
+  "1_Trajectories/aj_il15_denovo_l90_4143a0bfb32dc1bb/ per-stage .cif files (set save_design_frames and save_design_trajectory true)",
+  "1_Trajectories/aj_il15_denovo_l80_7a6c3acb92cebe9d/ per-stage .cif files (set save_design_frames and save_design_trajectory true)",
+  "1_Trajectories/aj_il15_denovo_l126_272e3bbd531b0f5c/aj_il15_denovo_l126_272e3bbd531b0f5c_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l120_96f80e63423eb598/aj_il15_denovo_l120_96f80e63423eb598_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l92_6d908bc1af372b64/aj_il15_denovo_l92_6d908bc1af372b64_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l129_1bc1656f4b81764a/aj_il15_denovo_l129_1bc1656f4b81764a_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l87_b491e0bb5543e73a/aj_il15_denovo_l87_b491e0bb5543e73a_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l127_5c0f781e1b4348dd/aj_il15_denovo_l127_5c0f781e1b4348dd_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l105_00c10c471e05fd51/aj_il15_denovo_l105_00c10c471e05fd51_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l112_f2c2dd1b390629e4/aj_il15_denovo_l112_f2c2dd1b390629e4_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l88_582f6aaafcb327af/aj_il15_denovo_l88_582f6aaafcb327af_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l130_3879d93c826fa7a1/aj_il15_denovo_l130_3879d93c826fa7a1_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l116_c9b97a8f9f1e97e9/aj_il15_denovo_l116_c9b97a8f9f1e97e9_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l130_cf036eaa6ff7bbc4/aj_il15_denovo_l130_cf036eaa6ff7bbc4_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l95_90997f8f9b0fee8d/aj_il15_denovo_l95_90997f8f9b0fee8d_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l101_4f445f04698f6e88/aj_il15_denovo_l101_4f445f04698f6e88_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l116_976c4df6c69f2c9e/aj_il15_denovo_l116_976c4df6c69f2c9e_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l95_188a88fda4d5826f/aj_il15_denovo_l95_188a88fda4d5826f_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l86_792f917839e7fefc/aj_il15_denovo_l86_792f917839e7fefc_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l130_b06695413ba3ae21/aj_il15_denovo_l130_b06695413ba3ae21_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l99_0f0da7d3f5040931/aj_il15_denovo_l99_0f0da7d3f5040931_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l129_4f6fa59d5cb1b8de/aj_il15_denovo_l129_4f6fa59d5cb1b8de_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l85_7537836539137074/aj_il15_denovo_l85_7537836539137074_trajectory.cif",
+  "1_Trajectories/aj_il15_denovo_l116_e65bdfef2469a66b/aj_il15_denovo_l116_e65bdfef2469a66b_trajectory.cif"
+ ]
+}

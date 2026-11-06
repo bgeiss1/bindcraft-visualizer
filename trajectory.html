@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Watch one attempt · BindCraft2 Visualizer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800&family=Public+Sans:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main class="page">
+  <section class="intro">
+    <h1 data-t="trajectory.title"></h1>
+    <p data-t="trajectory.intro"></p>
+  </section>
+  <section class="card">
+    <label class="field">Attempt
+      <select id="traj"></select>
+    </label>
+    <p id="traj-note" class="muted"></p>
+  </section>
+  <div class="work">
+    <div class="viewer-wrap">
+      <div class="view-tools" id="view-tools"></div>
+      <div class="viewer" id="viewer"></div>
+      <div class="legend" id="legend"></div>
+    </div>
+    <aside class="panel" id="curves"></aside>
+  </div>
+  <section class="card">
+    <div class="frames" id="frames"></div>
+    <p class="muted small" data-t="trajectory.early"></p>
+  </section>
+  <section class="card">
+    <h2>The interface forming</h2>
+    <p data-t="trajectory.contacts"></p>
+    <div id="contacts"></div>
+  </section>
+</main>
+<script type="module" src="js/pages/trajectory.js"></script>
+</body>
+</html>
