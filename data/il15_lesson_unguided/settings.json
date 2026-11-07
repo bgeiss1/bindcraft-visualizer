@@ -1,0 +1,45 @@
+{
+  "modality": "binder",
+  "campaign_name": "il15_lesson_unguided",
+  "project_folder": "/home/bgeiss/bindcraft2/results/il15_lesson_unguided",
+  "targets": [
+    {
+      "name": "AJ_IL15",
+      "target_path": "/home/bgeiss/bindcraft2/targets/aj_IL15_target.pdb",
+      "chains": "A"
+    }
+  ],
+  "binder_lengths": [
+    80,
+    110
+  ],
+  "max_trajectories": 200,
+  "number_of_final_designs": 100,
+  "campaign_seed": 1,
+  "aa_bias": {
+    "C": 0
+  },
+  "min_iptm_final": 0.8,
+  "min_monomer_plddt_final": 0.85,
+  "filters": {
+    "i_pTM": {
+      "threshold": 0.8,
+      "higher": true
+    },
+    "Unbound_Binder_pLDDT": {
+      "threshold": 0.85,
+      "higher": true
+    },
+    "Binder_Disulfides": {
+      "threshold": 0,
+      "higher": false
+    }
+  },
+  "auto_multi_gpu": true,
+  "resume": false,
+  "save_design_frames": true,
+  "save_design_animations": true,
+  "save_design_trajectory": true,
+  "save_design_sequences": true,
+  "save_loss_plots": true
+}

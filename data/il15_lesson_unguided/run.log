@@ -1,0 +1,2170 @@
+START il15_lesson_unguided Fri Nov  6 08:08:40 AM MST 2026
+compiled graphs cached in /home/bgeiss/bindcraft2/results/il15_lesson_unguided/compile_cache/NVIDIA_RTX_PRO_6000_Blackwell_Max_Q_Workstation_Edition
+campaign preflight: design model_1_multimer_v3,model_2_multimer_v3,model_3_multimer_v3,model_4_multimer_v3,model_5_multimer_v3 | validation model_1_ptm,model_2_ptm | redesign negative/v_48_020 | targets AJ_IL15 | output /home/bgeiss/bindcraft2/results/il15_lesson_unguided
+campaign metadata: BindCraft 2 v1.0.4 | settings /home/bgeiss/bindcraft2/campaigns/il15_lesson_unguided.json | written /home/bgeiss/bindcraft2/results/il15_lesson_unguided/campaign_metadata.json
+campaign fan-out: 14 design workers on GPUs 0,0,0,0,0,0,0,1,1,1,1,1,1,1
+worker=0 gpu=0 draws 17 binder lengths from 80 to 96, folded at 224 padded residues at 10.6 GB
+worker=1 gpu=0 draws 14 binder lengths from 97 to 110, folded at 256 padded residues at 11.8 GB
+worker=2 gpu=0 draws 17 binder lengths from 80 to 96, folded at 224 padded residues at 10.6 GB
+worker=3 gpu=0 draws 14 binder lengths from 97 to 110, folded at 256 padded residues at 11.8 GB
+worker=4 gpu=0 draws 17 binder lengths from 80 to 96, folded at 224 padded residues at 10.6 GB
+worker=5 gpu=0 draws 14 binder lengths from 97 to 110, folded at 256 padded residues at 11.8 GB
+worker=6 gpu=0 draws 17 binder lengths from 80 to 96, folded at 224 padded residues at 10.6 GB
+worker=7 gpu=1 draws 14 binder lengths from 97 to 110, folded at 256 padded residues at 11.8 GB
+worker=8 gpu=1 draws 17 binder lengths from 80 to 96, folded at 224 padded residues at 10.6 GB
+worker=9 gpu=1 draws 14 binder lengths from 97 to 110, folded at 256 padded residues at 11.8 GB
+worker=10 gpu=1 draws 17 binder lengths from 80 to 96, folded at 224 padded residues at 10.6 GB
+worker=11 gpu=1 draws 14 binder lengths from 97 to 110, folded at 256 padded residues at 11.8 GB
+worker=12 gpu=1 draws 17 binder lengths from 80 to 96, folded at 224 padded residues at 10.6 GB
+worker=13 gpu=1 draws 14 binder lengths from 97 to 110, folded at 256 padded residues at 11.8 GB
+worker=0 gpu=0 log=/home/bgeiss/bindcraft2/results/il15_lesson_unguided/workers/565253_worker_00_gpu_0.log
+worker=7 gpu=1 log=/home/bgeiss/bindcraft2/results/il15_lesson_unguided/workers/565253_worker_07_gpu_1.log
+worker=1 gpu=0 log=/home/bgeiss/bindcraft2/results/il15_lesson_unguided/workers/565253_worker_01_gpu_0.log
+worker=8 gpu=1 log=/home/bgeiss/bindcraft2/results/il15_lesson_unguided/workers/565253_worker_08_gpu_1.log
+worker=2 gpu=0 log=/home/bgeiss/bindcraft2/results/il15_lesson_unguided/workers/565253_worker_02_gpu_0.log
+worker=9 gpu=1 log=/home/bgeiss/bindcraft2/results/il15_lesson_unguided/workers/565253_worker_09_gpu_1.log
+worker=3 gpu=0 log=/home/bgeiss/bindcraft2/results/il15_lesson_unguided/workers/565253_worker_03_gpu_0.log
+worker=10 gpu=1 log=/home/bgeiss/bindcraft2/results/il15_lesson_unguided/workers/565253_worker_10_gpu_1.log
+worker=4 gpu=0 log=/home/bgeiss/bindcraft2/results/il15_lesson_unguided/workers/565253_worker_04_gpu_0.log
+worker=11 gpu=1 log=/home/bgeiss/bindcraft2/results/il15_lesson_unguided/workers/565253_worker_11_gpu_1.log
+worker=5 gpu=0 log=/home/bgeiss/bindcraft2/results/il15_lesson_unguided/workers/565253_worker_05_gpu_0.log
+worker=12 gpu=1 log=/home/bgeiss/bindcraft2/results/il15_lesson_unguided/workers/565253_worker_12_gpu_1.log
+worker=6 gpu=0 log=/home/bgeiss/bindcraft2/results/il15_lesson_unguided/workers/565253_worker_06_gpu_0.log
+worker=13 gpu=1 log=/home/bgeiss/bindcraft2/results/il15_lesson_unguided/workers/565253_worker_13_gpu_1.log
+
+
+
+
+
+
+
+
+=== trajectory 1 | il15_lesson_unguided_denovo_l93_05a8d27b10da936f | accepted 0/100 | worker 6 ===
+  passed screen design stage  i_pTM=0.84    pLDDT=0.94  
+  passed refine design stage  i_pTM=0.84    pLDDT=0.94  
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.94  
+  rejected at harden design stage  i_pTM=0.12    pLDDT=0.43   due to [i_pTM, pLDDT]
+
+=== trajectory 2 | il15_lesson_unguided_denovo_l108_88f14e3e0e86b984 | accepted 0/100 | worker 7 ===
+  passed screen design stage  i_pTM=0.79    pLDDT=0.88  
+  rejected at refine design stage  i_pTM=0.47    pLDDT=0.56   due to [pLDDT]
+
+
+
+
+
+
+BindCraft 2 v1.0.4
+campaign il15_lesson_unguided
+binder length 80 to 110, drawn per trajectory
+target AJ_IL15 (target) | 117 residues
+losses binder_contacts=1.0 binder_helicity=-0.3 binder_pae=0.4 compactness=0.5 interface_contacts=1.0 interface_pae=0.1 iptm_loss=0.05 plddt_loss=0.1
+filters Backbone_Clashes <= 0, Binder_Disulfides <= 0, Binder_RMSD <= 3.5, Interface_Residues >= 7, Unbound_Binder_pLDDT >= 0.85, i_pAE <= 0.35, i_pTM >= 0.8, pTM >= 0.55
+results /home/bgeiss/bindcraft2/results/il15_lesson_unguided | 3_Ranked/!_Ranked.csv rewritten as each design is accepted | summary.csv written when the campaign ends
+
+=== trajectory 3 | il15_lesson_unguided_denovo_l80_edb86a23ac9969ec | accepted 0/100 | worker 4 ===
+  passed screen design stage  i_pTM=0.86    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.83    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.87    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.88    pLDDT=0.92  
+  passed mutate design stage  i_pTM=0.84    pLDDT=0.91  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 17 of 80 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.77    Interface_Residues=15   Target_pLDDT=0.86    i_pAE=0.28    i_pTM=0.72    pLDDT=0.89    pTM=0.82    failed [i_pTM]
+   2/10  rejected  Binder_RMSD=0.43    Interface_Residues=15   Target_pLDDT=0.86    i_pAE=0.29    i_pTM=0.7     pLDDT=0.89    pTM=0.81    failed [i_pTM]
+   3/10  rejected  Binder_RMSD=0.26    Interface_Residues=15   Target_pLDDT=0.87    i_pAE=0.26    i_pTM=0.76    pLDDT=0.89    pTM=0.83    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=0.28    Interface_Residues=15   Target_pLDDT=0.87    i_pAE=0.26    i_pTM=0.75    pLDDT=0.9     pTM=0.83    failed [i_pTM]
+   5/10  rejected  Binder_RMSD=0.73    Interface_Residues=15   Target_pLDDT=0.86    i_pAE=0.26    i_pTM=0.75    pLDDT=0.91    pTM=0.83    failed [i_pTM]
+   6/10  rejected  Binder_RMSD=0.32    Interface_Residues=15   Target_pLDDT=0.86    i_pAE=0.3     i_pTM=0.7     pLDDT=0.88    pTM=0.81    failed [i_pTM]
+   7/10  rejected  Binder_RMSD=0.44    Interface_Residues=15   Target_pLDDT=0.86    i_pAE=0.27    i_pTM=0.72    pLDDT=0.88    pTM=0.82    failed [i_pTM]
+   8/10  rejected  Binder_RMSD=0.37    Interface_Residues=15   Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.78    pLDDT=0.9     pTM=0.85    failed [i_pTM]
+   9/10  rejected  Binder_RMSD=0.82    Interface_Residues=15   Target_pLDDT=0.87    i_pAE=0.26    i_pTM=0.75    pLDDT=0.89    pTM=0.83    failed [i_pTM]
+  10/10  rejected  Binder_RMSD=1.6     Interface_Residues=3    Target_pLDDT=0.86    i_pAE=0.8     i_pTM=0.14    pLDDT=0.55    pTM=0.58    Unbound_Binder_pLDDT=0.61    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Interface_Residues]
+  0 of 10 redesigns passed
+
+=== trajectory 4 | il15_lesson_unguided_denovo_l81_bb7090efd457ab39 | accepted 0/100 | worker 12 ===
+  passed screen design stage  i_pTM=0.48    pLDDT=0.65  
+  passed refine design stage  i_pTM=0.51    pLDDT=0.71  
+  rejected at anneal design stage  i_pTM=0.78    pLDDT=0.59   due to [pLDDT]
+
+=== trajectory 5 | il15_lesson_unguided_denovo_l109_629e1552ea694e73 | accepted 0/100 | worker 9 ===
+  passed screen design stage  i_pTM=0.65    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.62    pLDDT=0.85  
+  passed anneal design stage  i_pTM=0.72    pLDDT=0.88  
+  passed harden design stage  i_pTM=0.71    pLDDT=0.86  
+  passed mutate design stage  i_pTM=0.66    pLDDT=0.84  
+  trajectory rejected  i_pTM=0.66    pLDDT=0.84   due to [i_pTM]
+
+=== trajectory 6 | il15_lesson_unguided_denovo_l107_d7902d3002d0a0bd | accepted 0/100 | worker 1 ===
+  passed screen design stage  i_pTM=0.82    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.79    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.83    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.86    pLDDT=0.93  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 19 of 107 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.52    Interface_Residues=17   Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.8     pLDDT=0.88    pTM=0.84    failed [i_pTM]
+   2/10  ACCEPTED  Binder_RMSD=0.16    Interface_Residues=16   Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.82    pLDDT=0.94    pTM=0.87  
+   3/10  ACCEPTED  Binder_RMSD=0.47    Interface_Residues=16   Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.82    pLDDT=0.91    pTM=0.86  
+   4/10  ACCEPTED  Binder_RMSD=0.14    Interface_Residues=18   Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.83    pLDDT=0.94    pTM=0.88  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 4 (0.37)
+
+=== trajectory 7 | il15_lesson_unguided_denovo_l95_4dbcc2dc7f9d9efd | accepted 0/100 | worker 10 ===
+  passed screen design stage  i_pTM=0.88    pLDDT=0.94  
+  passed refine design stage  i_pTM=0.81    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.85    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.77    pLDDT=0.93  
+  trajectory rejected  i_pTM=0.77    pLDDT=0.93   due to [i_pTM]
+
+=== trajectory 8 | il15_lesson_unguided_denovo_l104_72190ab5615ff665 | accepted 0/100 | worker 3 ===
+  passed screen design stage  i_pTM=0.78    pLDDT=0.86  
+  passed refine design stage  i_pTM=0.78    pLDDT=0.88  
+  passed anneal design stage  i_pTM=0.77    pLDDT=0.89  
+  rejected at harden design stage  i_pTM=0.14    pLDDT=0.35   due to [i_pTM, pLDDT]
+
+=== trajectory 9 | il15_lesson_unguided_denovo_l103_88ba2fe1b5154c0e | accepted 0/100 | worker 11 ===
+  passed screen design stage  i_pTM=0.88    pLDDT=0.63  
+  passed refine design stage  i_pTM=0.86    pLDDT=0.62  
+  passed anneal design stage  i_pTM=0.87    pLDDT=0.7   
+  rejected at harden design stage  i_pTM=0.87    pLDDT=0.61   due to [pLDDT]
+
+=== trajectory 10 | il15_lesson_unguided_denovo_l95_c986ccedd216acf0 | accepted 0/100 | worker 2 ===
+  passed screen design stage  i_pTM=0.69    pLDDT=0.78  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.86  
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.88  
+  rejected at harden design stage  i_pTM=0.23    pLDDT=0.4    due to [i_pTM, pLDDT]
+
+=== trajectory 11 | il15_lesson_unguided_denovo_l83_ac058b7b32564499 | accepted 0/100 | worker 0 ===
+  passed screen design stage  i_pTM=0.81    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.81    pLDDT=0.9   
+  passed anneal design stage  i_pTM=0.76    pLDDT=0.9   
+  passed harden design stage  i_pTM=0.73    pLDDT=0.88  
+  passed mutate design stage  i_pTM=0.68    pLDDT=0.86  
+  trajectory rejected  i_pTM=0.68    pLDDT=0.86   due to [i_pTM]
+
+=== trajectory 12 | il15_lesson_unguided_denovo_l96_960aedeb0510d07c | accepted 0/100 | worker 8 ===
+  passed screen design stage  i_pTM=0.81    pLDDT=0.88  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.87    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.88    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.86    pLDDT=0.9   
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 23 of 96 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.23    Interface_Residues=22   Target_pLDDT=0.89    i_pAE=0.15    i_pTM=0.87    pLDDT=0.95    pTM=0.89  
+   2/10  ACCEPTED  Binder_RMSD=0.22    Interface_Residues=19   Target_pLDDT=0.89    i_pAE=0.16    i_pTM=0.86    pLDDT=0.95    pTM=0.88  
+   3/10  ACCEPTED  Binder_RMSD=0.35    Interface_Residues=21   Target_pLDDT=0.9     i_pAE=0.16    i_pTM=0.86    pLDDT=0.93    pTM=0.89  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 3 (0.44)
+
+=== trajectory 13 | il15_lesson_unguided_denovo_l102_2b303f129aca6bb5 | accepted 0/100 | worker 13 ===
+  passed screen design stage  i_pTM=0.86    pLDDT=0.95  
+  passed refine design stage  i_pTM=0.87    pLDDT=0.94  
+  passed anneal design stage  i_pTM=0.88    pLDDT=0.96  
+  passed harden design stage  i_pTM=0.87    pLDDT=0.95  
+  passed mutate design stage  i_pTM=0.86    pLDDT=0.95  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 17 of 102 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.33    Interface_Residues=16   Target_pLDDT=0.88    i_pAE=0.49    i_pTM=0.48    pLDDT=0.94    pTM=0.7     failed [i_pTM, pTM, i_pAE]
+   2/10  rejected  Binder_RMSD=0.28    Interface_Residues=18   Target_pLDDT=0.89    i_pAE=0.18    i_pTM=0.83    pLDDT=0.94    pTM=0.87    failed [i_pTM]
+   3/10  rejected  Binder_RMSD=0.09    Interface_Residues=2    Target_pLDDT=0.87    i_pAE=0.82    i_pTM=0.12    pLDDT=0.95    pTM=0.52    failed [i_pTM, pTM, i_pAE, Interface_Residues]
+   4/10  rejected  Binder_RMSD=0.21    Interface_Residues=4    Target_pLDDT=0.87    i_pAE=0.8     i_pTM=0.12    pLDDT=0.94    pTM=0.53    failed [i_pTM, pTM, i_pAE, Interface_Residues]
+   5/10  ACCEPTED  Binder_RMSD=0.52    Interface_Residues=18   Target_pLDDT=0.9     i_pAE=0.15    i_pTM=0.87    pLDDT=0.94    pTM=0.89  
+   6/10  ACCEPTED  Binder_RMSD=0.45    Interface_Residues=17   Target_pLDDT=0.9     i_pAE=0.15    i_pTM=0.87    pLDDT=0.96    pTM=0.89  
+   7/10  rejected  Binder_RMSD=0.11    Interface_Residues=1    Target_pLDDT=0.87    i_pAE=0.81    i_pTM=0.12    pLDDT=0.95    pTM=0.52    failed [i_pTM, pTM, i_pAE, Interface_Residues]
+   8/10  rejected  Binder_RMSD=0.2     Interface_Residues=2    Target_pLDDT=0.87    i_pAE=0.82    i_pTM=0.12    pLDDT=0.95    pTM=0.52    failed [i_pTM, pTM, i_pAE, Interface_Residues]
+   9/10  ACCEPTED  Binder_RMSD=0.32    Interface_Residues=16   Target_pLDDT=0.89    i_pAE=0.16    i_pTM=0.86    pLDDT=0.95    pTM=0.88  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 6 (0.46)
+
+=== trajectory 14 | il15_lesson_unguided_denovo_l100_e887dcc8d0ceffc2 | accepted 0/100 | worker 5 ===
+  passed screen design stage  i_pTM=0.86    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.86    pLDDT=0.94  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.82    pLDDT=0.92  
+  passed mutate design stage  i_pTM=0.59    pLDDT=0.79  
+  trajectory rejected  i_pTM=0.59    pLDDT=0.79   due to [i_pTM]
+
+=== trajectory 15 | il15_lesson_unguided_denovo_l108_2e62d669c17b70a9 | accepted 0/100 | worker 7 ===
+  passed screen design stage  i_pTM=0.81    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.8     pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.94  
+  rejected at harden design stage  i_pTM=0.11    pLDDT=0.45   due to [i_pTM, pLDDT]
+
+=== trajectory 16 | il15_lesson_unguided_denovo_l96_0e8cfb78ffbe464d | accepted 0/100 | worker 6 ===
+  passed screen design stage  i_pTM=0.71    pLDDT=0.76  
+  passed refine design stage  i_pTM=0.7     pLDDT=0.75  
+  passed anneal design stage  i_pTM=0.72    pLDDT=0.76  
+  passed harden design stage  i_pTM=0.66    pLDDT=0.72  
+  rejected at mutate design stage  i_pTM=0.53    pLDDT=0.54   due to [pLDDT]
+
+=== trajectory 17 | il15_lesson_unguided_denovo_l108_4b86121b88792810 | accepted 0/100 | worker 11 ===
+  passed screen design stage  i_pTM=0.66    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.64    pLDDT=0.82  
+  passed anneal design stage  i_pTM=0.71    pLDDT=0.86  
+  passed harden design stage  i_pTM=0.76    pLDDT=0.85  
+  passed mutate design stage  i_pTM=0.71    pLDDT=0.87  
+  trajectory rejected  i_pTM=0.71    pLDDT=0.87   due to [i_pTM]
+
+=== trajectory 18 | il15_lesson_unguided_denovo_l84_84bdfe03d8af5887 | accepted 0/100 | worker 4 ===
+  passed screen design stage  i_pTM=0.79    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.79    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.84    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.83    pLDDT=0.94  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 16 of 84 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.48    Interface_Residues=17   Target_pLDDT=0.89    i_pAE=0.17    i_pTM=0.84    pLDDT=0.94    pTM=0.87  
+   2/10  ACCEPTED  Binder_RMSD=0.59    Interface_Residues=19   Target_pLDDT=0.89    i_pAE=0.17    i_pTM=0.84    pLDDT=0.93    pTM=0.87  
+   3/10  ACCEPTED  Binder_RMSD=0.62    Interface_Residues=20   Target_pLDDT=0.89    i_pAE=0.17    i_pTM=0.84    pLDDT=0.94    pTM=0.87  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 1 (0.38)
+
+=== trajectory 19 | il15_lesson_unguided_denovo_l105_ccebc25c0c6c6c60 | accepted 0/100 | worker 9 ===
+  passed screen design stage  i_pTM=0.8     pLDDT=0.91  
+  passed refine design stage  i_pTM=0.78    pLDDT=0.9   
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.85    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.84    pLDDT=0.93  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 17 of 105 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.22    Interface_Residues=17   Target_pLDDT=0.86    i_pAE=0.26    i_pTM=0.74    pLDDT=0.92    pTM=0.82    failed [i_pTM]
+   2/10  ACCEPTED  Binder_RMSD=0.27    Interface_Residues=15   Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.81    pLDDT=0.94    pTM=0.86  
+   3/10  rejected  Binder_RMSD=0.39    Interface_Residues=16   Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.78    pLDDT=0.92    pTM=0.84    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=0.25    Interface_Residues=16   Target_pLDDT=0.86    i_pAE=0.24    i_pTM=0.76    pLDDT=0.93    pTM=0.83    failed [i_pTM]
+   5/10  rejected  Binder_RMSD=0.22    Interface_Residues=15   Target_pLDDT=0.86    i_pAE=0.31    i_pTM=0.68    pLDDT=0.92    pTM=0.79    failed [i_pTM]
+   6/10  rejected  Binder_RMSD=0.26    Interface_Residues=15   Target_pLDDT=0.87    i_pAE=0.22    i_pTM=0.78    pLDDT=0.93    pTM=0.84    failed [i_pTM]
+   7/10  rejected  Binder_RMSD=0.22    Interface_Residues=15   Target_pLDDT=0.86    i_pAE=0.29    i_pTM=0.7     pLDDT=0.92    pTM=0.8     failed [i_pTM]
+   8/10  rejected  Binder_RMSD=0.54    Interface_Residues=15   Target_pLDDT=0.86    i_pAE=0.26    i_pTM=0.74    pLDDT=0.92    pTM=0.82    failed [i_pTM]
+   9/10  rejected  Binder_RMSD=0.21    Interface_Residues=14   Target_pLDDT=0.85    i_pAE=0.49    i_pTM=0.48    pLDDT=0.9     pTM=0.69    failed [i_pTM, i_pAE]
+  10/10  rejected  Binder_RMSD=0.26    Interface_Residues=17   Target_pLDDT=0.86    i_pAE=0.24    i_pTM=0.76    pLDDT=0.93    pTM=0.83    failed [i_pTM]
+  1 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 2 (0.39)
+
+=== trajectory 20 | il15_lesson_unguided_denovo_l86_9315e4f8b47409e4 | accepted 0/100 | worker 6 ===
+  passed screen design stage  i_pTM=0.86    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.87    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.89    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.89    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.88    pLDDT=0.94  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 21 of 86 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.18    Interface_Residues=21   Target_pLDDT=0.88    i_pAE=0.16    i_pTM=0.86    pLDDT=0.95    pTM=0.88  
+   2/10  ACCEPTED  Binder_RMSD=0.18    Interface_Residues=21   Target_pLDDT=0.88    i_pAE=0.16    i_pTM=0.84    pLDDT=0.95    pTM=0.87  
+   3/10  ACCEPTED  Binder_RMSD=0.27    Interface_Residues=20   Target_pLDDT=0.88    i_pAE=0.16    i_pTM=0.86    pLDDT=0.95    pTM=0.88  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 3 (0.42)
+
+=== trajectory 21 | il15_lesson_unguided_denovo_l91_87d9118a58a95344 | accepted 0/100 | worker 2 ===
+  passed screen design stage  i_pTM=0.83    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.83    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.82    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.84    pLDDT=0.93  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 14 of 91 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.14    Interface_Residues=3    Target_pLDDT=0.87    i_pAE=0.78    i_pTM=0.14    pLDDT=0.93    pTM=0.55    failed [i_pTM, i_pAE, Interface_Residues]
+   2/10  rejected  Binder_RMSD=0.11    Interface_Residues=5    Target_pLDDT=0.87    i_pAE=0.76    i_pTM=0.15    pLDDT=0.95    pTM=0.56    failed [i_pTM, i_pAE, Interface_Residues]
+   3/10  rejected  Binder_RMSD=0.13    Interface_Residues=7    Target_pLDDT=0.86    i_pAE=0.7     i_pTM=0.2     pLDDT=0.94    pTM=0.58    failed [i_pTM, i_pAE]
+   4/10  ACCEPTED  Binder_RMSD=0.21    Interface_Residues=15   Target_pLDDT=0.89    i_pAE=0.18    i_pTM=0.82    pLDDT=0.95    pTM=0.86  
+   5/10  rejected  Binder_RMSD=0.19    Interface_Residues=6    Target_pLDDT=0.87    i_pAE=0.71    i_pTM=0.19    pLDDT=0.92    pTM=0.58    failed [i_pTM, i_pAE, Interface_Residues]
+   6/10  rejected  Binder_RMSD=0.15    Interface_Residues=9    Target_pLDDT=0.87    i_pAE=0.69    i_pTM=0.2     pLDDT=0.92    pTM=0.58    failed [i_pTM, i_pAE]
+   7/10  rejected  Binder_RMSD=0.15    Interface_Residues=7    Target_pLDDT=0.86    i_pAE=0.71    i_pTM=0.18    pLDDT=0.94    pTM=0.57    failed [i_pTM, i_pAE]
+   8/10  rejected  Binder_RMSD=0.16    Interface_Residues=5    Target_pLDDT=0.87    i_pAE=0.74    i_pTM=0.17    pLDDT=0.93    pTM=0.56    failed [i_pTM, i_pAE, Interface_Residues]
+   9/10  rejected  Binder_RMSD=0.17    Interface_Residues=14   Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.76    pLDDT=0.94    pTM=0.83    failed [i_pTM]
+  10/10  rejected  Binder_RMSD=0.18    Interface_Residues=16   Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.8     pLDDT=0.94    pTM=0.85    failed [i_pTM]
+  1 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 4 (0.41)
+
+=== trajectory 22 | il15_lesson_unguided_denovo_l80_7c4a949dde39bd78 | accepted 0/100 | worker 12 ===
+  rejected at screen design stage  i_pTM=0.66    pLDDT=0.58   due to [pLDDT]
+
+=== trajectory 23 | il15_lesson_unguided_denovo_l107_431031bfbe17c734 | accepted 0/100 | worker 7 ===
+  passed screen design stage  i_pTM=0.73    pLDDT=0.88  
+  passed refine design stage  i_pTM=0.79    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.83    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.82    pLDDT=0.93  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 21 of 107 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=1.7     Interface_Residues=2    Target_pLDDT=0.87    i_pAE=0.8     i_pTM=0.14    pLDDT=0.8     pTM=0.53    Unbound_Binder_pLDDT=0.65    failed [i_pTM, Unbound_Binder_pLDDT, pTM, i_pAE, Interface_Residues]
+   2/10  rejected  Binder_RMSD=10.2    Interface_Residues=5    Target_pLDDT=0.86    i_pAE=0.82    i_pTM=0.14    pLDDT=0.5     pTM=0.53    Unbound_Binder_pLDDT=0.55    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, pTM, i_pAE, Interface_Residues, Binder_RMSD]
+   3/10  rejected  Binder_RMSD=0.26    Interface_Residues=18   Target_pLDDT=0.87    i_pAE=0.49    i_pTM=0.47    pLDDT=0.85    pTM=0.69    Unbound_Binder_pLDDT=0.87    failed [i_pTM, Unbound_Binder_pLDDT, pTM, i_pAE]
+   4/10  rejected  Binder_RMSD=5.5     Interface_Residues=1    Target_pLDDT=0.86    i_pAE=0.84    i_pTM=0.12    pLDDT=0.52    pTM=0.52    Unbound_Binder_pLDDT=0.58    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, pTM, i_pAE, Interface_Residues, Binder_RMSD]
+   5/10  rejected  Binder_RMSD=0.09    Interface_Residues=2    Target_pLDDT=0.87    i_pAE=0.76    i_pTM=0.16    pLDDT=0.92    pTM=0.53    failed [i_pTM, pTM, i_pAE, Interface_Residues]
+   6/10  rejected  Binder_RMSD=0.62    Interface_Residues=5    Target_pLDDT=0.87    i_pAE=0.78    i_pTM=0.14    pLDDT=0.88    pTM=0.53    Unbound_Binder_pLDDT=0.77    failed [i_pTM, Unbound_Binder_pLDDT, pTM, i_pAE, Interface_Residues]
+   7/10  ACCEPTED  Binder_RMSD=0.3     Interface_Residues=20   Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.81    pLDDT=0.91    pTM=0.86  
+   8/10  rejected  Binder_RMSD=0.22    Interface_Residues=6    Target_pLDDT=0.86    i_pAE=0.73    i_pTM=0.19    pLDDT=0.88    pTM=0.55    failed [i_pTM, i_pAE, Interface_Residues]
+   9/10  rejected  Binder_RMSD=10.7    Interface_Residues=2    Target_pLDDT=0.86    i_pAE=0.82    i_pTM=0.14    pLDDT=0.53    pTM=0.53    Unbound_Binder_pLDDT=0.54    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, pTM, i_pAE, Interface_Residues, Binder_RMSD]
+  10/10  rejected  Binder_RMSD=0.89    Interface_Residues=4    Target_pLDDT=0.86    i_pAE=0.82    i_pTM=0.13    pLDDT=0.54    pTM=0.53    Unbound_Binder_pLDDT=0.56    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, pTM, i_pAE, Interface_Residues]
+  1 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 7 (0.33)
+
+=== trajectory 24 | il15_lesson_unguided_denovo_l107_3c5c076a7cb65c85 | accepted 0/100 | worker 3 ===
+  passed screen design stage  i_pTM=0.86    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.8     pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.88    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.86    pLDDT=0.91  
+  passed mutate design stage  i_pTM=0.86    pLDDT=0.9   
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 23 of 107 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.57    Interface_Residues=22   Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.86    pLDDT=0.92    pTM=0.88  
+   2/10  ACCEPTED  Binder_RMSD=0.36    Interface_Residues=21   Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.85    pLDDT=0.92    pTM=0.87  
+   3/10  ACCEPTED  Binder_RMSD=0.61    Interface_Residues=22   Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.86    pLDDT=0.93    pTM=0.88  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 3 (0.43)
+
+=== trajectory 25 | il15_lesson_unguided_denovo_l80_e2ab1eddd6fde302 | accepted 0/100 | worker 10 ===
+  passed screen design stage  i_pTM=0.63    pLDDT=0.78  
+  passed refine design stage  i_pTM=0.79    pLDDT=0.82  
+  passed anneal design stage  i_pTM=0.75    pLDDT=0.89  
+  passed harden design stage  i_pTM=0.73    pLDDT=0.87  
+  passed mutate design stage  i_pTM=0.7     pLDDT=0.84  
+  trajectory rejected  i_pTM=0.7     pLDDT=0.84   due to [i_pTM]
+
+=== trajectory 26 | il15_lesson_unguided_denovo_l87_a2c9610aefe32414 | accepted 0/100 | worker 0 ===
+  passed screen design stage  i_pTM=0.85    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.83    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.83    pLDDT=0.92  
+  passed mutate design stage  i_pTM=0.83    pLDDT=0.92  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 21 of 87 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.25    Interface_Residues=20   Target_pLDDT=0.9     i_pAE=0.16    i_pTM=0.85    pLDDT=0.95    pTM=0.88  
+   2/10  ACCEPTED  Binder_RMSD=0.24    Interface_Residues=19   Target_pLDDT=0.9     i_pAE=0.16    i_pTM=0.85    pLDDT=0.95    pTM=0.88  
+   3/10  ACCEPTED  Binder_RMSD=0.43    Interface_Residues=21   Target_pLDDT=0.9     i_pAE=0.17    i_pTM=0.84    pLDDT=0.93    pTM=0.88  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 2 (0.4)
+
+=== trajectory 27 | il15_lesson_unguided_denovo_l102_3a595caee20d2ebd | accepted 0/100 | worker 5 ===
+  passed screen design stage  i_pTM=0.72    pLDDT=0.79  
+  passed refine design stage  i_pTM=0.81    pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.86    pLDDT=0.91  
+  passed mutate design stage  i_pTM=0.84    pLDDT=0.9   
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 20 of 102 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.19    Interface_Residues=16   Target_pLDDT=0.87    i_pAE=0.2     i_pTM=0.83    pLDDT=0.92    pTM=0.87  
+   2/10  rejected  Binder_RMSD=0.13    Interface_Residues=15   Target_pLDDT=0.87    i_pAE=0.22    i_pTM=0.8     pLDDT=0.92    pTM=0.85    failed [i_pTM]
+   3/10  ACCEPTED  Binder_RMSD=0.16    Interface_Residues=16   Target_pLDDT=0.87    i_pAE=0.2     i_pTM=0.83    pLDDT=0.92    pTM=0.87  
+   4/10  ACCEPTED  Binder_RMSD=0.26    Interface_Residues=18   Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.85    pLDDT=0.93    pTM=0.88  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 4 (0.43)
+
+=== trajectory 28 | il15_lesson_unguided_denovo_l87_b5ebc79042649726 | accepted 0/100 | worker 12 ===
+  passed screen design stage  i_pTM=0.82    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.83    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.92  
+  rejected at harden design stage  i_pTM=0.11    pLDDT=0.34   due to [i_pTM, pLDDT]
+
+=== trajectory 29 | il15_lesson_unguided_denovo_l102_e7820861139f33cd | accepted 1/100 | worker 1 ===
+  passed screen design stage  i_pTM=0.76    pLDDT=0.87  
+  passed refine design stage  i_pTM=0.81    pLDDT=0.86  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.9   
+  passed harden design stage  i_pTM=0.83    pLDDT=0.9   
+  passed mutate design stage  i_pTM=0.64    pLDDT=0.83  
+  trajectory rejected  i_pTM=0.64    pLDDT=0.83   due to [i_pTM]
+
+=== trajectory 30 | il15_lesson_unguided_denovo_l83_dbb0ffe1f926e08d | accepted 2/100 | worker 8 ===
+  rejected at screen design stage  i_pTM=0.71    pLDDT=0.59   due to [pLDDT]
+
+=== trajectory 31 | il15_lesson_unguided_denovo_l106_429eba8e22548f58 | accepted 3/100 | worker 13 ===
+  passed screen design stage  i_pTM=0.86    pLDDT=0.94  
+  passed refine design stage  i_pTM=0.83    pLDDT=0.94  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.94  
+  rejected at harden design stage  i_pTM=0.13    pLDDT=0.46   due to [i_pTM, pLDDT]
+
+=== trajectory 32 | il15_lesson_unguided_denovo_l100_3bf90f1cbecfad51 | accepted 3/100 | worker 11 ===
+  passed screen design stage  i_pTM=0.8     pLDDT=0.9   
+  passed refine design stage  i_pTM=0.82    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.95  
+  passed harden design stage  i_pTM=0.78    pLDDT=0.72  
+  passed mutate design stage  i_pTM=0.77    pLDDT=0.71  
+  trajectory rejected  i_pTM=0.77    pLDDT=0.71   due to [i_pTM]
+
+=== trajectory 33 | il15_lesson_unguided_denovo_l89_a258e0a5a0cdbefe | accepted 4/100 | worker 4 ===
+  passed screen design stage  i_pTM=0.8     pLDDT=0.91  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.83    pLDDT=0.91  
+  passed mutate design stage  i_pTM=0.76    pLDDT=0.9   
+  trajectory rejected  i_pTM=0.76    pLDDT=0.9    due to [i_pTM]
+
+=== trajectory 34 | il15_lesson_unguided_denovo_l94_8c9aa59d4f29ccd8 | accepted 4/100 | worker 8 ===
+  passed screen design stage  i_pTM=0.8     pLDDT=0.9   
+  passed refine design stage  i_pTM=0.83    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.84    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.82    pLDDT=0.9   
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 18 of 94 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.73    Interface_Residues=17   Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.79    pLDDT=0.88    pTM=0.85    failed [i_pTM]
+   2/10  ACCEPTED  Binder_RMSD=0.72    Interface_Residues=17   Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.81    pLDDT=0.91    pTM=0.86  
+   3/10  ACCEPTED  Binder_RMSD=0.98    Interface_Residues=17   Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.82    pLDDT=0.92    pTM=0.86  
+   4/10  rejected  Binder_RMSD=0.99    Interface_Residues=16   Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.79    pLDDT=0.87    pTM=0.85    Unbound_Binder_pLDDT=0.82    failed [i_pTM, Unbound_Binder_pLDDT]
+   5/10  rejected  Binder_RMSD=2.2     Interface_Residues=16   Target_pLDDT=0.88    i_pAE=0.24    i_pTM=0.78    pLDDT=0.85    pTM=0.84    Unbound_Binder_pLDDT=0.81    failed [i_pTM, Unbound_Binder_pLDDT]
+   6/10  rejected  Binder_RMSD=0.76    Interface_Residues=15   Target_pLDDT=0.88    i_pAE=0.23    i_pTM=0.79    pLDDT=0.86    pTM=0.85    Unbound_Binder_pLDDT=0.82    failed [i_pTM, Unbound_Binder_pLDDT]
+   7/10  rejected  Binder_RMSD=0.72    Interface_Residues=16   Target_pLDDT=0.88    i_pAE=0.23    i_pTM=0.78    pLDDT=0.86    pTM=0.85    Unbound_Binder_pLDDT=0.84    failed [i_pTM, Unbound_Binder_pLDDT]
+   8/10  rejected  Binder_RMSD=1.4     Interface_Residues=18   Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.81    pLDDT=0.89    pTM=0.86    Unbound_Binder_pLDDT=0.85    failed [Unbound_Binder_pLDDT]
+   9/10  rejected  Binder_RMSD=2.2     Interface_Residues=15   Target_pLDDT=0.87    i_pAE=0.22    i_pTM=0.78    pLDDT=0.88    pTM=0.84    failed [i_pTM]
+  10/10  ACCEPTED  Binder_RMSD=0.85    Interface_Residues=17   Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.82    pLDDT=0.92    pTM=0.86  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 10 (0.41)
+
+=== trajectory 35 | il15_lesson_unguided_denovo_l94_ddfe600f89f7ad37 | accepted 5/100 | worker 6 ===
+  passed screen design stage  i_pTM=0.83    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.83    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.94  
+  rejected at harden design stage  i_pTM=0.72    pLDDT=0.58   due to [pLDDT]
+
+=== trajectory 36 | il15_lesson_unguided_denovo_l83_2f0f9c71b76fb6a2 | accepted 5/100 | worker 10 ===
+  passed screen design stage  i_pTM=0.77    pLDDT=0.81  
+  passed refine design stage  i_pTM=0.7     pLDDT=0.8   
+  passed anneal design stage  i_pTM=0.76    pLDDT=0.81  
+  passed harden design stage  i_pTM=0.76    pLDDT=0.69  
+  passed mutate design stage  i_pTM=0.58    pLDDT=0.72  
+  trajectory rejected  i_pTM=0.58    pLDDT=0.72   due to [i_pTM]
+
+=== trajectory 37 | il15_lesson_unguided_denovo_l107_93de63eeacdcef4f | accepted 6/100 | worker 9 ===
+  passed screen design stage  i_pTM=0.75    pLDDT=0.63  
+  passed refine design stage  i_pTM=0.79    pLDDT=0.61  
+  rejected at anneal design stage  i_pTM=0.82    pLDDT=0.61   due to [pLDDT]
+
+=== trajectory 38 | il15_lesson_unguided_denovo_l88_5d7fac11337be636 | accepted 6/100 | worker 12 ===
+  passed screen design stage  i_pTM=0.71    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.77    pLDDT=0.85  
+  passed anneal design stage  i_pTM=0.73    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.77    pLDDT=0.9   
+  rejected at mutate design stage  i_pTM=0.13    pLDDT=0.44   due to [i_pTM, pLDDT]
+
+=== trajectory 39 | il15_lesson_unguided_denovo_l95_c15ad7dbc39ba5eb | accepted 7/100 | worker 2 ===
+  passed screen design stage  i_pTM=0.78    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.78    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.81    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.79    pLDDT=0.91  
+  trajectory rejected  i_pTM=0.79    pLDDT=0.91   due to [i_pTM]
+
+=== trajectory 40 | il15_lesson_unguided_denovo_l85_a3cf37fb21f13dea | accepted 8/100 | worker 0 ===
+  passed screen design stage  i_pTM=0.85    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.85    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.86    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.87    pLDDT=0.94  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 23 of 85 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.16    Interface_Residues=20   Target_pLDDT=0.89    i_pAE=0.17    i_pTM=0.83    pLDDT=0.94    pTM=0.87  
+   2/10  ACCEPTED  Binder_RMSD=0.3     Interface_Residues=21   Target_pLDDT=0.89    i_pAE=0.17    i_pTM=0.82    pLDDT=0.93    pTM=0.87  
+   3/10  ACCEPTED  Binder_RMSD=0.25    Interface_Residues=20   Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.81    pLDDT=0.93    pTM=0.86  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 1 (0.28)
+
+=== trajectory 41 | il15_lesson_unguided_denovo_l108_bbf1405342140a7e | accepted 9/100 | worker 7 ===
+  passed screen design stage  i_pTM=0.84    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.86    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.86    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.8     pLDDT=0.91  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 17 of 108 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.29    Interface_Residues=16   Target_pLDDT=0.87    i_pAE=0.21    i_pTM=0.79    pLDDT=0.93    pTM=0.84    failed [i_pTM]
+   2/10  rejected  Binder_RMSD=0.74    Interface_Residues=17   Target_pLDDT=0.87    i_pAE=0.22    i_pTM=0.77    pLDDT=0.93    pTM=0.84    failed [i_pTM]
+   3/10  rejected  Binder_RMSD=2.4     Interface_Residues=16   Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.78    pLDDT=0.93    pTM=0.84    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=0.24    Interface_Residues=17   Target_pLDDT=0.87    i_pAE=0.22    i_pTM=0.77    pLDDT=0.93    pTM=0.84    failed [i_pTM]
+   5/10  rejected  Binder_RMSD=0.75    Interface_Residues=17   Target_pLDDT=0.87    i_pAE=0.21    i_pTM=0.79    pLDDT=0.93    pTM=0.85    failed [i_pTM]
+   6/10  rejected  Binder_RMSD=0.25    Interface_Residues=17   Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.8     pLDDT=0.94    pTM=0.85    failed [i_pTM]
+   7/10  ACCEPTED  Binder_RMSD=0.75    Interface_Residues=17   Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.82    pLDDT=0.94    pTM=0.86  
+   8/10  rejected  Binder_RMSD=0.53    Interface_Residues=14   Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.78    pLDDT=0.92    pTM=0.84    failed [i_pTM]
+   9/10  rejected  Binder_RMSD=0.36    Interface_Residues=16   Target_pLDDT=0.87    i_pAE=0.22    i_pTM=0.78    pLDDT=0.93    pTM=0.84    failed [i_pTM]
+  10/10  rejected  Binder_RMSD=0.2     Interface_Residues=15   Target_pLDDT=0.87    i_pAE=0.22    i_pTM=0.77    pLDDT=0.93    pTM=0.83    failed [i_pTM]
+  1 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 7 (0.39)
+
+=== trajectory 42 | il15_lesson_unguided_denovo_l97_bb83a051ab7eb954 | accepted 10/100 | worker 3 ===
+  passed screen design stage  i_pTM=0.89    pLDDT=0.94  
+  passed refine design stage  i_pTM=0.89    pLDDT=0.94  
+  passed anneal design stage  i_pTM=0.9     pLDDT=0.95  
+  rejected at harden design stage  i_pTM=0.12    pLDDT=0.84   due to [i_pTM]
+
+=== trajectory 43 | il15_lesson_unguided_denovo_l108_18adadeb14a08bcc | accepted 10/100 | worker 1 ===
+  rejected at screen design stage  i_pTM=0.71    pLDDT=0.6    due to [pLDDT]
+
+=== trajectory 44 | il15_lesson_unguided_denovo_l109_ebbf7b129feef59c | accepted 11/100 | worker 5 ===
+  passed screen design stage  i_pTM=0.81    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.85    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.85    pLDDT=0.95  
+  passed mutate design stage  i_pTM=0.85    pLDDT=0.94  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 19 of 109 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.34    Interface_Residues=14   Target_pLDDT=0.86    i_pAE=0.31    i_pTM=0.67    pLDDT=0.91    pTM=0.79    failed [i_pTM]
+   2/10  rejected  Binder_RMSD=0.37    Interface_Residues=11   Target_pLDDT=0.86    i_pAE=0.27    i_pTM=0.72    pLDDT=0.92    pTM=0.81    failed [i_pTM]
+   3/10  rejected  Binder_RMSD=0.36    Interface_Residues=14   Target_pLDDT=0.87    i_pAE=0.26    i_pTM=0.73    pLDDT=0.92    pTM=0.82    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=0.43    Interface_Residues=15   Target_pLDDT=0.87    i_pAE=0.21    i_pTM=0.79    pLDDT=0.93    pTM=0.84    failed [i_pTM]
+   5/10  rejected  Binder_RMSD=0.39    Interface_Residues=15   Target_pLDDT=0.87    i_pAE=0.21    i_pTM=0.79    pLDDT=0.93    pTM=0.85    failed [i_pTM]
+   6/10  rejected  Binder_RMSD=0.33    Interface_Residues=13   Target_pLDDT=0.86    i_pAE=0.27    i_pTM=0.72    pLDDT=0.91    pTM=0.81    failed [i_pTM]
+   7/10  ACCEPTED  Binder_RMSD=0.43    Interface_Residues=16   Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.81    pLDDT=0.93    pTM=0.86  
+   8/10  rejected  Binder_RMSD=0.28    Interface_Residues=12   Target_pLDDT=0.87    i_pAE=0.24    i_pTM=0.76    pLDDT=0.93    pTM=0.83    failed [i_pTM]
+   9/10  rejected  Binder_RMSD=0.49    Interface_Residues=17   Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.79    pLDDT=0.93    pTM=0.85    failed [i_pTM]
+  10/10  rejected  Binder_RMSD=0.38    Interface_Residues=13   Target_pLDDT=0.87    i_pAE=0.24    i_pTM=0.76    pLDDT=0.93    pTM=0.83    failed [i_pTM]
+  1 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 7 (0.34)
+
+=== trajectory 45 | il15_lesson_unguided_denovo_l86_7e41fad5dd3b6e76 | accepted 11/100 | worker 4 ===
+  passed screen design stage  i_pTM=0.76    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.8     pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.95  
+  passed harden design stage  i_pTM=0.83    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.62    pLDDT=0.87  
+  trajectory rejected  i_pTM=0.62    pLDDT=0.87   due to [i_pTM]
+
+=== trajectory 46 | il15_lesson_unguided_denovo_l100_72f797ebc312908d | accepted 11/100 | worker 13 ===
+  passed screen design stage  i_pTM=0.75    pLDDT=0.75  
+  passed refine design stage  i_pTM=0.74    pLDDT=0.81  
+  passed anneal design stage  i_pTM=0.8     pLDDT=0.9   
+  passed harden design stage  i_pTM=0.81    pLDDT=0.9   
+  passed mutate design stage  i_pTM=0.82    pLDDT=0.9   
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 24 of 100 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.63    Interface_Residues=19   Target_pLDDT=0.86    i_pAE=0.23    i_pTM=0.72    pLDDT=0.88    pTM=0.81    failed [i_pTM]
+   2/10  rejected  Binder_RMSD=0.74    Interface_Residues=20   Target_pLDDT=0.87    i_pAE=0.22    i_pTM=0.75    pLDDT=0.87    pTM=0.82    Unbound_Binder_pLDDT=0.85    failed [i_pTM, Unbound_Binder_pLDDT]
+   3/10  rejected  Binder_RMSD=0.39    Interface_Residues=21   Target_pLDDT=0.86    i_pAE=0.21    i_pTM=0.76    pLDDT=0.9     pTM=0.83    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=0.86    Interface_Residues=19   Target_pLDDT=0.86    i_pAE=0.26    i_pTM=0.7     pLDDT=0.83    pTM=0.8     Unbound_Binder_pLDDT=0.78    failed [i_pTM, Unbound_Binder_pLDDT]
+   5/10  rejected  Binder_RMSD=0.69    Interface_Residues=21   Target_pLDDT=0.86    i_pAE=0.22    i_pTM=0.77    pLDDT=0.87    pTM=0.83    Unbound_Binder_pLDDT=0.84    failed [i_pTM, Unbound_Binder_pLDDT]
+   6/10  rejected  Binder_RMSD=1.2     Interface_Residues=20   Target_pLDDT=0.86    i_pAE=0.22    i_pTM=0.77    pLDDT=0.89    pTM=0.83    failed [i_pTM]
+   7/10  rejected  Binder_RMSD=1.1     Interface_Residues=20   Target_pLDDT=0.86    i_pAE=0.24    i_pTM=0.74    pLDDT=0.86    pTM=0.82    Unbound_Binder_pLDDT=0.83    failed [i_pTM, Unbound_Binder_pLDDT]
+   8/10  rejected  Binder_RMSD=0.74    Interface_Residues=22   Target_pLDDT=0.87    i_pAE=0.2     i_pTM=0.79    pLDDT=0.9     pTM=0.84    failed [i_pTM]
+   9/10  rejected  Binder_RMSD=1.4     Interface_Residues=18   Target_pLDDT=0.86    i_pAE=0.26    i_pTM=0.74    pLDDT=0.82    pTM=0.81    Unbound_Binder_pLDDT=0.8     failed [i_pTM, Unbound_Binder_pLDDT]
+  10/10  rejected  Binder_RMSD=3.4     Interface_Residues=19   Target_pLDDT=0.86    i_pAE=0.24    i_pTM=0.75    pLDDT=0.84    pTM=0.81    Unbound_Binder_pLDDT=0.64    failed [i_pTM, Unbound_Binder_pLDDT]
+  0 of 10 redesigns passed
+
+=== trajectory 47 | il15_lesson_unguided_denovo_l85_6774fc32aae85b3e | accepted 11/100 | worker 6 ===
+  passed screen design stage  i_pTM=0.82    pLDDT=0.87  
+  passed refine design stage  i_pTM=0.81    pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.89  
+  passed harden design stage  i_pTM=0.8     pLDDT=0.86  
+  passed mutate design stage  i_pTM=0.79    pLDDT=0.86  
+  trajectory rejected  i_pTM=0.79    pLDDT=0.86   due to [i_pTM]
+
+=== trajectory 48 | il15_lesson_unguided_denovo_l100_5042bd9872c7d040 | accepted 11/100 | worker 1 ===
+  passed screen design stage  i_pTM=0.78    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.79    pLDDT=0.91  
+  passed mutate design stage  i_pTM=0.78    pLDDT=0.89  
+  trajectory rejected  i_pTM=0.78    pLDDT=0.89   due to [i_pTM]
+
+=== trajectory 49 | il15_lesson_unguided_denovo_l101_2bf8132313ecf928 | accepted 11/100 | worker 11 ===
+  passed screen design stage  i_pTM=0.8     pLDDT=0.95  
+  passed refine design stage  i_pTM=0.86    pLDDT=0.95  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.95  
+  passed harden design stage  i_pTM=0.82    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.81    pLDDT=0.93  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 15 of 101 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.38    Interface_Residues=14   Target_pLDDT=0.89    i_pAE=0.18    i_pTM=0.81    pLDDT=0.93    pTM=0.86  
+   2/10  rejected  Binder_RMSD=0.21    Interface_Residues=13   Target_pLDDT=0.89    i_pAE=0.19    i_pTM=0.8     pLDDT=0.94    pTM=0.86    failed [i_pTM]
+   3/10  rejected  Binder_RMSD=0.16    Interface_Residues=16   Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.8     pLDDT=0.95    pTM=0.86    failed [i_pTM]
+   4/10  ACCEPTED  Binder_RMSD=0.25    Interface_Residues=16   Target_pLDDT=0.89    i_pAE=0.18    i_pTM=0.82    pLDDT=0.95    pTM=0.87  
+   5/10  ACCEPTED  Binder_RMSD=0.18    Interface_Residues=14   Target_pLDDT=0.89    i_pAE=0.19    i_pTM=0.81    pLDDT=0.94    pTM=0.86  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 4 (0.27)
+
+=== trajectory 50 | il15_lesson_unguided_denovo_l80_a9a07b0f600e87b2 | accepted 12/100 | worker 8 ===
+  passed screen design stage  i_pTM=0.82    pLDDT=0.89  
+  passed refine design stage  i_pTM=0.89    pLDDT=0.94  
+  passed anneal design stage  i_pTM=0.9     pLDDT=0.95  
+  passed harden design stage  i_pTM=0.89    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.88    pLDDT=0.93  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 24 of 80 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.78    Interface_Residues=22   Target_pLDDT=0.9     i_pAE=0.15    i_pTM=0.89    pLDDT=0.94    pTM=0.89  
+   2/10  ACCEPTED  Binder_RMSD=0.48    Interface_Residues=21   Target_pLDDT=0.9     i_pAE=0.14    i_pTM=0.9     pLDDT=0.95    pTM=0.89  
+   3/10  ACCEPTED  Binder_RMSD=0.52    Interface_Residues=22   Target_pLDDT=0.89    i_pAE=0.15    i_pTM=0.88    pLDDT=0.95    pTM=0.89  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 1 (0.42)
+
+=== trajectory 51 | il15_lesson_unguided_denovo_l80_620d1e07c8b58a5f | accepted 12/100 | worker 10 ===
+  passed screen design stage  i_pTM=0.82    pLDDT=0.94  
+  passed refine design stage  i_pTM=0.76    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.88    pLDDT=0.95  
+  passed harden design stage  i_pTM=0.85    pLDDT=0.95  
+  passed mutate design stage  i_pTM=0.87    pLDDT=0.95  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 18 of 80 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.12    Interface_Residues=1    Target_pLDDT=0.87    i_pAE=0.8     i_pTM=0.12    pLDDT=0.96    pTM=0.56    failed [i_pTM, i_pAE, Interface_Residues]
+   2/10  rejected  Binder_RMSD=0.12    Interface_Residues=0    Target_pLDDT=0.87    i_pAE=0.8     i_pTM=0.13    pLDDT=0.94    pTM=0.57    failed [i_pTM, i_pAE, Interface_Residues]
+   3/10  rejected  Binder_RMSD=0.15    Interface_Residues=14   Target_pLDDT=0.87    i_pAE=0.21    i_pTM=0.79    pLDDT=0.94    pTM=0.85    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=0.14    Interface_Residues=0    Target_pLDDT=0.87    i_pAE=0.8     i_pTM=0.13    pLDDT=0.95    pTM=0.56    failed [i_pTM, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=0.16    Interface_Residues=0    Target_pLDDT=0.87    i_pAE=0.81    i_pTM=0.12    pLDDT=0.95    pTM=0.56    failed [i_pTM, i_pAE, Interface_Residues]
+   6/10  rejected  Binder_RMSD=0.19    Interface_Residues=0    Target_pLDDT=0.87    i_pAE=0.81    i_pTM=0.12    pLDDT=0.95    pTM=0.56    failed [i_pTM, i_pAE, Interface_Residues]
+   7/10  rejected  Binder_RMSD=0.17    Interface_Residues=16   Target_pLDDT=0.87    i_pAE=0.22    i_pTM=0.78    pLDDT=0.94    pTM=0.84    failed [i_pTM]
+   8/10  ACCEPTED  Binder_RMSD=0.26    Interface_Residues=15   Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.81    pLDDT=0.94    pTM=0.86  
+   9/10  rejected  Binder_RMSD=0.26    Interface_Residues=15   Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.79    pLDDT=0.94    pTM=0.85    failed [i_pTM]
+  10/10  rejected  Binder_RMSD=0.12    Interface_Residues=1    Target_pLDDT=0.87    i_pAE=0.8     i_pTM=0.13    pLDDT=0.95    pTM=0.56    failed [i_pTM, i_pAE, Interface_Residues]
+  1 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 8 (0.3)
+
+=== trajectory 52 | il15_lesson_unguided_denovo_l90_063e2c9ccb88c7ef | accepted 12/100 | worker 2 ===
+  passed screen design stage  i_pTM=0.87    pLDDT=0.95  
+  passed refine design stage  i_pTM=0.86    pLDDT=0.94  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.84    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.52    pLDDT=0.87  
+  trajectory rejected  i_pTM=0.52    pLDDT=0.87   due to [i_pTM]
+
+=== trajectory 53 | il15_lesson_unguided_denovo_l106_da1fabc8ef5ce3b1 | accepted 12/100 | worker 9 ===
+  passed screen design stage  i_pTM=0.83    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.83    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.94  
+  rejected at harden design stage  i_pTM=0.43    pLDDT=0.52   due to [i_pTM, pLDDT]
+
+=== trajectory 54 | il15_lesson_unguided_denovo_l93_5eff771ce876df2e | accepted 12/100 | worker 12 ===
+  passed screen design stage  i_pTM=0.77    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.64    pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.8     pLDDT=0.92  
+  rejected at mutate design stage  i_pTM=0.31    pLDDT=0.67   due to [i_pTM]
+
+=== trajectory 55 | il15_lesson_unguided_denovo_l82_2300cd4b6b9a7a88 | accepted 13/100 | worker 0 ===
+  passed screen design stage  i_pTM=0.73    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.8     pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.85    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.82    pLDDT=0.92  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 14 of 82 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.09    Interface_Residues=6    Target_pLDDT=0.86    i_pAE=0.72    i_pTM=0.19    pLDDT=0.93    pTM=0.6     failed [i_pTM, i_pAE, Interface_Residues]
+   2/10  rejected  Binder_RMSD=0.11    Interface_Residues=7    Target_pLDDT=0.86    i_pAE=0.74    i_pTM=0.17    pLDDT=0.92    pTM=0.59    failed [i_pTM, i_pAE]
+   3/10  rejected  Binder_RMSD=0.12    Interface_Residues=3    Target_pLDDT=0.86    i_pAE=0.76    i_pTM=0.15    pLDDT=0.93    pTM=0.58    failed [i_pTM, i_pAE, Interface_Residues]
+   4/10  rejected  Binder_RMSD=0.16    Interface_Residues=11   Target_pLDDT=0.86    i_pAE=0.61    i_pTM=0.31    pLDDT=0.91    pTM=0.65    failed [i_pTM, i_pAE]
+   5/10  rejected  Binder_RMSD=0.1     Interface_Residues=3    Target_pLDDT=0.87    i_pAE=0.76    i_pTM=0.15    pLDDT=0.94    pTM=0.58    failed [i_pTM, i_pAE, Interface_Residues]
+   6/10  rejected  Binder_RMSD=0.1     Interface_Residues=8    Target_pLDDT=0.87    i_pAE=0.65    i_pTM=0.25    pLDDT=0.92    pTM=0.62    failed [i_pTM, i_pAE]
+   7/10  rejected  Binder_RMSD=0.12    Interface_Residues=8    Target_pLDDT=0.86    i_pAE=0.69    i_pTM=0.21    pLDDT=0.93    pTM=0.6     failed [i_pTM, i_pAE]
+   8/10  rejected  Binder_RMSD=0.12    Interface_Residues=8    Target_pLDDT=0.87    i_pAE=0.72    i_pTM=0.19    pLDDT=0.92    pTM=0.6     failed [i_pTM, i_pAE]
+   9/10  rejected  Binder_RMSD=0.11    Interface_Residues=10   Target_pLDDT=0.86    i_pAE=0.67    i_pTM=0.23    pLDDT=0.92    pTM=0.62    failed [i_pTM, i_pAE]
+  10/10  rejected  Binder_RMSD=0.11    Interface_Residues=2    Target_pLDDT=0.86    i_pAE=0.77    i_pTM=0.14    pLDDT=0.93    pTM=0.57    failed [i_pTM, i_pAE, Interface_Residues]
+  0 of 10 redesigns passed
+
+=== trajectory 56 | il15_lesson_unguided_denovo_l110_0823724f9813407a | accepted 13/100 | worker 3 ===
+  passed screen design stage  i_pTM=0.78    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.84    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.94  
+  rejected at harden design stage  i_pTM=0.19    pLDDT=0.62   due to [i_pTM, pLDDT]
+
+=== trajectory 57 | il15_lesson_unguided_denovo_l92_aad28111011c603d | accepted 13/100 | worker 4 ===
+  passed screen design stage  i_pTM=0.78    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.79    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.8     pLDDT=0.93  
+  passed harden design stage  i_pTM=0.82    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.81    pLDDT=0.93  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 15 of 92 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.35    Interface_Residues=14   Target_pLDDT=0.9     i_pAE=0.18    i_pTM=0.83    pLDDT=0.93    pTM=0.87  
+   2/10  rejected  Binder_RMSD=0.46    Interface_Residues=15   Target_pLDDT=0.89    i_pAE=0.21    i_pTM=0.8     pLDDT=0.91    pTM=0.86    failed [i_pTM]
+   3/10  ACCEPTED  Binder_RMSD=0.37    Interface_Residues=15   Target_pLDDT=0.89    i_pAE=0.19    i_pTM=0.81    pLDDT=0.92    pTM=0.87  
+   4/10  rejected  Binder_RMSD=0.34    Interface_Residues=16   Target_pLDDT=0.89    i_pAE=0.21    i_pTM=0.79    pLDDT=0.91    pTM=0.85    failed [i_pTM]
+   5/10  ACCEPTED  Binder_RMSD=0.44    Interface_Residues=14   Target_pLDDT=0.9     i_pAE=0.19    i_pTM=0.82    pLDDT=0.91    pTM=0.87  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 1 (0.31)
+
+=== trajectory 58 | il15_lesson_unguided_denovo_l95_c16ca54245b34959 | accepted 13/100 | worker 6 ===
+  passed screen design stage  i_pTM=0.83    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.79    pLDDT=0.89  
+  passed anneal design stage  i_pTM=0.87    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.84    pLDDT=0.89  
+  rejected at mutate design stage  i_pTM=0.18    pLDDT=0.41   due to [i_pTM, pLDDT]
+
+=== trajectory 59 | il15_lesson_unguided_denovo_l102_ac292a3159beeca1 | accepted 14/100 | worker 7 ===
+  passed screen design stage  i_pTM=0.84    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.84    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.86    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.86    pLDDT=0.92  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 24 of 102 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.81    Interface_Residues=24   Target_pLDDT=0.87    i_pAE=0.2     i_pTM=0.82    pLDDT=0.92    pTM=0.86  
+   2/10  rejected  Binder_RMSD=0.59    Interface_Residues=24   Target_pLDDT=0.86    i_pAE=0.53    i_pTM=0.47    pLDDT=0.71    pTM=0.7     failed [i_pTM, pLDDT, pTM, i_pAE]
+   3/10  rejected  Binder_RMSD=0.55    Interface_Residues=23   Target_pLDDT=0.86    i_pAE=0.29    i_pTM=0.72    pLDDT=0.87    pTM=0.81    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=1.2     Interface_Residues=25   Target_pLDDT=0.87    i_pAE=0.22    i_pTM=0.78    pLDDT=0.9     pTM=0.84    failed [i_pTM]
+   5/10  rejected  Binder_RMSD=0.81    Interface_Residues=25   Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.81    pLDDT=0.92    pTM=0.86    failed [i_pTM]
+   6/10  rejected  Binder_RMSD=0.24    Interface_Residues=19   Target_pLDDT=0.85    i_pAE=0.33    i_pTM=0.66    pLDDT=0.88    pTM=0.78    failed [i_pTM]
+   7/10  rejected  Binder_RMSD=0.51    Interface_Residues=17   Target_pLDDT=0.85    i_pAE=0.59    i_pTM=0.38    pLDDT=0.82    pTM=0.65    failed [i_pTM, i_pAE]
+   8/10  rejected  Binder_RMSD=2.7     Interface_Residues=22   Target_pLDDT=0.86    i_pAE=0.25    i_pTM=0.76    pLDDT=0.88    pTM=0.83    failed [i_pTM]
+   9/10  rejected  Binder_RMSD=0.33    Interface_Residues=20   Target_pLDDT=0.86    i_pAE=0.29    i_pTM=0.72    pLDDT=0.87    pTM=0.81    failed [i_pTM]
+  10/10  rejected  Binder_RMSD=0.24    Interface_Residues=18   Target_pLDDT=0.85    i_pAE=0.36    i_pTM=0.63    pLDDT=0.88    pTM=0.77    failed [i_pTM, i_pAE]
+  1 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 1 (0.31)
+
+=== trajectory 60 | il15_lesson_unguided_denovo_l99_0b7d7ab1c57971c0 | accepted 14/100 | worker 13 ===
+  passed screen design stage  i_pTM=0.83    pLDDT=0.66  
+  rejected at refine design stage  i_pTM=0.68    pLDDT=0.5    due to [pLDDT]
+
+=== trajectory 61 | il15_lesson_unguided_denovo_l92_2fc69d8627f5f857 | accepted 14/100 | worker 2 ===
+  passed screen design stage  i_pTM=0.81    pLDDT=0.65  
+  passed refine design stage  i_pTM=0.81    pLDDT=0.62  
+  rejected at anneal design stage  i_pTM=0.82    pLDDT=0.64   due to [pLDDT]
+
+=== trajectory 62 | il15_lesson_unguided_denovo_l106_8b185abac0afb99f | accepted 14/100 | worker 1 ===
+  passed screen design stage  i_pTM=0.74    pLDDT=0.68  
+  passed refine design stage  i_pTM=0.75    pLDDT=0.65  
+  rejected at anneal design stage  i_pTM=0.86    pLDDT=0.64   due to [pLDDT]
+
+=== trajectory 63 | il15_lesson_unguided_denovo_l88_658e4e9bc34583d3 | accepted 15/100 | worker 8 ===
+  passed screen design stage  i_pTM=0.71    pLDDT=0.8   
+  passed refine design stage  i_pTM=0.75    pLDDT=0.84  
+  passed anneal design stage  i_pTM=0.8     pLDDT=0.87  
+  passed harden design stage  i_pTM=0.79    pLDDT=0.84  
+  passed mutate design stage  i_pTM=0.77    pLDDT=0.82  
+  trajectory rejected  i_pTM=0.77    pLDDT=0.82   due to [i_pTM]
+
+=== trajectory 64 | il15_lesson_unguided_denovo_l97_67fed314cd791b6b | accepted 16/100 | worker 5 ===
+  passed screen design stage  i_pTM=0.8     pLDDT=0.9   
+  passed refine design stage  i_pTM=0.81    pLDDT=0.89  
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.9   
+  passed harden design stage  i_pTM=0.84    pLDDT=0.88  
+  passed mutate design stage  i_pTM=0.85    pLDDT=0.9   
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 15 of 97 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.15    Interface_Residues=15   Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.83    pLDDT=0.94    pTM=0.87  
+   2/10  rejected  Binder_RMSD=0.42    Interface_Residues=15   Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.79    pLDDT=0.91    pTM=0.85    failed [i_pTM]
+   3/10  rejected  Binder_RMSD=1.4     Interface_Residues=14   Target_pLDDT=0.87    i_pAE=0.22    i_pTM=0.78    pLDDT=0.93    pTM=0.84    failed [i_pTM]
+   4/10  ACCEPTED  Binder_RMSD=0.24    Interface_Residues=17   Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.83    pLDDT=0.94    pTM=0.87  
+   5/10  rejected  Binder_RMSD=0.73    Interface_Residues=15   Target_pLDDT=0.88    i_pAE=0.22    i_pTM=0.79    pLDDT=0.9     pTM=0.85    failed [i_pTM]
+   6/10  rejected  Binder_RMSD=0.24    Interface_Residues=14   Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.79    pLDDT=0.91    pTM=0.85    failed [i_pTM]
+   7/10  ACCEPTED  Binder_RMSD=0.3     Interface_Residues=17   Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.81    pLDDT=0.92    pTM=0.86  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 1 (0.36)
+
+=== trajectory 65 | il15_lesson_unguided_denovo_l84_86825bd34133736f | accepted 16/100 | worker 12 ===
+  passed screen design stage  i_pTM=0.85    pLDDT=0.95  
+  passed refine design stage  i_pTM=0.85    pLDDT=0.95  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.95  
+  passed harden design stage  i_pTM=0.82    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.79    pLDDT=0.89  
+  trajectory rejected  i_pTM=0.79    pLDDT=0.89   due to [i_pTM]
+
+=== trajectory 66 | il15_lesson_unguided_denovo_l102_cae5e8340e42217c | accepted 16/100 | worker 9 ===
+  passed screen design stage  i_pTM=0.83    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.79    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.82    pLDDT=0.9   
+  passed mutate design stage  i_pTM=0.63    pLDDT=0.85  
+  trajectory rejected  i_pTM=0.63    pLDDT=0.85   due to [i_pTM]
+
+=== trajectory 67 | il15_lesson_unguided_denovo_l86_5fe118482021e003 | accepted 17/100 | worker 10 ===
+  passed screen design stage  i_pTM=0.82    pLDDT=0.88  
+  passed refine design stage  i_pTM=0.79    pLDDT=0.89  
+  passed anneal design stage  i_pTM=0.87    pLDDT=0.95  
+  passed harden design stage  i_pTM=0.88    pLDDT=0.95  
+  passed mutate design stage  i_pTM=0.85    pLDDT=0.93  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 18 of 86 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.26    Interface_Residues=15   Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.81    pLDDT=0.91    pTM=0.85    Unbound_Binder_pLDDT=0.83    failed [Unbound_Binder_pLDDT]
+   2/10  ACCEPTED  Binder_RMSD=0.57    Interface_Residues=16   Target_pLDDT=0.89    i_pAE=0.2     i_pTM=0.83    pLDDT=0.91    pTM=0.86  
+   3/10  ACCEPTED  Binder_RMSD=0.33    Interface_Residues=16   Target_pLDDT=0.89    i_pAE=0.2     i_pTM=0.82    pLDDT=0.89    pTM=0.85  
+   4/10  ACCEPTED  Binder_RMSD=0.39    Interface_Residues=16   Target_pLDDT=0.89    i_pAE=0.19    i_pTM=0.83    pLDDT=0.91    pTM=0.86  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 4 (0.35)
+
+=== trajectory 68 | il15_lesson_unguided_denovo_l101_193ba50de14e3105 | accepted 18/100 | worker 11 ===
+  passed screen design stage  i_pTM=0.81    pLDDT=0.95  
+  passed refine design stage  i_pTM=0.83    pLDDT=0.94  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.95  
+  passed harden design stage  i_pTM=0.86    pLDDT=0.96  
+  passed mutate design stage  i_pTM=0.81    pLDDT=0.93  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 18 of 101 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.49    Interface_Residues=20   Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.79    pLDDT=0.94    pTM=0.85    failed [i_pTM]
+   2/10  rejected  Binder_RMSD=0.5     Interface_Residues=12   Target_pLDDT=0.87    i_pAE=0.29    i_pTM=0.7     pLDDT=0.9     pTM=0.8     failed [i_pTM]
+   3/10  rejected  Binder_RMSD=0.4     Interface_Residues=16   Target_pLDDT=0.87    i_pAE=0.27    i_pTM=0.71    pLDDT=0.93    pTM=0.81    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=0.27    Interface_Residues=13   Target_pLDDT=0.86    i_pAE=0.36    i_pTM=0.64    pLDDT=0.93    pTM=0.77    failed [i_pTM, i_pAE]
+   5/10  rejected  Binder_RMSD=0.2     Interface_Residues=10   Target_pLDDT=0.86    i_pAE=0.54    i_pTM=0.41    pLDDT=0.9     pTM=0.67    failed [i_pTM, i_pAE]
+   6/10  rejected  Binder_RMSD=0.27    Interface_Residues=16   Target_pLDDT=0.86    i_pAE=0.41    i_pTM=0.55    pLDDT=0.92    pTM=0.73    failed [i_pTM, i_pAE]
+   7/10  rejected  Binder_RMSD=0.37    Interface_Residues=18   Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.79    pLDDT=0.94    pTM=0.84    failed [i_pTM]
+   8/10  rejected  Binder_RMSD=0.36    Interface_Residues=20   Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.8     pLDDT=0.94    pTM=0.85    failed [i_pTM]
+   9/10  rejected  Binder_RMSD=0.33    Interface_Residues=16   Target_pLDDT=0.87    i_pAE=0.26    i_pTM=0.72    pLDDT=0.93    pTM=0.81    failed [i_pTM]
+  10/10  rejected  Binder_RMSD=0.39    Interface_Residues=18   Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.77    pLDDT=0.94    pTM=0.84    failed [i_pTM]
+  0 of 10 redesigns passed
+
+=== trajectory 69 | il15_lesson_unguided_denovo_l95_83f967caef363d09 | accepted 18/100 | worker 0 ===
+  passed screen design stage  i_pTM=0.76    pLDDT=0.88  
+  passed refine design stage  i_pTM=0.72    pLDDT=0.85  
+  passed anneal design stage  i_pTM=0.75    pLDDT=0.86  
+  passed harden design stage  i_pTM=0.75    pLDDT=0.86  
+  rejected at mutate design stage  i_pTM=0.34    pLDDT=0.68   due to [i_pTM]
+
+=== trajectory 70 | il15_lesson_unguided_denovo_l110_2e1cb9733059f3b6 | accepted 18/100 | worker 3 ===
+  passed screen design stage  i_pTM=0.74    pLDDT=0.89  
+  passed refine design stage  i_pTM=0.7     pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.78    pLDDT=0.9   
+  passed harden design stage  i_pTM=0.76    pLDDT=0.88  
+  rejected at mutate design stage  i_pTM=0.47    pLDDT=0.81   due to [i_pTM]
+
+=== trajectory 71 | il15_lesson_unguided_denovo_l100_9249eb6581be6e82 | accepted 18/100 | worker 13 ===
+  passed screen design stage  i_pTM=0.77    pLDDT=0.86  
+  passed refine design stage  i_pTM=0.71    pLDDT=0.84  
+  passed anneal design stage  i_pTM=0.79    pLDDT=0.89  
+  passed harden design stage  i_pTM=0.78    pLDDT=0.89  
+  passed mutate design stage  i_pTM=0.6     pLDDT=0.81  
+  trajectory rejected  i_pTM=0.6     pLDDT=0.81   due to [i_pTM]
+
+=== trajectory 72 | il15_lesson_unguided_denovo_l90_1c8f2bcaa93d6e2f | accepted 19/100 | worker 4 ===
+  passed screen design stage  i_pTM=0.78    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.9   
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.58    pLDDT=0.84  
+  passed mutate design stage  i_pTM=0.74    pLDDT=0.88  
+  trajectory rejected  i_pTM=0.74    pLDDT=0.88   due to [i_pTM]
+
+=== trajectory 73 | il15_lesson_unguided_denovo_l80_c23248019f158b30 | accepted 19/100 | worker 6 ===
+  passed screen design stage  i_pTM=0.84    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.8     pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.8     pLDDT=0.92  
+  passed harden design stage  i_pTM=0.83    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.83    pLDDT=0.93  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 21 of 80 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=1.2     Interface_Residues=2    Target_pLDDT=0.87    i_pAE=0.82    i_pTM=0.12    pLDDT=0.85    pTM=0.56    Unbound_Binder_pLDDT=0.83    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE, Interface_Residues]
+   2/10  rejected  Binder_RMSD=0.75    Interface_Residues=2    Target_pLDDT=0.87    i_pAE=0.82    i_pTM=0.11    pLDDT=0.84    pTM=0.56    Unbound_Binder_pLDDT=0.83    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE, Interface_Residues]
+   3/10  rejected  Binder_RMSD=2.5     Interface_Residues=0    Target_pLDDT=0.87    i_pAE=0.82    i_pTM=0.12    pLDDT=0.82    pTM=0.56    Unbound_Binder_pLDDT=0.81    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE, Interface_Residues]
+   4/10  rejected  Binder_RMSD=0.79    Interface_Residues=3    Target_pLDDT=0.87    i_pAE=0.82    i_pTM=0.12    pLDDT=0.83    pTM=0.56    Unbound_Binder_pLDDT=0.83    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=0.95    Interface_Residues=2    Target_pLDDT=0.87    i_pAE=0.82    i_pTM=0.11    pLDDT=0.85    pTM=0.56    Unbound_Binder_pLDDT=0.84    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE, Interface_Residues]
+   6/10  rejected  Binder_RMSD=1.2     Interface_Residues=2    Target_pLDDT=0.87    i_pAE=0.82    i_pTM=0.12    pLDDT=0.84    pTM=0.56    Unbound_Binder_pLDDT=0.81    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE, Interface_Residues]
+   7/10  rejected  Binder_RMSD=3.3     Interface_Residues=2    Target_pLDDT=0.85    i_pAE=0.8     i_pTM=0.12    pLDDT=0.83    pTM=0.56    Unbound_Binder_pLDDT=0.82    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE, Interface_Residues]
+   8/10  rejected  Binder_RMSD=0.88    Interface_Residues=2    Target_pLDDT=0.86    i_pAE=0.81    i_pTM=0.11    pLDDT=0.84    pTM=0.56    Unbound_Binder_pLDDT=0.84    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE, Interface_Residues]
+   9/10  rejected  Binder_RMSD=2.4     Interface_Residues=1    Target_pLDDT=0.86    i_pAE=0.83    i_pTM=0.11    pLDDT=0.81    pTM=0.55    Unbound_Binder_pLDDT=0.8     failed [i_pTM, Unbound_Binder_pLDDT, i_pAE, Interface_Residues]
+  10/10  rejected  Binder_RMSD=1.2     Interface_Residues=1    Target_pLDDT=0.87    i_pAE=0.83    i_pTM=0.1     pLDDT=0.85    pTM=0.56    Unbound_Binder_pLDDT=0.82    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE, Interface_Residues]
+  0 of 10 redesigns passed
+
+=== trajectory 74 | il15_lesson_unguided_denovo_l90_265e12d61915fae7 | accepted 19/100 | worker 2 ===
+  passed screen design stage  i_pTM=0.81    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.81    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.83    pLDDT=0.92  
+  passed mutate design stage  i_pTM=0.82    pLDDT=0.92  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 18 of 90 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.23    Interface_Residues=15   Target_pLDDT=0.87    i_pAE=0.21    i_pTM=0.77    pLDDT=0.9     pTM=0.83    failed [i_pTM]
+   2/10  rejected  Binder_RMSD=0.23    Interface_Residues=14   Target_pLDDT=0.85    i_pAE=0.41    i_pTM=0.54    pLDDT=0.89    pTM=0.73    failed [i_pTM, i_pAE]
+   3/10  rejected  Binder_RMSD=0.16    Interface_Residues=14   Target_pLDDT=0.85    i_pAE=0.42    i_pTM=0.52    pLDDT=0.9     pTM=0.72    failed [i_pTM, i_pAE]
+   4/10  rejected  Binder_RMSD=0.16    Interface_Residues=4    Target_pLDDT=0.87    i_pAE=0.75    i_pTM=0.16    pLDDT=0.92    pTM=0.57    failed [i_pTM, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=0.31    Interface_Residues=10   Target_pLDDT=0.86    i_pAE=0.65    i_pTM=0.27    pLDDT=0.91    pTM=0.61    failed [i_pTM, i_pAE]
+   6/10  rejected  Binder_RMSD=0.2     Interface_Residues=6    Target_pLDDT=0.87    i_pAE=0.72    i_pTM=0.18    pLDDT=0.89    pTM=0.58    failed [i_pTM, i_pAE, Interface_Residues]
+   7/10  rejected  Binder_RMSD=0.33    Interface_Residues=7    Target_pLDDT=0.86    i_pAE=0.65    i_pTM=0.27    pLDDT=0.91    pTM=0.61    failed [i_pTM, i_pAE]
+   8/10  rejected  Binder_RMSD=0.15    Interface_Residues=7    Target_pLDDT=0.86    i_pAE=0.69    i_pTM=0.21    pLDDT=0.91    pTM=0.59    failed [i_pTM, i_pAE]
+   9/10  rejected  Binder_RMSD=0.14    Interface_Residues=11   Target_pLDDT=0.85    i_pAE=0.54    i_pTM=0.37    pLDDT=0.87    pTM=0.66    failed [i_pTM, i_pAE]
+  10/10  rejected  Binder_RMSD=0.22    Interface_Residues=15   Target_pLDDT=0.85    i_pAE=0.32    i_pTM=0.65    pLDDT=0.9     pTM=0.78    failed [i_pTM]
+  0 of 10 redesigns passed
+
+=== trajectory 75 | il15_lesson_unguided_denovo_l80_6e2f749600cf3a85 | accepted 19/100 | worker 8 ===
+  passed screen design stage  i_pTM=0.84    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.83    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.93  
+  rejected at harden design stage  i_pTM=0.13    pLDDT=0.45   due to [i_pTM, pLDDT]
+
+=== trajectory 76 | il15_lesson_unguided_denovo_l94_b88f25c0cc71a3b3 | accepted 19/100 | worker 12 ===
+  passed screen design stage  i_pTM=0.78    pLDDT=0.61  
+  passed refine design stage  i_pTM=0.69    pLDDT=0.62  
+  passed anneal design stage  i_pTM=0.77    pLDDT=0.66  
+  rejected at harden design stage  i_pTM=0.75    pLDDT=0.53   due to [pLDDT]
+
+=== trajectory 77 | il15_lesson_unguided_denovo_l103_42c29029de2062e3 | accepted 19/100 | worker 1 ===
+  passed screen design stage  i_pTM=0.86    pLDDT=0.95  
+  passed refine design stage  i_pTM=0.84    pLDDT=0.94  
+  passed anneal design stage  i_pTM=0.87    pLDDT=0.95  
+  passed harden design stage  i_pTM=0.85    pLDDT=0.94  
+  rejected at mutate design stage  i_pTM=0.18    pLDDT=0.65   due to [i_pTM]
+
+=== trajectory 78 | il15_lesson_unguided_denovo_l97_f65c8f74feee1c45 | accepted 20/100 | worker 7 ===
+  passed screen design stage  i_pTM=0.85    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.84    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.87    pLDDT=0.94  
+  rejected at harden design stage  i_pTM=0.13    pLDDT=0.45   due to [i_pTM, pLDDT]
+
+=== trajectory 79 | il15_lesson_unguided_denovo_l85_2f87890deb47dd50 | accepted 21/100 | worker 10 ===
+  passed screen design stage  i_pTM=0.81    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.86    pLDDT=0.91  
+  passed mutate design stage  i_pTM=0.84    pLDDT=0.9   
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 26 of 85 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.8     Interface_Residues=5    Target_pLDDT=0.86    i_pAE=0.61    i_pTM=0.29    pLDDT=0.87    pTM=0.63    failed [i_pTM, i_pAE, Interface_Residues]
+   2/10  rejected  Binder_RMSD=1.1     Interface_Residues=4    Target_pLDDT=0.87    i_pAE=0.73    i_pTM=0.18    pLDDT=0.88    pTM=0.58    failed [i_pTM, i_pAE, Interface_Residues]
+   3/10  rejected  Binder_RMSD=1.0     Interface_Residues=5    Target_pLDDT=0.87    i_pAE=0.7     i_pTM=0.2     pLDDT=0.88    pTM=0.59    failed [i_pTM, i_pAE, Interface_Residues]
+   4/10  rejected  Binder_RMSD=0.63    Interface_Residues=3    Target_pLDDT=0.87    i_pAE=0.7     i_pTM=0.2     pLDDT=0.89    pTM=0.59    failed [i_pTM, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=6.1     Interface_Residues=4    Target_pLDDT=0.87    i_pAE=0.6     i_pTM=0.29    pLDDT=0.87    pTM=0.63    failed [i_pTM, i_pAE, Interface_Residues, Binder_RMSD]
+   6/10  rejected  Binder_RMSD=1.1     Interface_Residues=5    Target_pLDDT=0.87    i_pAE=0.73    i_pTM=0.19    pLDDT=0.87    pTM=0.58    failed [i_pTM, i_pAE, Interface_Residues]
+   7/10  rejected  Binder_RMSD=2.2     Interface_Residues=6    Target_pLDDT=0.87    i_pAE=0.73    i_pTM=0.18    pLDDT=0.87    pTM=0.58    failed [i_pTM, i_pAE, Interface_Residues]
+   8/10  rejected  Binder_RMSD=0.77    Interface_Residues=4    Target_pLDDT=0.87    i_pAE=0.72    i_pTM=0.19    pLDDT=0.9     pTM=0.59    failed [i_pTM, i_pAE, Interface_Residues]
+   9/10  rejected  Binder_RMSD=1.5     Interface_Residues=5    Target_pLDDT=0.87    i_pAE=0.68    i_pTM=0.23    pLDDT=0.88    pTM=0.6     failed [i_pTM, i_pAE, Interface_Residues]
+  10/10  rejected  Binder_RMSD=0.85    Interface_Residues=5    Target_pLDDT=0.87    i_pAE=0.71    i_pTM=0.19    pLDDT=0.87    pTM=0.59    failed [i_pTM, i_pAE, Interface_Residues]
+  0 of 10 redesigns passed
+
+=== trajectory 80 | il15_lesson_unguided_denovo_l104_7f29701e9727e306 | accepted 21/100 | worker 9 ===
+  passed screen design stage  i_pTM=0.84    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.85    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.86    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.79    pLDDT=0.88  
+  trajectory rejected  i_pTM=0.79    pLDDT=0.88   due to [i_pTM]
+
+=== trajectory 81 | il15_lesson_unguided_denovo_l101_f2585b6cf4946d18 | accepted 22/100 | worker 5 ===
+  passed screen design stage  i_pTM=0.78    pLDDT=0.67  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.62  
+  rejected at anneal design stage  i_pTM=0.79    pLDDT=0.64   due to [pLDDT]
+
+=== trajectory 82 | il15_lesson_unguided_denovo_l88_2136e83e7eab8d37 | accepted 22/100 | worker 0 ===
+  passed screen design stage  i_pTM=0.82    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.83    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.8     pLDDT=0.91  
+  rejected at mutate design stage  i_pTM=0.42    pLDDT=0.67   due to [i_pTM]
+
+=== trajectory 83 | il15_lesson_unguided_denovo_l100_85aa505263c5c56b | accepted 22/100 | worker 11 ===
+  passed screen design stage  i_pTM=0.72    pLDDT=0.86  
+  passed refine design stage  i_pTM=0.73    pLDDT=0.88  
+  passed anneal design stage  i_pTM=0.78    pLDDT=0.9   
+  passed harden design stage  i_pTM=0.78    pLDDT=0.89  
+  passed mutate design stage  i_pTM=0.78    pLDDT=0.89  
+  trajectory rejected  i_pTM=0.78    pLDDT=0.89   due to [i_pTM]
+
+=== trajectory 84 | il15_lesson_unguided_denovo_l108_5dd23e8a191c9926 | accepted 22/100 | worker 13 ===
+  passed screen design stage  i_pTM=0.77    pLDDT=0.87  
+  passed refine design stage  i_pTM=0.8     pLDDT=0.9   
+  passed anneal design stage  i_pTM=0.77    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.78    pLDDT=0.92  
+  passed mutate design stage  i_pTM=0.66    pLDDT=0.79  
+  trajectory rejected  i_pTM=0.66    pLDDT=0.79   due to [i_pTM]
+
+=== trajectory 85 | il15_lesson_unguided_denovo_l107_4d900e397f746345 | accepted 22/100 | worker 3 ===
+  passed screen design stage  i_pTM=0.83    pLDDT=0.88  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.9   
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.62    pLDDT=0.73  
+  passed mutate design stage  i_pTM=0.62    pLDDT=0.73  
+  trajectory rejected  i_pTM=0.62    pLDDT=0.73   due to [i_pTM]
+
+=== trajectory 86 | il15_lesson_unguided_denovo_l81_ccd05a3a7f6f577a | accepted 22/100 | worker 4 ===
+  passed screen design stage  i_pTM=0.83    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.8     pLDDT=0.91  
+  passed mutate design stage  i_pTM=0.82    pLDDT=0.92  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 16 of 81 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.21    Interface_Residues=15   Target_pLDDT=0.87    i_pAE=0.24    i_pTM=0.75    pLDDT=0.93    pTM=0.83    failed [i_pTM]
+   2/10  rejected  Binder_RMSD=0.16    Interface_Residues=1    Target_pLDDT=0.87    i_pAE=0.81    i_pTM=0.13    pLDDT=0.94    pTM=0.56    failed [i_pTM, i_pAE, Interface_Residues]
+   3/10  rejected  Binder_RMSD=0.13    Interface_Residues=1    Target_pLDDT=0.87    i_pAE=0.81    i_pTM=0.12    pLDDT=0.92    pTM=0.56    failed [i_pTM, i_pAE, Interface_Residues]
+   4/10  rejected  Binder_RMSD=0.26    Interface_Residues=15   Target_pLDDT=0.87    i_pAE=0.24    i_pTM=0.75    pLDDT=0.92    pTM=0.83    failed [i_pTM]
+   5/10  rejected  Binder_RMSD=0.22    Interface_Residues=14   Target_pLDDT=0.87    i_pAE=0.25    i_pTM=0.74    pLDDT=0.92    pTM=0.82    failed [i_pTM]
+   6/10  rejected  Binder_RMSD=0.26    Interface_Residues=15   Target_pLDDT=0.86    i_pAE=0.32    i_pTM=0.68    pLDDT=0.9     pTM=0.8     failed [i_pTM]
+   7/10  rejected  Binder_RMSD=0.25    Interface_Residues=14   Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.77    pLDDT=0.93    pTM=0.84    failed [i_pTM]
+   8/10  rejected  Binder_RMSD=0.17    Interface_Residues=1    Target_pLDDT=0.86    i_pAE=0.8     i_pTM=0.13    pLDDT=0.92    pTM=0.56    failed [i_pTM, i_pAE, Interface_Residues]
+   9/10  rejected  Binder_RMSD=0.24    Interface_Residues=15   Target_pLDDT=0.87    i_pAE=0.26    i_pTM=0.73    pLDDT=0.92    pTM=0.82    failed [i_pTM]
+  10/10  rejected  Binder_RMSD=0.23    Interface_Residues=15   Target_pLDDT=0.86    i_pAE=0.32    i_pTM=0.67    pLDDT=0.91    pTM=0.79    failed [i_pTM]
+  0 of 10 redesigns passed
+
+=== trajectory 87 | il15_lesson_unguided_denovo_l90_b82104b97fa42b53 | accepted 22/100 | worker 6 ===
+  passed screen design stage  i_pTM=0.8     pLDDT=0.9   
+  passed refine design stage  i_pTM=0.86    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.83    pLDDT=0.91  
+  rejected at mutate design stage  i_pTM=0.22    pLDDT=0.65   due to [i_pTM]
+
+=== trajectory 88 | il15_lesson_unguided_denovo_l82_a221f21952553628 | accepted 22/100 | worker 2 ===
+  passed screen design stage  i_pTM=0.72    pLDDT=0.88  
+  passed refine design stage  i_pTM=0.64    pLDDT=0.86  
+  passed anneal design stage  i_pTM=0.78    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.75    pLDDT=0.9   
+  passed mutate design stage  i_pTM=0.77    pLDDT=0.89  
+  trajectory rejected  i_pTM=0.77    pLDDT=0.89   due to [i_pTM]
+
+=== trajectory 89 | il15_lesson_unguided_denovo_l89_0c2a743562201adc | accepted 22/100 | worker 8 ===
+  passed screen design stage  i_pTM=0.78    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.81    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.84    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.79    pLDDT=0.91  
+  trajectory rejected  i_pTM=0.79    pLDDT=0.91   due to [i_pTM]
+
+=== trajectory 90 | il15_lesson_unguided_denovo_l86_772db1f55990952a | accepted 22/100 | worker 12 ===
+  passed screen design stage  i_pTM=0.74    pLDDT=0.86  
+  passed refine design stage  i_pTM=0.43    pLDDT=0.65  
+  passed anneal design stage  i_pTM=0.63    pLDDT=0.8   
+  passed harden design stage  i_pTM=0.64    pLDDT=0.76  
+  passed mutate design stage  i_pTM=0.55    pLDDT=0.73  
+  trajectory rejected  i_pTM=0.55    pLDDT=0.73   due to [i_pTM]
+
+=== trajectory 91 | il15_lesson_unguided_denovo_l110_37ea6b64365c08ae | accepted 22/100 | worker 7 ===
+  passed screen design stage  i_pTM=0.76    pLDDT=0.87  
+  passed refine design stage  i_pTM=0.81    pLDDT=0.89  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.9   
+  passed harden design stage  i_pTM=0.84    pLDDT=0.88  
+  passed mutate design stage  i_pTM=0.84    pLDDT=0.88  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 20 of 110 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=6.0     Interface_Residues=9    Target_pLDDT=0.85    i_pAE=0.62    i_pTM=0.34    pLDDT=0.62    pTM=0.62    Unbound_Binder_pLDDT=0.68    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Binder_RMSD]
+   2/10  rejected  Binder_RMSD=1.2     Interface_Residues=16   Target_pLDDT=0.87    i_pAE=0.24    i_pTM=0.77    pLDDT=0.88    pTM=0.84    failed [i_pTM]
+   3/10  rejected  Binder_RMSD=14.5    Interface_Residues=3    Target_pLDDT=0.85    i_pAE=0.84    i_pTM=0.14    pLDDT=0.41    pTM=0.53    Unbound_Binder_pLDDT=0.48    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, pTM, i_pAE, Interface_Residues, Binder_RMSD]
+   4/10  rejected  Binder_RMSD=0.25    Interface_Residues=17   Target_pLDDT=0.88    i_pAE=0.25    i_pTM=0.81    pLDDT=0.82    pTM=0.84    Unbound_Binder_pLDDT=0.82    failed [Unbound_Binder_pLDDT]
+   5/10  rejected  Binder_RMSD=0.55    Interface_Residues=16   Target_pLDDT=0.87    i_pAE=0.28    i_pTM=0.72    pLDDT=0.86    pTM=0.81    failed [i_pTM]
+   6/10  rejected  Binder_RMSD=0.94    Interface_Residues=17   Target_pLDDT=0.87    i_pAE=0.27    i_pTM=0.8     pLDDT=0.79    pTM=0.83    Unbound_Binder_pLDDT=0.8     failed [Unbound_Binder_pLDDT]
+   7/10  rejected  Binder_RMSD=6.0     Interface_Residues=17   Target_pLDDT=0.86    i_pAE=0.3     i_pTM=0.71    pLDDT=0.86    pTM=0.8     Unbound_Binder_pLDDT=0.65    failed [i_pTM, Unbound_Binder_pLDDT, Binder_RMSD]
+   8/10  rejected  Binder_RMSD=0.9     Interface_Residues=10   Target_pLDDT=0.85    i_pAE=0.66    i_pTM=0.28    pLDDT=0.66    pTM=0.6     Unbound_Binder_pLDDT=0.71    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE]
+   9/10  rejected  Binder_RMSD=0.85    Interface_Residues=16   Target_pLDDT=0.87    i_pAE=0.26    i_pTM=0.75    pLDDT=0.86    pTM=0.82    failed [i_pTM]
+  10/10  rejected  Binder_RMSD=0.77    Interface_Residues=13   Target_pLDDT=0.85    i_pAE=0.5     i_pTM=0.49    pLDDT=0.68    pTM=0.7     Unbound_Binder_pLDDT=0.74    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE]
+  0 of 10 redesigns passed
+
+=== trajectory 92 | il15_lesson_unguided_denovo_l108_4a927860293baa41 | accepted 22/100 | worker 1 ===
+  passed screen design stage  i_pTM=0.81    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.84    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.83    pLDDT=0.91  
+  rejected at mutate design stage  i_pTM=0.12    pLDDT=0.44   due to [i_pTM, pLDDT]
+
+=== trajectory 93 | il15_lesson_unguided_denovo_l94_2a67baf9cf45f5f1 | accepted 22/100 | worker 0 ===
+  passed screen design stage  i_pTM=0.86    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.88    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.86    pLDDT=0.92  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 25 of 94 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.15    Interface_Residues=6    Target_pLDDT=0.87    i_pAE=0.71    i_pTM=0.2     pLDDT=0.89    pTM=0.58    failed [i_pTM, i_pAE, Interface_Residues]
+   2/10  rejected  Binder_RMSD=0.16    Interface_Residues=5    Target_pLDDT=0.87    i_pAE=0.65    i_pTM=0.26    pLDDT=0.89    pTM=0.61    failed [i_pTM, i_pAE, Interface_Residues]
+   3/10  rejected  Binder_RMSD=4.7     Interface_Residues=3    Target_pLDDT=0.86    i_pAE=0.81    i_pTM=0.15    pLDDT=0.56    pTM=0.56    Unbound_Binder_pLDDT=0.74    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Interface_Residues, Binder_RMSD]
+   4/10  rejected  Binder_RMSD=2.8     Interface_Residues=2    Target_pLDDT=0.86    i_pAE=0.76    i_pTM=0.19    pLDDT=0.6     pTM=0.58    Unbound_Binder_pLDDT=0.72    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=0.71    Interface_Residues=20   Target_pLDDT=0.85    i_pAE=0.28    i_pTM=0.72    pLDDT=0.87    pTM=0.82    failed [i_pTM]
+   6/10  ACCEPTED  Binder_RMSD=0.59    Interface_Residues=23   Target_pLDDT=0.87    i_pAE=0.2     i_pTM=0.81    pLDDT=0.91    pTM=0.86  
+   7/10  rejected  Binder_RMSD=4.5     Interface_Residues=5    Target_pLDDT=0.86    i_pAE=0.8     i_pTM=0.15    pLDDT=0.55    pTM=0.56    Unbound_Binder_pLDDT=0.63    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Interface_Residues, Binder_RMSD]
+   8/10  ACCEPTED  Binder_RMSD=0.47    Interface_Residues=27   Target_pLDDT=0.88    i_pAE=0.17    i_pTM=0.84    pLDDT=0.92    pTM=0.87  
+   9/10  rejected  Binder_RMSD=0.42    Interface_Residues=4    Target_pLDDT=0.87    i_pAE=0.71    i_pTM=0.2     pLDDT=0.84    pTM=0.58    failed [i_pTM, i_pAE, Interface_Residues]
+  10/10  rejected  Binder_RMSD=0.78    Interface_Residues=21   Target_pLDDT=0.85    i_pAE=0.34    i_pTM=0.66    pLDDT=0.84    pTM=0.79    failed [i_pTM]
+  2 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 8 (0.34)
+
+=== trajectory 94 | il15_lesson_unguided_denovo_l90_cdff850f256f18bc | accepted 22/100 | worker 10 ===
+  passed screen design stage  i_pTM=0.87    pLDDT=0.94  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.94  
+  passed anneal design stage  i_pTM=0.87    pLDDT=0.95  
+  passed harden design stage  i_pTM=0.88    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.88    pLDDT=0.94  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 22 of 90 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.28    Interface_Residues=19   Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.84    pLDDT=0.93    pTM=0.87    Unbound_Binder_pLDDT=0.89    failed [Unbound_Binder_pLDDT]
+   2/10  ACCEPTED  Binder_RMSD=1.0     Interface_Residues=18   Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.83    pLDDT=0.92    pTM=0.87  
+   3/10  rejected  Binder_RMSD=1.8     Interface_Residues=17   Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.79    pLDDT=0.91    pTM=0.85    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=0.27    Interface_Residues=18   Target_pLDDT=0.87    i_pAE=0.21    i_pTM=0.8     pLDDT=0.92    pTM=0.85    failed [i_pTM]
+   5/10  rejected  Binder_RMSD=1.3     Interface_Residues=18   Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.8     pLDDT=0.86    pTM=0.85    Unbound_Binder_pLDDT=0.73    failed [i_pTM, Unbound_Binder_pLDDT]
+   6/10  rejected  Binder_RMSD=0.24    Interface_Residues=17   Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.78    pLDDT=0.91    pTM=0.84    failed [i_pTM]
+   7/10  ACCEPTED  Binder_RMSD=0.26    Interface_Residues=18   Target_pLDDT=0.88    i_pAE=0.17    i_pTM=0.85    pLDDT=0.94    pTM=0.88  
+   8/10  ACCEPTED  Binder_RMSD=0.19    Interface_Residues=17   Target_pLDDT=0.88    i_pAE=0.17    i_pTM=0.85    pLDDT=0.95    pTM=0.88  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 8 (0.41)
+
+=== trajectory 95 | il15_lesson_unguided_denovo_l110_badfa479ba4a086d | accepted 22/100 | worker 5 ===
+  passed screen design stage  i_pTM=0.76    pLDDT=0.83  
+  passed refine design stage  i_pTM=0.76    pLDDT=0.8   
+  passed anneal design stage  i_pTM=0.73    pLDDT=0.82  
+  passed harden design stage  i_pTM=0.6     pLDDT=0.71  
+  passed mutate design stage  i_pTM=0.66    pLDDT=0.75  
+  trajectory rejected  i_pTM=0.66    pLDDT=0.75   due to [i_pTM]
+
+=== trajectory 96 | il15_lesson_unguided_denovo_l106_6f74e589bbb1c82b | accepted 22/100 | worker 9 ===
+  passed screen design stage  i_pTM=0.79    pLDDT=0.9   
+  rejected at refine design stage  i_pTM=0.12    pLDDT=0.4    due to [pLDDT]
+
+=== trajectory 97 | il15_lesson_unguided_denovo_l107_8d65ecc00ebd39ad | accepted 22/100 | worker 11 ===
+  passed screen design stage  i_pTM=0.74    pLDDT=0.82  
+  passed refine design stage  i_pTM=0.78    pLDDT=0.86  
+  passed anneal design stage  i_pTM=0.77    pLDDT=0.88  
+  passed harden design stage  i_pTM=0.76    pLDDT=0.75  
+  passed mutate design stage  i_pTM=0.61    pLDDT=0.65  
+  trajectory rejected  i_pTM=0.61    pLDDT=0.65   due to [i_pTM, pLDDT]
+
+=== trajectory 98 | il15_lesson_unguided_denovo_l92_034bbf1f83546c30 | accepted 22/100 | worker 4 ===
+  passed screen design stage  i_pTM=0.77    pLDDT=0.73  
+  passed refine design stage  i_pTM=0.66    pLDDT=0.71  
+  passed anneal design stage  i_pTM=0.78    pLDDT=0.81  
+  passed harden design stage  i_pTM=0.78    pLDDT=0.69  
+  passed mutate design stage  i_pTM=0.67    pLDDT=0.65  
+  trajectory rejected  i_pTM=0.67    pLDDT=0.65   due to [i_pTM, pLDDT]
+
+campaign lost design worker 1, exited 1 | /home/bgeiss/bindcraft2/results/il15_lesson_unguided/workers/565253_worker_01_gpu_0.log
+=== trajectory 99 | il15_lesson_unguided_denovo_l101_093374faeaa04d35 | accepted 22/100 | worker 3 ===
+  passed screen design stage  i_pTM=0.79    pLDDT=0.88  
+  passed refine design stage  i_pTM=0.86    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.87    pLDDT=0.95  
+  passed harden design stage  i_pTM=0.84    pLDDT=0.92  
+  passed mutate design stage  i_pTM=0.78    pLDDT=0.73  
+  trajectory rejected  i_pTM=0.78    pLDDT=0.73   due to [i_pTM]
+
+=== trajectory 100 | il15_lesson_unguided_denovo_l86_7698ef47b90f7c18 | accepted 22/100 | worker 6 ===
+  rejected at screen design stage  i_pTM=0.75    pLDDT=0.54   due to [pLDDT]
+
+=== trajectory 101 | il15_lesson_unguided_denovo_l98_f07307cb7161a425 | accepted 22/100 | worker 13 ===
+  passed screen design stage  i_pTM=0.83    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.86    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.87    pLDDT=0.95  
+  passed harden design stage  i_pTM=0.87    pLDDT=0.95  
+  passed mutate design stage  i_pTM=0.85    pLDDT=0.93  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 18 of 98 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.15    Interface_Residues=15   Target_pLDDT=0.86    i_pAE=0.34    i_pTM=0.6     pLDDT=0.89    pTM=0.76    failed [i_pTM]
+   2/10  rejected  Binder_RMSD=0.13    Interface_Residues=17   Target_pLDDT=0.86    i_pAE=0.33    i_pTM=0.62    pLDDT=0.9     pTM=0.77    failed [i_pTM]
+   3/10  rejected  Binder_RMSD=0.15    Interface_Residues=12   Target_pLDDT=0.86    i_pAE=0.52    i_pTM=0.4     pLDDT=0.9     pTM=0.67    failed [i_pTM, i_pAE]
+   4/10  ACCEPTED  Binder_RMSD=0.22    Interface_Residues=18   Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.83    pLDDT=0.93    pTM=0.86  
+   5/10  rejected  Binder_RMSD=0.21    Interface_Residues=19   Target_pLDDT=0.87    i_pAE=0.29    i_pTM=0.72    pLDDT=0.92    pTM=0.8     failed [i_pTM]
+   6/10  rejected  Binder_RMSD=0.22    Interface_Residues=19   Target_pLDDT=0.86    i_pAE=0.27    i_pTM=0.71    pLDDT=0.93    pTM=0.81    failed [i_pTM]
+   7/10  rejected  Binder_RMSD=0.24    Interface_Residues=17   Target_pLDDT=0.88    i_pAE=0.23    i_pTM=0.76    pLDDT=0.92    pTM=0.83    failed [i_pTM]
+   8/10  rejected  Binder_RMSD=0.22    Interface_Residues=16   Target_pLDDT=0.86    i_pAE=0.27    i_pTM=0.71    pLDDT=0.92    pTM=0.8     failed [i_pTM]
+   9/10  rejected  Binder_RMSD=0.22    Interface_Residues=19   Target_pLDDT=0.86    i_pAE=0.3     i_pTM=0.69    pLDDT=0.92    pTM=0.79    failed [i_pTM]
+  10/10  rejected  Binder_RMSD=0.28    Interface_Residues=18   Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.78    pLDDT=0.93    pTM=0.83    failed [i_pTM]
+  1 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 4 (0.34)
+
+=== trajectory 102 | il15_lesson_unguided_denovo_l80_f85d776f6ad07b0e | accepted 22/100 | worker 2 ===
+  passed screen design stage  i_pTM=0.78    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.82    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.84    pLDDT=0.92  
+  passed mutate design stage  i_pTM=0.82    pLDDT=0.91  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 17 of 80 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=1.6     Interface_Residues=16   Target_pLDDT=0.87    i_pAE=0.24    i_pTM=0.74    pLDDT=0.89    pTM=0.83    failed [i_pTM]
+   2/10  rejected  Binder_RMSD=0.34    Interface_Residues=15   Target_pLDDT=0.85    i_pAE=0.29    i_pTM=0.68    pLDDT=0.89    pTM=0.8     failed [i_pTM]
+   3/10  rejected  Binder_RMSD=0.21    Interface_Residues=14   Target_pLDDT=0.86    i_pAE=0.38    i_pTM=0.53    pLDDT=0.9     pTM=0.74    failed [i_pTM, i_pAE]
+   4/10  rejected  Binder_RMSD=0.17    Interface_Residues=11   Target_pLDDT=0.86    i_pAE=0.32    i_pTM=0.6     pLDDT=0.92    pTM=0.77    failed [i_pTM]
+   5/10  rejected  Binder_RMSD=0.15    Interface_Residues=15   Target_pLDDT=0.85    i_pAE=0.27    i_pTM=0.71    pLDDT=0.91    pTM=0.81    failed [i_pTM]
+   6/10  rejected  Binder_RMSD=0.16    Interface_Residues=12   Target_pLDDT=0.86    i_pAE=0.43    i_pTM=0.49    pLDDT=0.89    pTM=0.72    failed [i_pTM, i_pAE]
+   7/10  rejected  Binder_RMSD=0.19    Interface_Residues=14   Target_pLDDT=0.86    i_pAE=0.27    i_pTM=0.71    pLDDT=0.9     pTM=0.81    failed [i_pTM]
+   8/10  rejected  Binder_RMSD=0.27    Interface_Residues=16   Target_pLDDT=0.86    i_pAE=0.3     i_pTM=0.62    pLDDT=0.91    pTM=0.77    failed [i_pTM]
+   9/10  rejected  Binder_RMSD=0.36    Interface_Residues=14   Target_pLDDT=0.86    i_pAE=0.34    i_pTM=0.57    pLDDT=0.91    pTM=0.75    failed [i_pTM]
+  10/10  rejected  Binder_RMSD=8.5     Interface_Residues=0    Target_pLDDT=0.87    i_pAE=0.82    i_pTM=0.13    pLDDT=0.69    pTM=0.57    failed [i_pTM, pLDDT, i_pAE, Interface_Residues, Binder_RMSD]
+  0 of 10 redesigns passed
+
+=== trajectory 103 | il15_lesson_unguided_denovo_l90_f84c330fca1fc647 | accepted 22/100 | worker 8 ===
+  passed screen design stage  i_pTM=0.81    pLDDT=0.89  
+  passed refine design stage  i_pTM=0.79    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.8     pLDDT=0.92  
+  passed mutate design stage  i_pTM=0.81    pLDDT=0.91  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 18 of 90 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.17    Interface_Residues=8    Target_pLDDT=0.86    i_pAE=0.65    i_pTM=0.26    pLDDT=0.91    pTM=0.6     failed [i_pTM, i_pAE]
+   2/10  rejected  Binder_RMSD=0.18    Interface_Residues=5    Target_pLDDT=0.87    i_pAE=0.69    i_pTM=0.22    pLDDT=0.92    pTM=0.58    failed [i_pTM, i_pAE, Interface_Residues]
+   3/10  rejected  Binder_RMSD=0.2     Interface_Residues=11   Target_pLDDT=0.86    i_pAE=0.35    i_pTM=0.58    pLDDT=0.91    pTM=0.74    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=0.18    Interface_Residues=6    Target_pLDDT=0.86    i_pAE=0.69    i_pTM=0.23    pLDDT=0.93    pTM=0.59    failed [i_pTM, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=0.29    Interface_Residues=5    Target_pLDDT=0.87    i_pAE=0.72    i_pTM=0.19    pLDDT=0.9     pTM=0.58    failed [i_pTM, i_pAE, Interface_Residues]
+   6/10  rejected  Binder_RMSD=0.2     Interface_Residues=5    Target_pLDDT=0.86    i_pAE=0.67    i_pTM=0.25    pLDDT=0.92    pTM=0.59    failed [i_pTM, i_pAE, Interface_Residues]
+   7/10  rejected  Binder_RMSD=2.5     Interface_Residues=5    Target_pLDDT=0.86    i_pAE=0.69    i_pTM=0.22    pLDDT=0.88    pTM=0.59    Unbound_Binder_pLDDT=0.82    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE, Interface_Residues]
+   8/10  rejected  Binder_RMSD=0.25    Interface_Residues=9    Target_pLDDT=0.86    i_pAE=0.62    i_pTM=0.29    pLDDT=0.9     pTM=0.62    failed [i_pTM, i_pAE]
+   9/10  rejected  Binder_RMSD=0.42    Interface_Residues=10   Target_pLDDT=0.86    i_pAE=0.49    i_pTM=0.44    pLDDT=0.9     pTM=0.68    failed [i_pTM, i_pAE]
+  10/10  rejected  Binder_RMSD=0.17    Interface_Residues=4    Target_pLDDT=0.86    i_pAE=0.71    i_pTM=0.22    pLDDT=0.93    pTM=0.58    failed [i_pTM, i_pAE, Interface_Residues]
+  0 of 10 redesigns passed
+
+=== trajectory 104 | il15_lesson_unguided_denovo_l91_2c7f0767292f7f4e | accepted 22/100 | worker 12 ===
+  passed screen design stage  i_pTM=0.78    pLDDT=0.76  
+  passed refine design stage  i_pTM=0.75    pLDDT=0.77  
+  passed anneal design stage  i_pTM=0.79    pLDDT=0.84  
+  passed harden design stage  i_pTM=0.76    pLDDT=0.75  
+  passed mutate design stage  i_pTM=0.73    pLDDT=0.82  
+  trajectory rejected  i_pTM=0.73    pLDDT=0.82   due to [i_pTM]
+
+=== trajectory 105 | il15_lesson_unguided_denovo_l106_85229aff854bd1fe | accepted 22/100 | worker 9 ===
+  passed screen design stage  i_pTM=0.83    pLDDT=0.78  
+  passed refine design stage  i_pTM=0.8     pLDDT=0.81  
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.83  
+  passed harden design stage  i_pTM=0.82    pLDDT=0.83  
+  passed mutate design stage  i_pTM=0.85    pLDDT=0.83  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 27 of 106 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=2.8     Interface_Residues=2    Target_pLDDT=0.84    i_pAE=0.83    i_pTM=0.14    pLDDT=0.42    pTM=0.53    Unbound_Binder_pLDDT=0.53    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, pTM, i_pAE, Interface_Residues]
+   2/10  rejected  Binder_RMSD=4.5     Interface_Residues=12   Target_pLDDT=0.84    i_pAE=0.69    i_pTM=0.26    pLDDT=0.53    pTM=0.59    Unbound_Binder_pLDDT=0.5     failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Binder_RMSD]
+   3/10  rejected  Binder_RMSD=5.7     Interface_Residues=6    Target_pLDDT=0.84    i_pAE=0.81    i_pTM=0.16    pLDDT=0.44    pTM=0.54    Unbound_Binder_pLDDT=0.57    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, pTM, i_pAE, Interface_Residues, Binder_RMSD]
+   4/10  rejected  Binder_RMSD=17.3    Interface_Residues=1    Target_pLDDT=0.83    i_pAE=0.85    i_pTM=0.12    pLDDT=0.39    pTM=0.52    Unbound_Binder_pLDDT=0.45    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, pTM, i_pAE, Interface_Residues, Binder_RMSD]
+   5/10  rejected  Binder_RMSD=9.2     Interface_Residues=9    Target_pLDDT=0.82    i_pAE=0.75    i_pTM=0.26    pLDDT=0.42    pTM=0.57    Unbound_Binder_pLDDT=0.51    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Binder_RMSD]
+   6/10  rejected  Binder_RMSD=3.8     Interface_Residues=4    Target_pLDDT=0.83    i_pAE=0.78    i_pTM=0.19    pLDDT=0.44    pTM=0.55    Unbound_Binder_pLDDT=0.54    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Interface_Residues, Binder_RMSD]
+   7/10  rejected  Binder_RMSD=14.6    Interface_Residues=3    Target_pLDDT=0.83    i_pAE=0.81    i_pTM=0.15    pLDDT=0.4     pTM=0.54    Unbound_Binder_pLDDT=0.52    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, pTM, i_pAE, Interface_Residues, Binder_RMSD]
+   8/10  rejected  Binder_RMSD=11.7    Interface_Residues=3    Target_pLDDT=0.86    i_pAE=0.87    i_pTM=0.11    pLDDT=0.44    pTM=0.52    Unbound_Binder_pLDDT=0.5     failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, pTM, i_pAE, Interface_Residues, Binder_RMSD]
+   9/10  rejected  Binder_RMSD=9.6     Interface_Residues=5    Target_pLDDT=0.83    i_pAE=0.79    i_pTM=0.17    pLDDT=0.41    pTM=0.55    Unbound_Binder_pLDDT=0.46    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, pTM, i_pAE, Interface_Residues, Binder_RMSD]
+  10/10  rejected  Binder_RMSD=4.7     Interface_Residues=7    Target_pLDDT=0.83    i_pAE=0.75    i_pTM=0.2     pLDDT=0.45    pTM=0.56    Unbound_Binder_pLDDT=0.53    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Binder_RMSD]
+  0 of 10 redesigns passed
+
+=== trajectory 106 | il15_lesson_unguided_denovo_l82_69952ab8b634af7a | accepted 22/100 | worker 6 ===
+  passed screen design stage  i_pTM=0.72    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.8     pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.65    pLDDT=0.74  
+  rejected at mutate design stage  i_pTM=0.41    pLDDT=0.54   due to [i_pTM, pLDDT]
+
+=== trajectory 107 | il15_lesson_unguided_denovo_l107_c918d953bb66cf1d | accepted 22/100 | worker 1 ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/bgeiss/bindcraft2/BindCraft2/bindcraft/cli.py", line 268, in <module>
+    main()
+  File "/home/bgeiss/bindcraft2/BindCraft2/bindcraft/cli.py", line 256, in main
+    return design(settings_paths[0], preset_assignments + assignments, metadata_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bgeiss/bindcraft2/BindCraft2/bindcraft/cli.py", line 209, in design
+    status = launch_campaign(settings_path, assignments, metadata_path=metadata_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bgeiss/bindcraft2/BindCraft2/bindcraft/campaign.py", line 309, in launch_campaign
+    run_campaign(settings, project_folder, af2_weights=af2_weights, mpnn_weights=mpnn_weights, metadata=metadata)
+  File "/home/bgeiss/bindcraft2/BindCraft2/bindcraft/campaign.py", line 281, in run_campaign
+    return run_campaign_arm(settings, project_folder, alphafold_model, validation_model, mpnn_model, key, max_trajectories, build_validation_model, autotune=settings.get('autotune', True), metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bgeiss/bindcraft2/BindCraft2/bindcraft/campaign.py", line 195, in run_campaign_arm
+    protein_states, predictions, failed_stage = run_trajectory(design_settings, alphafold_model, trajectory_random_key, trajectory_directory=trajectory_directory, targets=trajectory_targets)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bgeiss/bindcraft2/BindCraft2/bindcraft/trajectory.py", line 312, in run_trajectory
+    protein_states, predictions = run_gradient_design_stage(trajectory.protein_states, design_model, sequence_optimizer=stage.sequence_optimizer, design_schedule=design_schedule, record_sequence_update=recorder, select_best_round=len(design_settings.prepared_states) < 2, select_filtered_round=rotating_stage_filter_round(design_settings, target_schedule, trajectory.protein_states, stage.name), **induced_fit_reference_arguments(trajectory.losses, trajectory.binder_alone_reference, design_model, design_settings))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bgeiss/bindcraft2/BindCraft2/bindcraft/trajectory.py", line 129, in run_gradient_design_stage
+    design_loss = float(graph_design_loss)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bgeiss/bindcraft2/BindCraft2/.venv/lib/python3.12/site-packages/jax/_src/array.py", line 295, in __float__
+    return self._value.__float__()
+           ^^^^^^^^^^^
+  File "/home/bgeiss/bindcraft2/BindCraft2/.venv/lib/python3.12/site-packages/jax/_src/profiler.py", line 420, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bgeiss/bindcraft2/BindCraft2/.venv/lib/python3.12/site-packages/jax/_src/array.py", line 637, in _value
+    npy_value, did_copy = self._single_device_array_to_np_array_did_copy()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+jax.errors.JaxRuntimeError: INTERNAL: CUDA error: Failed to launch CUDA graph: CUDA_ERROR_UNKNOWN: unknown error [executable_name='jit_sequence_design_loss']
+=== trajectory 108 | il15_lesson_unguided_denovo_l95_5cc934a614d935de | accepted 23/100 | worker 0 ===
+  passed screen design stage  i_pTM=0.86    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.87    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.88    pLDDT=0.92  
+  rejected at harden design stage  i_pTM=0.12    pLDDT=0.38   due to [i_pTM, pLDDT]
+
+=== trajectory 109 | il15_lesson_unguided_denovo_l100_db487d7b884d1b17 | accepted 23/100 | worker 7 ===
+  passed screen design stage  i_pTM=0.67    pLDDT=0.87  
+  passed refine design stage  i_pTM=0.75    pLDDT=0.88  
+  passed anneal design stage  i_pTM=0.77    pLDDT=0.9   
+  passed harden design stage  i_pTM=0.79    pLDDT=0.9   
+  passed mutate design stage  i_pTM=0.75    pLDDT=0.9   
+  trajectory rejected  i_pTM=0.75    pLDDT=0.9    due to [i_pTM]
+
+=== trajectory 110 | il15_lesson_unguided_denovo_l91_4249d68e6b0b4bad | accepted 24/100 | worker 10 ===
+  passed screen design stage  i_pTM=0.85    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.87    pLDDT=0.95  
+  passed mutate design stage  i_pTM=0.77    pLDDT=0.88  
+  trajectory rejected  i_pTM=0.77    pLDDT=0.88   due to [i_pTM]
+
+=== trajectory 111 | il15_lesson_unguided_denovo_l102_2116f456e1e278a6 | accepted 24/100 | worker 5 ===
+  passed screen design stage  i_pTM=0.78    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.86    pLDDT=0.95  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.96  
+  passed harden design stage  i_pTM=0.86    pLDDT=0.95  
+  passed mutate design stage  i_pTM=0.87    pLDDT=0.95  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 21 of 102 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.34    Interface_Residues=23   Target_pLDDT=0.9     i_pAE=0.16    i_pTM=0.85    pLDDT=0.94    pTM=0.88  
+   2/10  ACCEPTED  Binder_RMSD=0.19    Interface_Residues=23   Target_pLDDT=0.89    i_pAE=0.16    i_pTM=0.85    pLDDT=0.96    pTM=0.87  
+   3/10  ACCEPTED  Binder_RMSD=0.35    Interface_Residues=21   Target_pLDDT=0.9     i_pAE=0.16    i_pTM=0.86    pLDDT=0.94    pTM=0.88  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 3 (0.41)
+
+=== trajectory 112 | il15_lesson_unguided_denovo_l93_7f1f931b61f8398d | accepted 24/100 | worker 4 ===
+  passed screen design stage  i_pTM=0.8     pLDDT=0.92  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.8     pLDDT=0.92  
+  passed mutate design stage  i_pTM=0.79    pLDDT=0.92  
+  trajectory rejected  i_pTM=0.79    pLDDT=0.92   due to [i_pTM]
+
+=== trajectory 113 | il15_lesson_unguided_denovo_l106_3a274d62cf626987 | accepted 24/100 | worker 11 ===
+  passed screen design stage  i_pTM=0.66    pLDDT=0.84  
+  passed refine design stage  i_pTM=0.66    pLDDT=0.83  
+  passed anneal design stage  i_pTM=0.67    pLDDT=0.84  
+  passed harden design stage  i_pTM=0.68    pLDDT=0.81  
+  passed mutate design stage  i_pTM=0.73    pLDDT=0.84  
+  trajectory rejected  i_pTM=0.73    pLDDT=0.84   due to [i_pTM]
+
+=== trajectory 114 | il15_lesson_unguided_denovo_l88_6f0244b652887e65 | accepted 24/100 | worker 12 ===
+  passed screen design stage  i_pTM=0.82    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.8     pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.84    pLDDT=0.91  
+  passed mutate design stage  i_pTM=0.72    pLDDT=0.87  
+  trajectory rejected  i_pTM=0.72    pLDDT=0.87   due to [i_pTM]
+
+=== trajectory 115 | il15_lesson_unguided_denovo_l96_210a18a02a14e561 | accepted 24/100 | worker 2 ===
+  passed screen design stage  i_pTM=0.76    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.85    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.95  
+  passed harden design stage  i_pTM=0.81    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.84    pLDDT=0.94  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 20 of 96 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=1.3     Interface_Residues=18   Target_pLDDT=0.87    i_pAE=0.2     i_pTM=0.78    pLDDT=0.94    pTM=0.84    failed [i_pTM]
+   2/10  rejected  Binder_RMSD=1.3     Interface_Residues=18   Target_pLDDT=0.87    i_pAE=0.2     i_pTM=0.8     pLDDT=0.94    pTM=0.84    failed [i_pTM]
+   3/10  rejected  Binder_RMSD=1.0     Interface_Residues=17   Target_pLDDT=0.87    i_pAE=0.2     i_pTM=0.78    pLDDT=0.94    pTM=0.84    failed [i_pTM]
+   4/10  ACCEPTED  Binder_RMSD=0.29    Interface_Residues=20   Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.82    pLDDT=0.94    pTM=0.86  
+   5/10  rejected  Binder_RMSD=1.4     Interface_Residues=19   Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.8     pLDDT=0.94    pTM=0.84    failed [i_pTM]
+   6/10  ACCEPTED  Binder_RMSD=1.4     Interface_Residues=18   Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.82    pLDDT=0.95    pTM=0.86  
+   7/10  ACCEPTED  Binder_RMSD=1.4     Interface_Residues=19   Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.83    pLDDT=0.95    pTM=0.86  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 7 (0.37)
+
+=== trajectory 116 | il15_lesson_unguided_denovo_l103_46e246f4b00d5137 | accepted 24/100 | worker 3 ===
+  passed screen design stage  i_pTM=0.8     pLDDT=0.82  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.9   
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.77    pLDDT=0.9   
+  passed mutate design stage  i_pTM=0.81    pLDDT=0.91  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 21 of 103 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=5.2     Interface_Residues=18   Target_pLDDT=0.88    i_pAE=0.17    i_pTM=0.83    pLDDT=0.94    pTM=0.86    Unbound_Binder_pLDDT=0.78    failed [Unbound_Binder_pLDDT, Binder_RMSD]
+   2/10  rejected  Binder_RMSD=3.4     Interface_Residues=20   Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.79    pLDDT=0.84    pTM=0.84    Unbound_Binder_pLDDT=0.77    failed [i_pTM, Unbound_Binder_pLDDT]
+   3/10  rejected  Binder_RMSD=9.3     Interface_Residues=20   Target_pLDDT=0.87    i_pAE=0.18    i_pTM=0.82    pLDDT=0.93    pTM=0.86    Unbound_Binder_pLDDT=0.64    failed [Unbound_Binder_pLDDT, Binder_RMSD]
+   4/10  rejected  Binder_RMSD=4.1     Interface_Residues=20   Target_pLDDT=0.87    i_pAE=0.22    i_pTM=0.79    pLDDT=0.86    pTM=0.84    Unbound_Binder_pLDDT=0.79    failed [i_pTM, Unbound_Binder_pLDDT, Binder_RMSD]
+   5/10  rejected  Binder_RMSD=8.4     Interface_Residues=11   Target_pLDDT=0.84    i_pAE=0.43    i_pTM=0.67    pLDDT=0.65    pTM=0.74    Unbound_Binder_pLDDT=0.77    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Binder_RMSD]
+   6/10  rejected  Binder_RMSD=4.3     Interface_Residues=14   Target_pLDDT=0.85    i_pAE=0.41    i_pTM=0.67    pLDDT=0.66    pTM=0.75    Unbound_Binder_pLDDT=0.52    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Binder_RMSD]
+   7/10  rejected  Binder_RMSD=8.9     Interface_Residues=15   Target_pLDDT=0.85    i_pAE=0.37    i_pTM=0.71    pLDDT=0.69    pTM=0.76    failed [i_pTM, pLDDT, i_pAE, Binder_RMSD]
+   8/10  rejected  Binder_RMSD=3.5     Interface_Residues=18   Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.84    pLDDT=0.93    pTM=0.87    Unbound_Binder_pLDDT=0.79    failed [Unbound_Binder_pLDDT]
+   9/10  rejected  Binder_RMSD=1.8     Interface_Residues=20   Target_pLDDT=0.87    i_pAE=0.28    i_pTM=0.75    pLDDT=0.8     pTM=0.81    Unbound_Binder_pLDDT=0.82    failed [i_pTM, Unbound_Binder_pLDDT]
+  10/10  rejected  Binder_RMSD=3.9     Interface_Residues=19   Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.82    pLDDT=0.92    pTM=0.86    Unbound_Binder_pLDDT=0.76    failed [Unbound_Binder_pLDDT, Binder_RMSD]
+  0 of 10 redesigns passed
+
+=== trajectory 117 | il15_lesson_unguided_denovo_l86_a010d8193a10b273 | accepted 24/100 | worker 8 ===
+  passed screen design stage  i_pTM=0.81    pLDDT=0.89  
+  passed refine design stage  i_pTM=0.85    pLDDT=0.94  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.82    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.8     pLDDT=0.93  
+  trajectory rejected  i_pTM=0.8     pLDDT=0.93   due to [i_pTM]
+
+=== trajectory 118 | il15_lesson_unguided_denovo_l101_538c252070525456 | accepted 25/100 | worker 13 ===
+  rejected at screen design stage  i_pTM=0.84    pLDDT=0.58   due to [pLDDT]
+
+=== trajectory 119 | il15_lesson_unguided_denovo_l93_ac45c59446ed5f91 | accepted 25/100 | worker 6 ===
+  rejected at screen design stage  i_pTM=0.52    pLDDT=0.47   due to [pLDDT]
+
+=== trajectory 120 | il15_lesson_unguided_denovo_l85_5a077c50fcfe6dc2 | accepted 25/100 | worker 0 ===
+  passed screen design stage  i_pTM=0.65    pLDDT=0.63  
+  rejected at refine design stage  i_pTM=0.54    pLDDT=0.58   due to [pLDDT]
+
+=== trajectory 121 | il15_lesson_unguided_denovo_l100_8fccef7497403cde | accepted 25/100 | worker 9 ===
+  passed screen design stage  i_pTM=0.69    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.65    pLDDT=0.83  
+  passed anneal design stage  i_pTM=0.73    pLDDT=0.89  
+  passed harden design stage  i_pTM=0.68    pLDDT=0.78  
+  rejected at mutate design stage  i_pTM=0.12    pLDDT=0.43   due to [i_pTM, pLDDT]
+
+=== trajectory 122 | il15_lesson_unguided_denovo_l93_d0eca9a3cf270abe | accepted 25/100 | worker 6 ===
+  passed screen design stage  i_pTM=0.85    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.87    pLDDT=0.94  
+  passed anneal design stage  i_pTM=0.88    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.87    pLDDT=0.94  
+  rejected at mutate design stage  i_pTM=0.14    pLDDT=0.4    due to [i_pTM, pLDDT]
+
+=== trajectory 123 | il15_lesson_unguided_denovo_l95_15dc8a9471660a8c | accepted 25/100 | worker 10 ===
+  rejected at screen design stage  i_pTM=0.73    pLDDT=0.57   due to [pLDDT]
+
+=== trajectory 124 | il15_lesson_unguided_denovo_l94_b3f85298ec8b1749 | accepted 25/100 | worker 4 ===
+  passed screen design stage  i_pTM=0.76    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.76    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.83    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.79    pLDDT=0.92  
+  trajectory rejected  i_pTM=0.79    pLDDT=0.92   due to [i_pTM]
+
+=== trajectory 125 | il15_lesson_unguided_denovo_l98_7e8a6d5267471168 | accepted 25/100 | worker 13 ===
+  passed screen design stage  i_pTM=0.83    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.77    pLDDT=0.85  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.88  
+  rejected at harden design stage  i_pTM=0.21    pLDDT=0.6    due to [i_pTM, pLDDT]
+
+=== trajectory 126 | il15_lesson_unguided_denovo_l108_9efd12389f1028c0 | accepted 26/100 | worker 5 ===
+  passed screen design stage  i_pTM=0.82    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.81    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.82    pLDDT=0.92  
+  passed mutate design stage  i_pTM=0.69    pLDDT=0.85  
+  trajectory rejected  i_pTM=0.69    pLDDT=0.85   due to [i_pTM]
+
+=== trajectory 127 | il15_lesson_unguided_denovo_l104_b02fcf67ce50cb8f | accepted 26/100 | worker 7 ===
+  passed screen design stage  i_pTM=0.79    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.79    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.8     pLDDT=0.94  
+  passed harden design stage  i_pTM=0.8     pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.81    pLDDT=0.93  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 20 of 104 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.45    Interface_Residues=17   Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.74    pLDDT=0.93    pTM=0.82    failed [i_pTM]
+   2/10  rejected  Binder_RMSD=0.31    Interface_Residues=14   Target_pLDDT=0.86    i_pAE=0.29    i_pTM=0.7     pLDDT=0.9     pTM=0.8     failed [i_pTM]
+   3/10  rejected  Binder_RMSD=0.3     Interface_Residues=16   Target_pLDDT=0.86    i_pAE=0.25    i_pTM=0.73    pLDDT=0.92    pTM=0.81    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=0.34    Interface_Residues=15   Target_pLDDT=0.86    i_pAE=0.29    i_pTM=0.69    pLDDT=0.92    pTM=0.8     failed [i_pTM]
+   5/10  rejected  Binder_RMSD=0.27    Interface_Residues=16   Target_pLDDT=0.86    i_pAE=0.29    i_pTM=0.7     pLDDT=0.91    pTM=0.8     failed [i_pTM]
+   6/10  rejected  Binder_RMSD=0.3     Interface_Residues=17   Target_pLDDT=0.86    i_pAE=0.25    i_pTM=0.72    pLDDT=0.93    pTM=0.81    failed [i_pTM]
+   7/10  rejected  Binder_RMSD=0.32    Interface_Residues=16   Target_pLDDT=0.86    i_pAE=0.29    i_pTM=0.69    pLDDT=0.92    pTM=0.8     failed [i_pTM]
+   8/10  rejected  Binder_RMSD=0.37    Interface_Residues=15   Target_pLDDT=0.86    i_pAE=0.26    i_pTM=0.72    pLDDT=0.9     pTM=0.81    failed [i_pTM]
+   9/10  rejected  Binder_RMSD=0.37    Interface_Residues=16   Target_pLDDT=0.86    i_pAE=0.26    i_pTM=0.71    pLDDT=0.92    pTM=0.81    failed [i_pTM]
+  10/10  rejected  Binder_RMSD=0.42    Interface_Residues=16   Target_pLDDT=0.86    i_pAE=0.28    i_pTM=0.7     pLDDT=0.92    pTM=0.8     failed [i_pTM]
+  0 of 10 redesigns passed
+
+=== trajectory 128 | il15_lesson_unguided_denovo_l96_655445562e27c9ee | accepted 26/100 | worker 0 ===
+  passed screen design stage  i_pTM=0.71    pLDDT=0.86  
+  passed refine design stage  i_pTM=0.77    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.78    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.7     pLDDT=0.9   
+  passed mutate design stage  i_pTM=0.7     pLDDT=0.9   
+  trajectory rejected  i_pTM=0.7     pLDDT=0.9    due to [i_pTM]
+
+=== trajectory 129 | il15_lesson_unguided_denovo_l84_c060ff69dcaf9497 | accepted 26/100 | worker 10 ===
+  passed screen design stage  i_pTM=0.71    pLDDT=0.88  
+  passed refine design stage  i_pTM=0.78    pLDDT=0.9   
+  passed anneal design stage  i_pTM=0.77    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.79    pLDDT=0.9   
+  passed mutate design stage  i_pTM=0.7     pLDDT=0.87  
+  trajectory rejected  i_pTM=0.7     pLDDT=0.87   due to [i_pTM]
+
+=== trajectory 130 | il15_lesson_unguided_denovo_l83_0db4e17b506fec41 | accepted 26/100 | worker 12 ===
+  passed screen design stage  i_pTM=0.83    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.84    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.86    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.87    pLDDT=0.93  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 23 of 83 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.26    Interface_Residues=17   Target_pLDDT=0.89    i_pAE=0.19    i_pTM=0.83    pLDDT=0.92    pTM=0.87  
+   2/10  rejected  Binder_RMSD=0.45    Interface_Residues=17   Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.77    pLDDT=0.89    pTM=0.83    failed [i_pTM]
+   3/10  rejected  Binder_RMSD=0.34    Interface_Residues=17   Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.8     pLDDT=0.91    pTM=0.85    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=0.29    Interface_Residues=17   Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.77    pLDDT=0.91    pTM=0.83    failed [i_pTM]
+   5/10  rejected  Binder_RMSD=0.42    Interface_Residues=16   Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.79    pLDDT=0.9     pTM=0.85    failed [i_pTM]
+   6/10  rejected  Binder_RMSD=0.24    Interface_Residues=8    Target_pLDDT=0.85    i_pAE=0.63    i_pTM=0.26    pLDDT=0.87    pTM=0.61    failed [i_pTM, i_pAE]
+   7/10  rejected  Binder_RMSD=0.31    Interface_Residues=16   Target_pLDDT=0.87    i_pAE=0.22    i_pTM=0.78    pLDDT=0.91    pTM=0.84    failed [i_pTM]
+   8/10  rejected  Binder_RMSD=0.36    Interface_Residues=15   Target_pLDDT=0.86    i_pAE=0.33    i_pTM=0.65    pLDDT=0.87    pTM=0.79    failed [i_pTM]
+   9/10  rejected  Binder_RMSD=0.39    Interface_Residues=17   Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.78    pLDDT=0.89    pTM=0.83    failed [i_pTM]
+  10/10  rejected  Binder_RMSD=0.25    Interface_Residues=15   Target_pLDDT=0.86    i_pAE=0.3     i_pTM=0.71    pLDDT=0.91    pTM=0.81    failed [i_pTM]
+  1 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 1 (0.4)
+
+=== trajectory 131 | il15_lesson_unguided_denovo_l100_3c8bdd51cb9a8939 | accepted 26/100 | worker 11 ===
+  passed screen design stage  i_pTM=0.76    pLDDT=0.83  
+  passed refine design stage  i_pTM=0.79    pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.75    pLDDT=0.87  
+  passed harden design stage  i_pTM=0.65    pLDDT=0.76  
+  passed mutate design stage  i_pTM=0.73    pLDDT=0.82  
+  trajectory rejected  i_pTM=0.73    pLDDT=0.82   due to [i_pTM]
+
+=== trajectory 132 | il15_lesson_unguided_denovo_l83_e5ce7755440f2837 | accepted 27/100 | worker 2 ===
+  passed screen design stage  i_pTM=0.77    pLDDT=0.82  
+  passed refine design stage  i_pTM=0.75    pLDDT=0.83  
+  passed anneal design stage  i_pTM=0.79    pLDDT=0.82  
+  passed harden design stage  i_pTM=0.7     pLDDT=0.65  
+  passed mutate design stage  i_pTM=0.74    pLDDT=0.74  
+  trajectory rejected  i_pTM=0.74    pLDDT=0.74   due to [i_pTM]
+
+=== trajectory 133 | il15_lesson_unguided_denovo_l81_30aa6356d3348f23 | accepted 27/100 | worker 8 ===
+  passed screen design stage  i_pTM=0.81    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.75    pLDDT=0.89  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.9   
+  passed harden design stage  i_pTM=0.76    pLDDT=0.87  
+  passed mutate design stage  i_pTM=0.76    pLDDT=0.85  
+  trajectory rejected  i_pTM=0.76    pLDDT=0.85   due to [i_pTM]
+
+=== trajectory 134 | il15_lesson_unguided_denovo_l99_12711aef1bd01eed | accepted 27/100 | worker 3 ===
+  passed screen design stage  i_pTM=0.66    pLDDT=0.82  
+  passed refine design stage  i_pTM=0.7     pLDDT=0.81  
+  passed anneal design stage  i_pTM=0.78    pLDDT=0.88  
+  passed harden design stage  i_pTM=0.77    pLDDT=0.86  
+  passed mutate design stage  i_pTM=0.72    pLDDT=0.82  
+  trajectory rejected  i_pTM=0.72    pLDDT=0.82   due to [i_pTM]
+
+=== trajectory 135 | il15_lesson_unguided_denovo_l80_b6db5c092c877ee2 | accepted 27/100 | worker 6 ===
+  passed screen design stage  i_pTM=0.85    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.87    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.86    pLDDT=0.91  
+  passed mutate design stage  i_pTM=0.83    pLDDT=0.9   
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 16 of 80 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=1.1     Interface_Residues=7    Target_pLDDT=0.87    i_pAE=0.53    i_pTM=0.38    pLDDT=0.92    pTM=0.68    failed [i_pTM, i_pAE]
+   2/10  rejected  Binder_RMSD=0.14    Interface_Residues=6    Target_pLDDT=0.86    i_pAE=0.5     i_pTM=0.4     pLDDT=0.91    pTM=0.69    failed [i_pTM, i_pAE, Interface_Residues]
+   3/10  rejected  Binder_RMSD=1.1     Interface_Residues=8    Target_pLDDT=0.86    i_pAE=0.57    i_pTM=0.3     pLDDT=0.91    pTM=0.65    failed [i_pTM, i_pAE]
+   4/10  rejected  Binder_RMSD=0.12    Interface_Residues=5    Target_pLDDT=0.86    i_pAE=0.53    i_pTM=0.37    pLDDT=0.92    pTM=0.68    failed [i_pTM, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=0.14    Interface_Residues=8    Target_pLDDT=0.87    i_pAE=0.42    i_pTM=0.5     pLDDT=0.93    pTM=0.73    failed [i_pTM, i_pAE]
+   6/10  rejected  Binder_RMSD=0.13    Interface_Residues=5    Target_pLDDT=0.87    i_pAE=0.46    i_pTM=0.49    pLDDT=0.91    pTM=0.71    failed [i_pTM, i_pAE, Interface_Residues]
+   7/10  rejected  Binder_RMSD=0.15    Interface_Residues=9    Target_pLDDT=0.87    i_pAE=0.4     i_pTM=0.53    pLDDT=0.93    pTM=0.74    failed [i_pTM, i_pAE]
+   8/10  rejected  Binder_RMSD=0.21    Interface_Residues=14   Target_pLDDT=0.86    i_pAE=0.23    i_pTM=0.77    pLDDT=0.92    pTM=0.84    failed [i_pTM]
+   9/10  rejected  Binder_RMSD=0.14    Interface_Residues=6    Target_pLDDT=0.87    i_pAE=0.5     i_pTM=0.41    pLDDT=0.92    pTM=0.69    failed [i_pTM, i_pAE, Interface_Residues]
+  10/10  rejected  Binder_RMSD=0.1     Interface_Residues=7    Target_pLDDT=0.87    i_pAE=0.55    i_pTM=0.33    pLDDT=0.93    pTM=0.66    failed [i_pTM, i_pAE]
+  0 of 10 redesigns passed
+
+=== trajectory 136 | il15_lesson_unguided_denovo_l84_6937c31e1dbed67d | accepted 27/100 | worker 4 ===
+  passed screen design stage  i_pTM=0.85    pLDDT=0.94  
+  passed refine design stage  i_pTM=0.88    pLDDT=0.95  
+  passed anneal design stage  i_pTM=0.87    pLDDT=0.95  
+  passed harden design stage  i_pTM=0.88    pLDDT=0.95  
+  passed mutate design stage  i_pTM=0.85    pLDDT=0.92  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 17 of 84 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.25    Interface_Residues=18   Target_pLDDT=0.9     i_pAE=0.15    i_pTM=0.88    pLDDT=0.96    pTM=0.89  
+   2/10  ACCEPTED  Binder_RMSD=0.23    Interface_Residues=17   Target_pLDDT=0.89    i_pAE=0.15    i_pTM=0.87    pLDDT=0.96    pTM=0.89  
+   3/10  ACCEPTED  Binder_RMSD=0.24    Interface_Residues=16   Target_pLDDT=0.89    i_pAE=0.15    i_pTM=0.87    pLDDT=0.96    pTM=0.88  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 1 (0.38)
+
+=== trajectory 137 | il15_lesson_unguided_denovo_l98_5992bb7aade001fa | accepted 27/100 | worker 9 ===
+  passed screen design stage  i_pTM=0.67    pLDDT=0.75  
+  passed refine design stage  i_pTM=0.71    pLDDT=0.7   
+  passed anneal design stage  i_pTM=0.72    pLDDT=0.73  
+  passed harden design stage  i_pTM=0.73    pLDDT=0.71  
+  passed mutate design stage  i_pTM=0.62    pLDDT=0.62  
+  trajectory rejected  i_pTM=0.62    pLDDT=0.62   due to [i_pTM, pLDDT]
+
+=== trajectory 138 | il15_lesson_unguided_denovo_l90_42e7e8c58aa1d57f | accepted 27/100 | worker 0 ===
+  passed screen design stage  i_pTM=0.87    pLDDT=0.94  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.95  
+  passed harden design stage  i_pTM=0.83    pLDDT=0.92  
+  rejected at mutate design stage  i_pTM=0.19    pLDDT=0.66   due to [i_pTM]
+
+=== trajectory 139 | il15_lesson_unguided_denovo_l109_79198d13dfcb827d | accepted 27/100 | worker 5 ===
+  passed screen design stage  i_pTM=0.73    pLDDT=0.64  
+  passed refine design stage  i_pTM=0.71    pLDDT=0.76  
+  passed anneal design stage  i_pTM=0.67    pLDDT=0.81  
+  passed harden design stage  i_pTM=0.71    pLDDT=0.8   
+  passed mutate design stage  i_pTM=0.59    pLDDT=0.65  
+  trajectory rejected  i_pTM=0.59    pLDDT=0.65   due to [i_pTM, pLDDT]
+
+=== trajectory 140 | il15_lesson_unguided_denovo_l99_19b5eb2e221e30d6 | accepted 27/100 | worker 13 ===
+  passed screen design stage  i_pTM=0.82    pLDDT=0.87  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.8     pLDDT=0.85  
+  rejected at harden design stage  i_pTM=0.14    pLDDT=0.52   due to [i_pTM, pLDDT]
+
+=== trajectory 141 | il15_lesson_unguided_denovo_l90_7cf5f9cbf6490db6 | accepted 27/100 | worker 2 ===
+  passed screen design stage  i_pTM=0.48    pLDDT=0.81  
+  passed refine design stage  i_pTM=0.65    pLDDT=0.86  
+  passed anneal design stage  i_pTM=0.7     pLDDT=0.88  
+  passed harden design stage  i_pTM=0.76    pLDDT=0.88  
+  passed mutate design stage  i_pTM=0.67    pLDDT=0.88  
+  trajectory rejected  i_pTM=0.67    pLDDT=0.88   due to [i_pTM]
+
+=== trajectory 142 | il15_lesson_unguided_denovo_l82_dff58cdc74b5e8d8 | accepted 27/100 | worker 10 ===
+  passed screen design stage  i_pTM=0.8     pLDDT=0.88  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.89  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.86    pLDDT=0.92  
+  passed mutate design stage  i_pTM=0.83    pLDDT=0.9   
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 21 of 82 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.22    Interface_Residues=24   Target_pLDDT=0.89    i_pAE=0.15    i_pTM=0.87    pLDDT=0.94    pTM=0.89  
+   2/10  ACCEPTED  Binder_RMSD=0.24    Interface_Residues=22   Target_pLDDT=0.89    i_pAE=0.15    i_pTM=0.88    pLDDT=0.95    pTM=0.89  
+   3/10  ACCEPTED  Binder_RMSD=0.54    Interface_Residues=21   Target_pLDDT=0.89    i_pAE=0.15    i_pTM=0.87    pLDDT=0.95    pTM=0.89  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 2 (0.49)
+
+=== trajectory 143 | il15_lesson_unguided_denovo_l98_412063e7b1732003 | accepted 27/100 | worker 7 ===
+  passed screen design stage  i_pTM=0.76    pLDDT=0.83  
+  passed refine design stage  i_pTM=0.7     pLDDT=0.83  
+  passed anneal design stage  i_pTM=0.8     pLDDT=0.88  
+  passed harden design stage  i_pTM=0.83    pLDDT=0.88  
+  rejected at mutate design stage  i_pTM=0.4     pLDDT=0.6    due to [i_pTM]
+
+=== trajectory 144 | il15_lesson_unguided_denovo_l102_0b67161fb9f8cade | accepted 27/100 | worker 11 ===
+  passed screen design stage  i_pTM=0.79    pLDDT=0.87  
+  passed refine design stage  i_pTM=0.8     pLDDT=0.89  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.83    pLDDT=0.89  
+  passed mutate design stage  i_pTM=0.75    pLDDT=0.76  
+  trajectory rejected  i_pTM=0.75    pLDDT=0.76   due to [i_pTM]
+
+=== trajectory 145 | il15_lesson_unguided_denovo_l84_00e557b8115426ca | accepted 27/100 | worker 8 ===
+  passed screen design stage  i_pTM=0.65    pLDDT=0.88  
+  passed refine design stage  i_pTM=0.74    pLDDT=0.89  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.93  
+  rejected at harden design stage  i_pTM=0.13    pLDDT=0.46   due to [i_pTM, pLDDT]
+
+=== trajectory 146 | il15_lesson_unguided_denovo_l109_001e5b0c03d91fef | accepted 27/100 | worker 3 ===
+  passed screen design stage  i_pTM=0.85    pLDDT=0.94  
+  passed refine design stage  i_pTM=0.58    pLDDT=0.8   
+  passed anneal design stage  i_pTM=0.7     pLDDT=0.86  
+  passed harden design stage  i_pTM=0.65    pLDDT=0.82  
+  passed mutate design stage  i_pTM=0.66    pLDDT=0.81  
+  trajectory rejected  i_pTM=0.66    pLDDT=0.81   due to [i_pTM]
+
+=== trajectory 147 | il15_lesson_unguided_denovo_l95_374c776c45271ae7 | accepted 28/100 | worker 12 ===
+  passed screen design stage  i_pTM=0.83    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.84    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.9   
+  passed harden design stage  i_pTM=0.78    pLDDT=0.8   
+  passed mutate design stage  i_pTM=0.8     pLDDT=0.84  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 15 of 95 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.87    Interface_Residues=16   Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.84    pLDDT=0.91    pTM=0.87  
+   2/10  rejected  Binder_RMSD=1.3     Interface_Residues=15   Target_pLDDT=0.87    i_pAE=0.22    i_pTM=0.8     pLDDT=0.86    pTM=0.84    Unbound_Binder_pLDDT=0.85    failed [i_pTM, Unbound_Binder_pLDDT]
+   3/10  rejected  Binder_RMSD=1.2     Interface_Residues=13   Target_pLDDT=0.86    i_pAE=0.37    i_pTM=0.69    pLDDT=0.7     pTM=0.76    Unbound_Binder_pLDDT=0.75    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE]
+   4/10  rejected  Binder_RMSD=11.6    Interface_Residues=14   Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.82    pLDDT=0.89    pTM=0.85    Unbound_Binder_pLDDT=0.64    failed [Unbound_Binder_pLDDT, Binder_RMSD]
+   5/10  rejected  Binder_RMSD=1.9     Interface_Residues=12   Target_pLDDT=0.85    i_pAE=0.45    i_pTM=0.52    pLDDT=0.8     pTM=0.72    Unbound_Binder_pLDDT=0.75    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE]
+   6/10  ACCEPTED  Binder_RMSD=0.77    Interface_Residues=14   Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.83    pLDDT=0.9     pTM=0.86  
+   7/10  rejected  Binder_RMSD=2.1     Interface_Residues=16   Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.83    pLDDT=0.9     pTM=0.86    Unbound_Binder_pLDDT=0.79    failed [Unbound_Binder_pLDDT]
+   8/10  rejected  Binder_RMSD=1.1     Interface_Residues=13   Target_pLDDT=0.86    i_pAE=0.4     i_pTM=0.65    pLDDT=0.71    pTM=0.76    Unbound_Binder_pLDDT=0.78    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE]
+   9/10  ACCEPTED  Binder_RMSD=1.1     Interface_Residues=15   Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.83    pLDDT=0.9     pTM=0.86  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 1 (0.41)
+
+=== trajectory 148 | il15_lesson_unguided_denovo_l89_52e20a8ccedf6793 | accepted 28/100 | worker 6 ===
+  passed screen design stage  i_pTM=0.87    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.86    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.86    pLDDT=0.94  
+  rejected at mutate design stage  i_pTM=0.1     pLDDT=0.37   due to [i_pTM, pLDDT]
+
+=== trajectory 149 | il15_lesson_unguided_denovo_l83_84ff7c546667c9be | accepted 29/100 | worker 4 ===
+  passed screen design stage  i_pTM=0.82    pLDDT=0.94  
+  passed refine design stage  i_pTM=0.8     pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.93  
+  rejected at harden design stage  i_pTM=0.3     pLDDT=0.54   due to [i_pTM, pLDDT]
+
+=== trajectory 150 | il15_lesson_unguided_denovo_l96_a9bc2349570cdb98 | accepted 29/100 | worker 0 ===
+  passed screen design stage  i_pTM=0.75    pLDDT=0.88  
+  passed refine design stage  i_pTM=0.74    pLDDT=0.84  
+  passed anneal design stage  i_pTM=0.74    pLDDT=0.89  
+  passed harden design stage  i_pTM=0.74    pLDDT=0.86  
+  passed mutate design stage  i_pTM=0.54    pLDDT=0.83  
+  trajectory rejected  i_pTM=0.54    pLDDT=0.83   due to [i_pTM]
+
+=== trajectory 151 | il15_lesson_unguided_denovo_l84_2dfc80c53dba62c7 | accepted 29/100 | worker 2 ===
+  passed screen design stage  i_pTM=0.74    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.79    pLDDT=0.86  
+  passed anneal design stage  i_pTM=0.79    pLDDT=0.86  
+  passed harden design stage  i_pTM=0.78    pLDDT=0.84  
+  passed mutate design stage  i_pTM=0.78    pLDDT=0.83  
+  trajectory rejected  i_pTM=0.78    pLDDT=0.83   due to [i_pTM]
+
+=== trajectory 152 | il15_lesson_unguided_denovo_l98_4d51e2671d7cf9cb | accepted 29/100 | worker 5 ===
+  passed screen design stage  i_pTM=0.88    pLDDT=0.94  
+  passed refine design stage  i_pTM=0.87    pLDDT=0.95  
+  passed anneal design stage  i_pTM=0.89    pLDDT=0.96  
+  passed harden design stage  i_pTM=0.89    pLDDT=0.96  
+  passed mutate design stage  i_pTM=0.89    pLDDT=0.96  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 16 of 98 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.15    Interface_Residues=13   Target_pLDDT=0.86    i_pAE=0.37    i_pTM=0.62    pLDDT=0.93    pTM=0.76    failed [i_pTM, i_pAE]
+   2/10  rejected  Binder_RMSD=0.25    Interface_Residues=13   Target_pLDDT=0.86    i_pAE=0.58    i_pTM=0.38    pLDDT=0.91    pTM=0.66    failed [i_pTM, i_pAE]
+   3/10  rejected  Binder_RMSD=0.36    Interface_Residues=16   Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.78    pLDDT=0.94    pTM=0.84    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=0.3     Interface_Residues=16   Target_pLDDT=0.87    i_pAE=0.28    i_pTM=0.72    pLDDT=0.93    pTM=0.82    failed [i_pTM]
+   5/10  rejected  Binder_RMSD=0.14    Interface_Residues=13   Target_pLDDT=0.86    i_pAE=0.58    i_pTM=0.37    pLDDT=0.93    pTM=0.65    failed [i_pTM, i_pAE]
+   6/10  rejected  Binder_RMSD=0.3     Interface_Residues=4    Target_pLDDT=0.87    i_pAE=0.77    i_pTM=0.16    pLDDT=0.87    pTM=0.56    failed [i_pTM, i_pAE, Interface_Residues]
+   7/10  rejected  Binder_RMSD=0.18    Interface_Residues=1    Target_pLDDT=0.87    i_pAE=0.78    i_pTM=0.15    pLDDT=0.83    pTM=0.55    failed [i_pTM, i_pAE, Interface_Residues]
+   8/10  rejected  Binder_RMSD=0.26    Interface_Residues=6    Target_pLDDT=0.87    i_pAE=0.71    i_pTM=0.2     pLDDT=0.92    pTM=0.58    failed [i_pTM, i_pAE, Interface_Residues]
+   9/10  rejected  Binder_RMSD=0.19    Interface_Residues=13   Target_pLDDT=0.86    i_pAE=0.53    i_pTM=0.46    pLDDT=0.91    pTM=0.69    failed [i_pTM, i_pAE]
+  10/10  ACCEPTED  Binder_RMSD=0.34    Interface_Residues=18   Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.84    pLDDT=0.95    pTM=0.87  
+  1 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 10 (0.31)
+
+=== trajectory 153 | il15_lesson_unguided_denovo_l106_f9337c073e2a04b0 | accepted 29/100 | worker 9 ===
+  passed screen design stage  i_pTM=0.77    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.74    pLDDT=0.84  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.87  
+  passed harden design stage  i_pTM=0.81    pLDDT=0.85  
+  passed mutate design stage  i_pTM=0.81    pLDDT=0.84  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 18 of 106 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=1.6     Interface_Residues=17   Target_pLDDT=0.87    i_pAE=0.26    i_pTM=0.74    pLDDT=0.83    pTM=0.82    Unbound_Binder_pLDDT=0.82    failed [i_pTM, Unbound_Binder_pLDDT]
+   2/10  rejected  Binder_RMSD=0.34    Interface_Residues=15   Target_pLDDT=0.87    i_pAE=0.21    i_pTM=0.8     pLDDT=0.91    pTM=0.84    failed [i_pTM]
+   3/10  rejected  Binder_RMSD=0.5     Interface_Residues=14   Target_pLDDT=0.87    i_pAE=0.22    i_pTM=0.79    pLDDT=0.9     pTM=0.84    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=0.71    Interface_Residues=17   Target_pLDDT=0.87    i_pAE=0.24    i_pTM=0.75    pLDDT=0.88    pTM=0.82    failed [i_pTM]
+   5/10  ACCEPTED  Binder_RMSD=0.71    Interface_Residues=15   Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.81    pLDDT=0.9     pTM=0.86  
+   6/10  rejected  Binder_RMSD=0.68    Interface_Residues=17   Target_pLDDT=0.88    i_pAE=0.22    i_pTM=0.8     pLDDT=0.89    pTM=0.85    failed [i_pTM]
+   7/10  rejected  Binder_RMSD=0.49    Interface_Residues=17   Target_pLDDT=0.88    i_pAE=0.23    i_pTM=0.78    pLDDT=0.86    pTM=0.84    Unbound_Binder_pLDDT=0.82    failed [i_pTM, Unbound_Binder_pLDDT]
+   8/10  rejected  Binder_RMSD=1.9     Interface_Residues=14   Target_pLDDT=0.87    i_pAE=0.33    i_pTM=0.71    pLDDT=0.76    pTM=0.78    Unbound_Binder_pLDDT=0.64    failed [i_pTM, Unbound_Binder_pLDDT]
+   9/10  rejected  Binder_RMSD=2.3     Interface_Residues=16   Target_pLDDT=0.87    i_pAE=0.24    i_pTM=0.76    pLDDT=0.87    pTM=0.83    Unbound_Binder_pLDDT=0.74    failed [i_pTM, Unbound_Binder_pLDDT]
+  10/10  rejected  Binder_RMSD=3.7     Interface_Residues=16   Target_pLDDT=0.88    i_pAE=0.2     i_pTM=0.81    pLDDT=0.91    pTM=0.85    Unbound_Binder_pLDDT=0.66    failed [Unbound_Binder_pLDDT, Binder_RMSD]
+  1 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 5 (0.37)
+
+=== trajectory 154 | il15_lesson_unguided_denovo_l97_c3b7f87ad0e47fef | accepted 29/100 | worker 13 ===
+  rejected at screen design stage  i_pTM=0.81    pLDDT=0.59   due to [pLDDT]
+
+=== trajectory 155 | il15_lesson_unguided_denovo_l81_708b6a4014331733 | accepted 30/100 | worker 10 ===
+  passed screen design stage  i_pTM=0.74    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.75    pLDDT=0.85  
+  passed anneal design stage  i_pTM=0.77    pLDDT=0.87  
+  passed harden design stage  i_pTM=0.76    pLDDT=0.86  
+  passed mutate design stage  i_pTM=0.76    pLDDT=0.86  
+  trajectory rejected  i_pTM=0.76    pLDDT=0.86   due to [i_pTM]
+
+=== trajectory 156 | il15_lesson_unguided_denovo_l96_d6d217e251ffea3d | accepted 30/100 | worker 8 ===
+  passed screen design stage  i_pTM=0.81    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.86    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.91  
+  rejected at harden design stage  i_pTM=0.64    pLDDT=0.6    due to [pLDDT]
+
+=== trajectory 157 | il15_lesson_unguided_denovo_l94_c5fdc94d9a9c3e5f | accepted 30/100 | worker 6 ===
+  passed screen design stage  i_pTM=0.46    pLDDT=0.86  
+  passed refine design stage  i_pTM=0.66    pLDDT=0.88  
+  passed anneal design stage  i_pTM=0.77    pLDDT=0.9   
+  passed harden design stage  i_pTM=0.71    pLDDT=0.88  
+  passed mutate design stage  i_pTM=0.76    pLDDT=0.89  
+  trajectory rejected  i_pTM=0.76    pLDDT=0.89   due to [i_pTM]
+
+=== trajectory 158 | il15_lesson_unguided_denovo_l83_44d573f3112d501c | accepted 30/100 | worker 4 ===
+  passed screen design stage  i_pTM=0.86    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.84    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.94  
+  rejected at harden design stage  i_pTM=0.19    pLDDT=0.65   due to [i_pTM, pLDDT]
+
+=== trajectory 159 | il15_lesson_unguided_denovo_l103_1a2051a6a364ecf7 | accepted 30/100 | worker 3 ===
+  passed screen design stage  i_pTM=0.85    pLDDT=0.94  
+  passed refine design stage  i_pTM=0.76    pLDDT=0.88  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.84    pLDDT=0.92  
+  passed mutate design stage  i_pTM=0.84    pLDDT=0.92  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 25 of 103 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.39    Interface_Residues=23   Target_pLDDT=0.89    i_pAE=0.18    i_pTM=0.84    pLDDT=0.92    pTM=0.87  
+   2/10  ACCEPTED  Binder_RMSD=0.5     Interface_Residues=26   Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.83    pLDDT=0.92    pTM=0.87  
+   3/10  rejected  Binder_RMSD=0.61    Interface_Residues=25   Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.8     pLDDT=0.88    pTM=0.85    failed [i_pTM]
+   4/10  ACCEPTED  Binder_RMSD=0.42    Interface_Residues=23   Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.83    pLDDT=0.93    pTM=0.87  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 2 (0.38)
+
+=== trajectory 160 | il15_lesson_unguided_denovo_l101_f879e310658810e1 | accepted 30/100 | worker 7 ===
+  passed screen design stage  i_pTM=0.86    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.85    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.85    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.82    pLDDT=0.86  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 21 of 101 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.41    Interface_Residues=3    Target_pLDDT=0.87    i_pAE=0.79    i_pTM=0.15    pLDDT=0.87    pTM=0.54    failed [i_pTM, pTM, i_pAE, Interface_Residues]
+   2/10  rejected  Binder_RMSD=7.8     Interface_Residues=3    Target_pLDDT=0.86    i_pAE=0.83    i_pTM=0.13    pLDDT=0.57    pTM=0.54    Unbound_Binder_pLDDT=0.55    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, pTM, i_pAE, Interface_Residues, Binder_RMSD]
+   3/10  rejected  Binder_RMSD=1.1     Interface_Residues=3    Target_pLDDT=0.87    i_pAE=0.81    i_pTM=0.13    pLDDT=0.86    pTM=0.53    failed [i_pTM, pTM, i_pAE, Interface_Residues]
+   4/10  rejected  Binder_RMSD=12.9    Interface_Residues=7    Target_pLDDT=0.85    i_pAE=0.7     i_pTM=0.25    pLDDT=0.6     pTM=0.59    failed [i_pTM, pLDDT, i_pAE, Binder_RMSD]
+   5/10  rejected  Binder_RMSD=13.8    Interface_Residues=2    Target_pLDDT=0.87    i_pAE=0.86    i_pTM=0.11    pLDDT=0.51    pTM=0.53    failed [i_pTM, pLDDT, pTM, i_pAE, Interface_Residues, Binder_RMSD]
+   6/10  rejected  Binder_RMSD=0.28    Interface_Residues=3    Target_pLDDT=0.87    i_pAE=0.72    i_pTM=0.2     pLDDT=0.87    pTM=0.57    failed [i_pTM, i_pAE, Interface_Residues]
+   7/10  rejected  Binder_RMSD=0.14    Interface_Residues=3    Target_pLDDT=0.87    i_pAE=0.81    i_pTM=0.13    pLDDT=0.92    pTM=0.53    failed [i_pTM, pTM, i_pAE, Interface_Residues]
+   8/10  rejected  Binder_RMSD=0.19    Interface_Residues=2    Target_pLDDT=0.87    i_pAE=0.82    i_pTM=0.12    pLDDT=0.91    pTM=0.53    failed [i_pTM, pTM, i_pAE, Interface_Residues]
+   9/10  rejected  Binder_RMSD=6.5     Interface_Residues=4    Target_pLDDT=0.87    i_pAE=0.78    i_pTM=0.16    pLDDT=0.69    pTM=0.55    Unbound_Binder_pLDDT=0.68    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Interface_Residues, Binder_RMSD]
+  10/10  rejected  Binder_RMSD=0.2     Interface_Residues=2    Target_pLDDT=0.87    i_pAE=0.81    i_pTM=0.13    pLDDT=0.89    pTM=0.53    failed [i_pTM, pTM, i_pAE, Interface_Residues]
+  0 of 10 redesigns passed
+
+=== trajectory 161 | il15_lesson_unguided_denovo_l108_4a73ad2e7c35b89e | accepted 30/100 | worker 11 ===
+  passed screen design stage  i_pTM=0.55    pLDDT=0.86  
+  passed refine design stage  i_pTM=0.66    pLDDT=0.88  
+  passed anneal design stage  i_pTM=0.72    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.56    pLDDT=0.8   
+  passed mutate design stage  i_pTM=0.64    pLDDT=0.64  
+  trajectory rejected  i_pTM=0.64    pLDDT=0.64   due to [i_pTM, pLDDT]
+
+=== trajectory 162 | il15_lesson_unguided_denovo_l107_68cf0e94847f9910 | accepted 30/100 | worker 13 ===
+  passed screen design stage  i_pTM=0.45    pLDDT=0.74  
+  passed refine design stage  i_pTM=0.58    pLDDT=0.7   
+  passed anneal design stage  i_pTM=0.77    pLDDT=0.89  
+  passed harden design stage  i_pTM=0.74    pLDDT=0.85  
+  passed mutate design stage  i_pTM=0.69    pLDDT=0.82  
+  trajectory rejected  i_pTM=0.69    pLDDT=0.82   due to [i_pTM]
+
+=== trajectory 163 | il15_lesson_unguided_denovo_l94_ec969c6026171953 | accepted 31/100 | worker 12 ===
+  passed screen design stage  i_pTM=0.77    pLDDT=0.84  
+  passed refine design stage  i_pTM=0.79    pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.9   
+  passed harden design stage  i_pTM=0.8     pLDDT=0.88  
+  passed mutate design stage  i_pTM=0.73    pLDDT=0.83  
+  trajectory rejected  i_pTM=0.73    pLDDT=0.83   due to [i_pTM]
+
+=== trajectory 164 | il15_lesson_unguided_denovo_l82_869c2e3b11443819 | accepted 31/100 | worker 0 ===
+  passed screen design stage  i_pTM=0.8     pLDDT=0.87  
+  passed refine design stage  i_pTM=0.77    pLDDT=0.86  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.77    pLDDT=0.87  
+  rejected at mutate design stage  i_pTM=0.09    pLDDT=0.38   due to [i_pTM, pLDDT]
+
+=== trajectory 165 | il15_lesson_unguided_denovo_l91_706964d87d0129de | accepted 31/100 | worker 2 ===
+  passed screen design stage  i_pTM=0.77    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.75    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.75    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.75    pLDDT=0.91  
+  passed mutate design stage  i_pTM=0.75    pLDDT=0.9   
+  trajectory rejected  i_pTM=0.75    pLDDT=0.9    due to [i_pTM]
+
+=== trajectory 166 | il15_lesson_unguided_denovo_l100_f08f61acb4a5b948 | accepted 32/100 | worker 5 ===
+  passed screen design stage  i_pTM=0.84    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.87    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.87    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.88    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.88    pLDDT=0.94  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 14 of 100 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.62    Interface_Residues=17   Target_pLDDT=0.89    i_pAE=0.19    i_pTM=0.84    pLDDT=0.92    pTM=0.87  
+   2/10  ACCEPTED  Binder_RMSD=0.61    Interface_Residues=15   Target_pLDDT=0.89    i_pAE=0.18    i_pTM=0.84    pLDDT=0.92    pTM=0.87  
+   3/10  ACCEPTED  Binder_RMSD=0.51    Interface_Residues=17   Target_pLDDT=0.89    i_pAE=0.19    i_pTM=0.85    pLDDT=0.92    pTM=0.87  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 3 (0.43)
+
+=== trajectory 167 | il15_lesson_unguided_denovo_l85_d1697f0b21450644 | accepted 32/100 | worker 8 ===
+  passed screen design stage  i_pTM=0.3     pLDDT=0.8   
+  passed refine design stage  i_pTM=0.48    pLDDT=0.83  
+  passed anneal design stage  i_pTM=0.63    pLDDT=0.86  
+  passed harden design stage  i_pTM=0.62    pLDDT=0.85  
+  passed mutate design stage  i_pTM=0.6     pLDDT=0.83  
+  trajectory rejected  i_pTM=0.6     pLDDT=0.83   due to [i_pTM]
+
+=== trajectory 168 | il15_lesson_unguided_denovo_l81_c9a2912e077df765 | accepted 32/100 | worker 4 ===
+  passed screen design stage  i_pTM=0.79    pLDDT=0.88  
+  passed refine design stage  i_pTM=0.83    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.83    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.82    pLDDT=0.89  
+  passed mutate design stage  i_pTM=0.83    pLDDT=0.9   
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 21 of 81 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=1.0     Interface_Residues=5    Target_pLDDT=0.86    i_pAE=0.75    i_pTM=0.16    pLDDT=0.87    pTM=0.58    failed [i_pTM, i_pAE, Interface_Residues]
+   2/10  rejected  Binder_RMSD=1.8     Interface_Residues=4    Target_pLDDT=0.85    i_pAE=0.75    i_pTM=0.15    pLDDT=0.84    pTM=0.58    Unbound_Binder_pLDDT=0.79    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE, Interface_Residues]
+   3/10  rejected  Binder_RMSD=0.36    Interface_Residues=5    Target_pLDDT=0.86    i_pAE=0.74    i_pTM=0.17    pLDDT=0.89    pTM=0.58    failed [i_pTM, i_pAE, Interface_Residues]
+   4/10  rejected  Binder_RMSD=1.6     Interface_Residues=6    Target_pLDDT=0.86    i_pAE=0.71    i_pTM=0.2     pLDDT=0.86    pTM=0.6     Unbound_Binder_pLDDT=0.78    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE, Interface_Residues]
+   5/10  rejected  Binder_RMSD=1.3     Interface_Residues=6    Target_pLDDT=0.86    i_pAE=0.67    i_pTM=0.21    pLDDT=0.89    pTM=0.61    failed [i_pTM, i_pAE, Interface_Residues]
+   6/10  rejected  Binder_RMSD=0.49    Interface_Residues=5    Target_pLDDT=0.87    i_pAE=0.79    i_pTM=0.14    pLDDT=0.8     pTM=0.57    Unbound_Binder_pLDDT=0.78    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE, Interface_Residues]
+   7/10  rejected  Binder_RMSD=2.2     Interface_Residues=3    Target_pLDDT=0.85    i_pAE=0.8     i_pTM=0.11    pLDDT=0.78    pTM=0.56    Unbound_Binder_pLDDT=0.77    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE, Interface_Residues]
+   8/10  rejected  Binder_RMSD=0.86    Interface_Residues=5    Target_pLDDT=0.86    i_pAE=0.75    i_pTM=0.15    pLDDT=0.88    pTM=0.57    failed [i_pTM, i_pAE, Interface_Residues]
+   9/10  rejected  Binder_RMSD=0.88    Interface_Residues=6    Target_pLDDT=0.86    i_pAE=0.63    i_pTM=0.26    pLDDT=0.87    pTM=0.63    failed [i_pTM, i_pAE, Interface_Residues]
+  10/10  rejected  Binder_RMSD=2.4     Interface_Residues=15   Target_pLDDT=0.85    i_pAE=0.49    i_pTM=0.48    pLDDT=0.87    pTM=0.71    Unbound_Binder_pLDDT=0.76    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE]
+  0 of 10 redesigns passed
+
+=== trajectory 169 | il15_lesson_unguided_denovo_l99_e3a647b23b36ad5d | accepted 33/100 | worker 9 ===
+  passed screen design stage  i_pTM=0.86    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.84    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.87    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.84    pLDDT=0.89  
+  passed mutate design stage  i_pTM=0.81    pLDDT=0.86  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 18 of 99 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.48    Interface_Residues=20   Target_pLDDT=0.88    i_pAE=0.16    i_pTM=0.86    pLDDT=0.94    pTM=0.88  
+   2/10  ACCEPTED  Binder_RMSD=0.35    Interface_Residues=19   Target_pLDDT=0.88    i_pAE=0.17    i_pTM=0.85    pLDDT=0.94    pTM=0.88  
+   3/10  ACCEPTED  Binder_RMSD=0.33    Interface_Residues=20   Target_pLDDT=0.88    i_pAE=0.17    i_pTM=0.85    pLDDT=0.94    pTM=0.88  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 1 (0.4)
+
+=== trajectory 170 | il15_lesson_unguided_denovo_l91_0bd96afcc664b979 | accepted 33/100 | worker 6 ===
+  passed screen design stage  i_pTM=0.74    pLDDT=0.89  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.85    pLDDT=0.93  
+  rejected at mutate design stage  i_pTM=0.22    pLDDT=0.76   due to [i_pTM]
+
+=== trajectory 171 | il15_lesson_unguided_denovo_l88_56377af780d6f901 | accepted 33/100 | worker 10 ===
+  passed screen design stage  i_pTM=0.76    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.82    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.82    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.81    pLDDT=0.92  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 21 of 88 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.48    Interface_Residues=14   Target_pLDDT=0.86    i_pAE=0.42    i_pTM=0.54    pLDDT=0.88    pTM=0.74    failed [i_pTM, i_pAE]
+   2/10  rejected  Binder_RMSD=0.39    Interface_Residues=10   Target_pLDDT=0.85    i_pAE=0.51    i_pTM=0.44    pLDDT=0.89    pTM=0.69    failed [i_pTM, i_pAE]
+   3/10  rejected  Binder_RMSD=0.32    Interface_Residues=7    Target_pLDDT=0.86    i_pAE=0.73    i_pTM=0.19    pLDDT=0.88    pTM=0.58    failed [i_pTM, i_pAE]
+   4/10  rejected  Binder_RMSD=0.41    Interface_Residues=11   Target_pLDDT=0.85    i_pAE=0.49    i_pTM=0.46    pLDDT=0.89    pTM=0.7     failed [i_pTM, i_pAE]
+   5/10  rejected  Binder_RMSD=0.33    Interface_Residues=7    Target_pLDDT=0.86    i_pAE=0.76    i_pTM=0.16    pLDDT=0.89    pTM=0.57    failed [i_pTM, i_pAE]
+   6/10  rejected  Binder_RMSD=0.5     Interface_Residues=12   Target_pLDDT=0.86    i_pAE=0.43    i_pTM=0.55    pLDDT=0.88    pTM=0.74    failed [i_pTM, i_pAE]
+   7/10  rejected  Binder_RMSD=0.8     Interface_Residues=13   Target_pLDDT=0.86    i_pAE=0.38    i_pTM=0.59    pLDDT=0.88    pTM=0.76    failed [i_pTM, i_pAE]
+   8/10  rejected  Binder_RMSD=0.27    Interface_Residues=6    Target_pLDDT=0.86    i_pAE=0.75    i_pTM=0.16    pLDDT=0.9     pTM=0.57    failed [i_pTM, i_pAE, Interface_Residues]
+   9/10  rejected  Binder_RMSD=0.59    Interface_Residues=12   Target_pLDDT=0.86    i_pAE=0.4     i_pTM=0.57    pLDDT=0.88    pTM=0.75    failed [i_pTM, i_pAE]
+  10/10  rejected  Binder_RMSD=0.39    Interface_Residues=11   Target_pLDDT=0.86    i_pAE=0.63    i_pTM=0.31    pLDDT=0.9     pTM=0.64    failed [i_pTM, i_pAE]
+  0 of 10 redesigns passed
+
+=== trajectory 172 | il15_lesson_unguided_denovo_l88_01cbe14cedbcebaa | accepted 33/100 | worker 0 ===
+  passed screen design stage  i_pTM=0.86    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.86    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.88    pLDDT=0.95  
+  rejected at harden design stage  i_pTM=0.45    pLDDT=0.76   due to [i_pTM]
+
+=== trajectory 173 | il15_lesson_unguided_denovo_l107_53b1ef156abd53bc | accepted 34/100 | worker 3 ===
+  passed screen design stage  i_pTM=0.81    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.85    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.87    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.86    pLDDT=0.93  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 18 of 107 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=0.42    Interface_Residues=18   Target_pLDDT=0.87    i_pAE=0.5     i_pTM=0.48    pLDDT=0.91    pTM=0.69    failed [i_pTM, pTM, i_pAE]
+   2/10  rejected  Binder_RMSD=0.23    Interface_Residues=14   Target_pLDDT=0.87    i_pAE=0.24    i_pTM=0.77    pLDDT=0.92    pTM=0.84    failed [i_pTM]
+   3/10  rejected  Binder_RMSD=1.4     Interface_Residues=14   Target_pLDDT=0.87    i_pAE=0.52    i_pTM=0.45    pLDDT=0.79    pTM=0.68    Unbound_Binder_pLDDT=0.82    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, pTM, i_pAE]
+   4/10  rejected  Binder_RMSD=0.43    Interface_Residues=14   Target_pLDDT=0.86    i_pAE=0.22    i_pTM=0.8     pLDDT=0.92    pTM=0.85    failed [i_pTM]
+   5/10  rejected  Binder_RMSD=0.41    Interface_Residues=13   Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.78    pLDDT=0.9     pTM=0.84    failed [i_pTM]
+   6/10  rejected  Binder_RMSD=0.83    Interface_Residues=16   Target_pLDDT=0.87    i_pAE=0.44    i_pTM=0.52    pLDDT=0.9     pTM=0.71    failed [i_pTM, i_pAE]
+   7/10  rejected  Binder_RMSD=0.24    Interface_Residues=14   Target_pLDDT=0.86    i_pAE=0.21    i_pTM=0.8     pLDDT=0.93    pTM=0.85    failed [i_pTM]
+   8/10  rejected  Binder_RMSD=0.32    Interface_Residues=15   Target_pLDDT=0.86    i_pAE=0.23    i_pTM=0.78    pLDDT=0.91    pTM=0.84    failed [i_pTM]
+   9/10  rejected  Binder_RMSD=0.34    Interface_Residues=12   Target_pLDDT=0.86    i_pAE=0.23    i_pTM=0.78    pLDDT=0.91    pTM=0.84    failed [i_pTM]
+  10/10  rejected  Binder_RMSD=1.8     Interface_Residues=12   Target_pLDDT=0.87    i_pAE=0.23    i_pTM=0.78    pLDDT=0.91    pTM=0.84    failed [i_pTM]
+  0 of 10 redesigns passed
+
+=== trajectory 174 | il15_lesson_unguided_denovo_l88_237d1902a5aa40cd | accepted 34/100 | worker 12 ===
+  passed screen design stage  i_pTM=0.82    pLDDT=0.88  
+  passed refine design stage  i_pTM=0.7     pLDDT=0.81  
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.79    pLDDT=0.87  
+  passed mutate design stage  i_pTM=0.77    pLDDT=0.85  
+  trajectory rejected  i_pTM=0.77    pLDDT=0.85   due to [i_pTM]
+
+=== trajectory 175 | il15_lesson_unguided_denovo_l92_100e81f14c90bb42 | accepted 34/100 | worker 2 ===
+  passed screen design stage  i_pTM=0.74    pLDDT=0.81  
+  passed refine design stage  i_pTM=0.78    pLDDT=0.85  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.78    pLDDT=0.85  
+  passed mutate design stage  i_pTM=0.78    pLDDT=0.83  
+  trajectory rejected  i_pTM=0.78    pLDDT=0.83   due to [i_pTM]
+
+=== trajectory 176 | il15_lesson_unguided_denovo_l98_d0065d82a710b5fe | accepted 34/100 | worker 11 ===
+  passed screen design stage  i_pTM=0.82    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.8     pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.83    pLDDT=0.91  
+  passed mutate design stage  i_pTM=0.82    pLDDT=0.75  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 17 of 98 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=1.6     Interface_Residues=17   Target_pLDDT=0.89    i_pAE=0.24    i_pTM=0.81    pLDDT=0.87    pTM=0.83    Unbound_Binder_pLDDT=0.83    failed [Unbound_Binder_pLDDT]
+   2/10  rejected  Binder_RMSD=1.9     Interface_Residues=15   Target_pLDDT=0.89    i_pAE=0.24    i_pTM=0.81    pLDDT=0.85    pTM=0.84    Unbound_Binder_pLDDT=0.83    failed [Unbound_Binder_pLDDT]
+   3/10  rejected  Binder_RMSD=5.2     Interface_Residues=15   Target_pLDDT=0.88    i_pAE=0.28    i_pTM=0.75    pLDDT=0.83    pTM=0.82    Unbound_Binder_pLDDT=0.63    failed [i_pTM, Unbound_Binder_pLDDT, Binder_RMSD]
+   4/10  rejected  Binder_RMSD=5.3     Interface_Residues=17   Target_pLDDT=0.89    i_pAE=0.25    i_pTM=0.81    pLDDT=0.85    pTM=0.83    Unbound_Binder_pLDDT=0.81    failed [Unbound_Binder_pLDDT, Binder_RMSD]
+   5/10  rejected  Binder_RMSD=6.4     Interface_Residues=14   Target_pLDDT=0.87    i_pAE=0.29    i_pTM=0.77    pLDDT=0.81    pTM=0.81    Unbound_Binder_pLDDT=0.69    failed [i_pTM, Unbound_Binder_pLDDT, Binder_RMSD]
+   6/10  rejected  Binder_RMSD=2.6     Interface_Residues=17   Target_pLDDT=0.88    i_pAE=0.27    i_pTM=0.78    pLDDT=0.82    pTM=0.82    Unbound_Binder_pLDDT=0.81    failed [i_pTM, Unbound_Binder_pLDDT]
+   7/10  rejected  Binder_RMSD=4.4     Interface_Residues=14   Target_pLDDT=0.88    i_pAE=0.27    i_pTM=0.79    pLDDT=0.83    pTM=0.82    Unbound_Binder_pLDDT=0.81    failed [i_pTM, Unbound_Binder_pLDDT, Binder_RMSD]
+   8/10  rejected  Binder_RMSD=0.87    Interface_Residues=17   Target_pLDDT=0.89    i_pAE=0.22    i_pTM=0.8     pLDDT=0.88    pTM=0.85    Unbound_Binder_pLDDT=0.84    failed [i_pTM, Unbound_Binder_pLDDT]
+   9/10  rejected  Binder_RMSD=2.0     Interface_Residues=17   Target_pLDDT=0.89    i_pAE=0.25    i_pTM=0.82    pLDDT=0.85    pTM=0.83    Unbound_Binder_pLDDT=0.81    failed [Unbound_Binder_pLDDT]
+  10/10  rejected  Binder_RMSD=2.6     Interface_Residues=16   Target_pLDDT=0.89    i_pAE=0.25    i_pTM=0.8     pLDDT=0.85    pTM=0.83    Unbound_Binder_pLDDT=0.83    failed [i_pTM, Unbound_Binder_pLDDT]
+  0 of 10 redesigns passed
+
+=== trajectory 177 | il15_lesson_unguided_denovo_l106_61826d68bdbd376e | accepted 34/100 | worker 13 ===
+  passed screen design stage  i_pTM=0.71    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.54    pLDDT=0.8   
+  passed anneal design stage  i_pTM=0.69    pLDDT=0.87  
+  passed harden design stage  i_pTM=0.7     pLDDT=0.86  
+  passed mutate design stage  i_pTM=0.72    pLDDT=0.88  
+  trajectory rejected  i_pTM=0.72    pLDDT=0.88   due to [i_pTM]
+
+=== trajectory 178 | il15_lesson_unguided_denovo_l105_25ca0bbadcf5a1f7 | accepted 34/100 | worker 7 ===
+  passed screen design stage  i_pTM=0.86    pLDDT=0.93  
+  passed refine design stage  i_pTM=0.85    pLDDT=0.94  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.87    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.87    pLDDT=0.93  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 20 of 105 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.25    Interface_Residues=19   Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.85    pLDDT=0.95    pTM=0.88  
+   2/10  ACCEPTED  Binder_RMSD=0.29    Interface_Residues=20   Target_pLDDT=0.88    i_pAE=0.17    i_pTM=0.85    pLDDT=0.94    pTM=0.88  
+   3/10  ACCEPTED  Binder_RMSD=0.3     Interface_Residues=21   Target_pLDDT=0.88    i_pAE=0.17    i_pTM=0.85    pLDDT=0.95    pTM=0.88  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 3 (0.42)
+
+=== trajectory 179 | il15_lesson_unguided_denovo_l87_7e09393096080cc2 | accepted 34/100 | worker 4 ===
+  passed screen design stage  i_pTM=0.72    pLDDT=0.86  
+  passed refine design stage  i_pTM=0.84    pLDDT=0.9   
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.84    pLDDT=0.91  
+  rejected at mutate design stage  i_pTM=0.15    pLDDT=0.43   due to [i_pTM, pLDDT]
+
+=== trajectory 180 | il15_lesson_unguided_denovo_l92_6f8c80f869792d34 | accepted 34/100 | worker 6 ===
+  passed screen design stage  i_pTM=0.68    pLDDT=0.86  
+  passed refine design stage  i_pTM=0.75    pLDDT=0.84  
+  passed anneal design stage  i_pTM=0.8     pLDDT=0.88  
+  passed harden design stage  i_pTM=0.73    pLDDT=0.82  
+  passed mutate design stage  i_pTM=0.65    pLDDT=0.74  
+  trajectory rejected  i_pTM=0.65    pLDDT=0.74   due to [i_pTM]
+
+=== trajectory 181 | il15_lesson_unguided_denovo_l102_ef487b1101265159 | accepted 35/100 | worker 5 ===
+  passed screen design stage  i_pTM=0.68    pLDDT=0.84  
+  passed refine design stage  i_pTM=0.76    pLDDT=0.9   
+  passed anneal design stage  i_pTM=0.8     pLDDT=0.91  
+  passed harden design stage  i_pTM=0.66    pLDDT=0.86  
+  passed mutate design stage  i_pTM=0.68    pLDDT=0.86  
+  trajectory rejected  i_pTM=0.68    pLDDT=0.86   due to [i_pTM]
+
+=== trajectory 182 | il15_lesson_unguided_denovo_l90_5ccf9d96b8536611 | accepted 35/100 | worker 8 ===
+  passed screen design stage  i_pTM=0.78    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.75    pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.78    pLDDT=0.87  
+  passed harden design stage  i_pTM=0.79    pLDDT=0.84  
+  passed mutate design stage  i_pTM=0.79    pLDDT=0.88  
+  trajectory rejected  i_pTM=0.79    pLDDT=0.88   due to [i_pTM]
+
+=== trajectory 183 | il15_lesson_unguided_denovo_l91_db42d1ff5168e2c7 | accepted 35/100 | worker 0 ===
+  passed screen design stage  i_pTM=0.83    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.81    pLDDT=0.9   
+  passed anneal design stage  i_pTM=0.82    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.83    pLDDT=0.87  
+  rejected at mutate design stage  i_pTM=0.2     pLDDT=0.4    due to [i_pTM, pLDDT]
+
+=== trajectory 184 | il15_lesson_unguided_denovo_l86_fd1b97544069fdff | accepted 35/100 | worker 10 ===
+  passed screen design stage  i_pTM=0.83    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.85    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.78    pLDDT=0.88  
+  passed mutate design stage  i_pTM=0.77    pLDDT=0.87  
+  trajectory rejected  i_pTM=0.77    pLDDT=0.87   due to [i_pTM]
+
+=== trajectory 185 | il15_lesson_unguided_denovo_l95_f1604ac527a8b278 | accepted 35/100 | worker 2 ===
+  passed screen design stage  i_pTM=0.79    pLDDT=0.89  
+  passed refine design stage  i_pTM=0.8     pLDDT=0.9   
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.77    pLDDT=0.85  
+  rejected at mutate design stage  i_pTM=0.12    pLDDT=0.4    due to [i_pTM, pLDDT]
+
+=== trajectory 186 | il15_lesson_unguided_denovo_l97_de1f311140dea51c | accepted 36/100 | worker 9 ===
+  passed screen design stage  i_pTM=0.79    pLDDT=0.9   
+  passed refine design stage  i_pTM=0.84    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.94  
+  passed harden design stage  i_pTM=0.86    pLDDT=0.94  
+  rejected at mutate design stage  i_pTM=0.15    pLDDT=0.71   due to [i_pTM]
+=== trajectory 187 | il15_lesson_unguided_denovo_l84_f887d13d19336b21 | accepted 36/100 | worker 12 ===
+  passed screen design stage  i_pTM=0.86    pLDDT=0.94  
+  passed refine design stage  i_pTM=0.85    pLDDT=0.94  
+  passed anneal design stage  i_pTM=0.87    pLDDT=0.95  
+  passed harden design stage  i_pTM=0.84    pLDDT=0.93  
+  passed mutate design stage  i_pTM=0.86    pLDDT=0.95  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 19 of 84 residue(s) of chain binder
+   1/10  rejected  Binder_RMSD=1.2     Interface_Residues=15   Target_pLDDT=0.86    i_pAE=0.28    i_pTM=0.71    pLDDT=0.83    pTM=0.81    Unbound_Binder_pLDDT=0.75    failed [i_pTM, Unbound_Binder_pLDDT]
+   2/10  rejected  Binder_RMSD=0.6     Interface_Residues=16   Target_pLDDT=0.86    i_pAE=0.27    i_pTM=0.7     pLDDT=0.86    pTM=0.81    Unbound_Binder_pLDDT=0.83    failed [i_pTM, Unbound_Binder_pLDDT]
+   3/10  rejected  Binder_RMSD=0.49    Interface_Residues=18   Target_pLDDT=0.87    i_pAE=0.26    i_pTM=0.71    pLDDT=0.87    pTM=0.81    failed [i_pTM]
+   4/10  rejected  Binder_RMSD=2.3     Interface_Residues=14   Target_pLDDT=0.85    i_pAE=0.35    i_pTM=0.59    pLDDT=0.82    pTM=0.76    Unbound_Binder_pLDDT=0.78    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE]
+   5/10  rejected  Binder_RMSD=0.97    Interface_Residues=15   Target_pLDDT=0.87    i_pAE=0.29    i_pTM=0.68    pLDDT=0.82    pTM=0.8     Unbound_Binder_pLDDT=0.84    failed [i_pTM, Unbound_Binder_pLDDT]
+   6/10  rejected  Binder_RMSD=2.3     Interface_Residues=11   Target_pLDDT=0.85    i_pAE=0.38    i_pTM=0.56    pLDDT=0.79    pTM=0.75    Unbound_Binder_pLDDT=0.77    failed [i_pTM, Unbound_Binder_pLDDT, i_pAE]
+   7/10  rejected  Binder_RMSD=0.91    Interface_Residues=15   Target_pLDDT=0.88    i_pAE=0.23    i_pTM=0.75    pLDDT=0.87    pTM=0.83    failed [i_pTM]
+   8/10  rejected  Binder_RMSD=0.67    Interface_Residues=17   Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.78    pLDDT=0.89    pTM=0.84    failed [i_pTM]
+   9/10  ACCEPTED  Binder_RMSD=0.71    Interface_Residues=14   Target_pLDDT=0.89    i_pAE=0.18    i_pTM=0.82    pLDDT=0.92    pTM=0.87  
+  10/10  rejected  Binder_RMSD=2.2     Interface_Residues=15   Target_pLDDT=0.86    i_pAE=0.29    i_pTM=0.69    pLDDT=0.82    pTM=0.8     Unbound_Binder_pLDDT=0.74    failed [i_pTM, Unbound_Binder_pLDDT]
+  1 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 9 (0.28)
+=== trajectory 188 | il15_lesson_unguided_denovo_l103_4c8a32c8f55c0254 | accepted 36/100 | worker 3 ===
+  passed screen design stage  i_pTM=0.77    pLDDT=0.86  
+  passed refine design stage  i_pTM=0.69    pLDDT=0.74  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.9   
+  passed harden design stage  i_pTM=0.8     pLDDT=0.86  
+  passed mutate design stage  i_pTM=0.79    pLDDT=0.83  
+  trajectory rejected  i_pTM=0.79    pLDDT=0.83   due to [i_pTM]
+
+=== trajectory 189 | il15_lesson_unguided_denovo_l104_32f943c205d90f17 | accepted 36/100 | worker 13 ===
+  passed screen design stage  i_pTM=0.7     pLDDT=0.64  
+  passed refine design stage  i_pTM=0.64    pLDDT=0.61  
+  rejected at anneal design stage  i_pTM=0.62    pLDDT=0.61   due to [pLDDT]
+=== trajectory 190 | il15_lesson_unguided_denovo_l107_cc171a4349a55ab7 | accepted 36/100 | worker 11 ===
+  passed screen design stage  i_pTM=0.82    pLDDT=0.89  
+  passed refine design stage  i_pTM=0.85    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.86    pLDDT=0.95  
+  passed harden design stage  i_pTM=0.8     pLDDT=0.79  
+  passed mutate design stage  i_pTM=0.79    pLDDT=0.84  
+  trajectory rejected  i_pTM=0.79    pLDDT=0.84   due to [i_pTM]
+=== trajectory 191 | il15_lesson_unguided_denovo_l92_c82fc12386271dc2 | accepted 36/100 | worker 4 ===
+  passed screen design stage  i_pTM=0.74    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.8     pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.78    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.8     pLDDT=0.92  
+  passed mutate design stage  i_pTM=0.79    pLDDT=0.9   
+  trajectory rejected  i_pTM=0.79    pLDDT=0.9    due to [i_pTM]
+=== trajectory 192 | il15_lesson_unguided_denovo_l96_2917f5a816e0fc3d | accepted 36/100 | worker 6 ===
+  passed screen design stage  i_pTM=0.72    pLDDT=0.86  
+  passed refine design stage  i_pTM=0.37    pLDDT=0.75  
+  passed anneal design stage  i_pTM=0.59    pLDDT=0.82  
+  passed harden design stage  i_pTM=0.66    pLDDT=0.84  
+  rejected at mutate design stage  i_pTM=0.14    pLDDT=0.58   due to [i_pTM, pLDDT]
+=== trajectory 193 | il15_lesson_unguided_denovo_l104_d9130c52f8cd2a28 | accepted 37/100 | worker 7 ===
+  passed screen design stage  i_pTM=0.85    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.82    pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.84    pLDDT=0.89  
+  passed harden design stage  i_pTM=0.84    pLDDT=0.88  
+  passed mutate design stage  i_pTM=0.84    pLDDT=0.88  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 18 of 104 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.29    Interface_Residues=17   Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.83    pLDDT=0.93    pTM=0.86  
+   2/10  rejected  Binder_RMSD=0.34    Interface_Residues=18   Target_pLDDT=0.86    i_pAE=0.26    i_pTM=0.74    pLDDT=0.9     pTM=0.82    failed [i_pTM]
+   3/10  ACCEPTED  Binder_RMSD=0.37    Interface_Residues=20   Target_pLDDT=0.88    i_pAE=0.21    i_pTM=0.82    pLDDT=0.92    pTM=0.86  
+   4/10  ACCEPTED  Binder_RMSD=0.21    Interface_Residues=18   Target_pLDDT=0.88    i_pAE=0.19    i_pTM=0.83    pLDDT=0.93    pTM=0.87  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 4 (0.34)
+=== trajectory 194 | il15_lesson_unguided_denovo_l92_c8fdf2f43eaaf0dc | accepted 37/100 | worker 0 ===
+  rejected at screen design stage  i_pTM=0.38    pLDDT=0.55   due to [pLDDT]
+
+=== trajectory 195 | il15_lesson_unguided_denovo_l104_cf1be775be16d843 | accepted 37/100 | worker 5 ===
+  passed screen design stage  i_pTM=0.67    pLDDT=0.84  
+  passed refine design stage  i_pTM=0.78    pLDDT=0.91  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.92  
+  passed harden design stage  i_pTM=0.74    pLDDT=0.89  
+  passed mutate design stage  i_pTM=0.77    pLDDT=0.9   
+  trajectory rejected  i_pTM=0.77    pLDDT=0.9    due to [i_pTM]
+=== trajectory 196 | il15_lesson_unguided_denovo_l96_3508c466eb6263e7 | accepted 37/100 | worker 8 ===
+  passed screen design stage  i_pTM=0.86    pLDDT=0.94  
+  passed refine design stage  i_pTM=0.87    pLDDT=0.93  
+  passed anneal design stage  i_pTM=0.88    pLDDT=0.95  
+  passed harden design stage  i_pTM=0.87    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.86    pLDDT=0.94  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 20 of 96 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.31    Interface_Residues=18   Target_pLDDT=0.89    i_pAE=0.17    i_pTM=0.85    pLDDT=0.96    pTM=0.88  
+   2/10  ACCEPTED  Binder_RMSD=0.31    Interface_Residues=20   Target_pLDDT=0.89    i_pAE=0.18    i_pTM=0.84    pLDDT=0.95    pTM=0.87  
+   3/10  ACCEPTED  Binder_RMSD=0.31    Interface_Residues=19   Target_pLDDT=0.88    i_pAE=0.18    i_pTM=0.84    pLDDT=0.95    pTM=0.87  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 1 (0.37)
+=== trajectory 197 | il15_lesson_unguided_denovo_l80_d8cffb55ae1a3d4a | accepted 37/100 | worker 2 ===
+  passed screen design stage  i_pTM=0.77    pLDDT=0.71  
+  passed refine design stage  i_pTM=0.76    pLDDT=0.75  
+  passed anneal design stage  i_pTM=0.78    pLDDT=0.79  
+  passed harden design stage  i_pTM=0.77    pLDDT=0.74  
+  rejected at mutate design stage  i_pTM=0.14    pLDDT=0.44   due to [i_pTM, pLDDT]
+=== trajectory 198 | il15_lesson_unguided_denovo_l90_dea87df5c9354309 | accepted 37/100 | worker 10 ===
+  passed screen design stage  i_pTM=0.78    pLDDT=0.92  
+  passed refine design stage  i_pTM=0.64    pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.81    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.79    pLDDT=0.92  
+  rejected at mutate design stage  i_pTM=0.1     pLDDT=0.35   due to [i_pTM, pLDDT]
+=== trajectory 199 | il15_lesson_unguided_denovo_l93_26babc044d43ac73 | accepted 37/100 | worker 0 ===
+  passed screen design stage  i_pTM=0.87    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.85    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.87    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.88    pLDDT=0.94  
+  passed mutate design stage  i_pTM=0.87    pLDDT=0.92  
+  binder hallucination successful
+  binder optimization, 10 MPNN redesigns
+ProteinMPNN: holding 20 of 93 residue(s) of chain binder
+   1/10  ACCEPTED  Binder_RMSD=0.17    Interface_Residues=20   Target_pLDDT=0.89    i_pAE=0.15    i_pTM=0.89    pLDDT=0.96    pTM=0.89  
+   2/10  rejected  Binder_RMSD=5.0     Interface_Residues=19   Target_pLDDT=0.89    i_pAE=0.16    i_pTM=0.88    pLDDT=0.95    pTM=0.89    failed [Binder_RMSD]
+   3/10  ACCEPTED  Binder_RMSD=0.12    Interface_Residues=19   Target_pLDDT=0.89    i_pAE=0.15    i_pTM=0.89    pLDDT=0.96    pTM=0.89  
+   4/10  rejected  Binder_RMSD=10.1    Interface_Residues=10   Target_pLDDT=0.85    i_pAE=0.6     i_pTM=0.33    pLDDT=0.7     pTM=0.64    Unbound_Binder_pLDDT=0.75    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Binder_RMSD]
+   5/10  rejected  Binder_RMSD=4.5     Interface_Residues=18   Target_pLDDT=0.89    i_pAE=0.16    i_pTM=0.88    pLDDT=0.95    pTM=0.89    Unbound_Binder_pLDDT=0.84    failed [Unbound_Binder_pLDDT, Binder_RMSD]
+   6/10  rejected  Binder_RMSD=8.5     Interface_Residues=10   Target_pLDDT=0.85    i_pAE=0.65    i_pTM=0.31    pLDDT=0.53    pTM=0.63    Unbound_Binder_pLDDT=0.67    failed [i_pTM, pLDDT, Unbound_Binder_pLDDT, i_pAE, Binder_RMSD]
+   7/10  ACCEPTED  Binder_RMSD=0.57    Interface_Residues=19   Target_pLDDT=0.89    i_pAE=0.15    i_pTM=0.88    pLDDT=0.95    pTM=0.89  
+  3 of 10 redesigns passed, keeping the best 1 by i_pDAE: candidate 3 (0.47)
+=== trajectory 200 | il15_lesson_unguided_denovo_l104_ec7c7e347872dc25 | accepted 37/100 | worker 3 ===
+  passed screen design stage  i_pTM=0.86    pLDDT=0.91  
+  passed refine design stage  i_pTM=0.87    pLDDT=0.92  
+  passed anneal design stage  i_pTM=0.85    pLDDT=0.93  
+  passed harden design stage  i_pTM=0.6     pLDDT=0.83  
+  passed mutate design stage  i_pTM=0.65    pLDDT=0.86  
+  trajectory rejected  i_pTM=0.65    pLDDT=0.86   due to [i_pTM]
+campaign closed 1 of 14 design worker(s) short: their trajectories are abandoned, and each is named above with its log
+
+campaign stopped at max_trajectories=200: 41/100 accepted in 200 trajectories, so 100 needs roughly 488 at this rate
+
+campaign done: 41 accepted design(s) after 200 trajectories, ranked by i_pDAE
+EXIT 1 after 8816 s at Fri Nov  6 10:35:36 AM MST 2026

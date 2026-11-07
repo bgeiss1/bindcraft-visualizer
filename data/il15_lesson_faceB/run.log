@@ -1,0 +1,1664 @@
+START il15_lesson_faceB Fri Nov  6 01:00:23 PM MST 2026
+compiled graphs cached in /home/bgeiss/bindcraft2/results/il15_lesson_faceB/compile_cache/NVIDIA_RTX_PRO_6000_Blackwell_Max_Q_Workstation_Edition
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+campaign preflight: design model_1_multimer_v3,model_2_multimer_v3,model_3_multimer_v3,model_4_multimer_v3,model_5_multimer_v3 | validation model_1_ptm,model_2_ptm | redesign negative/v_48_020 | targets AJ_IL15 | output /home/bgeiss/bindcraft2/results/il15_lesson_faceB
+campaign metadata: BindCraft 2 v1.0.4 | settings /home/bgeiss/bindcraft2/campaigns/il15_lesson_faceB.json | written /home/bgeiss/bindcraft2/results/il15_lesson_faceB/campaign_metadata.json
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+campaign fan-out: 14 design workers on GPUs 0,0,0,0,0,0,0,1,1,1,1,1,1,1
+worker=0 gpu=0 draws 17 binder lengths from 80 to 96, folded at 224 padded residues at 10.6 GB
+worker=1 gpu=0 draws 14 binder lengths from 97 to 110, folded at 256 padded residues at 11.8 GB
+worker=2 gpu=0 draws 17 binder lengths from 80 to 96, folded at 224 padded residues at 10.6 GB
+worker=3 gpu=0 draws 14 binder lengths from 97 to 110, folded at 256 padded residues at 11.8 GB
+worker=4 gpu=0 draws 17 binder lengths from 80 to 96, folded at 224 padded residues at 10.6 GB
+worker=5 gpu=0 draws 14 binder lengths from 97 to 110, folded at 256 padded residues at 11.8 GB
+worker=6 gpu=0 draws 17 binder lengths from 80 to 96, folded at 224 padded residues at 10.6 GB
+worker=7 gpu=1 draws 14 binder lengths from 97 to 110, folded at 256 padded residues at 11.8 GB
+worker=8 gpu=1 draws 17 binder lengths from 80 to 96, folded at 224 padded residues at 10.6 GB
+worker=9 gpu=1 draws 14 binder lengths from 97 to 110, folded at 256 padded residues at 11.8 GB
+worker=10 gpu=1 draws 17 binder lengths from 80 to 96, folded at 224 padded residues at 10.6 GB
+worker=11 gpu=1 draws 14 binder lengths from 97 to 110, folded at 256 padded residues at 11.8 GB
+worker=12 gpu=1 draws 17 binder lengths from 80 to 96, folded at 224 padded residues at 10.6 GB
+worker=13 gpu=1 draws 14 binder lengths from 97 to 110, folded at 256 padded residues at 11.8 GB
+worker=0 gpu=0 log=/home/bgeiss/bindcraft2/results/il15_lesson_faceB/workers/746030_worker_00_gpu_0.log
+worker=7 gpu=1 log=/home/bgeiss/bindcraft2/results/il15_lesson_faceB/workers/746030_worker_07_gpu_1.log
+worker=1 gpu=0 log=/home/bgeiss/bindcraft2/results/il15_lesson_faceB/workers/746030_worker_01_gpu_0.log
+worker=8 gpu=1 log=/home/bgeiss/bindcraft2/results/il15_lesson_faceB/workers/746030_worker_08_gpu_1.log
+worker=2 gpu=0 log=/home/bgeiss/bindcraft2/results/il15_lesson_faceB/workers/746030_worker_02_gpu_0.log
+worker=9 gpu=1 log=/home/bgeiss/bindcraft2/results/il15_lesson_faceB/workers/746030_worker_09_gpu_1.log
+worker=3 gpu=0 log=/home/bgeiss/bindcraft2/results/il15_lesson_faceB/workers/746030_worker_03_gpu_0.log
+worker=10 gpu=1 log=/home/bgeiss/bindcraft2/results/il15_lesson_faceB/workers/746030_worker_10_gpu_1.log
+worker=4 gpu=0 log=/home/bgeiss/bindcraft2/results/il15_lesson_faceB/workers/746030_worker_04_gpu_0.log
+worker=11 gpu=1 log=/home/bgeiss/bindcraft2/results/il15_lesson_faceB/workers/746030_worker_11_gpu_1.log
+worker=5 gpu=0 log=/home/bgeiss/bindcraft2/results/il15_lesson_faceB/workers/746030_worker_05_gpu_0.log
+worker=12 gpu=1 log=/home/bgeiss/bindcraft2/results/il15_lesson_faceB/workers/746030_worker_12_gpu_1.log
+worker=6 gpu=0 log=/home/bgeiss/bindcraft2/results/il15_lesson_faceB/workers/746030_worker_06_gpu_0.log
+worker=13 gpu=1 log=/home/bgeiss/bindcraft2/results/il15_lesson_faceB/workers/746030_worker_13_gpu_1.log
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 1 | il15_lesson_faceB_denovo_l93_28f9fb9b9ae2cc6b | accepted 0/100 | worker 6 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.07    pLDDT=0.65  
+  passed refine design stage  i_pTM=0.09    pLDDT=0.7   
+  rejected at anneal design stage  i_pTM=0.1     pLDDT=0.77   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 2 | il15_lesson_faceB_denovo_l108_0cd7a8927d4643e4 | accepted 0/100 | worker 7 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.16    pLDDT=0.78  
+  rejected at refine design stage  i_pTM=0.09    pLDDT=0.59   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+BindCraft 2 v1.0.4
+campaign il15_lesson_faceB
+binder length 80 to 110, drawn per trajectory
+target AJ_IL15 (target) | 117 residues | hotspots A21,A24,A25,A27,A28,A122,A125,A128 | coldspots A43,A58,A62,A63,A65,A66,A88,A104,A106
+losses binder_contacts=1.0 binder_helicity=-0.3 binder_pae=0.4 coldspot_repel=1.0 compactness=0.5 interface_contacts=1.0 interface_pae=0.1 iptm_loss=0.05 plddt_loss=0.1
+filters Backbone_Clashes <= 0, Binder_Disulfides <= 0, Binder_RMSD <= 3.5, Coldspot_Contact_Fraction <= 0.05, Hotspot_Contact_Fraction >= 0.5, Interface_Residues >= 7, Unbound_Binder_pLDDT >= 0.85, i_pAE <= 0.35, i_pTM >= 0.8, pTM >= 0.55
+results /home/bgeiss/bindcraft2/results/il15_lesson_faceB | 3_Ranked/!_Ranked.csv rewritten as each design is accepted | summary.csv written when the campaign ends
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 3 | il15_lesson_faceB_denovo_l80_ac660afa3e99a7b7 | accepted 0/100 | worker 2 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.07    pLDDT=0.53   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 4 | il15_lesson_faceB_denovo_l81_565fc781c98ba231 | accepted 0/100 | worker 10 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.09    pLDDT=0.58   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 5 | il15_lesson_faceB_denovo_l109_39475d5c6d140ff7 | accepted 0/100 | worker 5 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.13    pLDDT=0.8   
+  passed refine design stage  i_pTM=0.12    pLDDT=0.78  
+  rejected at anneal design stage  i_pTM=0.15    pLDDT=0.75   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 6 | il15_lesson_faceB_denovo_l107_3b061be29366cc43 | accepted 0/100 | worker 13 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.11    pLDDT=0.69  
+  passed refine design stage  i_pTM=0.1     pLDDT=0.65  
+  rejected at anneal design stage  i_pTM=0.18    pLDDT=0.67   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 7 | il15_lesson_faceB_denovo_l95_506ac6f7576d2371 | accepted 0/100 | worker 0 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.15    pLDDT=0.75  
+  passed refine design stage  i_pTM=0.15    pLDDT=0.76  
+  rejected at anneal design stage  i_pTM=0.1     pLDDT=0.81   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 8 | il15_lesson_faceB_denovo_l85_d90606f09d1b8c47 | accepted 0/100 | worker 4 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.19    pLDDT=0.74  
+  passed refine design stage  i_pTM=0.14    pLDDT=0.72  
+  rejected at anneal design stage  i_pTM=0.19    pLDDT=0.78   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 9 | il15_lesson_faceB_denovo_l103_a55331b62eb7b891 | accepted 0/100 | worker 9 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.73  
+  passed refine design stage  i_pTM=0.08    pLDDT=0.79  
+  rejected at anneal design stage  i_pTM=0.14    pLDDT=0.82   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 10 | il15_lesson_faceB_denovo_l103_1d14cfa662eea95c | accepted 0/100 | worker 3 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.16    pLDDT=0.6   
+  rejected at refine design stage  i_pTM=0.12    pLDDT=0.56   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 11 | il15_lesson_faceB_denovo_l101_978beee81598f862 | accepted 0/100 | worker 1 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.16    pLDDT=0.76  
+  passed refine design stage  i_pTM=0.14    pLDDT=0.71  
+  rejected at anneal design stage  i_pTM=0.13    pLDDT=0.75   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 12 | il15_lesson_faceB_denovo_l110_83c5fa537a568aee | accepted 0/100 | worker 11 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.49    pLDDT=0.87  
+  passed refine design stage  i_pTM=0.19    pLDDT=0.82  
+  rejected at anneal design stage  i_pTM=0.2     pLDDT=0.89   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 13 | il15_lesson_faceB_denovo_l95_e8d1d5761c27d79b | accepted 0/100 | worker 8 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.1     pLDDT=0.81  
+  passed refine design stage  i_pTM=0.12    pLDDT=0.83  
+  rejected at anneal design stage  i_pTM=0.11    pLDDT=0.86   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 14 | il15_lesson_faceB_denovo_l93_5a4725eae9951934 | accepted 0/100 | worker 12 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.08    pLDDT=0.8   
+  passed refine design stage  i_pTM=0.09    pLDDT=0.8   
+  rejected at anneal design stage  i_pTM=0.2     pLDDT=0.84   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 15 | il15_lesson_faceB_denovo_l92_65026b96eed848b1 | accepted 0/100 | worker 6 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.12    pLDDT=0.77  
+  passed refine design stage  i_pTM=0.19    pLDDT=0.84  
+  rejected at anneal design stage  i_pTM=0.23    pLDDT=0.83   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 16 | il15_lesson_faceB_denovo_l97_7a4cec68fffe56e4 | accepted 0/100 | worker 7 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.11    pLDDT=0.75  
+  passed refine design stage  i_pTM=0.16    pLDDT=0.72  
+  rejected at anneal design stage  i_pTM=0.43    pLDDT=0.85   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 17 | il15_lesson_faceB_denovo_l96_f59ad48e5d126079 | accepted 0/100 | worker 2 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.52    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.58    pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.68    pLDDT=0.91  
+  passed harden design stage  i_pTM=0.64    pLDDT=0.88  
+  passed mutate design stage  i_pTM=0.71    pLDDT=0.9   
+  trajectory rejected  i_pTM=0.71    pLDDT=0.9    due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 18 | il15_lesson_faceB_denovo_l84_7a26e377705d6a21 | accepted 0/100 | worker 10 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.09    pLDDT=0.57   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 19 | il15_lesson_faceB_denovo_l105_6589af801e3c72c6 | accepted 0/100 | worker 13 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.08    pLDDT=0.79  
+  passed refine design stage  i_pTM=0.12    pLDDT=0.78  
+  rejected at anneal design stage  i_pTM=0.12    pLDDT=0.84   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 20 | il15_lesson_faceB_denovo_l109_b296d5e014cce963 | accepted 0/100 | worker 3 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.15    pLDDT=0.81  
+  passed refine design stage  i_pTM=0.16    pLDDT=0.8   
+  rejected at anneal design stage  i_pTM=0.12    pLDDT=0.8    due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 21 | il15_lesson_faceB_denovo_l91_22af0f89f68c7049 | accepted 0/100 | worker 6 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.63  
+  rejected at refine design stage  i_pTM=0.08    pLDDT=0.58   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 22 | il15_lesson_faceB_denovo_l80_7fa04c82ff6a606a | accepted 0/100 | worker 10 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.1     pLDDT=0.74  
+  rejected at refine design stage  i_pTM=0.09    pLDDT=0.48   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 23 | il15_lesson_faceB_denovo_l95_b704e5287ab94e30 | accepted 0/100 | worker 12 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.13    pLDDT=0.74  
+  passed refine design stage  i_pTM=0.1     pLDDT=0.76  
+  rejected at anneal design stage  i_pTM=0.16    pLDDT=0.84   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 24 | il15_lesson_faceB_denovo_l107_e90a724f34c30283 | accepted 0/100 | worker 5 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.12    pLDDT=0.74  
+  passed refine design stage  i_pTM=0.11    pLDDT=0.8   
+  rejected at anneal design stage  i_pTM=0.08    pLDDT=0.84   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 25 | il15_lesson_faceB_denovo_l80_9d093ada90d59c67 | accepted 0/100 | worker 0 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.62  
+  passed refine design stage  i_pTM=0.09    pLDDT=0.69  
+  rejected at anneal design stage  i_pTM=0.13    pLDDT=0.8    due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 26 | il15_lesson_faceB_denovo_l99_966ed7ad25392597 | accepted 0/100 | worker 7 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.15    pLDDT=0.77  
+  passed refine design stage  i_pTM=0.18    pLDDT=0.81  
+  rejected at anneal design stage  i_pTM=0.21    pLDDT=0.84   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 27 | il15_lesson_faceB_denovo_l102_0b78fff71b34eeed | accepted 0/100 | worker 9 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.14    pLDDT=0.8   
+  passed refine design stage  i_pTM=0.1     pLDDT=0.79  
+  rejected at anneal design stage  i_pTM=0.16    pLDDT=0.85   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 28 | il15_lesson_faceB_denovo_l87_4a18c7c3abc94920 | accepted 0/100 | worker 4 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.08    pLDDT=0.58   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 29 | il15_lesson_faceB_denovo_l87_08553f286d5cb242 | accepted 0/100 | worker 8 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.1     pLDDT=0.72  
+  passed refine design stage  i_pTM=0.1     pLDDT=0.7   
+  rejected at anneal design stage  i_pTM=0.08    pLDDT=0.71   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 30 | il15_lesson_faceB_denovo_l98_b8dda696a317f785 | accepted 0/100 | worker 1 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.15    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.11    pLDDT=0.64  
+  rejected at anneal design stage  i_pTM=0.16    pLDDT=0.86   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 31 | il15_lesson_faceB_denovo_l106_98dc1d5af358afd7 | accepted 0/100 | worker 11 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.21    pLDDT=0.78  
+  passed refine design stage  i_pTM=0.13    pLDDT=0.81  
+  rejected at anneal design stage  i_pTM=0.16    pLDDT=0.84   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 32 | il15_lesson_faceB_denovo_l81_6835b9f029ad2ae6 | accepted 0/100 | worker 6 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.28    pLDDT=0.81  
+  passed refine design stage  i_pTM=0.15    pLDDT=0.75  
+  rejected at anneal design stage  i_pTM=0.24    pLDDT=0.8    due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 33 | il15_lesson_faceB_denovo_l89_db1eb566ce96ec8e | accepted 0/100 | worker 10 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.13    pLDDT=0.77  
+  passed refine design stage  i_pTM=0.18    pLDDT=0.77  
+  rejected at anneal design stage  i_pTM=0.2     pLDDT=0.81   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 34 | il15_lesson_faceB_denovo_l94_01e17c5206eda4d2 | accepted 0/100 | worker 4 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.1     pLDDT=0.49   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 35 | il15_lesson_faceB_denovo_l97_7cdeb7d3ce294e1f | accepted 0/100 | worker 3 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.65  
+  rejected at refine design stage  i_pTM=0.08    pLDDT=0.56   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 36 | il15_lesson_faceB_denovo_l107_e949bb6fd4f069e5 | accepted 0/100 | worker 13 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.15    pLDDT=0.79  
+  passed refine design stage  i_pTM=0.07    pLDDT=0.76  
+  rejected at anneal design stage  i_pTM=0.08    pLDDT=0.78   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 37 | il15_lesson_faceB_denovo_l88_8deed42091dc4add | accepted 0/100 | worker 2 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.59    pLDDT=0.89  
+  passed refine design stage  i_pTM=0.62    pLDDT=0.85  
+  passed anneal design stage  i_pTM=0.78    pLDDT=0.91  
+  rejected at harden design stage  i_pTM=0.57    pLDDT=0.64   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 38 | il15_lesson_faceB_denovo_l88_211a3c3995693588 | accepted 0/100 | worker 12 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.11    pLDDT=0.77  
+  passed refine design stage  i_pTM=0.12    pLDDT=0.83  
+  rejected at anneal design stage  i_pTM=0.16    pLDDT=0.87   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 39 | il15_lesson_faceB_denovo_l95_fe9a5ab067435006 | accepted 0/100 | worker 4 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.59    pLDDT=0.84  
+  passed refine design stage  i_pTM=0.63    pLDDT=0.82  
+  passed anneal design stage  i_pTM=0.8     pLDDT=0.9   
+  passed harden design stage  i_pTM=0.79    pLDDT=0.88  
+  passed mutate design stage  i_pTM=0.7     pLDDT=0.87  
+  trajectory rejected  i_pTM=0.7     pLDDT=0.87   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 40 | il15_lesson_faceB_denovo_l85_e2a009b9578c9ebb | accepted 0/100 | worker 0 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.13    pLDDT=0.65  
+  passed refine design stage  i_pTM=0.1     pLDDT=0.67  
+  rejected at anneal design stage  i_pTM=0.12    pLDDT=0.72   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 41 | il15_lesson_faceB_denovo_l86_d358d4afe5c3c274 | accepted 0/100 | worker 8 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.32    pLDDT=0.76  
+  passed refine design stage  i_pTM=0.15    pLDDT=0.75  
+  passed anneal design stage  i_pTM=0.62    pLDDT=0.86  
+  passed harden design stage  i_pTM=0.68    pLDDT=0.85  
+  rejected at mutate design stage  i_pTM=0.4     pLDDT=0.73   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 42 | il15_lesson_faceB_denovo_l97_33b2a627ce62db70 | accepted 0/100 | worker 5 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.23    pLDDT=0.82  
+  passed refine design stage  i_pTM=0.08    pLDDT=0.65  
+  rejected at anneal design stage  i_pTM=0.11    pLDDT=0.74   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 43 | il15_lesson_faceB_denovo_l108_4a0fbe6fd6d95360 | accepted 0/100 | worker 7 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.09    pLDDT=0.58   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 44 | il15_lesson_faceB_denovo_l109_d8a1b332c0926ca4 | accepted 0/100 | worker 9 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.13    pLDDT=0.78  
+  passed refine design stage  i_pTM=0.14    pLDDT=0.8   
+  rejected at anneal design stage  i_pTM=0.12    pLDDT=0.81   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 45 | il15_lesson_faceB_denovo_l86_5c32b9d65f208444 | accepted 0/100 | worker 6 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.09    pLDDT=0.5    due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 46 | il15_lesson_faceB_denovo_l100_304fb6d59da9b1ff | accepted 0/100 | worker 1 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.08    pLDDT=0.56   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 47 | il15_lesson_faceB_denovo_l107_3ab4c333a127ee60 | accepted 0/100 | worker 3 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.1     pLDDT=0.59   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 48 | il15_lesson_faceB_denovo_l100_4d4f24fa1818ec86 | accepted 0/100 | worker 11 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.73  
+  passed refine design stage  i_pTM=0.09    pLDDT=0.78  
+  rejected at anneal design stage  i_pTM=0.12    pLDDT=0.78   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 49 | il15_lesson_faceB_denovo_l87_0b90b4fed0b72050 | accepted 0/100 | worker 10 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.07    pLDDT=0.58   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 50 | il15_lesson_faceB_denovo_l80_1aec26f3c4fe90e8 | accepted 0/100 | worker 2 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.08    pLDDT=0.7   
+  passed refine design stage  i_pTM=0.1     pLDDT=0.73  
+  rejected at anneal design stage  i_pTM=0.13    pLDDT=0.78   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 51 | il15_lesson_faceB_denovo_l80_da8ac94485a1d231 | accepted 0/100 | worker 6 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.12    pLDDT=0.76  
+  passed refine design stage  i_pTM=0.1     pLDDT=0.71  
+  rejected at anneal design stage  i_pTM=0.12    pLDDT=0.77   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 52 | il15_lesson_faceB_denovo_l103_a0a67990ebcd0386 | accepted 0/100 | worker 7 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.14    pLDDT=0.73  
+  passed refine design stage  i_pTM=0.08    pLDDT=0.65  
+  rejected at anneal design stage  i_pTM=0.13    pLDDT=0.73   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 53 | il15_lesson_faceB_denovo_l106_0646df7582c548cb | accepted 0/100 | worker 13 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.25    pLDDT=0.78  
+  passed refine design stage  i_pTM=0.17    pLDDT=0.8   
+  rejected at anneal design stage  i_pTM=0.24    pLDDT=0.82   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 54 | il15_lesson_faceB_denovo_l102_f685847e9dd755fa | accepted 0/100 | worker 1 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.11    pLDDT=0.78  
+  passed refine design stage  i_pTM=0.12    pLDDT=0.73  
+  rejected at anneal design stage  i_pTM=0.13    pLDDT=0.79   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 55 | il15_lesson_faceB_denovo_l82_65182f03145dd7bb | accepted 0/100 | worker 12 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.06    pLDDT=0.79  
+  passed refine design stage  i_pTM=0.09    pLDDT=0.78  
+  rejected at anneal design stage  i_pTM=0.12    pLDDT=0.79   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 56 | il15_lesson_faceB_denovo_l110_2874a4b9c76225bb | accepted 0/100 | worker 3 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.13    pLDDT=0.82  
+  passed refine design stage  i_pTM=0.1     pLDDT=0.81  
+  rejected at anneal design stage  i_pTM=0.22    pLDDT=0.88   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 57 | il15_lesson_faceB_denovo_l92_9be8745337e6193e | accepted 0/100 | worker 10 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.18    pLDDT=0.78  
+  passed refine design stage  i_pTM=0.15    pLDDT=0.78  
+  rejected at anneal design stage  i_pTM=0.33    pLDDT=0.84   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 58 | il15_lesson_faceB_denovo_l95_ef75c77119908b08 | accepted 0/100 | worker 0 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.13    pLDDT=0.79  
+  passed refine design stage  i_pTM=0.1     pLDDT=0.76  
+  rejected at anneal design stage  i_pTM=0.14    pLDDT=0.84   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 59 | il15_lesson_faceB_denovo_l93_c8b283fb558c419c | accepted 0/100 | worker 4 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.14    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.23    pLDDT=0.85  
+  rejected at anneal design stage  i_pTM=0.28    pLDDT=0.87   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 60 | il15_lesson_faceB_denovo_l99_956a67bef54e8903 | accepted 0/100 | worker 5 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.11    pLDDT=0.75  
+  passed refine design stage  i_pTM=0.12    pLDDT=0.78  
+  rejected at anneal design stage  i_pTM=0.13    pLDDT=0.78   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 61 | il15_lesson_faceB_denovo_l106_2d9857b26a8b8346 | accepted 0/100 | worker 9 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.14    pLDDT=0.74  
+  passed refine design stage  i_pTM=0.1     pLDDT=0.76  
+  rejected at anneal design stage  i_pTM=0.1     pLDDT=0.79   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 62 | il15_lesson_faceB_denovo_l93_776fa5c1d809c67c | accepted 0/100 | worker 8 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.2     pLDDT=0.8   
+  passed refine design stage  i_pTM=0.09    pLDDT=0.76  
+  rejected at anneal design stage  i_pTM=0.07    pLDDT=0.82   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 63 | il15_lesson_faceB_denovo_l108_93adcb526cf8a24b | accepted 0/100 | worker 11 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.32    pLDDT=0.79  
+  passed refine design stage  i_pTM=0.35    pLDDT=0.8   
+  passed anneal design stage  i_pTM=0.5     pLDDT=0.83  
+  passed harden design stage  i_pTM=0.52    pLDDT=0.79  
+  rejected at mutate design stage  i_pTM=0.5     pLDDT=0.74   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 64 | il15_lesson_faceB_denovo_l88_36b54d077b624af9 | accepted 0/100 | worker 2 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.1     pLDDT=0.82  
+  passed refine design stage  i_pTM=0.1     pLDDT=0.8   
+  rejected at anneal design stage  i_pTM=0.16    pLDDT=0.85   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 65 | il15_lesson_faceB_denovo_l84_ac7d987965793fe4 | accepted 0/100 | worker 6 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.12    pLDDT=0.81  
+  passed refine design stage  i_pTM=0.12    pLDDT=0.78  
+  rejected at anneal design stage  i_pTM=0.21    pLDDT=0.87   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 66 | il15_lesson_faceB_denovo_l85_31fbdadb2949a7c4 | accepted 0/100 | worker 12 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.17    pLDDT=0.72  
+  passed refine design stage  i_pTM=0.2     pLDDT=0.75  
+  rejected at anneal design stage  i_pTM=0.2     pLDDT=0.79   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 67 | il15_lesson_faceB_denovo_l86_600ceb6979d64383 | accepted 0/100 | worker 10 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.1     pLDDT=0.51   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 68 | il15_lesson_faceB_denovo_l101_83ea1630dd619590 | accepted 0/100 | worker 7 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.08    pLDDT=0.45   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 69 | il15_lesson_faceB_denovo_l109_4b3edead82ba9215 | accepted 0/100 | worker 13 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.12    pLDDT=0.83  
+  passed refine design stage  i_pTM=0.13    pLDDT=0.79  
+  rejected at anneal design stage  i_pTM=0.14    pLDDT=0.84   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 70 | il15_lesson_faceB_denovo_l95_fb615b42ec47e46f | accepted 0/100 | worker 0 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.16    pLDDT=0.82  
+  passed refine design stage  i_pTM=0.09    pLDDT=0.78  
+  rejected at anneal design stage  i_pTM=0.25    pLDDT=0.84   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 71 | il15_lesson_faceB_denovo_l100_d8a649160913610e | accepted 0/100 | worker 1 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.12    pLDDT=0.74  
+  passed refine design stage  i_pTM=0.12    pLDDT=0.78  
+  rejected at anneal design stage  i_pTM=0.08    pLDDT=0.83   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 72 | il15_lesson_faceB_denovo_l90_373ae87f6e80c355 | accepted 0/100 | worker 4 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.1     pLDDT=0.77  
+  passed refine design stage  i_pTM=0.07    pLDDT=0.74  
+  rejected at anneal design stage  i_pTM=0.07    pLDDT=0.8    due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 73 | il15_lesson_faceB_denovo_l109_4648d77d01d6f8ea | accepted 0/100 | worker 3 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.51    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.63    pLDDT=0.86  
+  passed anneal design stage  i_pTM=0.74    pLDDT=0.9   
+  passed harden design stage  i_pTM=0.66    pLDDT=0.82  
+  passed mutate design stage  i_pTM=0.62    pLDDT=0.8   
+  trajectory rejected  i_pTM=0.62    pLDDT=0.8    due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 74 | il15_lesson_faceB_denovo_l90_b0cfa4b1b8a496df | accepted 0/100 | worker 10 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.8   
+  passed refine design stage  i_pTM=0.09    pLDDT=0.83  
+  rejected at anneal design stage  i_pTM=0.13    pLDDT=0.84   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 75 | il15_lesson_faceB_denovo_l98_380d9f3b85d55ede | accepted 0/100 | worker 7 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.08    pLDDT=0.77  
+  passed refine design stage  i_pTM=0.13    pLDDT=0.83  
+  rejected at anneal design stage  i_pTM=0.08    pLDDT=0.86   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 76 | il15_lesson_faceB_denovo_l94_8f69c18ed38b8230 | accepted 0/100 | worker 8 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.72  
+  passed refine design stage  i_pTM=0.09    pLDDT=0.62  
+  rejected at anneal design stage  i_pTM=0.08    pLDDT=0.68   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 77 | il15_lesson_faceB_denovo_l103_86ef22f1c593af06 | accepted 0/100 | worker 5 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.26    pLDDT=0.83  
+  passed refine design stage  i_pTM=0.13    pLDDT=0.75  
+  rejected at anneal design stage  i_pTM=0.13    pLDDT=0.83   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 78 | il15_lesson_faceB_denovo_l97_a4f39ab3add759fb | accepted 0/100 | worker 9 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.65    pLDDT=0.75  
+  rejected at refine design stage  i_pTM=0.73    pLDDT=0.58   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 79 | il15_lesson_faceB_denovo_l85_3f8beac2bf6caa07 | accepted 0/100 | worker 2 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.14    pLDDT=0.71  
+  passed refine design stage  i_pTM=0.12    pLDDT=0.75  
+  rejected at anneal design stage  i_pTM=0.19    pLDDT=0.84   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 80 | il15_lesson_faceB_denovo_l93_0b2457944c69acea | accepted 0/100 | worker 6 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.11    pLDDT=0.78  
+  passed refine design stage  i_pTM=0.14    pLDDT=0.78  
+  rejected at anneal design stage  i_pTM=0.1     pLDDT=0.78   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 81 | il15_lesson_faceB_denovo_l89_adb0a6d6f453ddc7 | accepted 0/100 | worker 12 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.15    pLDDT=0.77  
+  passed refine design stage  i_pTM=0.16    pLDDT=0.77  
+  rejected at anneal design stage  i_pTM=0.25    pLDDT=0.83   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 82 | il15_lesson_faceB_denovo_l88_597001c41e7c9d8a | accepted 0/100 | worker 0 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.09    pLDDT=0.49   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 83 | il15_lesson_faceB_denovo_l93_11452fb8db46d8da | accepted 0/100 | worker 4 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.12    pLDDT=0.78  
+  passed refine design stage  i_pTM=0.09    pLDDT=0.76  
+  rejected at anneal design stage  i_pTM=0.26    pLDDT=0.84   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 84 | il15_lesson_faceB_denovo_l108_390258536a09260a | accepted 0/100 | worker 13 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.17    pLDDT=0.77  
+  passed refine design stage  i_pTM=0.27    pLDDT=0.79  
+  rejected at anneal design stage  i_pTM=0.19    pLDDT=0.81   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 85 | il15_lesson_faceB_denovo_l107_59429f2714282b95 | accepted 0/100 | worker 11 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.14    pLDDT=0.63  
+  rejected at refine design stage  i_pTM=0.08    pLDDT=0.58   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 86 | il15_lesson_faceB_denovo_l97_c920997010edbd54 | accepted 0/100 | worker 1 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.13    pLDDT=0.79  
+  passed refine design stage  i_pTM=0.2     pLDDT=0.66  
+  rejected at anneal design stage  i_pTM=0.12    pLDDT=0.78   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 87 | il15_lesson_faceB_denovo_l90_b71c3157f07c8305 | accepted 0/100 | worker 10 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.2     pLDDT=0.84  
+  passed refine design stage  i_pTM=0.16    pLDDT=0.82  
+  passed anneal design stage  i_pTM=0.64    pLDDT=0.9   
+  passed harden design stage  i_pTM=0.63    pLDDT=0.9   
+  passed mutate design stage  i_pTM=0.61    pLDDT=0.88  
+  trajectory rejected  i_pTM=0.61    pLDDT=0.88   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 88 | il15_lesson_faceB_denovo_l108_02035d1591b6304a | accepted 0/100 | worker 9 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.14    pLDDT=0.73  
+  passed refine design stage  i_pTM=0.15    pLDDT=0.67  
+  rejected at anneal design stage  i_pTM=0.14    pLDDT=0.74   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 89 | il15_lesson_faceB_denovo_l89_49d440c8d96f9e2f | accepted 0/100 | worker 0 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.1     pLDDT=0.65  
+  rejected at refine design stage  i_pTM=0.09    pLDDT=0.58   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 90 | il15_lesson_faceB_denovo_l86_06eb72f689e73204 | accepted 0/100 | worker 8 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.26    pLDDT=0.84  
+  passed refine design stage  i_pTM=0.09    pLDDT=0.77  
+  rejected at anneal design stage  i_pTM=0.37    pLDDT=0.77   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 91 | il15_lesson_faceB_denovo_l110_118389a61f4c297d | accepted 0/100 | worker 7 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.14    pLDDT=0.76  
+  passed refine design stage  i_pTM=0.12    pLDDT=0.66  
+  rejected at anneal design stage  i_pTM=0.11    pLDDT=0.81   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 92 | il15_lesson_faceB_denovo_l108_a27528301cd3865e | accepted 0/100 | worker 3 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.08    pLDDT=0.61  
+  passed refine design stage  i_pTM=0.06    pLDDT=0.72  
+  rejected at anneal design stage  i_pTM=0.08    pLDDT=0.72   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 93 | il15_lesson_faceB_denovo_l94_3296f00771cbdd16 | accepted 0/100 | worker 2 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.06    pLDDT=0.67  
+  passed refine design stage  i_pTM=0.08    pLDDT=0.7   
+  rejected at anneal design stage  i_pTM=0.1     pLDDT=0.76   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 94 | il15_lesson_faceB_denovo_l90_9423cc7d9b2f304c | accepted 0/100 | worker 6 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.12    pLDDT=0.72  
+  passed refine design stage  i_pTM=0.15    pLDDT=0.68  
+  rejected at anneal design stage  i_pTM=0.21    pLDDT=0.81   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 95 | il15_lesson_faceB_denovo_l110_985f13396c76151c | accepted 0/100 | worker 5 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.15    pLDDT=0.75  
+  passed refine design stage  i_pTM=0.17    pLDDT=0.76  
+  rejected at anneal design stage  i_pTM=0.18    pLDDT=0.82   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 96 | il15_lesson_faceB_denovo_l87_70320b73068645ff | accepted 0/100 | worker 12 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.65  
+  passed refine design stage  i_pTM=0.07    pLDDT=0.72  
+  rejected at anneal design stage  i_pTM=0.19    pLDDT=0.78   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 97 | il15_lesson_faceB_denovo_l107_04cda717476f8211 | accepted 0/100 | worker 11 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.08    pLDDT=0.62  
+  passed refine design stage  i_pTM=0.1     pLDDT=0.68  
+  rejected at anneal design stage  i_pTM=0.1     pLDDT=0.72   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 98 | il15_lesson_faceB_denovo_l92_b1a6e8ce69170232 | accepted 0/100 | worker 0 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.1     pLDDT=0.76  
+  passed refine design stage  i_pTM=0.12    pLDDT=0.79  
+  rejected at anneal design stage  i_pTM=0.14    pLDDT=0.84   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 99 | il15_lesson_faceB_denovo_l95_ecab05ac8951b06c | accepted 0/100 | worker 4 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.1     pLDDT=0.7   
+  passed refine design stage  i_pTM=0.11    pLDDT=0.71  
+  rejected at anneal design stage  i_pTM=0.13    pLDDT=0.81   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 100 | il15_lesson_faceB_denovo_l98_01181348fa647da8 | accepted 0/100 | worker 13 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.12    pLDDT=0.79  
+  passed refine design stage  i_pTM=0.19    pLDDT=0.78  
+  rejected at anneal design stage  i_pTM=0.16    pLDDT=0.83   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 101 | il15_lesson_faceB_denovo_l82_5eb50892c7d7febc | accepted 0/100 | worker 8 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.07    pLDDT=0.45   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 102 | il15_lesson_faceB_denovo_l104_494e47dd4f056bc8 | accepted 0/100 | worker 1 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.69  
+  passed refine design stage  i_pTM=0.12    pLDDT=0.71  
+  rejected at anneal design stage  i_pTM=0.15    pLDDT=0.75   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 103 | il15_lesson_faceB_denovo_l90_94664ab540b6ca27 | accepted 0/100 | worker 10 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.78  
+  passed refine design stage  i_pTM=0.07    pLDDT=0.7   
+  rejected at anneal design stage  i_pTM=0.08    pLDDT=0.78   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 104 | il15_lesson_faceB_denovo_l107_2d8c348da6824df9 | accepted 0/100 | worker 9 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.14    pLDDT=0.81  
+  passed refine design stage  i_pTM=0.11    pLDDT=0.78  
+  rejected at anneal design stage  i_pTM=0.13    pLDDT=0.79   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 105 | il15_lesson_faceB_denovo_l96_8c3c66659d4ed79d | accepted 0/100 | worker 2 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.14    pLDDT=0.73  
+  passed refine design stage  i_pTM=0.15    pLDDT=0.81  
+  rejected at anneal design stage  i_pTM=0.31    pLDDT=0.86   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 106 | il15_lesson_faceB_denovo_l82_bb986eea81574d39 | accepted 0/100 | worker 6 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.62  
+  passed refine design stage  i_pTM=0.09    pLDDT=0.61  
+  rejected at anneal design stage  i_pTM=0.11    pLDDT=0.66   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 107 | il15_lesson_faceB_denovo_l107_4598c3ed431a4557 | accepted 0/100 | worker 7 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.08    pLDDT=0.72  
+  passed refine design stage  i_pTM=0.12    pLDDT=0.81  
+  rejected at anneal design stage  i_pTM=0.11    pLDDT=0.83   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 108 | il15_lesson_faceB_denovo_l105_62898b124282f0c8 | accepted 0/100 | worker 3 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.15    pLDDT=0.73  
+  passed refine design stage  i_pTM=0.2     pLDDT=0.65  
+  rejected at anneal design stage  i_pTM=0.49    pLDDT=0.78   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 109 | il15_lesson_faceB_denovo_l82_1882b9992cf1f0fa | accepted 0/100 | worker 8 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.08    pLDDT=0.73  
+  passed refine design stage  i_pTM=0.1     pLDDT=0.79  
+  rejected at anneal design stage  i_pTM=0.09    pLDDT=0.81   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 110 | il15_lesson_faceB_denovo_l91_c7cc3f6f9284de8c | accepted 0/100 | worker 12 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.84  
+  passed refine design stage  i_pTM=0.12    pLDDT=0.85  
+  rejected at anneal design stage  i_pTM=0.21    pLDDT=0.85   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 111 | il15_lesson_faceB_denovo_l102_1bbbc4ee95e37f82 | accepted 0/100 | worker 5 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.07    pLDDT=0.73  
+  rejected at refine design stage  i_pTM=0.1     pLDDT=0.48   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 112 | il15_lesson_faceB_denovo_l93_15725939587ec4e6 | accepted 0/100 | worker 0 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.83  
+  passed refine design stage  i_pTM=0.11    pLDDT=0.83  
+  rejected at anneal design stage  i_pTM=0.1     pLDDT=0.82   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 113 | il15_lesson_faceB_denovo_l92_ddc2948910819847 | accepted 0/100 | worker 4 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.11    pLDDT=0.79  
+  passed refine design stage  i_pTM=0.08    pLDDT=0.79  
+  rejected at anneal design stage  i_pTM=0.1     pLDDT=0.84   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 114 | il15_lesson_faceB_denovo_l98_4e0a718ab66f2370 | accepted 0/100 | worker 11 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.12    pLDDT=0.65  
+  passed refine design stage  i_pTM=0.15    pLDDT=0.71  
+  rejected at anneal design stage  i_pTM=0.12    pLDDT=0.77   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 115 | il15_lesson_faceB_denovo_l96_ff942bcca859de93 | accepted 0/100 | worker 10 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.16    pLDDT=0.73  
+  passed refine design stage  i_pTM=0.2     pLDDT=0.75  
+  rejected at anneal design stage  i_pTM=0.21    pLDDT=0.83   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 116 | il15_lesson_faceB_denovo_l103_2740101b3dbff854 | accepted 0/100 | worker 13 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.22    pLDDT=0.8   
+  passed refine design stage  i_pTM=0.14    pLDDT=0.76  
+  rejected at anneal design stage  i_pTM=0.46    pLDDT=0.87   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 117 | il15_lesson_faceB_denovo_l110_3103de6822876349 | accepted 0/100 | worker 1 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.15    pLDDT=0.73  
+  passed refine design stage  i_pTM=0.2     pLDDT=0.75  
+  rejected at anneal design stage  i_pTM=0.48    pLDDT=0.8    due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 118 | il15_lesson_faceB_denovo_l87_dcaa9fe2c7fca7d2 | accepted 0/100 | worker 2 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.75  
+  passed refine design stage  i_pTM=0.11    pLDDT=0.69  
+  rejected at anneal design stage  i_pTM=0.23    pLDDT=0.77   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 119 | il15_lesson_faceB_denovo_l105_2dc67981007ff07b | accepted 0/100 | worker 5 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.1     pLDDT=0.8   
+  passed refine design stage  i_pTM=0.07    pLDDT=0.8   
+  rejected at anneal design stage  i_pTM=0.11    pLDDT=0.86   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 120 | il15_lesson_faceB_denovo_l85_61be1ef9b3fe8353 | accepted 0/100 | worker 6 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.11    pLDDT=0.71  
+  passed refine design stage  i_pTM=0.1     pLDDT=0.74  
+  rejected at anneal design stage  i_pTM=0.12    pLDDT=0.69   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 121 | il15_lesson_faceB_denovo_l100_4e856a31aff9d377 | accepted 0/100 | worker 9 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.12    pLDDT=0.51   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 122 | il15_lesson_faceB_denovo_l93_f4ac330af18f2782 | accepted 0/100 | worker 8 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.11    pLDDT=0.74  
+  passed refine design stage  i_pTM=0.14    pLDDT=0.75  
+  rejected at anneal design stage  i_pTM=0.2     pLDDT=0.86   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 123 | il15_lesson_faceB_denovo_l95_ff5da25657e04356 | accepted 0/100 | worker 12 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.12    pLDDT=0.67  
+  passed refine design stage  i_pTM=0.09    pLDDT=0.65  
+  rejected at anneal design stage  i_pTM=0.12    pLDDT=0.67   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 124 | il15_lesson_faceB_denovo_l94_2444a179ec52f8dd | accepted 0/100 | worker 0 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.64  
+  passed refine design stage  i_pTM=0.1     pLDDT=0.63  
+  rejected at anneal design stage  i_pTM=0.12    pLDDT=0.75   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 125 | il15_lesson_faceB_denovo_l98_326a57d769a45090 | accepted 0/100 | worker 7 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.17    pLDDT=0.8   
+  passed refine design stage  i_pTM=0.07    pLDDT=0.77  
+  rejected at anneal design stage  i_pTM=0.18    pLDDT=0.83   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 126 | il15_lesson_faceB_denovo_l108_f3b78a5e3bf8ed17 | accepted 0/100 | worker 3 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.11    pLDDT=0.61  
+  passed refine design stage  i_pTM=0.1     pLDDT=0.66  
+  rejected at anneal design stage  i_pTM=0.2     pLDDT=0.74   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 127 | il15_lesson_faceB_denovo_l81_90ee87326457c055 | accepted 0/100 | worker 4 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.12    pLDDT=0.76  
+  rejected at refine design stage  i_pTM=0.09    pLDDT=0.58   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 128 | il15_lesson_faceB_denovo_l97_0a61064bb24c4260 | accepted 0/100 | worker 9 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.11    pLDDT=0.65  
+  passed refine design stage  i_pTM=0.08    pLDDT=0.71  
+  rejected at anneal design stage  i_pTM=0.11    pLDDT=0.73   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 129 | il15_lesson_faceB_denovo_l99_66fa145325599463 | accepted 0/100 | worker 11 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.1     pLDDT=0.74  
+  passed refine design stage  i_pTM=0.08    pLDDT=0.76  
+  rejected at anneal design stage  i_pTM=0.11    pLDDT=0.8    due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 130 | il15_lesson_faceB_denovo_l83_ca962e9d769d1e46 | accepted 0/100 | worker 10 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.13    pLDDT=0.65  
+  passed refine design stage  i_pTM=0.14    pLDDT=0.68  
+  passed anneal design stage  i_pTM=0.57    pLDDT=0.76  
+  rejected at harden design stage  i_pTM=0.44    pLDDT=0.73   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 131 | il15_lesson_faceB_denovo_l81_3f517ef4f580d2b4 | accepted 0/100 | worker 2 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.61  
+  passed refine design stage  i_pTM=0.07    pLDDT=0.61  
+  rejected at anneal design stage  i_pTM=0.1     pLDDT=0.64   due to [i_pTM, pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 132 | il15_lesson_faceB_denovo_l83_bab9a31248bc1d42 | accepted 0/100 | worker 4 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.07    pLDDT=0.45   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 133 | il15_lesson_faceB_denovo_l81_0323abc4633ce179 | accepted 0/100 | worker 6 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.1     pLDDT=0.7   
+  passed refine design stage  i_pTM=0.1     pLDDT=0.65  
+  rejected at anneal design stage  i_pTM=0.1     pLDDT=0.75   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 134 | il15_lesson_faceB_denovo_l99_9305e2eacf42b1b6 | accepted 0/100 | worker 13 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.08    pLDDT=0.79  
+  passed refine design stage  i_pTM=0.07    pLDDT=0.77  
+  rejected at anneal design stage  i_pTM=0.08    pLDDT=0.81   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 135 | il15_lesson_faceB_denovo_l108_d438bca0cc1171ba | accepted 0/100 | worker 1 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.13    pLDDT=0.74  
+  passed refine design stage  i_pTM=0.13    pLDDT=0.7   
+  rejected at anneal design stage  i_pTM=0.13    pLDDT=0.81   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 136 | il15_lesson_faceB_denovo_l84_e91e3c2e6836aab2 | accepted 0/100 | worker 8 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.08    pLDDT=0.69  
+  passed refine design stage  i_pTM=0.13    pLDDT=0.75  
+  rejected at anneal design stage  i_pTM=0.14    pLDDT=0.74   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 137 | il15_lesson_faceB_denovo_l98_edfcc4270627e534 | accepted 0/100 | worker 5 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.07    pLDDT=0.78  
+  passed refine design stage  i_pTM=0.09    pLDDT=0.73  
+  rejected at anneal design stage  i_pTM=0.1     pLDDT=0.78   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 138 | il15_lesson_faceB_denovo_l90_d4db1d7e29c3bdc1 | accepted 0/100 | worker 12 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.52    pLDDT=0.63  
+  passed refine design stage  i_pTM=0.32    pLDDT=0.74  
+  rejected at anneal design stage  i_pTM=0.72    pLDDT=0.58   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 139 | il15_lesson_faceB_denovo_l90_a5c690ac0e90354d | accepted 0/100 | worker 0 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.14    pLDDT=0.7   
+  passed refine design stage  i_pTM=0.11    pLDDT=0.79  
+  rejected at anneal design stage  i_pTM=0.16    pLDDT=0.81   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 140 | il15_lesson_faceB_denovo_l90_6879e3ef8d6af37a | accepted 0/100 | worker 4 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.21    pLDDT=0.74  
+  passed refine design stage  i_pTM=0.09    pLDDT=0.76  
+  rejected at anneal design stage  i_pTM=0.18    pLDDT=0.81   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 141 | il15_lesson_faceB_denovo_l107_a631006905f32ac1 | accepted 0/100 | worker 7 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.18    pLDDT=0.82  
+  passed refine design stage  i_pTM=0.17    pLDDT=0.78  
+  rejected at anneal design stage  i_pTM=0.16    pLDDT=0.82   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 142 | il15_lesson_faceB_denovo_l100_14e9503b2997a348 | accepted 0/100 | worker 3 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.1     pLDDT=0.85  
+  passed refine design stage  i_pTM=0.1     pLDDT=0.84  
+  rejected at anneal design stage  i_pTM=0.08    pLDDT=0.82   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 143 | il15_lesson_faceB_denovo_l98_ebc88fdaf371b37e | accepted 0/100 | worker 9 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.33    pLDDT=0.78  
+  passed refine design stage  i_pTM=0.37    pLDDT=0.85  
+  rejected at anneal design stage  i_pTM=0.44    pLDDT=0.86   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 144 | il15_lesson_faceB_denovo_l102_e11f29e7d7d4bd2e | accepted 0/100 | worker 11 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.65  
+  passed refine design stage  i_pTM=0.1     pLDDT=0.78  
+  rejected at anneal design stage  i_pTM=0.08    pLDDT=0.87   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 145 | il15_lesson_faceB_denovo_l84_23cc13d4fa38fbb1 | accepted 0/100 | worker 10 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.14    pLDDT=0.77  
+  passed refine design stage  i_pTM=0.09    pLDDT=0.69  
+  rejected at anneal design stage  i_pTM=0.18    pLDDT=0.74   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 146 | il15_lesson_faceB_denovo_l93_e414ffd5b269376b | accepted 0/100 | worker 2 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.1     pLDDT=0.6    due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 147 | il15_lesson_faceB_denovo_l95_7bfc091b67b26b27 | accepted 0/100 | worker 6 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.75  
+  passed refine design stage  i_pTM=0.14    pLDDT=0.79  
+  rejected at anneal design stage  i_pTM=0.09    pLDDT=0.82   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 148 | il15_lesson_faceB_denovo_l89_9194dc64c76e660a | accepted 0/100 | worker 8 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.38    pLDDT=0.75  
+  passed refine design stage  i_pTM=0.47    pLDDT=0.63  
+  passed anneal design stage  i_pTM=0.77    pLDDT=0.66  
+  rejected at harden design stage  i_pTM=0.74    pLDDT=0.59   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 149 | il15_lesson_faceB_denovo_l83_670deb358ee6887d | accepted 0/100 | worker 12 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.1     pLDDT=0.79  
+  passed refine design stage  i_pTM=0.15    pLDDT=0.75  
+  rejected at anneal design stage  i_pTM=0.2     pLDDT=0.82   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 150 | il15_lesson_faceB_denovo_l103_5388fc213a8df78d | accepted 0/100 | worker 13 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.15    pLDDT=0.82  
+  passed refine design stage  i_pTM=0.15    pLDDT=0.82  
+  rejected at anneal design stage  i_pTM=0.15    pLDDT=0.84   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 151 | il15_lesson_faceB_denovo_l84_37fa56fc30a9b2be | accepted 0/100 | worker 0 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.22    pLDDT=0.79  
+  passed refine design stage  i_pTM=0.25    pLDDT=0.8   
+  rejected at anneal design stage  i_pTM=0.2     pLDDT=0.8    due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 152 | il15_lesson_faceB_denovo_l98_8afcb99a30437017 | accepted 0/100 | worker 1 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.49    pLDDT=0.76  
+  passed refine design stage  i_pTM=0.34    pLDDT=0.76  
+  passed anneal design stage  i_pTM=0.65    pLDDT=0.88  
+  passed harden design stage  i_pTM=0.67    pLDDT=0.87  
+  rejected at mutate design stage  i_pTM=0.43    pLDDT=0.79   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 153 | il15_lesson_faceB_denovo_l106_abaab20df224d76d | accepted 0/100 | worker 5 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.27    pLDDT=0.76  
+  passed refine design stage  i_pTM=0.24    pLDDT=0.81  
+  rejected at anneal design stage  i_pTM=0.28    pLDDT=0.85   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 154 | il15_lesson_faceB_denovo_l86_35bdbd7cdb0ab434 | accepted 0/100 | worker 2 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.09    pLDDT=0.56   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 155 | il15_lesson_faceB_denovo_l81_e63e7d640c1969c8 | accepted 0/100 | worker 4 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.08    pLDDT=0.65  
+  passed refine design stage  i_pTM=0.09    pLDDT=0.72  
+  rejected at anneal design stage  i_pTM=0.08    pLDDT=0.71   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 156 | il15_lesson_faceB_denovo_l100_f2129716308a41d4 | accepted 0/100 | worker 7 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.2     pLDDT=0.83  
+  passed refine design stage  i_pTM=0.23    pLDDT=0.81  
+  rejected at anneal design stage  i_pTM=0.14    pLDDT=0.81   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 157 | il15_lesson_faceB_denovo_l103_dcfa7043b4bbe725 | accepted 0/100 | worker 3 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.24    pLDDT=0.84  
+  passed refine design stage  i_pTM=0.14    pLDDT=0.77  
+  rejected at anneal design stage  i_pTM=0.09    pLDDT=0.84   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 158 | il15_lesson_faceB_denovo_l83_4c051a7e3d85591c | accepted 0/100 | worker 2 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.08    pLDDT=0.67  
+  passed refine design stage  i_pTM=0.07    pLDDT=0.7   
+  rejected at anneal design stage  i_pTM=0.1     pLDDT=0.77   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 159 | il15_lesson_faceB_denovo_l83_dfc12c4d6c2c5754 | accepted 0/100 | worker 10 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.1     pLDDT=0.52   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 160 | il15_lesson_faceB_denovo_l101_ca9ec0ce55614106 | accepted 0/100 | worker 9 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.08    pLDDT=0.66  
+  passed refine design stage  i_pTM=0.08    pLDDT=0.72  
+  rejected at anneal design stage  i_pTM=0.15    pLDDT=0.81   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 161 | il15_lesson_faceB_denovo_l81_ce144de7c60f6b92 | accepted 0/100 | worker 6 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.08    pLDDT=0.63  
+  passed refine design stage  i_pTM=0.09    pLDDT=0.68  
+  rejected at anneal design stage  i_pTM=0.12    pLDDT=0.69   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 162 | il15_lesson_faceB_denovo_l107_ae547ca1e9cf17ea | accepted 0/100 | worker 11 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.14    pLDDT=0.87  
+  passed refine design stage  i_pTM=0.15    pLDDT=0.84  
+  rejected at anneal design stage  i_pTM=0.2     pLDDT=0.88   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 163 | il15_lesson_faceB_denovo_l94_c64a1284eb08ba1e | accepted 0/100 | worker 8 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.11    pLDDT=0.85  
+  passed refine design stage  i_pTM=0.23    pLDDT=0.87  
+  rejected at anneal design stage  i_pTM=0.23    pLDDT=0.84   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 164 | il15_lesson_faceB_denovo_l82_10ff1eaeb000de82 | accepted 0/100 | worker 12 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.08    pLDDT=0.68  
+  passed refine design stage  i_pTM=0.09    pLDDT=0.71  
+  rejected at anneal design stage  i_pTM=0.09    pLDDT=0.76   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 165 | il15_lesson_faceB_denovo_l91_3da676b0333b1f2a | accepted 0/100 | worker 10 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.1     pLDDT=0.57   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 166 | il15_lesson_faceB_denovo_l81_1744d5dc83d6eb54 | accepted 0/100 | worker 0 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.13    pLDDT=0.77  
+  passed refine design stage  i_pTM=0.07    pLDDT=0.76  
+  rejected at anneal design stage  i_pTM=0.13    pLDDT=0.8    due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 167 | il15_lesson_faceB_denovo_l85_51eabaebc8443f8a | accepted 0/100 | worker 4 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.1     pLDDT=0.62  
+  passed refine design stage  i_pTM=0.11    pLDDT=0.64  
+  rejected at anneal design stage  i_pTM=0.12    pLDDT=0.63   due to [i_pTM, pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 168 | il15_lesson_faceB_denovo_l110_77009dc21505977f | accepted 0/100 | worker 13 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.73  
+  passed refine design stage  i_pTM=0.09    pLDDT=0.78  
+  rejected at anneal design stage  i_pTM=0.18    pLDDT=0.86   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 169 | il15_lesson_faceB_denovo_l99_c25b1a0b897733d6 | accepted 0/100 | worker 5 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.1     pLDDT=0.73  
+  passed refine design stage  i_pTM=0.1     pLDDT=0.75  
+  rejected at anneal design stage  i_pTM=0.09    pLDDT=0.73   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 170 | il15_lesson_faceB_denovo_l91_7bbc777e89b3c5c7 | accepted 0/100 | worker 10 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.11    pLDDT=0.66  
+  passed refine design stage  i_pTM=0.13    pLDDT=0.73  
+  rejected at anneal design stage  i_pTM=0.13    pLDDT=0.85   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 171 | il15_lesson_faceB_denovo_l102_4f75046a7c25ecee | accepted 0/100 | worker 1 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.08    pLDDT=0.75  
+  passed refine design stage  i_pTM=0.18    pLDDT=0.8   
+  rejected at anneal design stage  i_pTM=0.15    pLDDT=0.82   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 172 | il15_lesson_faceB_denovo_l88_252e63473f3c84c2 | accepted 0/100 | worker 2 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.71  
+  passed refine design stage  i_pTM=0.09    pLDDT=0.76  
+  rejected at anneal design stage  i_pTM=0.14    pLDDT=0.79   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 173 | il15_lesson_faceB_denovo_l107_424c58a10e51c4f5 | accepted 0/100 | worker 3 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.1     pLDDT=0.65  
+  passed refine design stage  i_pTM=0.13    pLDDT=0.61  
+  rejected at anneal design stage  i_pTM=0.12    pLDDT=0.75   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 174 | il15_lesson_faceB_denovo_l109_1f2002dbeda36b2e | accepted 0/100 | worker 7 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.1     pLDDT=0.62  
+  passed refine design stage  i_pTM=0.08    pLDDT=0.61  
+  rejected at anneal design stage  i_pTM=0.1     pLDDT=0.74   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 175 | il15_lesson_faceB_denovo_l92_3e5093fa530b4466 | accepted 0/100 | worker 6 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.08    pLDDT=0.65  
+  passed refine design stage  i_pTM=0.09    pLDDT=0.67  
+  rejected at anneal design stage  i_pTM=0.19    pLDDT=0.75   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 176 | il15_lesson_faceB_denovo_l98_339a1a69f0e6ada1 | accepted 0/100 | worker 9 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.14    pLDDT=0.75  
+  passed refine design stage  i_pTM=0.17    pLDDT=0.79  
+  rejected at anneal design stage  i_pTM=0.11    pLDDT=0.82   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 177 | il15_lesson_faceB_denovo_l85_94daa0683e433147 | accepted 0/100 | worker 8 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.09    pLDDT=0.57   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 178 | il15_lesson_faceB_denovo_l80_223132c6011dc9bd | accepted 0/100 | worker 12 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.09    pLDDT=0.58   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 179 | il15_lesson_faceB_denovo_l101_fb4673f332ef58dd | accepted 0/100 | worker 11 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.25    pLDDT=0.73  
+  passed refine design stage  i_pTM=0.26    pLDDT=0.81  
+  rejected at anneal design stage  i_pTM=0.44    pLDDT=0.87   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 180 | il15_lesson_faceB_denovo_l92_1f38479158dbeb84 | accepted 0/100 | worker 0 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.08    pLDDT=0.47   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 181 | il15_lesson_faceB_denovo_l89_613e36033ef0a29d | accepted 0/100 | worker 4 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.08    pLDDT=0.56   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 182 | il15_lesson_faceB_denovo_l107_bec1f9e773818de3 | accepted 0/100 | worker 13 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.63  
+  rejected at refine design stage  i_pTM=0.09    pLDDT=0.55   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 183 | il15_lesson_faceB_denovo_l91_8f133b6f3e4052f0 | accepted 0/100 | worker 8 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.13    pLDDT=0.66  
+  rejected at refine design stage  i_pTM=0.1     pLDDT=0.47   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 184 | il15_lesson_faceB_denovo_l86_9fa52322626c0887 | accepted 0/100 | worker 10 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.69  
+  passed refine design stage  i_pTM=0.11    pLDDT=0.76  
+  rejected at anneal design stage  i_pTM=0.11    pLDDT=0.81   due to [i_pTM]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 185 | il15_lesson_faceB_denovo_l95_2ce5393104dc85ad | accepted 0/100 | worker 12 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.19    pLDDT=0.76  
+  passed refine design stage  i_pTM=0.19    pLDDT=0.77  
+  rejected at anneal design stage  i_pTM=0.13    pLDDT=0.73   due to [i_pTM]
+=== trajectory 186 | il15_lesson_faceB_denovo_l97_783304e05dac68c3 | accepted 0/100 | worker 5 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.11    pLDDT=0.77  
+  passed refine design stage  i_pTM=0.09    pLDDT=0.66  
+  rejected at anneal design stage  i_pTM=0.13    pLDDT=0.79   due to [i_pTM]
+=== trajectory 187 | il15_lesson_faceB_denovo_l84_1aca7c14a451087d | accepted 0/100 | worker 0 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.77  
+  passed refine design stage  i_pTM=0.15    pLDDT=0.8   
+  rejected at anneal design stage  i_pTM=0.19    pLDDT=0.81   due to [i_pTM]
+=== trajectory 188 | il15_lesson_faceB_denovo_l84_1e9c0656c3c8176c | accepted 0/100 | worker 4 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.11    pLDDT=0.55   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 189 | il15_lesson_faceB_denovo_l81_973c5579c972be60 | accepted 0/100 | worker 2 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.08    pLDDT=0.77  
+  passed refine design stage  i_pTM=0.07    pLDDT=0.79  
+  rejected at anneal design stage  i_pTM=0.13    pLDDT=0.8    due to [i_pTM]
+=== trajectory 190 | il15_lesson_faceB_denovo_l107_0dc4a1d5349bd77e | accepted 0/100 | worker 1 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.2     pLDDT=0.77  
+  passed refine design stage  i_pTM=0.11    pLDDT=0.68  
+  rejected at anneal design stage  i_pTM=0.2     pLDDT=0.79   due to [i_pTM]
+=== trajectory 191 | il15_lesson_faceB_denovo_l92_401d9eb2a8b3e426 | accepted 0/100 | worker 6 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  rejected at screen design stage  i_pTM=0.08    pLDDT=0.46   due to [pLDDT]
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+
+=== trajectory 192 | il15_lesson_faceB_denovo_l106_3cc459d7767b2f2f | accepted 0/100 | worker 3 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.1     pLDDT=0.62  
+  passed refine design stage  i_pTM=0.11    pLDDT=0.63  
+  rejected at anneal design stage  i_pTM=0.3     pLDDT=0.79   due to [i_pTM]
+=== trajectory 193 | il15_lesson_faceB_denovo_l104_5919319f9346c8bc | accepted 0/100 | worker 7 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.15    pLDDT=0.84  
+  passed refine design stage  i_pTM=0.07    pLDDT=0.8   
+  rejected at anneal design stage  i_pTM=0.1     pLDDT=0.81   due to [i_pTM]
+=== trajectory 194 | il15_lesson_faceB_denovo_l92_989fc297dc7532f3 | accepted 0/100 | worker 4 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.18    pLDDT=0.79  
+  passed refine design stage  i_pTM=0.14    pLDDT=0.8   
+  rejected at anneal design stage  i_pTM=0.07    pLDDT=0.81   due to [i_pTM]
+=== trajectory 195 | il15_lesson_faceB_denovo_l104_ac1cc9d93be4ac20 | accepted 0/100 | worker 9 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.62  
+  passed refine design stage  i_pTM=0.17    pLDDT=0.73  
+  rejected at anneal design stage  i_pTM=0.28    pLDDT=0.71   due to [i_pTM]
+=== trajectory 196 | il15_lesson_faceB_denovo_l96_b2d4b2f5cf672b3d | accepted 0/100 | worker 8 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.45    pLDDT=0.83  
+  passed refine design stage  i_pTM=0.55    pLDDT=0.87  
+  passed anneal design stage  i_pTM=0.56    pLDDT=0.81  
+  passed harden design stage  i_pTM=0.62    pLDDT=0.84  
+  passed mutate design stage  i_pTM=0.58    pLDDT=0.84  
+  trajectory rejected  i_pTM=0.58    pLDDT=0.84   due to [i_pTM]
+=== trajectory 197 | il15_lesson_faceB_denovo_l98_d7f74ddec02db393 | accepted 0/100 | worker 13 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.09    pLDDT=0.7   
+  passed refine design stage  i_pTM=0.07    pLDDT=0.73  
+  rejected at anneal design stage  i_pTM=0.09    pLDDT=0.8    due to [i_pTM]
+=== trajectory 198 | il15_lesson_faceB_denovo_l90_53a65d50393b8ff0 | accepted 0/100 | worker 6 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.15    pLDDT=0.76  
+  passed refine design stage  i_pTM=0.17    pLDDT=0.74  
+  rejected at anneal design stage  i_pTM=0.39    pLDDT=0.81   due to [i_pTM]
+=== trajectory 199 | il15_lesson_faceB_denovo_l109_d8e950ac167bed81 | accepted 0/100 | worker 11 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.24    pLDDT=0.73  
+  passed refine design stage  i_pTM=0.16    pLDDT=0.73  
+  rejected at anneal design stage  i_pTM=0.3     pLDDT=0.77   due to [i_pTM]
+=== trajectory 200 | il15_lesson_faceB_denovo_l81_7473d0bb22989f75 | accepted 0/100 | worker 10 ===
+target=AJ_IL15 coldspots=A43,A58,A62,A63,A65,A66,A88,A104,A106 residues=9 hotspots=A21,A24,A25,A27,A28,A122,A125,A128
+  passed screen design stage  i_pTM=0.07    pLDDT=0.64  
+  passed refine design stage  i_pTM=0.1     pLDDT=0.64  
+  rejected at anneal design stage  i_pTM=0.09    pLDDT=0.68   due to [i_pTM]
+
+campaign stopped: 200 trajectories ran and none were accepted, so the settings rather than the budget are what to change
+
+campaign done: 0 accepted design(s) after 200 trajectories, ranked by i_pDAE
+EXIT 0 after 7635 s at Fri Nov  6 03:07:38 PM MST 2026

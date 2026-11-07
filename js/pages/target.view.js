@@ -33,9 +33,20 @@ function exposureBars(table) {
 export async function render(campaigns) {
   const targets = await loadTargets();
   const keys = Object.keys(campaigns).filter(k => campaigns[k].target);
-  const want = params().get('target');
+  // The options are campaign keys, so ?campaign= picks one as well as ?target= does, and that
+  // keeps the viewer on whatever campaign the rest of the site is showing. ?target= may instead
+  // name a catalogue entry, which is what the overview page links to, so fall back to the first
+  // campaign using it.
+  const p = params();
+  const asked = p.get('target') ?? p.get('campaign');
+  const want = keys.includes(asked) ? asked : keys.find(k => campaigns[k].target === asked);
+
+  // Several campaigns can share one structure, so disambiguate those options by campaign.
+  const label = k => targets[campaigns[k].target]?.name ?? k;
+  const shared = new Set(keys.filter(k => keys.filter(o => label(o) === label(k)).length > 1));
+
   const v = await viewer($('viewer'));
-  $('target').innerHTML = keys.map(k => `<option value="${esc(k)}"${k === want ? ' selected' : ''}>${esc(targets[campaigns[k].target]?.name ?? k)}</option>`).join('');
+  $('target').innerHTML = keys.map(k => `<option value="${esc(k)}"${k === want ? ' selected' : ''}>${esc(label(k) + (shared.has(k) ? ` · ${k}` : ''))}</option>`).join('');
 
   let structure = null, picked = [];
 
@@ -66,12 +77,14 @@ export async function render(campaigns) {
     $('legend').innerHTML = '<span>teal: exposed</span><span>dark: buried</span><span class="drag">click a residue to add it as a hotspot</span>';
 
     const n = structure.table.length, exposed = structure.table.filter(r => r.exposure >= EXPOSED).length;
+    // Hotspots belong to the campaign, not to the structure, so the campaign's own settings win.
+    const spots = c.settings?.targets?.[0]?.hotspots || t.hotspots || '';
     $('panel').innerHTML = `<h2>${esc(t.name ?? k)}</h2>
       <table class="grid small"><tbody>
         <tr><th scope="row">chains</th><td class="mono">${esc(structure.chains.join(', '))}</td></tr>
         <tr><th scope="row">residues</th><td class="mono">${n} (${structure.table[0].number} to ${structure.table[n - 1].number})</td></tr>
         <tr><th scope="row">exposed</th><td class="mono">${exposed}</td></tr>
-        <tr><th scope="row">hotspots used</th><td class="mono">${esc(t.hotspots || 'none, unguided')}</td></tr>
+        <tr><th scope="row">hotspots used</th><td class="mono">${esc(spots || 'none, unguided')}</td></tr>
       </tbody></table>
       <p class="small">${T('target.exposure')}</p>
       ${exposureBars(structure.table)}`;

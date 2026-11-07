@@ -1,1059 +1,1458 @@
 {
- "3evg_apo": {
-  "name": "3evg_apo",
-  "dir": "data/3evg_apo",
-  "file": "settings/3evg_apo.json",
-  "target": "3evg_apo",
-  "funnel": {
-   "stages": [
-    {
-     "key": "screen",
-     "label": "screen",
-     "entered": 40,
-     "dropped": 1
+  "3evg_apo": {
+    "name": "3evg_apo",
+    "dir": "data/3evg_apo",
+    "file": "settings/3evg_apo.json",
+    "target": "3evg_apo",
+    "funnel": {
+      "stages": [
+        {
+          "key": "screen",
+          "label": "screen",
+          "entered": 40,
+          "dropped": 1
+        },
+        {
+          "key": "refine",
+          "label": "refine",
+          "entered": 39,
+          "dropped": 3
+        },
+        {
+          "key": "anneal",
+          "label": "anneal",
+          "entered": 36,
+          "dropped": 2
+        },
+        {
+          "key": "harden",
+          "label": "harden",
+          "entered": 34,
+          "dropped": 10
+        },
+        {
+          "key": "mutate",
+          "label": "mutate",
+          "entered": 24,
+          "dropped": 7
+        },
+        {
+          "key": "final",
+          "label": "final",
+          "entered": 17,
+          "dropped": 4
+        }
+      ],
+      "attempts": 40,
+      "survived": 13,
+      "candidates": 130,
+      "accepted": 1
     },
-    {
-     "key": "refine",
-     "label": "refine",
-     "entered": 39,
-     "dropped": 3
+    "settings": {
+      "aa_bias": {
+        "C": 0
+      },
+      "archive_trajectories": false,
+      "attention_backend": "auto",
+      "autotune": true,
+      "betasheet_reopt_extra_anneal_steps": 0,
+      "betasheet_reopt_extra_refine_steps": 0,
+      "betasheet_reopt_trigger": 0.15,
+      "binder_lengths": [
+        60,
+        180
+      ],
+      "campaign_seed": 1,
+      "confidence_floor": 0.7,
+      "design_dropout": true,
+      "design_recycles": 1,
+      "desperation": true,
+      "enough_passing_sequences": 3,
+      "filters": {
+        "All_Atom_Clashes": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Backbone_Clashes": {
+          "higher": false,
+          "threshold": 0
+        },
+        "Binder_BetaSheet_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Cysteines": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Disulfides": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Extinction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Free_Cysteines": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Helix_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Loop_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Mass_kDa": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Net_Charge": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_RMSD": {
+          "higher": false,
+          "threshold": 3.5
+        },
+        "Binder_pI": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Interface_BetaSheet_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Interface_BuriedArea": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "Interface_BuriedArea_Fraction": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "Interface_Helix_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Interface_Hydrophobicity": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Interface_Loop_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Interface_Residues": {
+          "higher": true,
+          "threshold": 7
+        },
+        "Receptor_Chains_Contacted": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "SS_pLDDT": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "Surface_Hydrophobicity": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Target_RMSD": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Target_pLDDT": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "Unbound_Binder_pLDDT": {
+          "higher": true,
+          "threshold": 0.7
+        },
+        "i_pAE": {
+          "higher": false,
+          "threshold": 0.35
+        },
+        "i_pTM": {
+          "higher": true,
+          "threshold": 0.7
+        },
+        "pTM": {
+          "higher": true,
+          "threshold": 0.55
+        }
+      },
+      "forced_targeting": false,
+      "hard_target": false,
+      "hash_design_names": true,
+      "kept_sequences": 1,
+      "large_complex_initialization": false,
+      "losses": {
+        "binder_contacts": {
+          "params": {
+            "chain": "binder",
+            "prediction_state": "complex"
+          }
+        },
+        "binder_helicity": {
+          "params": {
+            "chain": "binder",
+            "prediction_state": "complex"
+          }
+        },
+        "binder_pae": {
+          "params": {
+            "chain": "binder",
+            "prediction_state": "complex"
+          }
+        },
+        "compactness": {
+          "params": {
+            "chain": "binder",
+            "prediction_state": "complex"
+          }
+        },
+        "interface_contacts": {
+          "params": {
+            "contacts_per_residue": 2,
+            "cutoff": 20.0
+          }
+        },
+        "plddt_loss": {
+          "params": {
+            "chain": "binder",
+            "prediction_state": "complex"
+          }
+        }
+      },
+      "max_trajectories": 40,
+      "min_iptm_anneal": 0.5,
+      "min_iptm_final": 0.7,
+      "min_iptm_harden": 0.5,
+      "min_iptm_mutate": 0.5,
+      "min_monomer_plddt_final": 0.7,
+      "min_plddt_anneal": 0.65,
+      "min_plddt_final": 0.7,
+      "min_plddt_harden": 0.65,
+      "min_plddt_mutate": 0.6,
+      "min_plddt_refine": 0.6,
+      "min_plddt_screen": 0.6,
+      "modality": "binder",
+      "mpnn_model": "v_48_020",
+      "mpnn_variant": "negative",
+      "number_of_final_designs": 3,
+      "project_folder": "results/3evg_apo",
+      "redesign_interface": false,
+      "relax_accepted_designs": false,
+      "resume": true,
+      "save_binder_monomers": true,
+      "save_design_animations": true,
+      "save_design_frames": true,
+      "save_design_sequences": false,
+      "save_design_trajectory": true,
+      "save_failed_refolds": true,
+      "save_failed_trajectories": true,
+      "save_loss_plots": true,
+      "sequence_candidates": 10,
+      "subbatch_size": "auto",
+      "target_flexibility": 0.0,
+      "targets": [
+        {
+          "chains": "A",
+          "name": "3evg_apo",
+          "target_path": "/home/bgeiss/bc2-visualizer-runs/structures/3evg_apo.pdb"
+        }
+      ],
+      "trajectory_only": false,
+      "use_cueq": false,
+      "use_remat": true,
+      "validation_crop_flank": 5,
+      "validation_recycles": 3,
+      "weights_binder_contacts": 1.0,
+      "weights_binder_helicity": -0.3,
+      "weights_binder_pae": 0.4,
+      "weights_compactness": 0.5,
+      "weights_interface_contacts": 1.0,
+      "weights_interface_pae": 0.1,
+      "weights_iptm_loss": 0.05,
+      "weights_plddt_loss": 0.1
     },
-    {
-     "key": "anneal",
-     "label": "anneal",
-     "entered": 36,
-     "dropped": 2
-    },
-    {
-     "key": "harden",
-     "label": "harden",
-     "entered": 34,
-     "dropped": 10
-    },
-    {
-     "key": "mutate",
-     "label": "mutate",
-     "entered": 24,
-     "dropped": 7
-    },
-    {
-     "key": "final",
-     "label": "final",
-     "entered": 17,
-     "dropped": 4
+    "target_residues": 257,
+    "trajectory": true,
+    "mpnn": true,
+    "scoring": true,
+    "ranked": true,
+    "accepted": 1,
+    "json": {
+      "targets": [
+        {
+          "name": "3evg_apo",
+          "target_path": "/home/bgeiss/bc2-visualizer-runs/structures/3evg_apo.pdb",
+          "chains": "A"
+        }
+      ],
+      "modality": "binder",
+      "max_trajectories": 40,
+      "number_of_final_designs": 3,
+      "campaign_seed": 1,
+      "project_folder": "results/3evg_apo",
+      "save_design_frames": true,
+      "save_design_animations": true,
+      "save_loss_plots": true,
+      "save_design_trajectory": true
     }
-   ],
-   "attempts": 40,
-   "survived": 13,
-   "candidates": 130,
-   "accepted": 1
   },
-  "settings": {
-   "aa_bias": {
-    "C": 0
-   },
-   "archive_trajectories": false,
-   "attention_backend": "auto",
-   "autotune": true,
-   "betasheet_reopt_extra_anneal_steps": 0,
-   "betasheet_reopt_extra_refine_steps": 0,
-   "betasheet_reopt_trigger": 0.15,
-   "binder_lengths": [
-    60,
-    180
-   ],
-   "campaign_seed": 1,
-   "confidence_floor": 0.7,
-   "design_dropout": true,
-   "design_recycles": 1,
-   "desperation": true,
-   "enough_passing_sequences": 3,
-   "filters": {
-    "All_Atom_Clashes": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
+  "il15_lesson_unguided": {
+    "name": "il15_lesson_unguided",
+    "dir": "data/il15_lesson_unguided",
+    "file": "settings/il15_lesson_unguided.json",
+    "target": "ajil15",
+    "funnel": {
+      "stages": [
+        {
+          "key": "screen",
+          "label": "screen",
+          "entered": 199,
+          "dropped": 9
+        },
+        {
+          "key": "refine",
+          "label": "refine",
+          "entered": 190,
+          "dropped": 4
+        },
+        {
+          "key": "anneal",
+          "label": "anneal",
+          "entered": 186,
+          "dropped": 6
+        },
+        {
+          "key": "harden",
+          "label": "harden",
+          "entered": 180,
+          "dropped": 22
+        },
+        {
+          "key": "mutate",
+          "label": "mutate",
+          "entered": 158,
+          "dropped": 25
+        },
+        {
+          "key": "final",
+          "label": "final",
+          "entered": 133,
+          "dropped": 72
+        }
+      ],
+      "attempts": 199,
+      "survived": 61,
+      "candidates": 459,
+      "accepted": 41
     },
-    "Backbone_Clashes": {
-     "higher": false,
-     "threshold": 0
+    "settings": {
+      "aa_bias": {
+        "C": 0
+      },
+      "archive_trajectories": false,
+      "attention_backend": "auto",
+      "auto_multi_gpu": true,
+      "autotune": true,
+      "betasheet_reopt_extra_anneal_steps": 0,
+      "betasheet_reopt_extra_refine_steps": 0,
+      "betasheet_reopt_trigger": 0.15,
+      "binder_lengths": [
+        80,
+        110
+      ],
+      "campaign_name": "il15_lesson_unguided",
+      "campaign_seed": 1,
+      "confidence_floor": 0.7,
+      "design_dropout": true,
+      "design_recycles": 1,
+      "desperation": true,
+      "enough_passing_sequences": 3,
+      "filters": {
+        "All_Atom_Clashes": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Backbone_Clashes": {
+          "higher": false,
+          "threshold": 0
+        },
+        "Binder_BetaSheet_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Cysteines": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Disulfides": {
+          "higher": false,
+          "threshold": 0
+        },
+        "Binder_Extinction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Free_Cysteines": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Helix_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Loop_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Mass_kDa": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Net_Charge": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_RMSD": {
+          "higher": false,
+          "threshold": 3.5
+        },
+        "Binder_pI": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Interface_BetaSheet_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Interface_BuriedArea": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "Interface_BuriedArea_Fraction": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "Interface_Helix_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Interface_Hydrophobicity": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Interface_Loop_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Interface_Residues": {
+          "higher": true,
+          "threshold": 7
+        },
+        "Receptor_Chains_Contacted": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "SS_pLDDT": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "Surface_Hydrophobicity": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Target_RMSD": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Target_pLDDT": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "Unbound_Binder_pLDDT": {
+          "higher": true,
+          "threshold": 0.85
+        },
+        "i_pAE": {
+          "higher": false,
+          "threshold": 0.35
+        },
+        "i_pTM": {
+          "higher": true,
+          "threshold": 0.8
+        },
+        "pTM": {
+          "higher": true,
+          "threshold": 0.55
+        }
+      },
+      "forced_targeting": false,
+      "hard_target": false,
+      "hash_design_names": true,
+      "kept_sequences": 1,
+      "large_complex_initialization": false,
+      "losses": {
+        "binder_contacts": {
+          "params": {
+            "chain": "binder",
+            "prediction_state": "complex"
+          }
+        },
+        "binder_helicity": {
+          "params": {
+            "chain": "binder",
+            "prediction_state": "complex"
+          }
+        },
+        "binder_pae": {
+          "params": {
+            "chain": "binder",
+            "prediction_state": "complex"
+          }
+        },
+        "compactness": {
+          "params": {
+            "chain": "binder",
+            "prediction_state": "complex"
+          }
+        },
+        "interface_contacts": {
+          "params": {
+            "contacts_per_residue": 2,
+            "cutoff": 20.0
+          }
+        },
+        "plddt_loss": {
+          "params": {
+            "chain": "binder",
+            "prediction_state": "complex"
+          }
+        }
+      },
+      "max_trajectories": 200,
+      "min_iptm_anneal": 0.5,
+      "min_iptm_final": 0.8,
+      "min_iptm_harden": 0.5,
+      "min_iptm_mutate": 0.5,
+      "min_monomer_plddt_final": 0.85,
+      "min_plddt_anneal": 0.65,
+      "min_plddt_final": 0.7,
+      "min_plddt_harden": 0.65,
+      "min_plddt_mutate": 0.6,
+      "min_plddt_refine": 0.6,
+      "min_plddt_screen": 0.6,
+      "modality": "binder",
+      "mpnn_model": "v_48_020",
+      "mpnn_variant": "negative",
+      "number_of_final_designs": 100,
+      "project_folder": "/home/bgeiss/bindcraft2/results/il15_lesson_unguided",
+      "redesign_interface": false,
+      "relax_accepted_designs": false,
+      "resume": false,
+      "save_binder_monomers": true,
+      "save_design_animations": true,
+      "save_design_frames": true,
+      "save_design_sequences": true,
+      "save_design_trajectory": true,
+      "save_failed_refolds": true,
+      "save_failed_trajectories": true,
+      "save_loss_plots": true,
+      "sequence_candidates": 10,
+      "subbatch_size": "auto",
+      "target_flexibility": 0.0,
+      "targets": [
+        {
+          "chains": "A",
+          "name": "AJ_IL15",
+          "target_path": "/home/bgeiss/bindcraft2/targets/aj_IL15_target.pdb"
+        }
+      ],
+      "trajectory_only": false,
+      "use_cueq": false,
+      "use_remat": true,
+      "validation_crop_flank": 5,
+      "validation_recycles": 3,
+      "weights_binder_contacts": 1.0,
+      "weights_binder_helicity": -0.3,
+      "weights_binder_pae": 0.4,
+      "weights_compactness": 0.5,
+      "weights_interface_contacts": 1.0,
+      "weights_interface_pae": 0.1,
+      "weights_iptm_loss": 0.05,
+      "weights_plddt_loss": 0.1
     },
-    "Binder_BetaSheet_Fraction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Cysteines": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Disulfides": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Extinction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Free_Cysteines": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Helix_Fraction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Loop_Fraction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Mass_kDa": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Net_Charge": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_RMSD": {
-     "higher": false,
-     "threshold": 3.5
-    },
-    "Binder_pI": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Interface_BetaSheet_Fraction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Interface_BuriedArea": {
-     "higher": true,
-     "mandatory": false,
-     "threshold": 0.0
-    },
-    "Interface_BuriedArea_Fraction": {
-     "higher": true,
-     "mandatory": false,
-     "threshold": 0.0
-    },
-    "Interface_Helix_Fraction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Interface_Hydrophobicity": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Interface_Loop_Fraction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Interface_Residues": {
-     "higher": true,
-     "threshold": 7
-    },
-    "Receptor_Chains_Contacted": {
-     "higher": true,
-     "mandatory": false,
-     "threshold": 0.0
-    },
-    "SS_pLDDT": {
-     "higher": true,
-     "mandatory": false,
-     "threshold": 0.0
-    },
-    "Surface_Hydrophobicity": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Target_RMSD": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Target_pLDDT": {
-     "higher": true,
-     "mandatory": false,
-     "threshold": 0.0
-    },
-    "Unbound_Binder_pLDDT": {
-     "higher": true,
-     "threshold": 0.7
-    },
-    "i_pAE": {
-     "higher": false,
-     "threshold": 0.35
-    },
-    "i_pTM": {
-     "higher": true,
-     "threshold": 0.7
-    },
-    "pTM": {
-     "higher": true,
-     "threshold": 0.55
+    "target_residues": 117,
+    "trajectory": true,
+    "mpnn": true,
+    "scoring": true,
+    "ranked": true,
+    "accepted": 41,
+    "json": {
+      "modality": "binder",
+      "campaign_name": "il15_lesson_unguided",
+      "project_folder": "/home/bgeiss/bindcraft2/results/il15_lesson_unguided",
+      "targets": [
+        {
+          "name": "AJ_IL15",
+          "target_path": "/home/bgeiss/bindcraft2/targets/aj_IL15_target.pdb",
+          "chains": "A"
+        }
+      ],
+      "binder_lengths": [
+        80,
+        110
+      ],
+      "max_trajectories": 200,
+      "number_of_final_designs": 100,
+      "campaign_seed": 1,
+      "aa_bias": {
+        "C": 0
+      },
+      "min_iptm_final": 0.8,
+      "min_monomer_plddt_final": 0.85,
+      "filters": {
+        "i_pTM": {
+          "threshold": 0.8,
+          "higher": true
+        },
+        "Unbound_Binder_pLDDT": {
+          "threshold": 0.85,
+          "higher": true
+        },
+        "Binder_Disulfides": {
+          "threshold": 0,
+          "higher": false
+        }
+      },
+      "auto_multi_gpu": true,
+      "resume": false,
+      "save_design_frames": true,
+      "save_design_animations": true,
+      "save_design_trajectory": true,
+      "save_design_sequences": true,
+      "save_loss_plots": true
     }
-   },
-   "forced_targeting": false,
-   "hard_target": false,
-   "hash_design_names": true,
-   "kept_sequences": 1,
-   "large_complex_initialization": false,
-   "losses": {
-    "binder_contacts": {
-     "params": {
-      "chain": "binder",
-      "prediction_state": "complex"
-     }
-    },
-    "binder_helicity": {
-     "params": {
-      "chain": "binder",
-      "prediction_state": "complex"
-     }
-    },
-    "binder_pae": {
-     "params": {
-      "chain": "binder",
-      "prediction_state": "complex"
-     }
-    },
-    "compactness": {
-     "params": {
-      "chain": "binder",
-      "prediction_state": "complex"
-     }
-    },
-    "interface_contacts": {
-     "params": {
-      "contacts_per_residue": 2,
-      "cutoff": 20.0
-     }
-    },
-    "plddt_loss": {
-     "params": {
-      "chain": "binder",
-      "prediction_state": "complex"
-     }
-    }
-   },
-   "max_trajectories": 40,
-   "min_iptm_anneal": 0.5,
-   "min_iptm_final": 0.7,
-   "min_iptm_harden": 0.5,
-   "min_iptm_mutate": 0.5,
-   "min_monomer_plddt_final": 0.7,
-   "min_plddt_anneal": 0.65,
-   "min_plddt_final": 0.7,
-   "min_plddt_harden": 0.65,
-   "min_plddt_mutate": 0.6,
-   "min_plddt_refine": 0.6,
-   "min_plddt_screen": 0.6,
-   "modality": "binder",
-   "mpnn_model": "v_48_020",
-   "mpnn_variant": "negative",
-   "number_of_final_designs": 3,
-   "project_folder": "results/3evg_apo",
-   "redesign_interface": false,
-   "relax_accepted_designs": false,
-   "resume": true,
-   "save_binder_monomers": true,
-   "save_design_animations": true,
-   "save_design_frames": true,
-   "save_design_sequences": false,
-   "save_design_trajectory": true,
-   "save_failed_refolds": true,
-   "save_failed_trajectories": true,
-   "save_loss_plots": true,
-   "sequence_candidates": 10,
-   "subbatch_size": "auto",
-   "target_flexibility": 0.0,
-   "targets": [
-    {
-     "chains": "A",
-     "name": "3evg_apo",
-     "target_path": "/home/bgeiss/bc2-visualizer-runs/structures/3evg_apo.pdb"
-    }
-   ],
-   "trajectory_only": false,
-   "use_cueq": false,
-   "use_remat": true,
-   "validation_crop_flank": 5,
-   "validation_recycles": 3,
-   "weights_binder_contacts": 1.0,
-   "weights_binder_helicity": -0.3,
-   "weights_binder_pae": 0.4,
-   "weights_compactness": 0.5,
-   "weights_interface_contacts": 1.0,
-   "weights_interface_pae": 0.1,
-   "weights_iptm_loss": 0.05,
-   "weights_plddt_loss": 0.1
   },
-  "target_residues": 257,
-  "trajectory": true,
-  "mpnn": true,
-  "scoring": true,
-  "ranked": true,
-  "accepted": 1,
-  "json": {
-   "targets": [
-    {
-     "name": "3evg_apo",
-     "target_path": "/home/bgeiss/bc2-visualizer-runs/structures/3evg_apo.pdb",
-     "chains": "A"
+  "il15_lesson_faceA": {
+    "name": "il15_lesson_faceA",
+    "dir": "data/il15_lesson_faceA",
+    "file": "settings/il15_lesson_faceA.json",
+    "target": "ajil15",
+    "funnel": {
+      "stages": [
+        {
+          "key": "screen",
+          "label": "screen",
+          "entered": 199,
+          "dropped": 16
+        },
+        {
+          "key": "refine",
+          "label": "refine",
+          "entered": 183,
+          "dropped": 7
+        },
+        {
+          "key": "anneal",
+          "label": "anneal",
+          "entered": 176,
+          "dropped": 5
+        },
+        {
+          "key": "harden",
+          "label": "harden",
+          "entered": 171,
+          "dropped": 14
+        },
+        {
+          "key": "mutate",
+          "label": "mutate",
+          "entered": 157,
+          "dropped": 33
+        },
+        {
+          "key": "final",
+          "label": "final",
+          "entered": 124,
+          "dropped": 78
+        }
+      ],
+      "attempts": 199,
+      "survived": 46,
+      "candidates": 346,
+      "accepted": 27
+    },
+    "settings": {
+      "aa_bias": {
+        "C": 0
+      },
+      "archive_trajectories": false,
+      "attention_backend": "auto",
+      "auto_multi_gpu": true,
+      "autotune": true,
+      "betasheet_reopt_extra_anneal_steps": 0,
+      "betasheet_reopt_extra_refine_steps": 0,
+      "betasheet_reopt_trigger": 0.15,
+      "binder_lengths": [
+        80,
+        110
+      ],
+      "campaign_name": "il15_lesson_faceA",
+      "campaign_seed": 1,
+      "confidence_floor": 0.7,
+      "design_dropout": true,
+      "design_recycles": 1,
+      "desperation": true,
+      "enough_passing_sequences": 3,
+      "filters": {
+        "All_Atom_Clashes": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Backbone_Clashes": {
+          "higher": false,
+          "threshold": 0
+        },
+        "Binder_BetaSheet_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Cysteines": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Disulfides": {
+          "higher": false,
+          "threshold": 0
+        },
+        "Binder_Extinction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Free_Cysteines": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Helix_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Loop_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Mass_kDa": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Net_Charge": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_RMSD": {
+          "higher": false,
+          "threshold": 3.5
+        },
+        "Binder_pI": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Coldspot_Contact_Fraction": {
+          "higher": false,
+          "mandatory": true,
+          "threshold": 0.05
+        },
+        "Epitope_Residues_Contacted": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "Hotspot_Contact_Fraction": {
+          "higher": true,
+          "mandatory": true,
+          "threshold": 0.5
+        },
+        "Interface_BetaSheet_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Interface_BuriedArea": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "Interface_BuriedArea_Fraction": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "Interface_Helix_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Interface_Hydrophobicity": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Interface_Loop_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Interface_Residues": {
+          "higher": true,
+          "threshold": 7
+        },
+        "Off_Epitope_Contact_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": 1.0
+        },
+        "Receptor_Chains_Contacted": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "SS_pLDDT": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "Surface_Hydrophobicity": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Target_RMSD": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Target_pLDDT": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "Unbound_Binder_pLDDT": {
+          "higher": true,
+          "threshold": 0.85
+        },
+        "i_pAE": {
+          "higher": false,
+          "threshold": 0.35
+        },
+        "i_pTM": {
+          "higher": true,
+          "threshold": 0.8
+        },
+        "pTM": {
+          "higher": true,
+          "threshold": 0.55
+        }
+      },
+      "forced_targeting": false,
+      "hard_target": false,
+      "hash_design_names": true,
+      "kept_sequences": 1,
+      "large_complex_initialization": false,
+      "losses": {
+        "binder_contacts": {
+          "params": {
+            "chain": "binder",
+            "prediction_state": "complex"
+          }
+        },
+        "binder_helicity": {
+          "params": {
+            "chain": "binder",
+            "prediction_state": "complex"
+          }
+        },
+        "binder_pae": {
+          "params": {
+            "chain": "binder",
+            "prediction_state": "complex"
+          }
+        },
+        "compactness": {
+          "params": {
+            "chain": "binder",
+            "prediction_state": "complex"
+          }
+        },
+        "interface_contacts": {
+          "params": {
+            "contacts_per_residue": 2,
+            "cutoff": 20.0
+          }
+        },
+        "plddt_loss": {
+          "params": {
+            "chain": "binder",
+            "prediction_state": "complex"
+          }
+        }
+      },
+      "max_coldspot_contact_final": 0.05,
+      "max_trajectories": 200,
+      "min_hotspot_contact_final": 0.5,
+      "min_iptm_anneal": 0.5,
+      "min_iptm_final": 0.8,
+      "min_iptm_harden": 0.5,
+      "min_iptm_mutate": 0.5,
+      "min_monomer_plddt_final": 0.85,
+      "min_plddt_anneal": 0.65,
+      "min_plddt_final": 0.7,
+      "min_plddt_harden": 0.65,
+      "min_plddt_mutate": 0.6,
+      "min_plddt_refine": 0.6,
+      "min_plddt_screen": 0.6,
+      "modality": "binder",
+      "mpnn_model": "v_48_020",
+      "mpnn_variant": "negative",
+      "number_of_final_designs": 100,
+      "project_folder": "/home/bgeiss/bindcraft2/results/il15_lesson_faceA",
+      "redesign_interface": false,
+      "relax_accepted_designs": false,
+      "resume": false,
+      "save_binder_monomers": true,
+      "save_design_animations": true,
+      "save_design_frames": true,
+      "save_design_sequences": true,
+      "save_design_trajectory": true,
+      "save_failed_refolds": true,
+      "save_failed_trajectories": true,
+      "save_loss_plots": true,
+      "sequence_candidates": 10,
+      "subbatch_size": "auto",
+      "target_flexibility": 0.0,
+      "targets": [
+        {
+          "chains": "A",
+          "coldspots": "A21,A24,A25,A27,A28,A122,A125,A128",
+          "hotspots": "A43,A58,A62,A63,A65,A66,A88,A104,A106",
+          "name": "AJ_IL15",
+          "target_path": "/home/bgeiss/bindcraft2/targets/aj_IL15_target.pdb"
+        }
+      ],
+      "trajectory_only": false,
+      "use_cueq": false,
+      "use_remat": true,
+      "validation_crop_flank": 5,
+      "validation_recycles": 3,
+      "weights_binder_contacts": 1.0,
+      "weights_binder_helicity": -0.3,
+      "weights_binder_pae": 0.4,
+      "weights_coldspot_repel": 1.0,
+      "weights_compactness": 0.5,
+      "weights_interface_contacts": 1.0,
+      "weights_interface_pae": 0.1,
+      "weights_iptm_loss": 0.05,
+      "weights_plddt_loss": 0.1
+    },
+    "target_residues": 117,
+    "trajectory": true,
+    "mpnn": true,
+    "scoring": true,
+    "ranked": true,
+    "accepted": 27,
+    "json": {
+      "modality": "binder",
+      "campaign_name": "il15_lesson_faceA",
+      "project_folder": "/home/bgeiss/bindcraft2/results/il15_lesson_faceA",
+      "targets": [
+        {
+          "name": "AJ_IL15",
+          "target_path": "/home/bgeiss/bindcraft2/targets/aj_IL15_target.pdb",
+          "chains": "A",
+          "hotspots": "A43,A58,A62,A63,A65,A66,A88,A104,A106",
+          "coldspots": "A21,A24,A25,A27,A28,A122,A125,A128"
+        }
+      ],
+      "binder_lengths": [
+        80,
+        110
+      ],
+      "max_trajectories": 200,
+      "number_of_final_designs": 100,
+      "campaign_seed": 1,
+      "aa_bias": {
+        "C": 0
+      },
+      "min_iptm_final": 0.8,
+      "min_monomer_plddt_final": 0.85,
+      "filters": {
+        "i_pTM": {
+          "threshold": 0.8,
+          "higher": true
+        },
+        "Unbound_Binder_pLDDT": {
+          "threshold": 0.85,
+          "higher": true
+        },
+        "Binder_Disulfides": {
+          "threshold": 0,
+          "higher": false
+        }
+      },
+      "auto_multi_gpu": true,
+      "resume": false,
+      "save_design_frames": true,
+      "save_design_animations": true,
+      "save_design_trajectory": true,
+      "save_design_sequences": true,
+      "save_loss_plots": true,
+      "min_hotspot_contact_final": 0.5
     }
-   ],
-   "modality": "binder",
-   "max_trajectories": 40,
-   "number_of_final_designs": 3,
-   "campaign_seed": 1,
-   "project_folder": "results/3evg_apo",
-   "save_design_frames": true,
-   "save_design_animations": true,
-   "save_loss_plots": true,
-   "save_design_trajectory": true
+  },
+  "il15_lesson_faceB": {
+    "name": "il15_lesson_faceB",
+    "dir": "data/il15_lesson_faceB",
+    "file": "settings/il15_lesson_faceB.json",
+    "target": "ajil15",
+    "funnel": {
+      "stages": [
+        {
+          "key": "screen",
+          "label": "screen",
+          "entered": 200,
+          "dropped": 26
+        },
+        {
+          "key": "refine",
+          "label": "refine",
+          "entered": 174,
+          "dropped": 12
+        },
+        {
+          "key": "anneal",
+          "label": "anneal",
+          "entered": 162,
+          "dropped": 151
+        },
+        {
+          "key": "harden",
+          "label": "harden",
+          "entered": 11,
+          "dropped": 3
+        },
+        {
+          "key": "mutate",
+          "label": "mutate",
+          "entered": 8,
+          "dropped": 3
+        },
+        {
+          "key": "final",
+          "label": "final",
+          "entered": 5,
+          "dropped": 5
+        }
+      ],
+      "attempts": 200,
+      "survived": 0,
+      "candidates": 0,
+      "accepted": 0
+    },
+    "settings": {
+      "aa_bias": {
+        "C": 0
+      },
+      "archive_trajectories": false,
+      "attention_backend": "auto",
+      "auto_multi_gpu": true,
+      "autotune": true,
+      "betasheet_reopt_extra_anneal_steps": 0,
+      "betasheet_reopt_extra_refine_steps": 0,
+      "betasheet_reopt_trigger": 0.15,
+      "binder_lengths": [
+        80,
+        110
+      ],
+      "campaign_name": "il15_lesson_faceB",
+      "campaign_seed": 1,
+      "confidence_floor": 0.7,
+      "design_dropout": true,
+      "design_recycles": 1,
+      "desperation": true,
+      "enough_passing_sequences": 3,
+      "filters": {
+        "All_Atom_Clashes": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Backbone_Clashes": {
+          "higher": false,
+          "threshold": 0
+        },
+        "Binder_BetaSheet_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Cysteines": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Disulfides": {
+          "higher": false,
+          "threshold": 0
+        },
+        "Binder_Extinction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Free_Cysteines": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Helix_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Loop_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Mass_kDa": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_Net_Charge": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Binder_RMSD": {
+          "higher": false,
+          "threshold": 3.5
+        },
+        "Binder_pI": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Coldspot_Contact_Fraction": {
+          "higher": false,
+          "mandatory": true,
+          "threshold": 0.05
+        },
+        "Epitope_Residues_Contacted": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "Hotspot_Contact_Fraction": {
+          "higher": true,
+          "mandatory": true,
+          "threshold": 0.5
+        },
+        "Interface_BetaSheet_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Interface_BuriedArea": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "Interface_BuriedArea_Fraction": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "Interface_Helix_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Interface_Hydrophobicity": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Interface_Loop_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Interface_Residues": {
+          "higher": true,
+          "threshold": 7
+        },
+        "Off_Epitope_Contact_Fraction": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": 1.0
+        },
+        "Receptor_Chains_Contacted": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "SS_pLDDT": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "Surface_Hydrophobicity": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Target_RMSD": {
+          "higher": false,
+          "mandatory": false,
+          "threshold": "Infinity"
+        },
+        "Target_pLDDT": {
+          "higher": true,
+          "mandatory": false,
+          "threshold": 0.0
+        },
+        "Unbound_Binder_pLDDT": {
+          "higher": true,
+          "threshold": 0.85
+        },
+        "i_pAE": {
+          "higher": false,
+          "threshold": 0.35
+        },
+        "i_pTM": {
+          "higher": true,
+          "threshold": 0.8
+        },
+        "pTM": {
+          "higher": true,
+          "threshold": 0.55
+        }
+      },
+      "forced_targeting": false,
+      "hard_target": false,
+      "hash_design_names": true,
+      "kept_sequences": 1,
+      "large_complex_initialization": false,
+      "losses": {
+        "binder_contacts": {
+          "params": {
+            "chain": "binder",
+            "prediction_state": "complex"
+          }
+        },
+        "binder_helicity": {
+          "params": {
+            "chain": "binder",
+            "prediction_state": "complex"
+          }
+        },
+        "binder_pae": {
+          "params": {
+            "chain": "binder",
+            "prediction_state": "complex"
+          }
+        },
+        "compactness": {
+          "params": {
+            "chain": "binder",
+            "prediction_state": "complex"
+          }
+        },
+        "interface_contacts": {
+          "params": {
+            "contacts_per_residue": 2,
+            "cutoff": 20.0
+          }
+        },
+        "plddt_loss": {
+          "params": {
+            "chain": "binder",
+            "prediction_state": "complex"
+          }
+        }
+      },
+      "max_coldspot_contact_final": 0.05,
+      "max_trajectories": 200,
+      "min_hotspot_contact_final": 0.5,
+      "min_iptm_anneal": 0.5,
+      "min_iptm_final": 0.8,
+      "min_iptm_harden": 0.5,
+      "min_iptm_mutate": 0.5,
+      "min_monomer_plddt_final": 0.85,
+      "min_plddt_anneal": 0.65,
+      "min_plddt_final": 0.7,
+      "min_plddt_harden": 0.65,
+      "min_plddt_mutate": 0.6,
+      "min_plddt_refine": 0.6,
+      "min_plddt_screen": 0.6,
+      "modality": "binder",
+      "mpnn_model": "v_48_020",
+      "mpnn_variant": "negative",
+      "number_of_final_designs": 100,
+      "project_folder": "/home/bgeiss/bindcraft2/results/il15_lesson_faceB",
+      "redesign_interface": false,
+      "relax_accepted_designs": false,
+      "resume": false,
+      "save_binder_monomers": true,
+      "save_design_animations": true,
+      "save_design_frames": true,
+      "save_design_sequences": true,
+      "save_design_trajectory": true,
+      "save_failed_refolds": true,
+      "save_failed_trajectories": true,
+      "save_loss_plots": true,
+      "sequence_candidates": 10,
+      "subbatch_size": "auto",
+      "target_flexibility": 0.0,
+      "targets": [
+        {
+          "chains": "A",
+          "coldspots": "A43,A58,A62,A63,A65,A66,A88,A104,A106",
+          "hotspots": "A21,A24,A25,A27,A28,A122,A125,A128",
+          "name": "AJ_IL15",
+          "target_path": "/home/bgeiss/bindcraft2/targets/aj_IL15_target.pdb"
+        }
+      ],
+      "trajectory_only": false,
+      "use_cueq": false,
+      "use_remat": true,
+      "validation_crop_flank": 5,
+      "validation_recycles": 3,
+      "weights_binder_contacts": 1.0,
+      "weights_binder_helicity": -0.3,
+      "weights_binder_pae": 0.4,
+      "weights_coldspot_repel": 1.0,
+      "weights_compactness": 0.5,
+      "weights_interface_contacts": 1.0,
+      "weights_interface_pae": 0.1,
+      "weights_iptm_loss": 0.05,
+      "weights_plddt_loss": 0.1
+    },
+    "target_residues": 117,
+    "trajectory": true,
+    "mpnn": false,
+    "scoring": false,
+    "ranked": true,
+    "accepted": 0,
+    "json": {
+      "modality": "binder",
+      "campaign_name": "il15_lesson_faceB",
+      "project_folder": "/home/bgeiss/bindcraft2/results/il15_lesson_faceB",
+      "targets": [
+        {
+          "name": "AJ_IL15",
+          "target_path": "/home/bgeiss/bindcraft2/targets/aj_IL15_target.pdb",
+          "chains": "A",
+          "hotspots": "A21,A24,A25,A27,A28,A122,A125,A128",
+          "coldspots": "A43,A58,A62,A63,A65,A66,A88,A104,A106"
+        }
+      ],
+      "binder_lengths": [
+        80,
+        110
+      ],
+      "max_trajectories": 200,
+      "number_of_final_designs": 100,
+      "campaign_seed": 1,
+      "aa_bias": {
+        "C": 0
+      },
+      "min_iptm_final": 0.8,
+      "min_monomer_plddt_final": 0.85,
+      "filters": {
+        "i_pTM": {
+          "threshold": 0.8,
+          "higher": true
+        },
+        "Unbound_Binder_pLDDT": {
+          "threshold": 0.85,
+          "higher": true
+        },
+        "Binder_Disulfides": {
+          "threshold": 0,
+          "higher": false
+        }
+      },
+      "auto_multi_gpu": true,
+      "resume": false,
+      "save_design_frames": true,
+      "save_design_animations": true,
+      "save_design_trajectory": true,
+      "save_design_sequences": true,
+      "save_loss_plots": true,
+      "min_hotspot_contact_final": 0.5
+    }
   }
- },
- "aj_il15": {
-  "name": "aj_il15",
-  "dir": "data/aj_il15",
-  "file": "settings/aj_il15.json",
-  "target": "aj_il15",
-  "funnel": {
-   "stages": [
-    {
-     "key": "screen",
-     "label": "screen",
-     "entered": 43,
-     "dropped": 2
-    },
-    {
-     "key": "refine",
-     "label": "refine",
-     "entered": 41,
-     "dropped": 0
-    },
-    {
-     "key": "anneal",
-     "label": "anneal",
-     "entered": 41,
-     "dropped": 3
-    },
-    {
-     "key": "harden",
-     "label": "harden",
-     "entered": 38,
-     "dropped": 5
-    },
-    {
-     "key": "mutate",
-     "label": "mutate",
-     "entered": 33,
-     "dropped": 6
-    },
-    {
-     "key": "final",
-     "label": "final",
-     "entered": 27,
-     "dropped": 5
-    }
-   ],
-   "attempts": 43,
-   "survived": 22,
-   "candidates": 175,
-   "accepted": 15
-  },
-  "settings": {
-   "aa_bias": {
-    "C": 0
-   },
-   "archive_trajectories": false,
-   "attention_backend": "auto",
-   "auto_multi_gpu": true,
-   "autotune": true,
-   "betasheet_reopt_extra_anneal_steps": 0,
-   "betasheet_reopt_extra_refine_steps": 0,
-   "betasheet_reopt_trigger": 0.15,
-   "binder_lengths": [
-    80,
-    130
-   ],
-   "campaign_name": "aj_il15",
-   "confidence_floor": 0.7,
-   "design_dropout": true,
-   "design_recycles": 1,
-   "desperation": true,
-   "enough_passing_sequences": 3,
-   "filters": {
-    "All_Atom_Clashes": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Backbone_Clashes": {
-     "higher": false,
-     "threshold": 0
-    },
-    "Binder_BetaSheet_Fraction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Cysteines": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Disulfides": {
-     "higher": false,
-     "threshold": 0
-    },
-    "Binder_Extinction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Free_Cysteines": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Helix_Fraction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Loop_Fraction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Mass_kDa": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Net_Charge": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_RMSD": {
-     "higher": false,
-     "threshold": 3.5
-    },
-    "Binder_pI": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Interface_BetaSheet_Fraction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Interface_BuriedArea": {
-     "higher": true,
-     "mandatory": false,
-     "threshold": 0.0
-    },
-    "Interface_BuriedArea_Fraction": {
-     "higher": true,
-     "mandatory": false,
-     "threshold": 0.0
-    },
-    "Interface_Helix_Fraction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Interface_Hydrophobicity": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Interface_Loop_Fraction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Interface_Residues": {
-     "higher": true,
-     "threshold": 7
-    },
-    "Receptor_Chains_Contacted": {
-     "higher": true,
-     "mandatory": false,
-     "threshold": 0.0
-    },
-    "SS_pLDDT": {
-     "higher": true,
-     "mandatory": false,
-     "threshold": 0.0
-    },
-    "Surface_Hydrophobicity": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Target_RMSD": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Target_pLDDT": {
-     "higher": true,
-     "mandatory": false,
-     "threshold": 0.0
-    },
-    "Unbound_Binder_pLDDT": {
-     "higher": true,
-     "threshold": 0.85
-    },
-    "i_pAE": {
-     "higher": false,
-     "threshold": 0.35
-    },
-    "i_pTM": {
-     "higher": true,
-     "threshold": 0.8
-    },
-    "pTM": {
-     "higher": true,
-     "threshold": 0.55
-    }
-   },
-   "forced_targeting": false,
-   "hard_target": false,
-   "hash_design_names": true,
-   "kept_sequences": 1,
-   "large_complex_initialization": false,
-   "losses": {
-    "binder_contacts": {
-     "params": {
-      "chain": "binder",
-      "prediction_state": "complex"
-     }
-    },
-    "binder_helicity": {
-     "params": {
-      "chain": "binder",
-      "prediction_state": "complex"
-     }
-    },
-    "binder_pae": {
-     "params": {
-      "chain": "binder",
-      "prediction_state": "complex"
-     }
-    },
-    "compactness": {
-     "params": {
-      "chain": "binder",
-      "prediction_state": "complex"
-     }
-    },
-    "interface_contacts": {
-     "params": {
-      "contacts_per_residue": 2,
-      "cutoff": 20.0
-     }
-    },
-    "plddt_loss": {
-     "params": {
-      "chain": "binder",
-      "prediction_state": "complex"
-     }
-    }
-   },
-   "min_iptm_anneal": 0.5,
-   "min_iptm_final": 0.8,
-   "min_iptm_harden": 0.5,
-   "min_iptm_mutate": 0.5,
-   "min_monomer_plddt_final": 0.85,
-   "min_plddt_anneal": 0.65,
-   "min_plddt_final": 0.7,
-   "min_plddt_harden": 0.65,
-   "min_plddt_mutate": 0.6,
-   "min_plddt_refine": 0.6,
-   "min_plddt_screen": 0.6,
-   "modality": "binder",
-   "mpnn_model": "v_48_020",
-   "mpnn_variant": "negative",
-   "number_of_final_designs": 10,
-   "project_folder": "/home/bgeiss/bindcraft2/results/aj_il15",
-   "redesign_interface": false,
-   "relax_accepted_designs": false,
-   "resume": true,
-   "save_binder_monomers": true,
-   "save_design_animations": false,
-   "save_design_frames": false,
-   "save_design_sequences": false,
-   "save_failed_refolds": true,
-   "save_failed_trajectories": true,
-   "save_loss_plots": false,
-   "sequence_candidates": 10,
-   "subbatch_size": "auto",
-   "target_flexibility": 0.0,
-   "targets": [
-    {
-     "chains": "A",
-     "name": "AJ_IL15",
-     "target_path": "/home/bgeiss/bindcraft2/targets/aj_IL15_target.pdb"
-    }
-   ],
-   "trajectory_only": false,
-   "use_cueq": false,
-   "use_remat": true,
-   "validation_crop_flank": 5,
-   "validation_recycles": 3,
-   "weights_binder_contacts": 1.0,
-   "weights_binder_helicity": -0.3,
-   "weights_binder_pae": 0.4,
-   "weights_compactness": 0.5,
-   "weights_interface_contacts": 1.0,
-   "weights_interface_pae": 0.1,
-   "weights_iptm_loss": 0.05,
-   "weights_plddt_loss": 0.1
-  },
-  "target_residues": 117,
-  "trajectory": false,
-  "mpnn": true,
-  "scoring": true,
-  "ranked": true,
-  "accepted": 15,
-  "json": {
-   "modality": "binder",
-   "campaign_name": "aj_il15",
-   "project_folder": "/home/bgeiss/bindcraft2/results/aj_il15",
-   "targets": [
-    {
-     "name": "AJ_IL15",
-     "target_path": "/home/bgeiss/bindcraft2/targets/aj_IL15_target.pdb",
-     "chains": "A"
-    }
-   ],
-   "binder_lengths": [
-    80,
-    130
-   ],
-   "number_of_final_designs": 10,
-   "aa_bias": {
-    "C": 0
-   },
-   "min_iptm_final": 0.8,
-   "min_monomer_plddt_final": 0.85,
-   "filters": {
-    "i_pTM": {
-     "threshold": 0.8,
-     "higher": true
-    },
-    "Unbound_Binder_pLDDT": {
-     "threshold": 0.85,
-     "higher": true
-    },
-    "Binder_Disulfides": {
-     "threshold": 0,
-     "higher": false
-    }
-   },
-   "auto_multi_gpu": true,
-   "resume": true
-  }
- },
- "aj_il15_faceA": {
-  "name": "aj_il15_faceA",
-  "dir": "data/aj_il15_faceA",
-  "file": "settings/aj_il15_faceA.json",
-  "target": "aj_il15_faceA",
-  "funnel": {
-   "stages": [
-    {
-     "key": "screen",
-     "label": "screen",
-     "entered": 80,
-     "dropped": 7
-    },
-    {
-     "key": "refine",
-     "label": "refine",
-     "entered": 73,
-     "dropped": 2
-    },
-    {
-     "key": "anneal",
-     "label": "anneal",
-     "entered": 71,
-     "dropped": 1
-    },
-    {
-     "key": "harden",
-     "label": "harden",
-     "entered": 70,
-     "dropped": 6
-    },
-    {
-     "key": "mutate",
-     "label": "mutate",
-     "entered": 64,
-     "dropped": 10
-    },
-    {
-     "key": "final",
-     "label": "final",
-     "entered": 54,
-     "dropped": 36
-    }
-   ],
-   "attempts": 80,
-   "survived": 18,
-   "candidates": 116,
-   "accepted": 14
-  },
-  "settings": {
-   "aa_bias": {
-    "C": 0
-   },
-   "archive_trajectories": false,
-   "attention_backend": "auto",
-   "autotune": true,
-   "betasheet_reopt_extra_anneal_steps": 0,
-   "betasheet_reopt_extra_refine_steps": 0,
-   "betasheet_reopt_trigger": 0.15,
-   "binder_lengths": [
-    80,
-    110
-   ],
-   "campaign_name": "aj_il15_faceA",
-   "confidence_floor": 0.7,
-   "design_dropout": true,
-   "design_recycles": 1,
-   "desperation": true,
-   "enough_passing_sequences": 3,
-   "filters": {
-    "All_Atom_Clashes": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Backbone_Clashes": {
-     "higher": false,
-     "threshold": 0
-    },
-    "Binder_BetaSheet_Fraction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Cysteines": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Disulfides": {
-     "higher": false,
-     "threshold": 0
-    },
-    "Binder_Extinction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Free_Cysteines": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Helix_Fraction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Loop_Fraction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Mass_kDa": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_Net_Charge": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Binder_RMSD": {
-     "higher": false,
-     "threshold": 3.5
-    },
-    "Binder_pI": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Coldspot_Contact_Fraction": {
-     "higher": false,
-     "mandatory": true,
-     "threshold": 0.05
-    },
-    "Epitope_Residues_Contacted": {
-     "higher": true,
-     "mandatory": false,
-     "threshold": 0.0
-    },
-    "Hotspot_Contact_Fraction": {
-     "higher": true,
-     "mandatory": true,
-     "threshold": 0.5
-    },
-    "Interface_BetaSheet_Fraction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Interface_BuriedArea": {
-     "higher": true,
-     "mandatory": false,
-     "threshold": 0.0
-    },
-    "Interface_BuriedArea_Fraction": {
-     "higher": true,
-     "mandatory": false,
-     "threshold": 0.0
-    },
-    "Interface_Helix_Fraction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Interface_Hydrophobicity": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Interface_Loop_Fraction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Interface_Residues": {
-     "higher": true,
-     "threshold": 7
-    },
-    "Off_Epitope_Contact_Fraction": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": 1.0
-    },
-    "Receptor_Chains_Contacted": {
-     "higher": true,
-     "mandatory": false,
-     "threshold": 0.0
-    },
-    "SS_pLDDT": {
-     "higher": true,
-     "mandatory": false,
-     "threshold": 0.0
-    },
-    "Surface_Hydrophobicity": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Target_RMSD": {
-     "higher": false,
-     "mandatory": false,
-     "threshold": "Infinity"
-    },
-    "Target_pLDDT": {
-     "higher": true,
-     "mandatory": false,
-     "threshold": 0.0
-    },
-    "Unbound_Binder_pLDDT": {
-     "higher": true,
-     "threshold": 0.85
-    },
-    "i_pAE": {
-     "higher": false,
-     "threshold": 0.35
-    },
-    "i_pTM": {
-     "higher": true,
-     "threshold": 0.8
-    },
-    "pTM": {
-     "higher": true,
-     "threshold": 0.55
-    }
-   },
-   "forced_targeting": false,
-   "gpu_ids": [
-    0
-   ],
-   "hard_target": false,
-   "hash_design_names": true,
-   "kept_sequences": 1,
-   "large_complex_initialization": false,
-   "losses": {
-    "binder_contacts": {
-     "params": {
-      "chain": "binder",
-      "prediction_state": "complex"
-     }
-    },
-    "binder_helicity": {
-     "params": {
-      "chain": "binder",
-      "prediction_state": "complex"
-     }
-    },
-    "binder_pae": {
-     "params": {
-      "chain": "binder",
-      "prediction_state": "complex"
-     }
-    },
-    "compactness": {
-     "params": {
-      "chain": "binder",
-      "prediction_state": "complex"
-     }
-    },
-    "interface_contacts": {
-     "params": {
-      "contacts_per_residue": 2,
-      "cutoff": 20.0
-     }
-    },
-    "plddt_loss": {
-     "params": {
-      "chain": "binder",
-      "prediction_state": "complex"
-     }
-    }
-   },
-   "max_coldspot_contact_final": 0.05,
-   "max_trajectories": 500,
-   "min_hotspot_contact_final": 0.5,
-   "min_iptm_anneal": 0.5,
-   "min_iptm_final": 0.8,
-   "min_iptm_harden": 0.5,
-   "min_iptm_mutate": 0.5,
-   "min_monomer_plddt_final": 0.85,
-   "min_plddt_anneal": 0.65,
-   "min_plddt_final": 0.7,
-   "min_plddt_harden": 0.65,
-   "min_plddt_mutate": 0.6,
-   "min_plddt_refine": 0.6,
-   "min_plddt_screen": 0.6,
-   "modality": "binder",
-   "mpnn_model": "v_48_020",
-   "mpnn_variant": "negative",
-   "number_of_final_designs": 10,
-   "project_folder": "/home/bgeiss/bindcraft2/results/aj_il15_faceA",
-   "redesign_interface": false,
-   "relax_accepted_designs": false,
-   "resume": true,
-   "save_binder_monomers": true,
-   "save_design_animations": false,
-   "save_design_frames": false,
-   "save_design_sequences": false,
-   "save_failed_refolds": true,
-   "save_failed_trajectories": true,
-   "save_loss_plots": false,
-   "sequence_candidates": 10,
-   "subbatch_size": "auto",
-   "target_flexibility": 0.0,
-   "targets": [
-    {
-     "chains": "A",
-     "coldspots": "A21,A24,A25,A27,A28,A122,A125,A128",
-     "hotspots": "A43,A58,A62,A63,A65,A66,A88,A104,A106",
-     "name": "AJ_IL15",
-     "target_path": "/home/bgeiss/bindcraft2/targets/aj_IL15_target.pdb"
-    }
-   ],
-   "trajectory_only": false,
-   "use_cueq": false,
-   "use_remat": true,
-   "validation_crop_flank": 5,
-   "validation_recycles": 3,
-   "weights_binder_contacts": 1.0,
-   "weights_binder_helicity": -0.3,
-   "weights_binder_pae": 0.4,
-   "weights_coldspot_repel": 1.0,
-   "weights_compactness": 0.5,
-   "weights_interface_contacts": 1.0,
-   "weights_interface_pae": 0.1,
-   "weights_iptm_loss": 0.05,
-   "weights_plddt_loss": 0.1
-  },
-  "target_residues": 117,
-  "trajectory": false,
-  "mpnn": true,
-  "scoring": true,
-  "ranked": true,
-  "accepted": 14,
-  "json": {
-   "modality": "binder",
-   "campaign_name": "aj_il15_faceA",
-   "project_folder": "/home/bgeiss/bindcraft2/results/aj_il15_faceA",
-   "targets": [
-    {
-     "name": "AJ_IL15",
-     "target_path": "/home/bgeiss/bindcraft2/targets/aj_IL15_target.pdb",
-     "chains": "A",
-     "hotspots": "A43,A58,A62,A63,A65,A66,A88,A104,A106",
-     "coldspots": "A21,A24,A25,A27,A28,A122,A125,A128"
-    }
-   ],
-   "binder_lengths": [
-    80,
-    110
-   ],
-   "number_of_final_designs": 10,
-   "max_trajectories": 500,
-   "aa_bias": {
-    "C": 0
-   },
-   "min_hotspot_contact_final": 0.5,
-   "min_iptm_final": 0.8,
-   "min_monomer_plddt_final": 0.85,
-   "filters": {
-    "i_pTM": {
-     "threshold": 0.8,
-     "higher": true
-    },
-    "Unbound_Binder_pLDDT": {
-     "threshold": 0.85,
-     "higher": true
-    },
-    "Binder_Disulfides": {
-     "threshold": 0,
-     "higher": false
-    }
-   },
-   "gpu_ids": [
-    0
-   ],
-   "resume": true
-  }
- }
 }
