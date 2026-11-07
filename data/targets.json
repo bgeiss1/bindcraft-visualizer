@@ -19,12 +19,12 @@
  },
  "ajil15": {
   "name": "Artibeus jamaicensis IL-15",
-  "file": "data/ajil15/target.pdb",
+  "file": "data/il15_lesson_unguided/target.pdb",
   "chains": "A",
   "hotspots": "",
   "predicted": true,
   "note": "target.ajil15.note",
-  "ready": false
+  "ready": true
  },
  "hpdl1": {
   "name": "Human PD-L1",
