@@ -9,6 +9,7 @@ const GROUPS = [
   { id: 'index', title: 'Overview', page: 'index.html', match: k => k.startsWith('index.') },
   ...['process', 'target', 'settings', 'run', 'trajectory', 'mpnn', 'scoring', 'ranked'].map(t => ({ id: t, title: t, page: `${t}.html`, match: k => k.startsWith(t + '.') })),
   { id: 'metrics', title: 'Metric glossary', page: 'scoring.html', match: k => k.startsWith('metric.') },
+  { id: 'settingsgloss', title: 'Setting descriptions', page: 'settings.html', match: k => k.startsWith('setting.') },
   { id: 'files', title: 'File labels', page: 'index.html', match: k => k.startsWith('file.') }
 ];
 const other = { id: 'other', title: 'Other', page: 'index.html', match: k => !GROUPS.some(g => g.match(k)) };

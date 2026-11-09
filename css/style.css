@@ -440,3 +440,23 @@ code { color: #ffb3a8; }
   body { background: #fff; color: #000; }
   h1, .brand-name { color: #000; text-shadow: none; animation: none; }
 }
+
+/* Hover descriptions on the settings form. The label is the trigger, so the gesture is
+   "point at the thing you want explained". It also takes focus, so the same text is one
+   Tab away for anyone not using a mouse, and the input points at it with aria-describedby
+   so a screen reader reads it when the field itself is reached. */
+.setting { position: relative; }
+.tipped { cursor: help; text-decoration: underline dotted var(--muted); text-underline-offset: 3px; }
+.tipped:hover, .tipped:focus { color: var(--accent); text-decoration-color: var(--accent); }
+.tip {
+  display: none; position: absolute; z-index: 20; top: calc(100% + 6px); left: 0;
+  width: min(380px, calc(100vw - 48px));
+  background: var(--surface); color: var(--fg); border: 1px solid var(--accent);
+  border-radius: 8px; padding: 10px 12px; font-size: 0.8rem; line-height: 1.5;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), var(--glow-sm);
+}
+.tip code, .tip .mono { font-size: 0.95em; }
+.tipped:hover ~ .tip, .tipped:focus ~ .tip, .tip:hover { display: block; }
+/* Near the bottom of a long form there is no room below, so flip it above. */
+.setting:nth-last-child(-n+4) .tip { top: auto; bottom: calc(100% + 6px); }
+@media (max-width: 640px) { .tip { left: 0; right: 0; width: auto; } }

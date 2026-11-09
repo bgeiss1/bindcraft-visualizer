@@ -70,6 +70,8 @@ export function T(key, vars = {}) {
   return SHOW_KEYS ? `<span class="tk" title="${esc(key)}">${out}</span>` : out;
 }
 export const Tplain = (key, vars) => { const d = document.createElement('div'); d.innerHTML = T(key, vars); return d.textContent; };
+// For text that is optional, like a hover description that may not have been written yet.
+export const hasText = key => typeof TEXT[key] === 'string' && TEXT[key].trim() !== '';
 export function applyText(root = document) {
   for (const el of root.querySelectorAll('[data-t]')) {
     el.innerHTML = T(el.dataset.t);

@@ -1,6 +1,6 @@
 // The settings page: the campaign JSON as a form and as text, with the layer each value
 // came from. Nothing here needs a GPU, so this page works before any campaign is captured.
-import { setup, T, esc, $, loadJSON } from '../site.js';
+import { setup, T, hasText, esc, $, loadJSON } from '../site.js';
 import { CORE, GROUPS, PROPERTIES, MODALITIES, COMBINING, resolve, modalityLayer, check } from '../settings.js';
 
 let campaigns = {}, current = null;
@@ -12,14 +12,20 @@ const layerName = {
 
 function valueField(key, value, from) {
   const id = 'f_' + key;
+  const tipId = 't_' + key;
+  // Every setting the form shows should have a description. A missing one renders as the
+  // usual [key] marker rather than silently showing nothing, so the gap is visible.
+  const described = hasText('setting.' + key);
   const t = typeof value;
+  const describedBy = described ? ` aria-describedby="${tipId}"` : '';
   const input = t === 'boolean'
-    ? `<input type="checkbox" id="${id}" data-key="${esc(key)}"${value ? ' checked' : ''}>`
-    : `<input type="text" id="${id}" data-key="${esc(key)}" value="${esc(Array.isArray(value) ? JSON.stringify(value) : value ?? '')}" spellcheck="false">`;
+    ? `<input type="checkbox" id="${id}" data-key="${esc(key)}"${value ? ' checked' : ''}${describedBy}>`
+    : `<input type="text" id="${id}" data-key="${esc(key)}" value="${esc(Array.isArray(value) ? JSON.stringify(value) : value ?? '')}" spellcheck="false"${describedBy}>`;
   return `<div class="setting" data-from="${esc(from)}">
-    <label for="${id}" class="mono">${esc(key)}</label>
+    <label for="${id}" class="mono${described ? ' tipped' : ''}"${described ? ` tabindex="0"` : ''}>${esc(key)}</label>
     ${input}
     <span class="from" title="${esc(layerName[from] ?? from)}">${esc(from)}</span>
+    ${described ? `<span class="tip" id="${tipId}" role="tooltip">${T('setting.' + key)}</span>` : ''}
   </div>`;
 }
 
